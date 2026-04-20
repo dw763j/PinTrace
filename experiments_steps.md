@@ -132,8 +132,8 @@ source .venv/bin/activate
 python -m evaluate.d2.pipeline_d2 \
   --stages 1 \
   --dataset outputs/dataset_builder/so_e2e_balanced/records_import_postdate_ge20200101_parsable_balanced1000_fair.jsonl \
-  --api-mode openai \
-  --api-url https://chatbox.isrc.ac.cn/api \
+  --api-mode openrouter \
+  --api-base-url https://openrouter.ai/api/v1 \
   --api-key sk-or-v1-xxx \
   --api-model deepseek/deepseek-chat \
   --prompt-mode blind \
@@ -244,8 +244,8 @@ python -m evaluate.pipeline \
   --ablation-prompts-jsonl outputs/ablation_prompts/d1/inline_safe_version.jsonl \
   --run-name gpt-5.4_inline_safe_version \
   --api-model gpt-5.4 \
-  --api-mode openai \
-  --api-base-url https://chatbox.isrc.ac.cn/api \
+  --api-mode openrouter \
+  --api-base-url https://openrouter.ai/api/v1 \
   --api-key sk-xxx \
   --max-examples 2 \
   --stages 1
