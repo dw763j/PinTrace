@@ -1,6 +1,6 @@
 # Correct Code, Vulnerable Dependencies 📊
 
-Official code release for the paper **“Correct Code, Vulnerable Dependencies: A Large Scale Measurement Study of LLM-Specified Library Versions.”**  
+Official code release for the paper **“Correct Code, Vulnerable Dependencies: A Large Scale Measurement Study of LLM-Specified Library Versions”** (Available at [arxiv](https://arxiv.org/abs/2605.06279)).
 The pipelines reproduce and extend large-scale measurements on **PinTrace(1,000 curated Stack Overflow tasks)** and **BigCodeBench**.
 
 ---
@@ -99,7 +99,16 @@ Missing any critical path above will cause stages to **fail fast or skip**; read
 
 ## Citation 📚
 
-If you use this repository in academic work, please cite the paper above (use the official venue metadata once available).
+If you use this repository in academic work or find our work useful, please cite our paper:
+
+```bib
+@article{wang2026correct,
+  title={Correct Code, Vulnerable Dependencies: A Large Scale Measurement Study of LLM-Specified Library Versions},
+  author={Wang, Chengjie and Wu, Jingzheng and Ling, Xiang and Luo, Tianyue and Zhao, Chen},
+  journal={arXiv preprint arXiv:2605.06279},
+  year={2026}
+}
+```
 
 ---
 
