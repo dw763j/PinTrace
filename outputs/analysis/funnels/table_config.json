@@ -1,0 +1,12 @@
+{
+  "canonical_root": "outputs/evaluation",
+  "clean_task_ids": "resources/revision/pintrace_clean_task_ids.jsonl",
+  "bcb_task_ids": "resources/revision/bcb_tpl_task_ids.jsonl",
+  "row_counts": {
+    "constraint_funnel": 60,
+    "constraint_funnel_exact": 60,
+    "constraint_funnel_range": 60,
+    "compatibility_layers": 338,
+    "distutils_sensitivity": 120
+  }
+}

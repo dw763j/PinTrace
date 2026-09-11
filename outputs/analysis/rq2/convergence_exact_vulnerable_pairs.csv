@@ -1,0 +1,1002 @@
+global_occurrences,model_counts,models,pair
+409,"{""DeepSeek-V3.2"": 60, ""MiniMax-M2.5"": 36, ""Qwen3-235B-A22B-Instruct-2507"": 18, ""Qwen3-30B-A3B-Instruct-2507"": 24, ""Qwen3.5-397B-A17B"": 49, ""claude-sonnet-4-6"": 59, ""gemini-3.1-pro-preview"": 51, ""gpt-5.4"": 48, ""kimi-k2.5"": 64}",9,requests==2.31.0
+213,"{""DeepSeek-V3.2"": 18, ""MiniMax-M2.5"": 28, ""Qwen3-235B-A22B-Instruct-2507"": 11, ""Qwen3.5-397B-A17B"": 41, ""claude-sonnet-4-6"": 15, ""gemini-3.1-pro-preview"": 41, ""gpt-5.4"": 6, ""kimi-k2.5"": 38, ""meta-llama/llama-4-scout"": 15}",9,djangorestframework==3.14.0
+170,"{""DeepSeek-V3.2"": 14, ""MiniMax-M2.5"": 6, ""Qwen3.5-397B-A17B"": 23, ""claude-sonnet-4-6"": 10, ""gemini-3.1-pro-preview"": 10, ""kimi-k2.5"": 107}",6,selenium==4.15.2
+138,"{""DeepSeek-V3.2"": 8, ""MiniMax-M2.5"": 17, ""Qwen3-235B-A22B-Instruct-2507"": 32, ""Qwen3-30B-A3B-Instruct-2507"": 12, ""Qwen3.5-397B-A17B"": 69}",5,selenium==4.15.0
+106,"{""DeepSeek-V3.2"": 5, ""gpt-5.4"": 96, ""kimi-k2.5"": 5}",3,django==5.0.6
+94,"{""MiniMax-M2.5"": 20, ""Qwen3.5-397B-A17B"": 21, ""claude-sonnet-4-6"": 10, ""gemini-3.1-pro-preview"": 23, ""kimi-k2.5"": 20}",5,pillow==10.0.0
+92,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 8, ""Qwen3-235B-A22B-Instruct-2507"": 36, ""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 1, ""meta-llama/llama-4-scout"": 45}",6,requests==2.28.1
+89,"{""DeepSeek-V3.2"": 10, ""MiniMax-M2.5"": 12, ""Qwen3-235B-A22B-Instruct-2507"": 13, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 13, ""claude-sonnet-4-6"": 10, ""gemini-3.1-pro-preview"": 11, ""kimi-k2.5"": 19}",8,scikit_learn==1.3.0
+88,"{""DeepSeek-V3.2"": 18, ""MiniMax-M2.5"": 6, ""Qwen3-235B-A22B-Instruct-2507"": 15, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 21, ""claude-sonnet-4-6"": 5, ""kimi-k2.5"": 22}",7,flask==2.3.3
+88,"{""DeepSeek-V3.2"": 12, ""MiniMax-M2.5"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 9, ""Qwen3.5-397B-A17B"": 21, ""claude-sonnet-4-6"": 19, ""gemini-3.1-pro-preview"": 8, ""kimi-k2.5"": 16}",7,scrapy==2.11.0
+77,"{""DeepSeek-V3.2"": 19, ""MiniMax-M2.5"": 13, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 14, ""gemini-3.1-pro-preview"": 9, ""kimi-k2.5"": 17, ""meta-llama/llama-4-scout"": 2}",8,fastapi==0.104.1
+74,"{""claude-sonnet-4-6"": 72, ""gemini-3.1-pro-preview"": 2}",2,selenium==4.18.1
+71,"{""MiniMax-M2.5"": 71}",1,django==4.2
+67,"{""MiniMax-M2.5"": 32, ""Qwen3-30B-A3B-Instruct-2507"": 6, ""gemini-3.1-pro-preview"": 29}",3,selenium==4.10.0
+64,"{""DeepSeek-V3.2"": 32, ""MiniMax-M2.5"": 6, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 6, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 9, ""kimi-k2.5"": 7}",8,pillow==9.5.0
+61,"{""DeepSeek-V3.2"": 1, ""claude-sonnet-4-6"": 31, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 27, ""kimi-k2.5"": 1}",5,flask==3.0.3
+47,"{""DeepSeek-V3.2"": 11, ""MiniMax-M2.5"": 4, ""Qwen3-235B-A22B-Instruct-2507"": 5, ""Qwen3.5-397B-A17B"": 3, ""claude-sonnet-4-6"": 6, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 17}",7,cryptography==41.0.7
+47,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 6, ""Qwen3-235B-A22B-Instruct-2507"": 7, ""Qwen3-30B-A3B-Instruct-2507"": 5, ""gemini-3.1-pro-preview"": 4, ""kimi-k2.5"": 23}",6,django==4.2.7
+47,"{""DeepSeek-V3.2"": 8, ""MiniMax-M2.5"": 7, ""Qwen3-235B-A22B-Instruct-2507"": 5, ""Qwen3.5-397B-A17B"": 5, ""claude-sonnet-4-6"": 7, ""gemini-3.1-pro-preview"": 4, ""gpt-5.4"": 5, ""kimi-k2.5"": 6}",8,nltk==3.8.1
+45,"{""claude-sonnet-4-6"": 20, ""gpt-5.4"": 25}",2,scikit_learn==1.4.2
+45,"{""gpt-5.4"": 45}",1,selenium==4.24.0
+42,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 9, ""Qwen3.5-397B-A17B"": 10, ""claude-sonnet-4-6"": 7, ""gemini-3.1-pro-preview"": 9, ""gpt-5.4"": 1, ""kimi-k2.5"": 4}",7,flask==3.0.0
+34,"{""DeepSeek-V3.2"": 14, ""MiniMax-M2.5"": 7, ""Qwen3.5-397B-A17B"": 4, ""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 3, ""kimi-k2.5"": 3}",7,dash==2.14.2
+33,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 4, ""gpt-5.4"": 27}",4,pillow==10.4.0
+33,"{""MiniMax-M2.5"": 4, ""Qwen3.5-397B-A17B"": 2, ""claude-sonnet-4-6"": 6, ""gemini-3.1-pro-preview"": 6, ""kimi-k2.5"": 15}",5,scikit_learn==1.3.2
+29,"{""MiniMax-M2.5"": 9, ""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 18, ""kimi-k2.5"": 1}",4,flask==2.3.2
+29,"{""DeepSeek-V3.2"": 4, ""MiniMax-M2.5"": 5, ""Qwen3.5-397B-A17B"": 4, ""claude-sonnet-4-6"": 4, ""gemini-3.1-pro-preview"": 3, ""gpt-5.4"": 4, ""kimi-k2.5"": 5}",7,scapy==2.5.0
+27,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 11, ""Qwen3-30B-A3B-Instruct-2507"": 14, ""claude-sonnet-4-6"": 1}",4,pillow==9.4.0
+27,"{""DeepSeek-V3.2"": 8, ""Qwen3-235B-A22B-Instruct-2507"": 4, ""Qwen3.5-397B-A17B"": 5, ""claude-sonnet-4-6"": 6, ""meta-llama/llama-4-scout"": 4}",5,pyspark==3.3.0
+26,"{""meta-llama/llama-4-scout"": 26}",1,selenium==4.1.4
+25,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 4, ""Qwen3-235B-A22B-Instruct-2507"": 4, ""Qwen3.5-397B-A17B"": 5, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 6, ""meta-llama/llama-4-scout"": 1}",7,jinja2==3.1.2
+25,"{""DeepSeek-V3.2"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 16, ""gpt-5.4"": 5}",5,pillow==10.3.0
+25,"{""gpt-5.4"": 25}",1,selenium==4.23.1
+24,"{""DeepSeek-V3.2"": 4, ""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 8, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 8, ""meta-llama/llama-4-scout"": 1}",6,starlette==0.27.0
+23,"{""DeepSeek-V3.2"": 1, ""claude-sonnet-4-6"": 20, ""gemini-3.1-pro-preview"": 2}",3,cryptography==42.0.5
+23,"{""MiniMax-M2.5"": 7, ""Qwen3.5-397B-A17B"": 10, ""kimi-k2.5"": 6}",3,fastapi==0.109.0
+23,"{""Qwen3-235B-A22B-Instruct-2507"": 3, ""Qwen3.5-397B-A17B"": 2, ""claude-sonnet-4-6"": 6, ""gemini-3.1-pro-preview"": 6, ""kimi-k2.5"": 5, ""meta-llama/llama-4-scout"": 1}",6,pyarrow==14.0.1
+23,"{""DeepSeek-V3.2"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 3, ""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 6, ""gpt-5.4"": 5, ""kimi-k2.5"": 2}",7,rpyc==5.3.1
+22,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2, ""gemini-3.1-pro-preview"": 18}",3,cryptography==41.0.3
+22,"{""claude-sonnet-4-6"": 3, ""gpt-5.4"": 13, ""kimi-k2.5"": 6}",3,cryptography==42.0.8
+22,"{""meta-llama/llama-4-scout"": 22}",1,pillow==9.2.0
+22,"{""DeepSeek-V3.2"": 3, ""MiniMax-M2.5"": 11, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 1}",7,scikit_learn==1.2.2
+21,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 3, ""Qwen3.5-397B-A17B"": 3, ""claude-sonnet-4-6"": 11, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 1}",6,dash==2.14.0
+21,"{""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 14, ""gemini-3.1-pro-preview"": 4, ""kimi-k2.5"": 2}",4,pycryptodome==3.19.0
+21,"{""gemini-3.1-pro-preview"": 12, ""meta-llama/llama-4-scout"": 9}",2,selenium==4.14.0
+20,"{""DeepSeek-V3.2"": 6, ""Qwen3.5-397B-A17B"": 8, ""gemini-3.1-pro-preview"": 6}",3,monai==1.2.0
+20,"{""MiniMax-M2.5"": 16, ""meta-llama/llama-4-scout"": 4}",2,selenium==4.1.0
+20,"{""DeepSeek-V3.2"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 4, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 4, ""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 3}",7,spotipy==2.23.0
+19,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""gpt-5.4"": 15, ""kimi-k2.5"": 1}",5,requests==2.32.3
+18,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 2, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 12}",4,bokeh==3.3.4
+18,"{""MiniMax-M2.5"": 6, ""Qwen3-235B-A22B-Instruct-2507"": 3, ""Qwen3.5-397B-A17B"": 4, ""claude-sonnet-4-6"": 4, ""kimi-k2.5"": 1}",5,cryptography==41.0.0
+18,"{""DeepSeek-V3.2"": 3, ""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 3, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 3, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 1, ""kimi-k2.5"": 3}",8,flask_cors==4.0.0
+18,"{""DeepSeek-V3.2"": 3, ""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 3, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 10}",5,pillow==10.1.0
+18,"{""claude-sonnet-4-6"": 2, ""gpt-5.4"": 16}",2,torch==2.2.2
+17,"{""DeepSeek-V3.2"": 7, ""Qwen3-235B-A22B-Instruct-2507"": 7, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1, ""meta-llama/llama-4-scout"": 1}",5,mitmproxy==9.0.1
+17,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""claude-sonnet-4-6"": 4, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 1, ""kimi-k2.5"": 6}",7,pymongo==4.6.1
+17,"{""Qwen3.5-397B-A17B"": 6, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 10}",3,selenium==4.11.2
+16,"{""DeepSeek-V3.2"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 9, ""meta-llama/llama-4-scout"": 4}",3,bokeh==2.4.3
+16,"{""DeepSeek-V3.2"": 2, ""Qwen3.5-397B-A17B"": 4, ""gemini-3.1-pro-preview"": 4, ""gpt-5.4"": 2, ""kimi-k2.5"": 2, ""meta-llama/llama-4-scout"": 2}",6,flair==0.12.2
+16,"{""MiniMax-M2.5"": 4, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 11}",3,flask==2.0.3
+16,"{""DeepSeek-V3.2"": 3, ""MiniMax-M2.5"": 1, ""gemini-3.1-pro-preview"": 9, ""gpt-5.4"": 2, ""kimi-k2.5"": 1}",5,kedro==0.18.14
+16,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 3, ""claude-sonnet-4-6"": 7, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 1}",6,pillow==10.2.0
+16,"{""gpt-5.4"": 13, ""kimi-k2.5"": 3}",2,scrapy==2.11.2
+15,"{""MiniMax-M2.5"": 4, ""Qwen3-235B-A22B-Instruct-2507"": 5, ""Qwen3.5-397B-A17B"": 2, ""kimi-k2.5"": 4}",4,dash==2.14.1
+15,"{""DeepSeek-V3.2"": 3, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 10}",3,django_cms==3.11.4
+15,"{""DeepSeek-V3.2"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 4, ""claude-sonnet-4-6"": 4, ""gpt-5.4"": 2, ""kimi-k2.5"": 2}",5,flair==0.13.1
+15,"{""MiniMax-M2.5"": 5, ""Qwen3-235B-A22B-Instruct-2507"": 4, ""Qwen3.5-397B-A17B"": 3, ""kimi-k2.5"": 3}",4,qiskit==0.45.0
+15,"{""MiniMax-M2.5"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 3}",6,tqdm==4.66.1
+14,"{""DeepSeek-V3.2"": 5, ""MiniMax-M2.5"": 3, ""Qwen3.5-397B-A17B"": 2, ""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 3}",5,aiohttp==3.9.1
+14,"{""MiniMax-M2.5"": 5, ""meta-llama/llama-4-scout"": 9}",2,djangorestframework==3.12.4
+14,"{""MiniMax-M2.5"": 3, ""gemini-3.1-pro-preview"": 11}",2,flask==2.2.5
+14,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 4, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 6, ""claude-sonnet-4-6"": 2}",5,geopandas==0.14.0
+14,"{""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 12}",3,torch==2.2.0
+13,"{""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 4, ""gemini-3.1-pro-preview"": 4, ""kimi-k2.5"": 3}",4,bokeh==3.2.0
+13,"{""MiniMax-M2.5"": 8, ""Qwen3.5-397B-A17B"": 5}",2,flask==2.3.0
+13,"{""DeepSeek-V3.2"": 6, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 3}",4,geopandas==0.14.3
+13,"{""claude-sonnet-4-6"": 6, ""gpt-5.4"": 2, ""kimi-k2.5"": 5}",3,h2o==3.46.0.6
+13,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 3, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 4}",6,marshmallow==3.20.1
+13,"{""Qwen3-235B-A22B-Instruct-2507"": 10, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 2}",3,pycryptodome==3.18.0
+13,"{""DeepSeek-V3.2"": 4, ""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 1, ""kimi-k2.5"": 2}",7,pypdf2==3.0.1
+13,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 8, ""Qwen3-235B-A22B-Instruct-2507"": 3, ""claude-sonnet-4-6"": 1}",4,requests==2.28.2
+13,"{""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 3, ""meta-llama/llama-4-scout"": 8}",3,scikit_learn==1.2.0
+12,"{""claude-sonnet-4-6"": 2, ""gpt-5.4"": 10}",2,bokeh==3.4.1
+12,"{""DeepSeek-V3.2"": 3, ""claude-sonnet-4-6"": 5, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 3}",4,jinja2==3.1.4
+12,"{""DeepSeek-V3.2"": 3, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 5, ""kimi-k2.5"": 3}",4,keras==2.13.1
+12,"{""DeepSeek-V3.2"": 6, ""MiniMax-M2.5"": 3, ""kimi-k2.5"": 3}",3,keras==2.15.0
+12,"{""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 3, ""Qwen3.5-397B-A17B"": 2, ""gemini-3.1-pro-preview"": 1, ""meta-llama/llama-4-scout"": 4}",5,lightgbm==3.3.5
+12,"{""DeepSeek-V3.2"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 7}",4,pyarrow==15.0.0
+12,"{""meta-llama/llama-4-scout"": 12}",1,selenium==4.7.0
+12,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""claude-sonnet-4-6"": 5, ""kimi-k2.5"": 5}",3,tornado==6.3.3
+12,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2, ""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 2, ""meta-llama/llama-4-scout"": 1}",7,waitress==2.1.2
+11,"{""kimi-k2.5"": 11}",1,apache-airflow==2.7.1
+11,"{""MiniMax-M2.5"": 5, ""Qwen3.5-397B-A17B"": 4, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",4,dask==2023.5.0
+11,"{""DeepSeek-V3.2"": 3, ""claude-sonnet-4-6"": 2, ""gpt-5.4"": 4, ""kimi-k2.5"": 2}",4,fiona==1.9.6
+11,"{""MiniMax-M2.5"": 4, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 5}",4,pillow==10.0.1
+11,"{""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 3, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 3, ""kimi-k2.5"": 1}",6,python_jose==3.3.0
+11,"{""DeepSeek-V3.2"": 3, ""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 1, ""kimi-k2.5"": 1}",8,redis==5.0.1
+11,"{""Qwen3-235B-A22B-Instruct-2507"": 4, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""meta-llama/llama-4-scout"": 5}",3,scapy==2.4.5
+10,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 2, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 2}",5,certifi==2023.7.22
+10,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 3, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 2, ""kimi-k2.5"": 2}",6,deepdiff==6.7.1
+10,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 5, ""gpt-5.4"": 4}",3,djangorestframework==3.15.1
+10,"{""gemini-3.1-pro-preview"": 10}",1,fastapi==0.103.1
+10,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 2}",7,fiona==1.9.5
+10,"{""MiniMax-M2.5"": 3, ""meta-llama/llama-4-scout"": 7}",2,flask==2.2.2
+10,"{""Qwen3-235B-A22B-Instruct-2507"": 5, ""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 4}",3,geopandas==0.13.2
+10,"{""DeepSeek-V3.2"": 1, ""claude-sonnet-4-6"": 2, ""gpt-5.4"": 7}",3,geopandas==0.14.4
+10,"{""MiniMax-M2.5"": 5, ""kimi-k2.5"": 5}",2,langchain==0.1.0
+10,"{""DeepSeek-V3.2"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 3, ""gpt-5.4"": 4}",5,lightgbm==4.3.0
+10,"{""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 2, ""claude-sonnet-4-6"": 3, ""gpt-5.4"": 1, ""kimi-k2.5"": 2}",5,llama_index==0.10.0
+10,"{""claude-sonnet-4-6"": 6, ""gpt-5.4"": 3, ""kimi-k2.5"": 1}",3,monai==1.3.0
+10,"{""DeepSeek-V3.2"": 5, ""gemini-3.1-pro-preview"": 5}",2,pyramid==2.0
+10,"{""kimi-k2.5"": 10}",1,signxml==3.2.0
+10,"{""DeepSeek-V3.2"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 2}",6,sqlparse==0.4.4
+10,"{""gpt-5.4"": 10}",1,torch==2.3.1
+10,"{""DeepSeek-V3.2"": 3, ""MiniMax-M2.5"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2}",4,transformers==4.30.0
+9,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 2, ""kimi-k2.5"": 1}",7,brotli==1.1.0
+9,"{""MiniMax-M2.5"": 3, ""gpt-5.4"": 2, ""meta-llama/llama-4-scout"": 4}",3,cryptography==43.0.1
+9,"{""DeepSeek-V3.2"": 1, ""gemini-3.1-pro-preview"": 8}",2,django==4.2.11
+9,"{""claude-sonnet-4-6"": 9}",1,mitmproxy==10.3.1
+9,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 3, ""meta-llama/llama-4-scout"": 4}",3,pillow==9.0.1
+9,"{""Qwen3-235B-A22B-Instruct-2507"": 4, ""meta-llama/llama-4-scout"": 5}",2,pyarrow==12.0.0
+9,"{""DeepSeek-V3.2"": 4, ""Qwen3.5-397B-A17B"": 5}",2,pyarrow==14.0.0
+9,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2, ""claude-sonnet-4-6"": 4}",4,salt==3006.0
+9,"{""MiniMax-M2.5"": 9}",1,selenium==4.13.0
+9,"{""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 6}",3,signxml==3.2.2
+9,"{""claude-sonnet-4-6"": 3, ""gpt-5.4"": 6}",2,werkzeug==3.0.3
+8,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 3, ""meta-llama/llama-4-scout"": 3}",4,astropy==5.2.2
+8,"{""DeepSeek-V3.2"": 3, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 1}",4,dask==2023.6.0
+8,"{""meta-llama/llama-4-scout"": 8}",1,django==4.1.3
+8,"{""meta-llama/llama-4-scout"": 8}",1,django==4.1.7
+8,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 1, ""kimi-k2.5"": 1, ""meta-llama/llama-4-scout"": 2}",7,ecdsa==0.18.0
+8,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2}",4,flask==2.0.1
+8,"{""DeepSeek-V3.2"": 3, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 2}",3,flask_caching==2.0.2
+8,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1, ""meta-llama/llama-4-scout"": 4}",5,flask_cors==3.0.10
+8,"{""DeepSeek-V3.2"": 2, ""claude-sonnet-4-6"": 6}",2,kedro==0.19.3
+8,"{""Qwen3.5-397B-A17B"": 2, ""gpt-5.4"": 6}",2,mitmproxy==10.2.4
+8,"{""DeepSeek-V3.2"": 1, ""kimi-k2.5"": 7}",2,mlflow==2.9.2
+8,"{""meta-llama/llama-4-scout"": 8}",1,nltk==3.7
+8,"{""MiniMax-M2.5"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 4}",3,opencv-python==4.8.0.74
+8,"{""Qwen3.5-397B-A17B"": 2, ""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 3, ""kimi-k2.5"": 1}",4,prefect==1.4.1
+8,"{""DeepSeek-V3.2"": 6, ""claude-sonnet-4-6"": 2}",2,pyarrow==15.0.2
+8,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 3, ""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 2}",5,pymongo==4.6.0
+8,"{""Qwen3.5-397B-A17B"": 4, ""kimi-k2.5"": 4}",2,qiskit==0.44.0
+8,"{""DeepSeek-V3.2"": 3, ""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 1}",4,rembg==2.0.50
+8,"{""meta-llama/llama-4-scout"": 8}",1,scikit_learn==1.2.1
+8,"{""DeepSeek-V3.2"": 2, ""Qwen3.5-397B-A17B"": 6}",2,scikit_learn==1.4.0
+8,"{""MiniMax-M2.5"": 5, ""gemini-3.1-pro-preview"": 3}",2,selenium==4.16.0
+8,"{""gpt-5.4"": 8}",1,selenium==4.25.0
+8,"{""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 4, ""gpt-5.4"": 2}",3,spotipy==2.24.0
+8,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""claude-sonnet-4-6"": 7}",2,starlette==0.37.2
+8,"{""DeepSeek-V3.2"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 2, ""kimi-k2.5"": 4}",4,streamlit==1.28.0
+8,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 3, ""kimi-k2.5"": 3}",4,transformers==4.35.0
+7,"{""claude-sonnet-4-6"": 4, ""gpt-5.4"": 3}",2,aiohttp==3.9.5
+7,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 3}",4,authlib==1.3.1
+7,"{""DeepSeek-V3.2"": 1, ""claude-sonnet-4-6"": 5, ""gpt-5.4"": 1}",3,certifi==2024.2.2
+7,"{""meta-llama/llama-4-scout"": 7}",1,dash==2.0.0
+7,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 6}",2,dask==2023.3.0
+7,"{""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 5}",3,dask==2024.1.0
+7,"{""Qwen3-30B-A3B-Instruct-2507"": 2, ""gemini-3.1-pro-preview"": 3, ""gpt-5.4"": 2}",3,h2o==3.46.0.1
+7,"{""MiniMax-M2.5"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 3}",3,litellm==1.40.0
+7,"{""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 3, ""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 1}",4,mlflow==2.10.0
+7,"{""DeepSeek-V3.2"": 3, ""claude-sonnet-4-6"": 4}",2,nicegui==1.4.21
+7,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1}",5,onnx==1.14.0
+7,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2, ""gemini-3.1-pro-preview"": 3}",3,pymongo==4.3.3
+7,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 1, ""kimi-k2.5"": 2}",6,pymysql==1.1.0
+7,"{""MiniMax-M2.5"": 6, ""Qwen3.5-397B-A17B"": 1}",2,requests==2.28.0
+7,"{""MiniMax-M2.5"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 5}",2,selenium==4.12.0
+7,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 1, ""kimi-k2.5"": 1}",6,sentencepiece==0.1.99
+7,"{""MiniMax-M2.5"": 2, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 2}",3,transformers==4.30.2
+6,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 1, ""kimi-k2.5"": 1}",6,aiomysql==0.2.0
+6,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 4}",2,apache-airflow==2.7.0
+6,"{""DeepSeek-V3.2"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 2}",4,authlib==1.3.0
+6,"{""MiniMax-M2.5"": 3, ""Qwen3.5-397B-A17B"": 3}",2,avro==1.11.1
+6,"{""DeepSeek-V3.2"": 3, ""claude-sonnet-4-6"": 3}",2,couchbase==4.1.9
+6,"{""Qwen3.5-397B-A17B"": 3, ""gpt-5.4"": 3}",2,couchbase==4.2.1
+6,"{""DeepSeek-V3.2"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""meta-llama/llama-4-scout"": 2}",3,dask==2023.12.0
+6,"{""gpt-5.4"": 6}",1,dask==2024.8.2
+6,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 1, ""kimi-k2.5"": 1}",6,diskcache==5.6.3
+6,"{""MiniMax-M2.5"": 6}",1,django==4.2.10
+6,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 2, ""gemini-3.1-pro-preview"": 2}",4,djoser==2.2.0
+6,"{""gemini-3.1-pro-preview"": 3, ""gpt-5.4"": 3}",2,flask==3.0.2
+6,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2, ""kimi-k2.5"": 1}",4,flask_caching==2.1.0
+6,"{""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 4}",2,fonttools==4.43.1
+6,"{""claude-sonnet-4-6"": 3, ""gpt-5.4"": 3}",2,fonttools==4.53.1
+6,"{""kimi-k2.5"": 6}",1,geopandas==0.14.1
+6,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 2, ""kimi-k2.5"": 3}",3,gitpython==3.1.40
+6,"{""MiniMax-M2.5"": 2, ""gemini-3.1-pro-preview"": 3, ""kimi-k2.5"": 1}",3,h2o==3.44.0.3
+6,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""kimi-k2.5"": 4}",2,keras==2.12.0
+6,"{""MiniMax-M2.5"": 6}",1,langchain==0.2.6
+6,"{""MiniMax-M2.5"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 2}",4,lightgbm==4.1.0
+6,"{""MiniMax-M2.5"": 3, ""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 2}",3,nicegui==1.4.0
+6,"{""Qwen3-235B-A22B-Instruct-2507"": 3, ""Qwen3.5-397B-A17B"": 3}",2,numpy==1.21.0
+6,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""gemini-3.1-pro-preview"": 1}",4,numpy==1.21.6
+6,"{""DeepSeek-V3.2"": 2, ""MiniMax-M2.5"": 3, ""kimi-k2.5"": 1}",3,orjson==3.9.10
+6,"{""meta-llama/llama-4-scout"": 6}",1,paramiko==2.7.2
+6,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""claude-sonnet-4-6"": 5}",2,prefect==0.15.13
+6,"{""gpt-5.4"": 6}",1,pyarrow==16.1.0
+6,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 3, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 1}",4,pymongo==4.5.0
+6,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 3, ""gpt-5.4"": 2}",3,pypdf==4.2.0
+6,"{""kimi-k2.5"": 2, ""meta-llama/llama-4-scout"": 4}",2,pyramid==2.0.1
+6,"{""MiniMax-M2.5"": 5, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,rpyc==5.0.0
+6,"{""Qwen3.5-397B-A17B"": 3, ""gemini-3.1-pro-preview"": 3}",2,sagemaker==2.199.0
+6,"{""claude-sonnet-4-6"": 6}",1,sagemaker==2.210.0
+6,"{""DeepSeek-V3.2"": 1, ""gemini-3.1-pro-preview"": 5}",2,scrapy==2.11.1
+6,"{""meta-llama/llama-4-scout"": 6}",1,scrapy==2.6.1
+6,"{""MiniMax-M2.5"": 4, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1}",3,scrapy==2.8.0
+6,"{""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""meta-llama/llama-4-scout"": 2}",3,scrapy_splash==0.7.2
+6,"{""gpt-5.4"": 6}",1,selenium==4.20.0
+6,"{""meta-llama/llama-4-scout"": 6}",1,selenium==4.5.0
+6,"{""MiniMax-M2.5"": 6}",1,selenium==4.8.0
+6,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 3}",3,signxml==3.1.0
+6,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 2}",5,urllib3==2.0.7
+6,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 4, ""kimi-k2.5"": 1}",3,urllib3==2.2.1
+6,"{""claude-sonnet-4-6"": 2, ""gpt-5.4"": 3, ""kimi-k2.5"": 1}",3,weasyprint==62.3
+6,"{""MiniMax-M2.5"": 1, ""kimi-k2.5"": 5}",2,werkzeug==2.3.6
+6,"{""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 3, ""gpt-5.4"": 1, ""kimi-k2.5"": 1}",4,werkzeug==3.0.1
+5,"{""kimi-k2.5"": 5}",1,anki==23.12.1
+5,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 1}",3,apache-airflow==2.2.2
+5,"{""claude-sonnet-4-6"": 3, ""gpt-5.4"": 2}",2,apache-airflow==2.7.3
+5,"{""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 3}",2,authlib==1.2.1
+5,"{""Qwen3.5-397B-A17B"": 3, ""kimi-k2.5"": 2}",2,cryptography==42.0.0
+5,"{""Qwen3.5-397B-A17B"": 3, ""gemini-3.1-pro-preview"": 2}",2,dagster==1.5.0
+5,"{""gemini-3.1-pro-preview"": 5}",1,dash==2.13.0
+5,"{""claude-sonnet-4-6"": 4, ""gemini-3.1-pro-preview"": 1}",2,dask==2024.2.0
+5,"{""claude-sonnet-4-6"": 5}",1,dask==2024.2.1
+5,"{""meta-llama/llama-4-scout"": 5}",1,django==3.2.13
+5,"{""gpt-5.4"": 5}",1,django==4.2.16
+5,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 3}",2,django_cms==4.1.0
+5,"{""DeepSeek-V3.2"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 2}",2,djoser==2.1.0
+5,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 2}",4,duckdb==0.9.2
+5,"{""DeepSeek-V3.2"": 2, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 2}",3,eventlet==0.33.3
+5,"{""MiniMax-M2.5"": 5}",1,flair==0.11.3
+5,"{""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 2}",3,fonttools==4.38.0
+5,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 2, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1}",4,gradio==3.50.2
+5,"{""DeepSeek-V3.2"": 5}",1,h2o==3.42.0.2
+5,"{""DeepSeek-V3.2"": 2, ""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 2}",3,lightgbm==4.0.0
+5,"{""DeepSeek-V3.2"": 3, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1}",3,luigi==3.3.0
+5,"{""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 2, ""kimi-k2.5"": 1}",4,luigi==3.4.0
+5,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 1}",5,mammoth==1.6.0
+5,"{""gpt-5.4"": 5}",1,marshmallow==3.21.1
+5,"{""Qwen3.5-397B-A17B"": 4, ""meta-llama/llama-4-scout"": 1}",2,mitmproxy==10.1.1
+5,"{""gpt-5.4"": 5}",1,mlflow==2.14.3
+5,"{""meta-llama/llama-4-scout"": 5}",1,numpy==1.21.4
+5,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 1}",4,orjson==3.9.15
+5,"{""DeepSeek-V3.2"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 3}",3,pdoc==14.4.0
+5,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 2, ""meta-llama/llama-4-scout"": 2}",3,pillow==9.0.0
+5,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""gemini-3.1-pro-preview"": 1, ""meta-llama/llama-4-scout"": 2}",3,pillow==9.3.0
+5,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 2}",3,prefect==2.10.0
+5,"{""MiniMax-M2.5"": 5}",1,pyarrow==12.0.1
+5,"{""Qwen3-235B-A22B-Instruct-2507"": 4, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,pycryptodome==3.15.0
+5,"{""claude-sonnet-4-6"": 4, ""gpt-5.4"": 1}",2,pypdf==4.3.1
+5,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 2}",4,python_ldap==3.4.3
+5,"{""DeepSeek-V3.2"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 3}",2,qiskit==0.43.0
+5,"{""MiniMax-M2.5"": 3, ""claude-sonnet-4-6"": 2}",2,qiskit==1.0.0
+5,"{""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""kimi-k2.5"": 1}",4,reportlab==3.6.12
+5,"{""gpt-5.4"": 5}",1,sagemaker==2.224.3
+5,"{""MiniMax-M2.5"": 5}",1,scrapy==2.7.0
+5,"{""meta-llama/llama-4-scout"": 5}",1,selenium==3.141.0
+5,"{""gpt-5.4"": 5}",1,selenium==4.17.2
+5,"{""MiniMax-M2.5"": 5}",1,selenium==4.9.0
+5,"{""DeepSeek-V3.2"": 3, ""claude-sonnet-4-6"": 2}",2,torch==2.3.0
+5,"{""gemini-3.1-pro-preview"": 5}",1,tornado==6.3.2
+5,"{""gpt-5.4"": 5}",1,tornado==6.4.1
+5,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 3}",3,tqdm==4.65.0
+5,"{""MiniMax-M2.5"": 1, ""meta-llama/llama-4-scout"": 4}",2,urllib3==2.0.3
+5,"{""DeepSeek-V3.2"": 3, ""Qwen3-235B-A22B-Instruct-2507"": 2}",2,werkzeug==2.3.7
+4,"{""Qwen3.5-397B-A17B"": 1, ""gpt-5.4"": 3}",2,aiosmtpd==1.4.4
+4,"{""DeepSeek-V3.2"": 1, ""kimi-k2.5"": 3}",2,aiosmtpd==1.4.4.post2
+4,"{""gpt-5.4"": 4}",1,apache-airflow==2.9.3
+4,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""kimi-k2.5"": 1}",3,authlib==1.2.0
+4,"{""DeepSeek-V3.2"": 2, ""claude-sonnet-4-6"": 2}",2,bokeh==3.4.0
+4,"{""MiniMax-M2.5"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 1}",4,capstone==5.0.1
+4,"{""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 1}",3,certifi==2023.11.17
+4,"{""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 2}",2,chainlit==1.1.306
+4,"{""meta-llama/llama-4-scout"": 4}",1,dash==2.6.2
+4,"{""MiniMax-M2.5"": 2, ""gemini-3.1-pro-preview"": 2}",2,dash==2.9.3
+4,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 2}",2,dask==2023.1.0
+4,"{""DeepSeek-V3.2"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""claude-sonnet-4-6"": 2}",3,dask==2023.11.0
+4,"{""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 3}",2,dask==2023.12.1
+4,"{""gpt-5.4"": 2, ""kimi-k2.5"": 2}",2,dask==2024.8.0
+4,"{""DeepSeek-V3.2"": 2, ""gemini-3.1-pro-preview"": 2}",2,django_cms==3.11.3
+4,"{""MiniMax-M2.5"": 4}",1,djangorestframework==3.12.0
+4,"{""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 2}",2,fastapi==0.95.2
+4,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 3}",2,fonttools==4.44.0
+4,"{""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 3}",2,fonttools==4.47.0
+4,"{""DeepSeek-V3.2"": 4}",1,fonttools==4.51.0
+4,"{""meta-llama/llama-4-scout"": 4}",1,geopandas==0.12.1
+4,"{""gemini-3.1-pro-preview"": 4}",1,gevent==22.10.2
+4,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""kimi-k2.5"": 3}",2,gevent==23.7.0
+4,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 3}",2,gitpython==3.1.30
+4,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 2, ""gpt-5.4"": 1}",3,gradio==4.44.0
+4,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 2}",3,ipython==8.0.0
+4,"{""claude-sonnet-4-6"": 1, ""gpt-5.4"": 3}",2,langchain==0.1.20
+4,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 2, ""gemini-3.1-pro-preview"": 1}",3,lightgbm==3.3.2
+4,"{""kimi-k2.5"": 4}",1,litellm==1.59.8
+4,"{""gemini-3.1-pro-preview"": 4}",1,llama_index==0.10.50
+4,"{""DeepSeek-V3.2"": 4}",1,llama_index==0.9.36
+4,"{""kimi-k2.5"": 4}",1,mitmproxy==10.1.5
+4,"{""gemini-3.1-pro-preview"": 4}",1,mitmproxy==10.2.2
+4,"{""claude-sonnet-4-6"": 4}",1,mlflow==2.11.1
+4,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 3}",2,mlflow==2.15.0
+4,"{""MiniMax-M2.5"": 3, ""gemini-3.1-pro-preview"": 1}",2,mlflow==2.8.0
+4,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 3}",2,nicegui==1.4.25
+4,"{""MiniMax-M2.5"": 2, ""claude-sonnet-4-6"": 2}",2,numpy==1.19.5
+4,"{""meta-llama/llama-4-scout"": 4}",1,numpy==1.20.0
+4,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 1}",4,numpy==1.21.5
+4,"{""MiniMax-M2.5"": 4}",1,paramiko==2.12.0
+4,"{""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 1}",4,protobuf==3.4.0
+4,"{""DeepSeek-V3.2"": 1, ""claude-sonnet-4-6"": 3}",2,protobuf==4.25.3
+4,"{""MiniMax-M2.5"": 2, ""meta-llama/llama-4-scout"": 2}",2,pycryptodome==3.10.1
+4,"{""MiniMax-M2.5"": 2, ""Qwen3.5-397B-A17B"": 2}",2,pycryptodomex==3.19.0
+4,"{""MiniMax-M2.5"": 2, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",3,pydantic==1.10.12
+4,"{""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 3}",2,pymatgen==2023.10.11
+4,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 2}",3,pypdf==3.17.0
+4,"{""kimi-k2.5"": 4}",1,pypdf==4.0.2
+4,"{""meta-llama/llama-4-scout"": 4}",1,pyspark==3.3.2
+4,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 2, ""gpt-5.4"": 1}",3,python_ldap==3.4.4
+4,"{""MiniMax-M2.5"": 4}",1,pytorch_lightning==2.0.5
+4,"{""claude-sonnet-4-6"": 4}",1,qiskit==0.45.3
+4,"{""meta-llama/llama-4-scout"": 4}",1,requests==2.25.1
+4,"{""kimi-k2.5"": 4}",1,sagemaker==2.180.0
+4,"{""MiniMax-M2.5"": 4}",1,scikit_learn==0.24.2
+4,"{""gemini-3.1-pro-preview"": 4}",1,scikit_learn==1.3.1
+4,"{""meta-llama/llama-4-scout"": 4}",1,selenium==4.0.0
+4,"{""MiniMax-M2.5"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 2}",3,setuptools==68.0.0
+4,"{""DeepSeek-V3.2"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 2}",3,setuptools==68.2.2
+4,"{""meta-llama/llama-4-scout"": 4}",1,spotipy==2.16.1
+4,"{""MiniMax-M2.5"": 4}",1,spotipy==2.19.0
+4,"{""claude-sonnet-4-6"": 3, ""gemini-3.1-pro-preview"": 1}",2,streamlit==1.32.0
+4,"{""DeepSeek-V3.2"": 4}",1,tornado==6.2
+4,"{""claude-sonnet-4-6"": 2, ""gemini-3.1-pro-preview"": 2}",2,waitress==3.0.0
+4,"{""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 3}",2,werkzeug==2.3.0
+3,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",3,aiohttp==3.8.4
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 1}",2,aiohttp==3.8.5
+3,"{""gemini-3.1-pro-preview"": 3}",1,aiohttp==3.9.3
+3,"{""MiniMax-M2.5"": 3}",1,aiosmtpd==1.4.2
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,anki==2.1.54
+3,"{""claude-sonnet-4-6"": 3}",1,anki==2.1.66
+3,"{""gemini-3.1-pro-preview"": 3}",1,apache-airflow==2.2.0
+3,"{""MiniMax-M2.5"": 3}",1,apache-airflow==2.3.0
+3,"{""gemini-3.1-pro-preview"": 3}",1,apache-airflow==2.7.2
+3,"{""DeepSeek-V3.2"": 3}",1,apache-airflow==2.9.0
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,astropy==5.0.4
+3,"{""Qwen3.5-397B-A17B"": 3}",1,authlib==0.15.5
+3,"{""MiniMax-M2.5"": 3}",1,bokeh==2.4.0
+3,"{""DeepSeek-V3.2"": 2, ""gemini-3.1-pro-preview"": 1}",2,bokeh==3.2.1
+3,"{""MiniMax-M2.5"": 2, ""claude-sonnet-4-6"": 1}",2,bokeh==3.2.2
+3,"{""Qwen3.5-397B-A17B"": 2, ""claude-sonnet-4-6"": 1}",2,bokeh==3.3.0
+3,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1, ""kimi-k2.5"": 1}",3,brotli==1.0.9
+3,"{""DeepSeek-V3.2"": 1, ""kimi-k2.5"": 1, ""meta-llama/llama-4-scout"": 1}",3,capstone==4.0.2
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,couchbase==4.1.4
+3,"{""MiniMax-M2.5"": 3}",1,cryptography==3.4.6
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""meta-llama/llama-4-scout"": 1}",2,cryptography==40.0.2
+3,"{""MiniMax-M2.5"": 3}",1,cryptography==42.0.1
+3,"{""meta-llama/llama-4-scout"": 3}",1,dagster==0.12.11
+3,"{""meta-llama/llama-4-scout"": 3}",1,dagster==0.13.10
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,dask==2023.8.1
+3,"{""MiniMax-M2.5"": 3}",1,dask==2023.9.0
+3,"{""DeepSeek-V3.2"": 3}",1,dask==2024.1.1
+3,"{""MiniMax-M2.5"": 3}",1,deepdiff==5.7.0
+3,"{""MiniMax-M2.5"": 3}",1,django==3.2.10
+3,"{""meta-llama/llama-4-scout"": 3}",1,django_cms==3.7.2
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,django_cms==3.9.0
+3,"{""DeepSeek-V3.2"": 2, ""Qwen3.5-397B-A17B"": 1}",2,django_select2==8.0.0
+3,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1, ""gemini-3.1-pro-preview"": 1}",3,duckdb==0.10.0
+3,"{""MiniMax-M2.5"": 2, ""Qwen3-235B-A22B-Instruct-2507"": 1}",2,fastapi==0.100.0
+3,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 2}",2,fiona==1.8.22
+3,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 2}",2,flask==2.0.0
+3,"{""claude-sonnet-4-6"": 2, ""gpt-5.4"": 1}",2,flask_cors==4.0.1
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,fonttools==4.34.4
+3,"{""DeepSeek-V3.2"": 2, ""kimi-k2.5"": 1}",2,fugue==0.8.7
+3,"{""claude-sonnet-4-6"": 2, ""meta-llama/llama-4-scout"": 1}",2,fugue==0.9.0
+3,"{""gemini-3.1-pro-preview"": 2, ""gpt-5.4"": 1}",2,fugue==0.9.1
+3,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 2}",2,geopandas==0.12.2
+3,"{""MiniMax-M2.5"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,geopandas==0.14.2
+3,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 2}",2,geopandas==1.0.1
+3,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 2}",2,gitpython==3.1.35
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,gradio==4.0.0
+3,"{""Qwen3.5-397B-A17B"": 1, ""gpt-5.4"": 2}",2,gradio==4.44.1
+3,"{""MiniMax-M2.5"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,h2o==3.40.0.1
+3,"{""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 2}",2,ipython==7.34.0
+3,"{""MiniMax-M2.5"": 1, ""meta-llama/llama-4-scout"": 2}",2,jinja2==3.1.3
+3,"{""Qwen3.5-397B-A17B"": 3}",1,kedro==0.18.13
+3,"{""claude-sonnet-4-6"": 3}",1,kedro==0.19.0
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,keras==2.10.0
+3,"{""Qwen3.5-397B-A17B"": 3}",1,keras==2.11.0
+3,"{""DeepSeek-V3.2"": 3}",1,langchain==0.0.335
+3,"{""gpt-5.4"": 3}",1,litellm==1.51.0
+3,"{""MiniMax-M2.5"": 3}",1,llama_index==0.10.1
+3,"{""meta-llama/llama-4-scout"": 3}",1,llama_index==0.9.31
+3,"{""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 1}",2,luigi==3.2.1
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,lxml==4.7.1
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 1}",2,mechanicalsoup==1.2.0
+3,"{""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 2}",2,mitmproxy==10.1.6
+3,"{""claude-sonnet-4-6"": 3}",1,mlflow==2.13.0
+3,"{""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 2}",2,mlflow==2.8.1
+3,"{""meta-llama/llama-4-scout"": 3}",1,mpmath==1.2.1
+3,"{""claude-sonnet-4-6"": 1, ""gpt-5.4"": 2}",2,nbconvert==7.16.4
+3,"{""MiniMax-M2.5"": 1, ""gemini-3.1-pro-preview"": 2}",2,nbconvert==7.7.3
+3,"{""gemini-3.1-pro-preview"": 2, ""kimi-k2.5"": 1}",2,nicegui==1.4.5
+3,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",3,onnx==1.15.0
+3,"{""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",3,openexr==1.3.9
+3,"{""meta-llama/llama-4-scout"": 3}",1,pip==21.2.4
+3,"{""meta-llama/llama-4-scout"": 3}",1,prefect==0.15.7
+3,"{""DeepSeek-V3.2"": 2, ""gpt-5.4"": 1}",2,protobuf==3.20.3
+3,"{""kimi-k2.5"": 3}",1,protobuf==4.24.4
+3,"{""meta-llama/llama-4-scout"": 3}",1,pycryptodome==3.7.3
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,pycryptodomex==3.18.0
+3,"{""meta-llama/llama-4-scout"": 3}",1,pycryptodomex==3.7.3
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,pydantic==1.10.7
+3,"{""Qwen3.5-397B-A17B"": 3}",1,pygments==2.15.0
+3,"{""Qwen3.5-397B-A17B"": 3}",1,pymatgen==2023.9.2
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 1}",3,python-socketio==5.8.0
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,pytorch_lightning==1.4.0
+3,"{""meta-llama/llama-4-scout"": 3}",1,pytorch_lightning==1.4.2
+3,"{""Qwen3-30B-A3B-Instruct-2507"": 3}",1,pytorch_lightning==1.5.0
+3,"{""DeepSeek-V3.2"": 3}",1,pytorch_lightning==2.0.9
+3,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""kimi-k2.5"": 2}",2,qiskit==0.12.0
+3,"{""meta-llama/llama-4-scout"": 3}",1,qiskit==0.37.0
+3,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 1}",3,redis==5.0.0
+3,"{""Qwen3-30B-A3B-Instruct-2507"": 3}",1,reportlab==3.6.5
+3,"{""meta-llama/llama-4-scout"": 3}",1,rpyc==4.1.5
+3,"{""gemini-3.1-pro-preview"": 3}",1,sagemaker==2.203.1
+3,"{""MiniMax-M2.5"": 3}",1,sagemaker==2.204.0
+3,"{""DeepSeek-V3.2"": 1, ""meta-llama/llama-4-scout"": 2}",2,scikit_learn==1.0.2
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,scipy==1.9.1
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1, ""meta-llama/llama-4-scout"": 1}",3,scipy==1.9.3
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,signxml==2.9.0
+3,"{""gpt-5.4"": 3}",1,starlette==0.38.6
+3,"{""claude-sonnet-4-6"": 3}",1,starlette==0.41.0
+3,"{""claude-sonnet-4-6"": 3}",1,starlette==0.41.2
+3,"{""meta-llama/llama-4-scout"": 3}",1,streamlit==1.12.0
+3,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 2}",2,streamlit==1.24.0
+3,"{""meta-llama/llama-4-scout"": 3}",1,transformers==4.21.3
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 3}",1,transformers==4.25.1
+3,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1, ""claude-sonnet-4-6"": 1}",3,transformers==4.40.0
+3,"{""MiniMax-M2.5"": 1, ""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1}",3,twisted==22.10.0
+3,"{""DeepSeek-V3.2"": 2, ""gemini-3.1-pro-preview"": 1}",2,urllib3==1.26.18
+3,"{""Qwen3-235B-A22B-Instruct-2507"": 2, ""Qwen3.5-397B-A17B"": 1}",2,urllib3==2.0.4
+3,"{""Qwen3.5-397B-A17B"": 2, ""kimi-k2.5"": 1}",2,wandb==0.16.0
+3,"{""claude-sonnet-4-6"": 2, ""kimi-k2.5"": 1}",2,wandb==0.16.3
+3,"{""DeepSeek-V3.2"": 1, ""gpt-5.4"": 2}",2,wandb==0.17.0
+3,"{""Qwen3.5-397B-A17B"": 2, ""kimi-k2.5"": 1}",2,weasyprint==59.0
+3,"{""DeepSeek-V3.2"": 2, ""gemini-3.1-pro-preview"": 1}",2,weasyprint==60.1
+3,"{""DeepSeek-V3.2"": 1, ""gpt-5.4"": 1, ""kimi-k2.5"": 1}",3,weasyprint==61.2
+3,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1}",3,werkzeug==3.0.0
+3,"{""DeepSeek-V3.2"": 3}",1,zope==5.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,aiosmtpd==1.2.4
+2,"{""gemini-3.1-pro-preview"": 2}",1,aiosmtpd==1.4.3
+2,"{""MiniMax-M2.5"": 2}",1,apache-airflow==2.5.0
+2,"{""claude-sonnet-4-6"": 2}",1,apache-airflow==2.8.1
+2,"{""DeepSeek-V3.2"": 2}",1,apache-airflow==2.9.2
+2,"{""DeepSeek-V3.2"": 1, ""kimi-k2.5"": 1}",2,astropy==5.3.2
+2,"{""meta-llama/llama-4-scout"": 2}",1,asyncua==0.9.93
+2,"{""meta-llama/llama-4-scout"": 2}",1,bokeh==3.0.0
+2,"{""MiniMax-M2.5"": 2}",1,bokeh==3.0.3
+2,"{""kimi-k2.5"": 2}",1,bokeh==3.3.2
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1}",2,capstone==5.0.0
+2,"{""Qwen3.5-397B-A17B"": 2}",1,chainlit==1.1.301
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,cryptography==38.0.4
+2,"{""Qwen3.5-397B-A17B"": 1, ""gemini-3.1-pro-preview"": 1}",2,curl_cffi==0.5.10
+2,"{""meta-llama/llama-4-scout"": 2}",1,cvxopt==1.2.6
+2,"{""claude-sonnet-4-6"": 2}",1,dagster==0.14.17
+2,"{""kimi-k2.5"": 2}",1,dagster==0.15.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,dagster==1.4.6
+2,"{""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",2,dagster==1.6.14
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1}",2,dask==2023.10.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,deepdiff==5.2.3
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,deepdiff==5.5.0
+2,"{""DeepSeek-V3.2"": 1, ""meta-llama/llama-4-scout"": 1}",2,deepdiff==6.3.0
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,deepdiff==7.0.0
+2,"{""DeepSeek-V3.2"": 1, ""gpt-5.4"": 1}",2,deepdiff==7.0.1
+2,"{""Qwen3.5-397B-A17B"": 1, ""meta-llama/llama-4-scout"": 1}",2,diskcache==5.4.0
+2,"{""MiniMax-M2.5"": 2}",1,django==3.2
+2,"{""meta-llama/llama-4-scout"": 2}",1,django==3.2.9
+2,"{""MiniMax-M2.5"": 2}",1,django==4.2.1
+2,"{""gpt-5.4"": 2}",1,django==5.0.4
+2,"{""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 1}",2,django_select2==8.1.2
+2,"{""claude-sonnet-4-6"": 1, ""gpt-5.4"": 1}",2,duckdb==0.10.3
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,duckdb==0.8.1
+2,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 1}",2,duckdb==1.0.0
+2,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1}",2,filelock==3.13.1
+2,"{""Qwen3.5-397B-A17B"": 1, ""meta-llama/llama-4-scout"": 1}",2,fiona==1.9.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,fiona==1.9.2
+2,"{""meta-llama/llama-4-scout"": 2}",1,flask==2.2.3
+2,"{""MiniMax-M2.5"": 1, ""meta-llama/llama-4-scout"": 1}",2,flask_caching==2.0.0
+2,"{""claude-sonnet-4-6"": 1, ""gpt-5.4"": 1}",2,flask_caching==2.3.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,flask_restx==0.2.0
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,fonttools==4.50.0
+2,"{""MiniMax-M2.5"": 2}",1,fugue==0.8.6
+2,"{""meta-llama/llama-4-scout"": 2}",1,gevent==21.8.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,gitpython==3.1.32
+2,"{""meta-llama/llama-4-scout"": 2}",1,gradio==3.29.0
+2,"{""kimi-k2.5"": 2}",1,gradio==4.16.0
+2,"{""DeepSeek-V3.2"": 1, ""Qwen3.5-397B-A17B"": 1}",2,gradio==4.19.2
+2,"{""gemini-3.1-pro-preview"": 2}",1,gradio==4.20.0
+2,"{""gpt-5.4"": 2}",1,h2o==3.46.0.4
+2,"{""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 1}",2,imagecodecs==2023.3.16
+2,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1}",2,ipython==8.8.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1}",2,jupyterhub==4.0.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1}",2,kedro==0.18.0
+2,"{""gpt-5.4"": 2}",1,kedro==0.19.6
+2,"{""gemini-3.1-pro-preview"": 2}",1,keras==2.14.0
+2,"{""gemini-3.1-pro-preview"": 2}",1,langchain==0.1.16
+2,"{""claude-sonnet-4-6"": 2}",1,langchain==0.1.3
+2,"{""Qwen3.5-397B-A17B"": 2}",1,langchain==0.1.5
+2,"{""kimi-k2.5"": 2}",1,langchain_community==0.0.1
+2,"{""Qwen3.5-397B-A17B"": 2}",1,langchain_community==0.0.13
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,langchain_community==0.0.22
+2,"{""meta-llama/llama-4-scout"": 2}",1,langchain_community==0.0.31
+2,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1}",2,lightgbm==4.5.0
+2,"{""claude-sonnet-4-6"": 2}",1,llama_index==0.10.20
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,llama_index==0.10.24
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,llama_index==0.10.40
+2,"{""gpt-5.4"": 2}",1,llama_index==0.10.57
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,llama_index==0.9.4
+2,"{""meta-llama/llama-4-scout"": 2}",1,luigi==3.0.0
+2,"{""MiniMax-M2.5"": 1, ""meta-llama/llama-4-scout"": 1}",2,luigi==3.0.2
+2,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1}",2,luigi==3.5.2
+2,"{""meta-llama/llama-4-scout"": 2}",1,lxml==4.5.2
+2,"{""meta-llama/llama-4-scout"": 2}",1,lxml==4.6.3
+2,"{""DeepSeek-V3.2"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1}",2,marshmallow==3.19.0
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""gpt-5.4"": 1}",2,marshmallow==3.21.2
+2,"{""claude-sonnet-4-6"": 2}",1,marshmallow==3.21.3
+2,"{""gpt-5.4"": 2}",1,mcp==1.2.0
+2,"{""gemini-3.1-pro-preview"": 2}",1,mcp==1.2.1
+2,"{""kimi-k2.5"": 2}",1,mcp==1.6.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,mechanicalsoup==0.4.0
+2,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,mechanicalsoup==1.1.0
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,mechanize==0.3.1
+2,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,meraki==1.0.0
+2,"{""Qwen3.5-397B-A17B"": 1, ""kimi-k2.5"": 1}",2,meraki==1.33.0
+2,"{""claude-sonnet-4-6"": 2}",1,meraki==1.38.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 1}",2,mitmproxy==10.0.0
+2,"{""MiniMax-M2.5"": 2}",1,mitmproxy==7.0.4
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 1}",2,mitmproxy==9.0.0
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,mlflow==2.10.1
+2,"{""DeepSeek-V3.2"": 2}",1,mlflow==2.11.3
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,mlflow==2.16.0
+2,"{""DeepSeek-V3.2"": 2}",1,mlflow==2.17.0
+2,"{""MiniMax-M2.5"": 2}",1,mxnet==1.9.0
+2,"{""kimi-k2.5"": 2}",1,nbconvert==7.16.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,nicegui==1.4.2
+2,"{""gpt-5.4"": 2}",1,nicegui==1.4.29
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 1, ""gpt-5.4"": 1}",2,nicegui==2.0.0
+2,"{""Qwen3.5-397B-A17B"": 2}",1,nltk==3.9.1
+2,"{""claude-sonnet-4-6"": 2}",1,onnx==1.16.0
+2,"{""gpt-5.4"": 2}",1,onnx==1.16.1
+2,"{""meta-llama/llama-4-scout"": 2}",1,opencv-python==4.5.5.64
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,opencv-python==4.8.0.76
+2,"{""gpt-5.4"": 2}",1,orjson==3.10.7
+2,"{""Qwen3.5-397B-A17B"": 1, ""meta-llama/llama-4-scout"": 1}",2,orjson==3.9.0
+2,"{""DeepSeek-V3.2"": 1, ""MiniMax-M2.5"": 1}",2,pg8000==1.30.4
+2,"{""claude-sonnet-4-6"": 1, ""gpt-5.4"": 1}",2,pg8000==1.31.2
+2,"{""DeepSeek-V3.2"": 2}",1,pip==21.3.1
+2,"{""MiniMax-M2.5"": 2}",1,prefect==1.2.2
+2,"{""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",2,prefect==1.2.4
+2,"{""MiniMax-M2.5"": 2}",1,prefect==2.10.4
+2,"{""DeepSeek-V3.2"": 1, ""gemini-3.1-pro-preview"": 1}",2,protobuf==3.11.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,protobuf==4.21.0
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,pyarrow==10.0.1
+2,"{""MiniMax-M2.5"": 2}",1,pyarrow==11.0.0
+2,"{""kimi-k2.5"": 2}",1,pyarrow==14.0.2
+2,"{""gemini-3.1-pro-preview"": 2}",1,pydantic==2.3.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,pydrive2==1.12.1
+2,"{""claude-sonnet-4-6"": 2}",1,pydrive2==1.6.3
+2,"{""MiniMax-M2.5"": 1, ""meta-llama/llama-4-scout"": 1}",2,pyinstaller==5.13.0
+2,"{""MiniMax-M2.5"": 2}",1,pymatgen==2023.3.10
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,pymatgen==2023.8.10
+2,"{""DeepSeek-V3.2"": 1, ""claude-sonnet-4-6"": 1}",2,pyminizip==0.2.6
+2,"{""meta-llama/llama-4-scout"": 2}",1,pymongo==3.12.0
+2,"{""Qwen3.5-397B-A17B"": 2}",1,pypdf==3.17.4
+2,"{""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1}",2,python-socketio==5.11.0
+2,"{""kimi-k2.5"": 2}",1,python_jose==1.3.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1}",2,qiskit==0.13.0
+2,"{""gemini-3.1-pro-preview"": 2}",1,qiskit==0.39.0
+2,"{""kimi-k2.5"": 2}",1,qiskit==0.46.0
+2,"{""gpt-5.4"": 2}",1,qiskit==1.2.4
+2,"{""Qwen3.5-397B-A17B"": 1, ""claude-sonnet-4-6"": 1}",2,quart==0.19.0
+2,"{""MiniMax-M2.5"": 2}",1,quart==0.19.1
+2,"{""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",2,quart==0.19.4
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""meta-llama/llama-4-scout"": 1}",2,rembg==2.0.33
+2,"{""claude-sonnet-4-6"": 2}",1,rembg==2.0.57
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 2}",1,rpyc==5.1.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,rpyc==5.2.1
+2,"{""MiniMax-M2.5"": 2}",1,sagemaker==2.203.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,scikit_learn==1.1.2
+2,"{""meta-llama/llama-4-scout"": 2}",1,scikit_learn==1.1.3
+2,"{""MiniMax-M2.5"": 2}",1,scrapy==2.6.2
+2,"{""Qwen3.5-397B-A17B"": 2}",1,semantic_kernel==1.0.0
+2,"{""DeepSeek-V3.2"": 2}",1,semantic_kernel==1.0.1
+2,"{""kimi-k2.5"": 2}",1,semantic_kernel==1.0.5
+2,"{""claude-sonnet-4-6"": 2}",1,semantic_kernel==1.17.1
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3.5-397B-A17B"": 1}",2,sentencepiece==0.1.97
+2,"{""Qwen3.5-397B-A17B"": 2}",1,setuptools==65.5.0
+2,"{""Qwen3-30B-A3B-Instruct-2507"": 2}",1,signxml==2.0.0
+2,"{""DeepSeek-V3.2"": 1, ""gemini-3.1-pro-preview"": 1}",2,signxml==3.2.1
+2,"{""claude-sonnet-4-6"": 2}",1,signxml==4.0.1
+2,"{""Qwen3.5-397B-A17B"": 2}",1,starlette==0.35.0
+2,"{""MiniMax-M2.5"": 2}",1,starlette==0.35.1
+2,"{""gpt-5.4"": 2}",1,starlette==0.38.5
+2,"{""gemini-3.1-pro-preview"": 2}",1,starlette==0.41.3
+2,"{""MiniMax-M2.5"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,streamlit==1.26.0
+2,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1}",2,streamlit==1.27.0
+2,"{""Qwen3.5-397B-A17B"": 2}",1,streamlit==1.30.0
+2,"{""DeepSeek-V3.2"": 1, ""meta-llama/llama-4-scout"": 1}",2,tornado==6.1
+2,"{""meta-llama/llama-4-scout"": 2}",1,tqdm==4.62.0
+2,"{""kimi-k2.5"": 2}",1,transformers==4.36.2
+2,"{""Qwen3.5-397B-A17B"": 2}",1,transformers==4.38.0
+2,"{""claude-sonnet-4-6"": 1, ""gemini-3.1-pro-preview"": 1}",2,transformers==4.38.2
+2,"{""gemini-3.1-pro-preview"": 1, ""gpt-5.4"": 1}",2,twisted==24.3.0
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""gemini-3.1-pro-preview"": 1}",2,urllib3==1.26.15
+2,"{""kimi-k2.5"": 2}",1,urllib3==2.1.0
+2,"{""DeepSeek-V3.2"": 2}",1,uv==0.4.0
+2,"{""meta-llama/llama-4-scout"": 2}",1,wagtail==2.16.1
+2,"{""Qwen3-235B-A22B-Instruct-2507"": 1, ""Qwen3-30B-A3B-Instruct-2507"": 1}",2,weasyprint==56.1
+2,"{""claude-sonnet-4-6"": 1, ""kimi-k2.5"": 1}",2,weasyprint==60.2
+2,"{""MiniMax-M2.5"": 1, ""Qwen3-235B-A22B-Instruct-2507"": 1}",2,werkzeug==2.0.3
+2,"{""meta-llama/llama-4-scout"": 2}",1,werkzeug==2.2.2
+2,"{""Qwen3.5-397B-A17B"": 2}",1,werkzeug==2.3.3
+2,"{""DeepSeek-V3.2"": 2}",1,werkzeug==2.3.8
+2,"{""gemini-3.1-pro-preview"": 1, ""kimi-k2.5"": 1}",2,yt_dlp==2023.12.30
+2,"{""DeepSeek-V3.2"": 1, ""kimi-k2.5"": 1}",2,yt_dlp==2024.4.9
+2,"{""DeepSeek-V3.2"": 2}",1,zope2==4.0
+1,"{""gpt-5.4"": 1}",1,accesscontrol==6.2
+1,"{""gemini-3.1-pro-preview"": 1}",1,accesscontrol==6.3
+1,"{""meta-llama/llama-4-scout"": 1}",1,aiohttp==3.8.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,aiohttp==3.8.3
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,aiohttp==3.8.6
+1,"{""Qwen3.5-397B-A17B"": 1}",1,aiohttp==3.9.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,aiomysql==0.0.21
+1,"{""MiniMax-M2.5"": 1}",1,aiomysql==0.1.1
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,anki==2.1.48
+1,"{""Qwen3.5-397B-A17B"": 1}",1,anki==2.1.60
+1,"{""MiniMax-M2.5"": 1}",1,ansible_runner==2.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,apache-airflow==2.3.4
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,astropy==5.0.2
+1,"{""MiniMax-M2.5"": 1}",1,astropy==5.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,astropy==5.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,astropy==5.3.1
+1,"{""gemini-3.1-pro-preview"": 1}",1,asyncua==0.9.95
+1,"{""DeepSeek-V3.2"": 1}",1,authlib==1.0.0
+1,"{""claude-sonnet-4-6"": 1}",1,authlib==1.3.2
+1,"{""MiniMax-M2.5"": 1}",1,authlib==1.4.0
+1,"{""DeepSeek-V3.2"": 1}",1,avro==1.10.2
+1,"{""gemini-3.1-pro-preview"": 1}",1,black==23.3.0
+1,"{""kimi-k2.5"": 1}",1,blosc2==2.2.9
+1,"{""meta-llama/llama-4-scout"": 1}",1,cairosvg==2.5.1
+1,"{""MiniMax-M2.5"": 1}",1,cairosvg==2.5.2
+1,"{""kimi-k2.5"": 1}",1,cbor2==5.6.3
+1,"{""meta-llama/llama-4-scout"": 1}",1,certifi==2018.11.29
+1,"{""meta-llama/llama-4-scout"": 1}",1,certifi==2022.9.14
+1,"{""MiniMax-M2.5"": 1}",1,chainlit==0.7.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,chainlit==1.0.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,couchbase==3.2.7
+1,"{""MiniMax-M2.5"": 1}",1,couchbase==4.0.0
+1,"{""kimi-k2.5"": 1}",1,couchbase==4.1.8
+1,"{""MiniMax-M2.5"": 1}",1,cryptography==39.0.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,cryptography==41.0.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,cryptography==41.0.4
+1,"{""gemini-3.1-pro-preview"": 1}",1,cryptography==42.0.2
+1,"{""claude-sonnet-4-6"": 1}",1,curl_cffi==0.6.2
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,cvxopt==1.2.5
+1,"{""meta-llama/llama-4-scout"": 1}",1,dagster==0.13.16
+1,"{""DeepSeek-V3.2"": 1}",1,dagster==0.14.10
+1,"{""MiniMax-M2.5"": 1}",1,dagster==1.0.16
+1,"{""DeepSeek-V3.2"": 1}",1,dagster==1.1.15
+1,"{""MiniMax-M2.5"": 1}",1,dagster==1.3.2
+1,"{""DeepSeek-V3.2"": 1}",1,dagster==1.5.12
+1,"{""Qwen3.5-397B-A17B"": 1}",1,dagster==1.5.7
+1,"{""gemini-3.1-pro-preview"": 1}",1,dagster==1.6.0
+1,"{""DeepSeek-V3.2"": 1}",1,dagster==1.6.10
+1,"{""MiniMax-M2.5"": 1}",1,dagster==1.6.9
+1,"{""MiniMax-M2.5"": 1}",1,dagster==1.7.0
+1,"{""gpt-5.4"": 1}",1,dagster==1.7.10
+1,"{""claude-sonnet-4-6"": 1}",1,dagster==1.7.4
+1,"{""gpt-5.4"": 1}",1,dagster==1.7.8
+1,"{""gpt-5.4"": 1}",1,dagster==1.8.12
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,dash==2.10.0
+1,"{""kimi-k2.5"": 1}",1,dash==2.11.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,dash_core_components==1.16.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,dash_html_components==1.1.0
+1,"{""MiniMax-M2.5"": 1}",1,dask==2023.10.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,dask==2023.7.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,dask==2023.7.1
+1,"{""kimi-k2.5"": 1}",1,dask==2023.9.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,deepdiff==5.8.1
+1,"{""gemini-3.1-pro-preview"": 1}",1,deepdiff==6.3.1
+1,"{""Qwen3.5-397B-A17B"": 1}",1,deepdiff==8.0.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,deepdiff==8.0.1
+1,"{""kimi-k2.5"": 1}",1,deepdiff==8.4.2
+1,"{""MiniMax-M2.5"": 1}",1,django==3.2.8
+1,"{""gemini-3.1-pro-preview"": 1}",1,django==5.0.3
+1,"{""gpt-5.4"": 1}",1,django==5.0.7
+1,"{""claude-sonnet-4-6"": 1}",1,django_cms==4.1.2
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,django_cms==4.1.4
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,django_select2==7.0.2
+1,"{""MiniMax-M2.5"": 1}",1,django_select2==7.10.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,django_select2==7.11.1
+1,"{""gpt-5.4"": 1}",1,djoser==2.2.2
+1,"{""meta-llama/llama-4-scout"": 1}",1,dtale==1.10.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,dtale==2.14.0
+1,"{""MiniMax-M2.5"": 1}",1,dtale==3.1.0
+1,"{""DeepSeek-V3.2"": 1}",1,dtale==3.10.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,duckdb==0.10.1
+1,"{""claude-sonnet-4-6"": 1}",1,ecdsa==0.19.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,eventlet==0.33.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,eventlet==0.33.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,fastapi==0.10.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,fastapi==0.108.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,fastapi==0.92.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,fastapi==0.95.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,fiona==1.7.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,fiona==1.8.2
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,fiona==1.8.21
+1,"{""gemini-3.1-pro-preview"": 1}",1,fiona==1.9.4
+1,"{""meta-llama/llama-4-scout"": 1}",1,fiona==1.9.4.post1
+1,"{""gemini-3.1-pro-preview"": 1}",1,flask==1.1.4
+1,"{""meta-llama/llama-4-scout"": 1}",1,flask==2.0.2
+1,"{""claude-sonnet-4-6"": 1}",1,flask==3.1.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,flask_caching==1.0.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,flask_caching==1.10.1
+1,"{""MiniMax-M2.5"": 1}",1,flask_caching==1.11.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,flask_caching==2.0.1
+1,"{""claude-sonnet-4-6"": 1}",1,flask_cors==5.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,flask_security==3.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,fonttools==4.35.0
+1,"{""MiniMax-M2.5"": 1}",1,fonttools==4.42.1
+1,"{""Qwen3.5-397B-A17B"": 1}",1,fugue==0.8.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,fugue==0.8.4
+1,"{""meta-llama/llama-4-scout"": 1}",1,geopandas==0.12.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,geopandas==1.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,gitpython==3.1.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,gitpython==3.1.36
+1,"{""meta-llama/llama-4-scout"": 1}",1,gradio==3.34.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,gradio==3.37.0
+1,"{""DeepSeek-V3.2"": 1}",1,gradio==4.19.1
+1,"{""MiniMax-M2.5"": 1}",1,gradio==4.36.1
+1,"{""kimi-k2.5"": 1}",1,gradio==4.7.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,h2o==3.30.0.2
+1,"{""MiniMax-M2.5"": 1}",1,h2o==3.36.1.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,h2o==3.40.0.2
+1,"{""meta-llama/llama-4-scout"": 1}",1,html5lib==0.9999999
+1,"{""gemini-3.1-pro-preview"": 1}",1,imagecodecs==2023.1.23
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,ipython==7.24.0
+1,"{""MiniMax-M2.5"": 1}",1,ipython==7.31.0
+1,"{""MiniMax-M2.5"": 1}",1,ipython==8.1.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,ipython==8.4.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,jinja2==3.0.3
+1,"{""meta-llama/llama-4-scout"": 1}",1,jinja2==3.1.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,jsonpickle==0.9.5
+1,"{""MiniMax-M2.5"": 1}",1,jupyter_server==2.0.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,jupyterhub==3.0.0
+1,"{""kimi-k2.5"": 1}",1,jupyterhub==4.0.2
+1,"{""DeepSeek-V3.2"": 1}",1,jupyterhub==4.1.3
+1,"{""MiniMax-M2.5"": 1}",1,kedro==0.18.6
+1,"{""meta-llama/llama-4-scout"": 1}",1,keras==2.6.0
+1,"{""kimi-k2.5"": 1}",1,langchain==0.0.10
+1,"{""DeepSeek-V3.2"": 1}",1,langchain==0.0.20
+1,"{""meta-llama/llama-4-scout"": 1}",1,langchain==0.0.201
+1,"{""meta-llama/llama-4-scout"": 1}",1,langchain==0.0.23
+1,"{""gemini-3.1-pro-preview"": 1}",1,langchain==0.0.316
+1,"{""DeepSeek-V3.2"": 1}",1,langchain==0.0.340
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,langchain==0.0.354
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,langchain==0.2.1
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,langchain==0.2.11
+1,"{""MiniMax-M2.5"": 1}",1,langchain==0.3.7
+1,"{""Qwen3.5-397B-A17B"": 1}",1,langchain_community==0.0.10
+1,"{""MiniMax-M2.5"": 1}",1,langchain_community==0.0.20
+1,"{""kimi-k2.5"": 1}",1,langchain_community==0.0.29
+1,"{""Qwen3.5-397B-A17B"": 1}",1,langchain_community==0.0.35
+1,"{""Qwen3.5-397B-A17B"": 1}",1,langchain_community==0.0.38
+1,"{""gpt-5.4"": 1}",1,langchain_community==0.2.11
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,langchain_community==0.2.12
+1,"{""claude-sonnet-4-6"": 1}",1,langchain_community==0.2.5
+1,"{""gemini-3.1-pro-preview"": 1}",1,langchain_community==0.2.7
+1,"{""Qwen3.5-397B-A17B"": 1}",1,langchain_core==0.1.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,langchain_text_splitters==0.0.1
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,lightgbm==3.3.4
+1,"{""DeepSeek-V3.2"": 1}",1,litellm==1.39.6
+1,"{""meta-llama/llama-4-scout"": 1}",1,llama_index==0.10.10
+1,"{""gemini-3.1-pro-preview"": 1}",1,llama_index==0.10.30
+1,"{""DeepSeek-V3.2"": 1}",1,llama_index==0.10.36
+1,"{""kimi-k2.5"": 1}",1,llama_index==0.11.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,llama_index==0.12.0
+1,"{""claude-sonnet-4-6"": 1}",1,llama_index==0.12.10
+1,"{""meta-llama/llama-4-scout"": 1}",1,llama_index==0.7.2
+1,"{""gemini-3.1-pro-preview"": 1}",1,llama_index==0.8.45
+1,"{""DeepSeek-V3.2"": 1}",1,llama_index==0.9.48
+1,"{""MiniMax-M2.5"": 1}",1,luigi==3.0.3
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,luigi==3.1.0
+1,"{""MiniMax-M2.5"": 1}",1,luigi==3.1.1
+1,"{""kimi-k2.5"": 1}",1,luigi==3.5.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,lxml==4.6.0
+1,"{""MiniMax-M2.5"": 1}",1,lxml==4.9.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,mammoth==1.4.17
+1,"{""gpt-5.4"": 1}",1,mammoth==1.8.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,marshmallow==3.20.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,marshmallow==3.20.2
+1,"{""Qwen3.5-397B-A17B"": 1}",1,marshmallow==3.21.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,marshmallow==3.9.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,mcp==1.0.0
+1,"{""claude-sonnet-4-6"": 1}",1,mcp==1.3.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,mcp==1.4.0
+1,"{""claude-sonnet-4-6"": 1}",1,mcp==1.9.2
+1,"{""Qwen3.5-397B-A17B"": 1}",1,mechanicalsoup==1.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,mechanize==0.4.5
+1,"{""meta-llama/llama-4-scout"": 1}",1,meraki==1.7.2
+1,"{""MiniMax-M2.5"": 1}",1,mitmproxy==4.0.4
+1,"{""MiniMax-M2.5"": 1}",1,mitmproxy==8.1.0
+1,"{""gpt-5.4"": 1}",1,mlflow==2.14.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,mlflow==2.9.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,monai==1.1.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,mxnet==1.5.0
+1,"{""MiniMax-M2.5"": 1}",1,nbconvert==6.5.0
+1,"{""DeepSeek-V3.2"": 1}",1,nbconvert==7.10.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,nbconvert==7.14.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,nbconvert==7.16.3
+1,"{""Qwen3.5-397B-A17B"": 1}",1,nbconvert==7.9.2
+1,"{""MiniMax-M2.5"": 1}",1,nicegui==0.9.12
+1,"{""meta-llama/llama-4-scout"": 1}",1,nicegui==0.9.3
+1,"{""meta-llama/llama-4-scout"": 1}",1,nicegui==1.3.2
+1,"{""gemini-3.1-pro-preview"": 1}",1,nicegui==1.4.15
+1,"{""kimi-k2.5"": 1}",1,nicegui==1.4.20
+1,"{""gpt-5.4"": 1}",1,nicegui==1.4.26
+1,"{""gemini-3.1-pro-preview"": 1}",1,nicegui==1.4.33
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,nltk==3.8
+1,"{""MiniMax-M2.5"": 1}",1,notebook==7.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,numexpr==2.5.2
+1,"{""gemini-3.1-pro-preview"": 1}",1,numexpr==2.8.4
+1,"{""DeepSeek-V3.2"": 1}",1,numpy==1.18.5
+1,"{""Qwen3.5-397B-A17B"": 1}",1,numpy==1.19.1
+1,"{""Qwen3.5-397B-A17B"": 1}",1,opencv-python==4.7.0.72
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,openexr==1.3.0
+1,"{""MiniMax-M2.5"": 1}",1,openexr==1.3.2
+1,"{""Qwen3.5-397B-A17B"": 1}",1,orjson==3.10.0
+1,"{""claude-sonnet-4-6"": 1}",1,orjson==3.10.12
+1,"{""meta-llama/llama-4-scout"": 1}",1,orjson==3.8.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,orjson==3.9.11
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,orjson==3.9.7
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,paramiko==3.2.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,paramiko==3.3.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,pdoc==10.0.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,pdoc==11.0.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,pdoc==12.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,pg8000==1.16.3
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,pg8000==1.24.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,pg8000==1.29.3
+1,"{""Qwen3.5-397B-A17B"": 1}",1,pg8000==1.30.1
+1,"{""kimi-k2.5"": 1}",1,pg8000==1.30.3
+1,"{""DeepSeek-V3.2"": 1}",1,pillow==7.0.0
+1,"{""MiniMax-M2.5"": 1}",1,pillow==8.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,pillow==8.2.0
+1,"{""claude-sonnet-4-6"": 1}",1,pip==23.3.1
+1,"{""claude-sonnet-4-6"": 1}",1,prefect==0.15.9
+1,"{""DeepSeek-V3.2"": 1}",1,prefect==1.2.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,prefect==2.19.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,prefect==2.3.2
+1,"{""DeepSeek-V3.2"": 1}",1,protobuf==3.15.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,protobuf==3.17.0
+1,"{""claude-sonnet-4-6"": 1}",1,protobuf==3.17.2
+1,"{""claude-sonnet-4-6"": 1}",1,protobuf==3.19.4
+1,"{""gemini-3.1-pro-preview"": 1}",1,protobuf==3.2.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,protobuf==3.7.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,psd_tools==1.9.31
+1,"{""MiniMax-M2.5"": 1}",1,py7zr==0.20.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,py7zr==0.5.2
+1,"{""meta-llama/llama-4-scout"": 1}",1,pyarrow==10.0.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,pycryptodomex==3.15.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,pydantic==1.10.8
+1,"{""MiniMax-M2.5"": 1}",1,pydantic==2.0.3
+1,"{""MiniMax-M2.5"": 1}",1,pydantic==2.1.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,pydantic==2.1.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,pyinstaller==4.10
+1,"{""MiniMax-M2.5"": 1}",1,pyinstaller==5.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,pyjwt==2.3.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,pymatgen==2024.1.27
+1,"{""DeepSeek-V3.2"": 1}",1,pymongo==4.1.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,pypdf==3.10.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,pypdf==3.17.1
+1,"{""MiniMax-M2.5"": 1}",1,pypdf==3.9.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,pypdf==4.0.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,pypdf==4.1.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,pypdf2==2.10.5
+1,"{""meta-llama/llama-4-scout"": 1}",1,pypdf2==2.10.7
+1,"{""meta-llama/llama-4-scout"": 1}",1,pypdf2==2.11.1
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,pypdf2==3.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,pyspark==3.3.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,python-socketio==5.1.0
+1,"{""MiniMax-M2.5"": 1}",1,python-socketio==5.10.0
+1,"{""DeepSeek-V3.2"": 1}",1,python-socketio==5.11.2
+1,"{""gpt-5.4"": 1}",1,python-socketio==5.11.4
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,python_jose==0.2.0
+1,"{""MiniMax-M2.5"": 1}",1,python_ldap==3.4.0
+1,"{""MiniMax-M2.5"": 1}",1,python_multipart==0.0.9
+1,"{""Qwen3.5-397B-A17B"": 1}",1,pytorch_lightning==0.9.0
+1,"{""MiniMax-M2.5"": 1}",1,qiskit==0.14.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,qiskit==0.23.2
+1,"{""meta-llama/llama-4-scout"": 1}",1,qiskit==0.24.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,qiskit==0.4.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,qiskit==0.43.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,qiskit==0.5.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,qiskit==1.0.2
+1,"{""meta-llama/llama-4-scout"": 1}",1,quart==0.17.0
+1,"{""gpt-5.4"": 1}",1,quart==0.19.9
+1,"{""DeepSeek-V3.2"": 1}",1,ray==2.31.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,ray==2.41.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,ray==2.45.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,redis==4.3.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,redis==4.3.4
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,redis==4.5.4
+1,"{""MiniMax-M2.5"": 1}",1,redis==4.5.5
+1,"{""claude-sonnet-4-6"": 1}",1,redis==5.2.1
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,rembg==2.0.31
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,rembg==2.0.32
+1,"{""MiniMax-M2.5"": 1}",1,rembg==2.0.56
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,rpyc==5.0.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,sagemaker==2.144.0
+1,"{""DeepSeek-V3.2"": 1}",1,sagemaker==2.171.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,sagemaker==2.183.0
+1,"{""gpt-5.4"": 1}",1,sagemaker==2.229.0
+1,"{""MiniMax-M2.5"": 1}",1,salt==3005.1
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,salt==3006.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,scikit_learn==0.22.1
+1,"{""Qwen3.5-397B-A17B"": 1}",1,scipy==1.7.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,scipy==1.7.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,scipy==1.8.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,scrapy==2.7.1
+1,"{""MiniMax-M2.5"": 1}",1,selenium==4.18.0
+1,"{""MiniMax-M2.5"": 1}",1,selenium==4.6.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,sentencepiece==0.1.96
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,sentencepiece==0.1.98
+1,"{""DeepSeek-V3.2"": 1}",1,sentencepiece==0.2.0
+1,"{""DeepSeek-V3.2"": 1}",1,setuptools==59.6.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,setuptools==69.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,setuptools==69.0.2
+1,"{""claude-sonnet-4-6"": 1}",1,setuptools==69.0.3
+1,"{""DeepSeek-V3.2"": 1}",1,setuptools==69.5.1
+1,"{""Qwen3.5-397B-A17B"": 1}",1,setuptools==70.0.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,signxml==3.0.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,solara==0.16.0
+1,"{""MiniMax-M2.5"": 1}",1,solara==1.10.0
+1,"{""gpt-5.4"": 1}",1,solara==1.30.0
+1,"{""DeepSeek-V3.2"": 1}",1,solara==1.32.1
+1,"{""gemini-3.1-pro-preview"": 1}",1,solara==1.32.2
+1,"{""kimi-k2.5"": 1}",1,solara==1.33.0
+1,"{""Qwen3.5-397B-A17B"": 1}",1,solara==1.8.0
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,spotipy==2.21.0
+1,"{""MiniMax-M2.5"": 1}",1,sqlparse==0.3.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,sqlparse==0.4.3
+1,"{""gpt-5.4"": 1}",1,sqlparse==0.5.0
+1,"{""MiniMax-M2.5"": 1}",1,starlette==0.21.0
+1,"{""gpt-5.4"": 1}",1,starlette==0.36.3
+1,"{""Qwen3.5-397B-A17B"": 1}",1,starlette==0.37.0
+1,"{""kimi-k2.5"": 1}",1,starlette==0.45.0
+1,"{""claude-sonnet-4-6"": 1}",1,starlette==0.46.2
+1,"{""gemini-3.1-pro-preview"": 1}",1,streamlit==1.22.0
+1,"{""kimi-k2.5"": 1}",1,streamlit==1.25.0
+1,"{""DeepSeek-V3.2"": 1}",1,streamlit==1.29.0
+1,"{""gpt-5.4"": 1}",1,streamlit==1.31.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,streamlit==1.32.2
+1,"{""gpt-5.4"": 1}",1,streamlit==1.36.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,svglib==0.9.3
+1,"{""gpt-5.4"": 1}",1,tornado==6.4
+1,"{""MiniMax-M2.5"": 1}",1,tornado==6.4.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,tqdm==4.64.1
+1,"{""claude-sonnet-4-6"": 1}",1,tqdm==4.66.0
+1,"{""DeepSeek-V3.2"": 1}",1,tqdm==4.66.2
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,transformers==4.28.1
+1,"{""Qwen3-30B-A3B-Instruct-2507"": 1}",1,transformers==4.31.0
+1,"{""gpt-5.4"": 1}",1,transformers==4.39.3
+1,"{""gpt-5.4"": 1}",1,transformers==4.40.2
+1,"{""gpt-5.4"": 1}",1,transformers==4.41.2
+1,"{""gpt-5.4"": 1}",1,transformers==4.44.2
+1,"{""gpt-5.4"": 1}",1,urllib3==2.2.2
+1,"{""gpt-5.4"": 1}",1,urllib3==2.2.3
+1,"{""Qwen3.5-397B-A17B"": 1}",1,virtualenv==20.16.0
+1,"{""kimi-k2.5"": 1}",1,virtualenv==20.17.1
+1,"{""meta-llama/llama-4-scout"": 1}",1,virtualenv==20.7.2
+1,"{""Qwen3.5-397B-A17B"": 1}",1,wandb==0.10.0
+1,"{""meta-llama/llama-4-scout"": 1}",1,wandb==0.16.1
+1,"{""DeepSeek-V3.2"": 1}",1,wandb==0.16.6
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,weasyprint==52.5
+1,"{""meta-llama/llama-4-scout"": 1}",1,weasyprint==54.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,weasyprint==57.0
+1,"{""MiniMax-M2.5"": 1}",1,weasyprint==57.1
+1,"{""Qwen3.5-397B-A17B"": 1}",1,weasyprint==60.0
+1,"{""DeepSeek-V3.2"": 1}",1,weasyprint==61.0
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,werkzeug==0.15.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,werkzeug==0.16.1
+1,"{""Qwen3-235B-A22B-Instruct-2507"": 1}",1,werkzeug==2.1.2
+1,"{""gemini-3.1-pro-preview"": 1}",1,werkzeug==2.2.3
+1,"{""gemini-3.1-pro-preview"": 1}",1,wheel==0.40.0
+1,"{""kimi-k2.5"": 1}",1,wheel==0.41.2
+1,"{""claude-sonnet-4-6"": 1}",1,wheel==0.42.0
+1,"{""DeepSeek-V3.2"": 1}",1,wheel==0.43.0
+1,"{""gemini-3.1-pro-preview"": 1}",1,xhtml2pdf==0.2.11
+1,"{""MiniMax-M2.5"": 1}",1,xhtml2pdf==0.2.8
+1,"{""Qwen3.5-397B-A17B"": 1}",1,yt_dlp==2024.10.22
+1,"{""claude-sonnet-4-6"": 1}",1,yt_dlp==2024.11.18
+1,"{""gpt-5.4"": 1}",1,zope==5.2.1

@@ -1,0 +1,41 @@
+{
+  "command": "python -m scripts.generate_robustness_results --robustness-root outputs/tosem_revision_20260812_python_1f1644e --py312-task-outcomes outputs/evaluation/task_outcomes.jsonl --output outputs/analysis/robustness",
+  "robustness_root": "outputs/tosem_revision_20260812_python_1f1644e",
+  "py312_task_outcomes": "outputs/evaluation/task_outcomes.jsonl",
+  "output": "outputs/analysis/robustness",
+  "old_output": null,
+  "python_versions": [
+    "3.8",
+    "3.10",
+    "3.12",
+    "3.14"
+  ],
+  "n_models": 10,
+  "n_cells": 160,
+  "tasks_per_model": {
+    "BigCodeBench": 813,
+    "PinTrace": 1000
+  },
+  "condition_map": {
+    "requirements.txt": "MR",
+    "inline": "VA"
+  },
+  "dataset_map": {
+    "d1": "BigCodeBench",
+    "d2": "PinTrace"
+  },
+  "classifiers": {
+    "compatibility_layer": "stages.failure_classifier.classify_compatibility_layer",
+    "ty_error": "stages.failure_classifier.classify_ty_error"
+  },
+  "stage_definitions": {
+    "resolver_input": "resolver status in {resolved, failed}",
+    "complete_lock": "resolver status == resolved",
+    "installation_completed": "resolver status == resolved and compatibility layer not in {environment_build, infrastructure}",
+    "static_pass": "complete_lock and installation_completed and ty is_compatible == true",
+    "dynamic_pass": "BigCodeBench only; bcb_test.status == pass over the full 813-task population",
+    "end_to_end_denominator": "complete task--model population",
+    "all_observations": "sum model-level counts, then compute the percentage"
+  },
+  "distutils_definition": "missing_distutils from classify_ty_error ty_install_category, restricted to complete_lock observations that fail installation"
+}

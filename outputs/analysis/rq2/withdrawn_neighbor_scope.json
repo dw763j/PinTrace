@@ -1,0 +1,188 @@
+{
+  "scope": "withdrawal-only neighbor eligibility recheck; no experiment re-run",
+  "baseline": "safe_ty_install_error",
+  "origin": "model_exact",
+  "population": "full 1,000-task PinTrace, 10 models, mode inline, Python 3.12",
+  "totals": {
+    "tested": 1237,
+    "eligible_after_withdrawn": 1290,
+    "newly_eligible_untested": 53,
+    "recover_no_ty_install_error_tasks": 478,
+    "recover_ty_tasks": 410
+  },
+  "per_model": [
+    {
+      "model": "DeepSeek-V3.2",
+      "result_file": "safe_ty_install_error_inline_d2_DeepSeek-V3.2_blind_inline_py312.json",
+      "run_name": "d2_DeepSeek-V3.2_blind_inline",
+      "tested": 156,
+      "eligible_after_withdrawn": 163,
+      "newly_eligible_untested": 7,
+      "newly_eligible_task_ids": [
+        "stackexchange-61622357",
+        "stackexchange-64436667",
+        "stackexchange-66173474",
+        "stackexchange-70847533",
+        "stackexchange-75430987",
+        "stackexchange-76940159",
+        "stackexchange-79854826"
+      ],
+      "recover_no_ty_install_error_tasks": 63,
+      "recover_ty_tasks": 56
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "result_file": "safe_ty_install_error_inline_d2_MiniMax-M2.5_blind_inline_py312.json",
+      "run_name": "d2_MiniMax-M2.5_blind_inline",
+      "tested": 157,
+      "eligible_after_withdrawn": 165,
+      "newly_eligible_untested": 8,
+      "newly_eligible_task_ids": [
+        "stackexchange-59766418",
+        "stackexchange-62404502",
+        "stackexchange-64436667",
+        "stackexchange-66138668",
+        "stackexchange-66173474",
+        "stackexchange-70847533",
+        "stackexchange-73932651",
+        "stackexchange-75430987"
+      ],
+      "recover_no_ty_install_error_tasks": 66,
+      "recover_ty_tasks": 54
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "result_file": "safe_ty_install_error_inline_d2_Qwen3-235B-A22B-Instruct-2507_blind_inline_py312.json",
+      "run_name": "d2_Qwen3-235B-A22B-Instruct-2507_blind_inline",
+      "tested": 149,
+      "eligible_after_withdrawn": 155,
+      "newly_eligible_untested": 6,
+      "newly_eligible_task_ids": [
+        "stackexchange-59907929",
+        "stackexchange-61410776",
+        "stackexchange-64436667",
+        "stackexchange-66173474",
+        "stackexchange-70847533",
+        "stackexchange-75430987"
+      ],
+      "recover_no_ty_install_error_tasks": 70,
+      "recover_ty_tasks": 60
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "result_file": "safe_ty_install_error_inline_d2_Qwen3-30B-A3B-Instruct-2507_blind_inline_py312.json",
+      "run_name": "d2_Qwen3-30B-A3B-Instruct-2507_blind_inline",
+      "tested": 77,
+      "eligible_after_withdrawn": 80,
+      "newly_eligible_untested": 3,
+      "newly_eligible_task_ids": [
+        "stackexchange-59679217",
+        "stackexchange-59766418",
+        "stackexchange-66173474"
+      ],
+      "recover_no_ty_install_error_tasks": 50,
+      "recover_ty_tasks": 44
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "result_file": "safe_ty_install_error_inline_d2_Qwen3.5-397B-A17B_blind_inline_py312.json",
+      "run_name": "d2_Qwen3.5-397B-A17B_blind_inline",
+      "tested": 157,
+      "eligible_after_withdrawn": 166,
+      "newly_eligible_untested": 9,
+      "newly_eligible_task_ids": [
+        "stackexchange-59766418",
+        "stackexchange-59907929",
+        "stackexchange-61410776",
+        "stackexchange-62404502",
+        "stackexchange-64436667",
+        "stackexchange-66138668",
+        "stackexchange-70847533",
+        "stackexchange-75430987",
+        "stackexchange-79854826"
+      ],
+      "recover_no_ty_install_error_tasks": 73,
+      "recover_ty_tasks": 65
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "result_file": "safe_ty_install_error_inline_d2_claude-sonnet-4-6_blind_inline_py312.json",
+      "run_name": "d2_claude-sonnet-4-6_blind_inline",
+      "tested": 76,
+      "eligible_after_withdrawn": 78,
+      "newly_eligible_untested": 2,
+      "newly_eligible_task_ids": [
+        "stackexchange-61410776",
+        "stackexchange-62404502"
+      ],
+      "recover_no_ty_install_error_tasks": 18,
+      "recover_ty_tasks": 15
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "result_file": "safe_ty_install_error_inline_d2_gemini-3.1-pro-preview_blind_inline_py312.json",
+      "run_name": "d2_gemini-3.1-pro-preview_blind_inline",
+      "tested": 140,
+      "eligible_after_withdrawn": 145,
+      "newly_eligible_untested": 5,
+      "newly_eligible_task_ids": [
+        "stackexchange-62404502",
+        "stackexchange-64436667",
+        "stackexchange-66173474",
+        "stackexchange-70847533",
+        "stackexchange-75430987"
+      ],
+      "recover_no_ty_install_error_tasks": 65,
+      "recover_ty_tasks": 57
+    },
+    {
+      "model": "gpt-5.4",
+      "result_file": "safe_ty_install_error_inline_d2_gpt-5.4_blind_inline_py312.json",
+      "run_name": "d2_gpt-5.4_blind_inline",
+      "tested": 52,
+      "eligible_after_withdrawn": 54,
+      "newly_eligible_untested": 2,
+      "newly_eligible_task_ids": [
+        "stackexchange-61672860",
+        "stackexchange-74710865"
+      ],
+      "recover_no_ty_install_error_tasks": 3,
+      "recover_ty_tasks": 1
+    },
+    {
+      "model": "kimi-k2.5",
+      "result_file": "safe_ty_install_error_inline_d2_kimi-k2.5_blind_inline_py312.json",
+      "run_name": "d2_kimi-k2.5_blind_inline",
+      "tested": 129,
+      "eligible_after_withdrawn": 133,
+      "newly_eligible_untested": 4,
+      "newly_eligible_task_ids": [
+        "stackexchange-62404502",
+        "stackexchange-64436667",
+        "stackexchange-66173474",
+        "stackexchange-70847533"
+      ],
+      "recover_no_ty_install_error_tasks": 47,
+      "recover_ty_tasks": 39
+    },
+    {
+      "model": "meta-llama/llama-4-scout",
+      "result_file": "safe_ty_install_error_inline_d2_meta-llama_llama-4-scout_blind_inline_py312.json",
+      "run_name": "d2_meta-llama_llama-4-scout_blind_inline",
+      "tested": 144,
+      "eligible_after_withdrawn": 151,
+      "newly_eligible_untested": 7,
+      "newly_eligible_task_ids": [
+        "stackexchange-59766418",
+        "stackexchange-61622357",
+        "stackexchange-64436667",
+        "stackexchange-66138668",
+        "stackexchange-66173474",
+        "stackexchange-70847533",
+        "stackexchange-75430987"
+      ],
+      "recover_no_ty_install_error_tasks": 23,
+      "recover_ty_tasks": 19
+    }
+  ]
+}

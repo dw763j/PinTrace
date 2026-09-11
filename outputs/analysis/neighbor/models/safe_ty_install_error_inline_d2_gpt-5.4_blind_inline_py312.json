@@ -1,0 +1,1831 @@
+{
+  "run_selection": {
+    "python_tag": "py312",
+    "select_by": "safe_ty_incompat",
+    "target_mode": "inline",
+    "target_run_name_arg": null,
+    "selected_run": {
+      "mode": "inline",
+      "run_name": "d2_gpt-5.4_blind_inline",
+      "model_name": "d2_gpt-5.4_blind",
+      "python_tag": "py312",
+      "total_tasks": 1000,
+      "safe_tasks": 546,
+      "safe_ty_incompat_count": 167,
+      "safe_ty_install_error_count": 99,
+      "safe_bcb_fail_count": 0,
+      "bcb_total": 0
+    },
+    "per_mode_rank": {
+      "inline": [
+        {
+          "mode": "inline",
+          "run_name": "d2_meta-llama_llama-4-scout_blind_inline",
+          "model_name": "d2_meta-llama_llama-4-scout_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 491,
+          "safe_ty_incompat_count": 348,
+          "safe_ty_install_error_count": 295,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_Qwen3-235B-A22B-Instruct-2507_blind_inline",
+          "model_name": "d2_Qwen3-235B-A22B-Instruct-2507_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 511,
+          "safe_ty_incompat_count": 320,
+          "safe_ty_install_error_count": 274,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_Qwen3-30B-A3B-Instruct-2507_blind_inline",
+          "model_name": "d2_Qwen3-30B-A3B-Instruct-2507_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 590,
+          "safe_ty_incompat_count": 320,
+          "safe_ty_install_error_count": 202,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_MiniMax-M2.5_blind_inline",
+          "model_name": "d2_MiniMax-M2.5_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 477,
+          "safe_ty_incompat_count": 285,
+          "safe_ty_install_error_count": 244,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_DeepSeek-V3.2_blind_inline",
+          "model_name": "d2_DeepSeek-V3.2_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 470,
+          "safe_ty_incompat_count": 272,
+          "safe_ty_install_error_count": 234,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_Qwen3.5-397B-A17B_blind_inline",
+          "model_name": "d2_Qwen3.5-397B-A17B_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 472,
+          "safe_ty_incompat_count": 266,
+          "safe_ty_install_error_count": 236,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_kimi-k2.5_blind_inline",
+          "model_name": "d2_kimi-k2.5_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 491,
+          "safe_ty_incompat_count": 232,
+          "safe_ty_install_error_count": 188,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_gemini-3.1-pro-preview_blind_inline",
+          "model_name": "d2_gemini-3.1-pro-preview_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 470,
+          "safe_ty_incompat_count": 227,
+          "safe_ty_install_error_count": 204,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_claude-sonnet-4-6_blind_inline",
+          "model_name": "d2_claude-sonnet-4-6_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 483,
+          "safe_ty_incompat_count": 173,
+          "safe_ty_install_error_count": 115,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "inline",
+          "run_name": "d2_gpt-5.4_blind_inline",
+          "model_name": "d2_gpt-5.4_blind",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 546,
+          "safe_ty_incompat_count": 167,
+          "safe_ty_install_error_count": 99,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        }
+      ],
+      "requirements.txt": [
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_meta-llama_llama-4-scout_blind_requirements_txt",
+          "model_name": "d2_meta-llama_llama-4-scout_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 617,
+          "safe_ty_incompat_count": 313,
+          "safe_ty_install_error_count": 137,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_MiniMax-M2.5_blind_requirements_txt",
+          "model_name": "d2_MiniMax-M2.5_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 605,
+          "safe_ty_incompat_count": 224,
+          "safe_ty_install_error_count": 68,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_Qwen3-30B-A3B-Instruct-2507_blind_requirements_txt",
+          "model_name": "d2_Qwen3-30B-A3B-Instruct-2507_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 513,
+          "safe_ty_incompat_count": 223,
+          "safe_ty_install_error_count": 130,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_kimi-k2.5_blind_requirements_txt",
+          "model_name": "d2_kimi-k2.5_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 571,
+          "safe_ty_incompat_count": 222,
+          "safe_ty_install_error_count": 75,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_claude-sonnet-4-6_blind_requirements_txt",
+          "model_name": "d2_claude-sonnet-4-6_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 582,
+          "safe_ty_incompat_count": 217,
+          "safe_ty_install_error_count": 89,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_DeepSeek-V3.2_blind_requirements_txt",
+          "model_name": "d2_DeepSeek-V3.2_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 521,
+          "safe_ty_incompat_count": 214,
+          "safe_ty_install_error_count": 107,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_Qwen3-235B-A22B-Instruct-2507_blind_requirements_txt",
+          "model_name": "d2_Qwen3-235B-A22B-Instruct-2507_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 549,
+          "safe_ty_incompat_count": 197,
+          "safe_ty_install_error_count": 82,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_gemini-3.1-pro-preview_blind_requirements_txt",
+          "model_name": "d2_gemini-3.1-pro-preview_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 618,
+          "safe_ty_incompat_count": 168,
+          "safe_ty_install_error_count": 63,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_Qwen3.5-397B-A17B_blind_requirements_txt",
+          "model_name": "d2_Qwen3.5-397B-A17B_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 547,
+          "safe_ty_incompat_count": 162,
+          "safe_ty_install_error_count": 63,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        },
+        {
+          "mode": "requirements.txt",
+          "run_name": "d2_gpt-5.4_blind_requirements_txt",
+          "model_name": "d2_gpt-5.4_blind_requirements_txt",
+          "python_tag": "py312",
+          "total_tasks": 1000,
+          "safe_tasks": 636,
+          "safe_ty_incompat_count": 162,
+          "safe_ty_install_error_count": 54,
+          "safe_bcb_fail_count": 0,
+          "bcb_total": 0
+        }
+      ]
+    }
+  },
+  "experiment_config": {
+    "dataset": "d2",
+    "supports_bcb": false,
+    "baseline": "safe_ty_install_error",
+    "neighbor_n": 3,
+    "max_candidates_k": 40,
+    "max_searchable_libs": 12,
+    "stop_policy": "first_pass",
+    "specified_only": true,
+    "focus_install_failed_tpl": true,
+    "focused_neighbor_n": 10,
+    "store_candidates": false,
+    "reference_date": "2026-02-01T00:00:00+00:00",
+    "origin": "model_exact",
+    "canonical_root": "outputs/evaluation",
+    "analysis_output_root": "outputs/analysis/neighbor/models",
+    "resolver_config_hash": "6efb4696e609b7fcee643e5966c38d11849b89b9be273ba1d9d2ca3c5e0facf5",
+    "python_platform": "x86_64-unknown-linux-gnu",
+    "uv_bin": "uv",
+    "python_version": "3.12",
+    "bcb_timeout": 180,
+    "uv_install_timeout": 600,
+    "modes": [
+      "inline",
+      "inline_no_vuln",
+      "requirements.txt"
+    ],
+    "outputs_root": "outputs/tosem_revision_20260811_1f1644e/main_py312/d2",
+    "pypi_dirs": [
+      "resources/pypi_info",
+      "pypi_info"
+    ],
+    "osv_index_path": "resources/osv#pypi#vulns#20260301"
+  },
+  "summary": {
+    "formulas": {
+      "recover_no_ty_install_error_rate": "recover_no_ty_install_error_tasks / baseline_tasks (a neighbor pin without ty-install-error was found)",
+      "recover_no_ty_install_error_vuln_rate": "recover_no_ty_install_error_vuln_tasks / baseline_tasks (a neighbor pin without ty-install-error but with a known vulnerability was found)",
+      "recover_ty_rate": "recover_ty_tasks / baseline_tasks",
+      "recover_ty_vuln_rate": "recover_ty_vuln_tasks / baseline_tasks (a neighbor pin that passes ty but has a known TPL vulnerability was found)",
+      "baseline_ty_install_ok": "number of baseline tasks with no ty-install-error",
+      "baseline_ty_install_ok_vuln": "number of baseline tasks with no ty-install-error and a known vulnerability"
+    },
+    "lower_bound_note": "Observed rates are lower bounds under configured strategy (neighbor_n, max_candidates_k, ranking-by-l1, stop_policy).",
+    "baseline_tasks": 54,
+    "baseline_ty_install_ok": 0,
+    "baseline_ty_install_ok_vuln": 0,
+    "recover_no_ty_install_error_tasks": 3,
+    "recover_no_ty_install_error_vuln_tasks": 1,
+    "recover_ty_tasks": 1,
+    "recover_ty_vuln_tasks": 0,
+    "recover_no_ty_install_error_rate": 0.05555555555555555,
+    "recover_no_ty_install_error_vuln_rate": 0.018518518518518517,
+    "recover_ty_rate": 0.018518518518518517,
+    "recover_ty_vuln_rate": 0.0,
+    "avg_generated_candidates_per_task": 2.3333333333333335,
+    "avg_tested_candidates_per_task": 2.1666666666666665,
+    "total_generated_candidates": 126,
+    "total_tested_candidates": 117
+  },
+  "progress": {
+    "enabled": true,
+    "resume": true,
+    "progress_file": "outputs/analysis/neighbor/models/_progress/d2_safe_ty_install_error_inline_d2_gpt-5.4_blind_inline_py312.progress.jsonl",
+    "baseline_tasks_total": 54,
+    "resumed_tasks": 54,
+    "loaded_from_output_tasks": 52,
+    "newly_finished_tasks": 0,
+    "task_results_count": 54
+  },
+  "task_results": [
+    {
+      "task_id": "stackexchange-60177653",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-59660933",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-64583840",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-61672860",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-61824128",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-61261907",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-60821540",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-62416529",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "succinctly"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-63739459",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-60076405",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-61785318",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tortoise"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-64496156",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tortoise"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-64144961",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "stl"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-64579723",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-60745576",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-63020932",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "cx-oracle"
+      ],
+      "candidate_generation_meta": {
+        "reason": "ok",
+        "focus_enabled": true,
+        "focused_pypi_names": [
+          "cx-oracle"
+        ],
+        "effective_neighbor_n": 10,
+        "max_searchable_libs": 12,
+        "searchable_libs_truncated": false,
+        "searchable_lib_count": 1,
+        "searchable_libs": [
+          {
+            "per_lib_index": 0,
+            "pypi_name": "cx-oracle",
+            "base_version": "8.3.0",
+            "ordered_versions_size": 34
+          }
+        ],
+        "generated_candidate_count": 10
+      },
+      "tested_candidate_count": 10,
+      "first_no_ty_install_error": {
+        "l1_distance": 4,
+        "changed_lib_count": 1,
+        "offset_vector": [
+          -4
+        ],
+        "per_lib_moves": [
+          {
+            "pypi_name": "cx-oracle",
+            "base_version": "8.3.0",
+            "candidate_version": "8.0.1",
+            "offset": -4,
+            "base_index": 33,
+            "candidate_index": 29
+          }
+        ],
+        "pkg_specs": [
+          "cx-oracle==8.0.1"
+        ],
+        "candidate_resolution": {
+          "status": "resolved",
+          "config_hash": "6efb4696e609b7fcee643e5966c38d11849b89b9be273ba1d9d2ca3c5e0facf5",
+          "lock_sha256": "8d006f2616b50a96dae30fd6abf4eaf41af23336a94702538702ef6d68b828dc",
+          "requirements_in": "cx-oracle==8.0.1\n"
+        },
+        "ty_compatible": false,
+        "ty_install_error": false,
+        "bcb_status": "",
+        "task_has_vuln": false,
+        "vuln_findings": [
+          {
+            "pypi_name": "cx-oracle",
+            "version": "8.0.1",
+            "is_vulnerable": false,
+            "osv_ids": [],
+            "cve_ids": [],
+            "max_severity": null,
+            "cvss_score": null
+          }
+        ]
+      },
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 10
+    },
+    {
+      "task_id": "stackexchange-65531387",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tortoise"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-68175929",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "pycuda"
+      ],
+      "candidate_generation_meta": {
+        "reason": "ok",
+        "focus_enabled": true,
+        "focused_pypi_names": [
+          "pycuda"
+        ],
+        "effective_neighbor_n": 10,
+        "max_searchable_libs": 12,
+        "searchable_libs_truncated": false,
+        "searchable_lib_count": 4,
+        "searchable_libs": [
+          {
+            "per_lib_index": 1,
+            "pypi_name": "pycuda",
+            "base_version": "2024.1",
+            "ordered_versions_size": 58
+          },
+          {
+            "per_lib_index": 2,
+            "pypi_name": "pycuda",
+            "base_version": "2024.1",
+            "ordered_versions_size": 58
+          },
+          {
+            "per_lib_index": 3,
+            "pypi_name": "pycuda",
+            "base_version": "2024.1",
+            "ordered_versions_size": 58
+          },
+          {
+            "per_lib_index": 4,
+            "pypi_name": "pycuda",
+            "base_version": "2024.1",
+            "ordered_versions_size": 58
+          }
+        ],
+        "generated_candidate_count": 30
+      },
+      "tested_candidate_count": 30,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 30
+    },
+    {
+      "task_id": "stackexchange-66874821",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-67771469",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "pycuda",
+        "tensorrt"
+      ],
+      "candidate_generation_meta": {
+        "reason": "ok",
+        "focus_enabled": true,
+        "focused_pypi_names": [
+          "pycuda",
+          "tensorrt"
+        ],
+        "effective_neighbor_n": 10,
+        "max_searchable_libs": 12,
+        "searchable_libs_truncated": false,
+        "searchable_lib_count": 3,
+        "searchable_libs": [
+          {
+            "per_lib_index": 1,
+            "pypi_name": "tensorrt",
+            "base_version": "8.6.1",
+            "ordered_versions_size": 42
+          },
+          {
+            "per_lib_index": 2,
+            "pypi_name": "pycuda",
+            "base_version": "2024.1",
+            "ordered_versions_size": 58
+          },
+          {
+            "per_lib_index": 3,
+            "pypi_name": "pycuda",
+            "base_version": "2024.1",
+            "ordered_versions_size": 58
+          }
+        ],
+        "generated_candidate_count": 40
+      },
+      "tested_candidate_count": 40,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 40
+    },
+    {
+      "task_id": "stackexchange-68061523",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-71970584",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "psycopg2"
+      ],
+      "candidate_generation_meta": {
+        "reason": "ok",
+        "focus_enabled": true,
+        "focused_pypi_names": [
+          "psycopg2"
+        ],
+        "effective_neighbor_n": 10,
+        "max_searchable_libs": 12,
+        "searchable_libs_truncated": false,
+        "searchable_lib_count": 1,
+        "searchable_libs": [
+          {
+            "per_lib_index": 3,
+            "pypi_name": "psycopg2",
+            "base_version": "2.9.9",
+            "ordered_versions_size": 57
+          }
+        ],
+        "generated_candidate_count": 12
+      },
+      "tested_candidate_count": 12,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 12
+    },
+    {
+      "task_id": "stackexchange-73652110",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "pyodbc"
+      ],
+      "candidate_generation_meta": {
+        "reason": "ok",
+        "focus_enabled": true,
+        "focused_pypi_names": [
+          "pyodbc"
+        ],
+        "effective_neighbor_n": 10,
+        "max_searchable_libs": 12,
+        "searchable_libs_truncated": false,
+        "searchable_lib_count": 1,
+        "searchable_libs": [
+          {
+            "per_lib_index": 0,
+            "pypi_name": "pyodbc",
+            "base_version": "4.0.39",
+            "ordered_versions_size": 62
+          }
+        ],
+        "generated_candidate_count": 19
+      },
+      "tested_candidate_count": 10,
+      "first_no_ty_install_error": {
+        "l1_distance": 5,
+        "changed_lib_count": 1,
+        "offset_vector": [
+          5
+        ],
+        "per_lib_moves": [
+          {
+            "pypi_name": "pyodbc",
+            "base_version": "4.0.39",
+            "candidate_version": "5.0.0",
+            "offset": 5,
+            "base_index": 52,
+            "candidate_index": 57
+          }
+        ],
+        "pkg_specs": [
+          "pyodbc==5.0.0"
+        ],
+        "candidate_resolution": {
+          "status": "resolved",
+          "config_hash": "6efb4696e609b7fcee643e5966c38d11849b89b9be273ba1d9d2ca3c5e0facf5",
+          "lock_sha256": "7d7f030ddcf25fd2ed91712e495f5331b5c0ce0e5bd8b18a4352cde99b434326",
+          "requirements_in": "pyodbc==5.0.0\n"
+        },
+        "ty_compatible": true,
+        "ty_install_error": false,
+        "bcb_status": "",
+        "task_has_vuln": false,
+        "vuln_findings": [
+          {
+            "pypi_name": "pyodbc",
+            "version": "5.0.0",
+            "is_vulnerable": false,
+            "osv_ids": [],
+            "cve_ids": [],
+            "max_severity": null,
+            "cvss_score": null
+          }
+        ]
+      },
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": {
+        "l1_distance": 5,
+        "changed_lib_count": 1,
+        "offset_vector": [
+          5
+        ],
+        "per_lib_moves": [
+          {
+            "pypi_name": "pyodbc",
+            "base_version": "4.0.39",
+            "candidate_version": "5.0.0",
+            "offset": 5,
+            "base_index": 52,
+            "candidate_index": 57
+          }
+        ],
+        "pkg_specs": [
+          "pyodbc==5.0.0"
+        ],
+        "candidate_resolution": {
+          "status": "resolved",
+          "config_hash": "6efb4696e609b7fcee643e5966c38d11849b89b9be273ba1d9d2ca3c5e0facf5",
+          "lock_sha256": "7d7f030ddcf25fd2ed91712e495f5331b5c0ce0e5bd8b18a4352cde99b434326",
+          "requirements_in": "pyodbc==5.0.0\n"
+        },
+        "ty_compatible": true,
+        "ty_install_error": false,
+        "bcb_status": "",
+        "task_has_vuln": false,
+        "vuln_findings": [
+          {
+            "pypi_name": "pyodbc",
+            "version": "5.0.0",
+            "is_vulnerable": false,
+            "osv_ids": [],
+            "cve_ids": [],
+            "max_severity": null,
+            "cvss_score": null
+          }
+        ]
+      },
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 19
+    },
+    {
+      "task_id": "stackexchange-74462726",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-70067291",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-77659031",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "smb"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-78296418",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-78249294",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-76542167",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "pymongo"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-74289097",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "mysql-connector-repackaged"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-79668683",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "protobuf"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-69357401",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "rest-framework-simplejwt"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-74710865",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "solverecaptcha"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-66544000",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-67678048",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-68733431",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "pyyaml"
+      ],
+      "candidate_generation_meta": {
+        "reason": "ok",
+        "focus_enabled": true,
+        "focused_pypi_names": [
+          "pyyaml"
+        ],
+        "effective_neighbor_n": 10,
+        "max_searchable_libs": 12,
+        "searchable_libs_truncated": false,
+        "searchable_lib_count": 1,
+        "searchable_libs": [
+          {
+            "per_lib_index": 0,
+            "pypi_name": "pyyaml",
+            "base_version": "5.4.1",
+            "ordered_versions_size": 30
+          }
+        ],
+        "generated_candidate_count": 15
+      },
+      "tested_candidate_count": 15,
+      "first_no_ty_install_error": {
+        "l1_distance": 3,
+        "changed_lib_count": 1,
+        "offset_vector": [
+          3
+        ],
+        "per_lib_moves": [
+          {
+            "pypi_name": "pyyaml",
+            "base_version": "5.4.1",
+            "candidate_version": "6.0.1",
+            "offset": 3,
+            "base_index": 24,
+            "candidate_index": 27
+          }
+        ],
+        "pkg_specs": [
+          "pyyaml==6.0.1"
+        ],
+        "candidate_resolution": {
+          "status": "resolved",
+          "config_hash": "6efb4696e609b7fcee643e5966c38d11849b89b9be273ba1d9d2ca3c5e0facf5",
+          "lock_sha256": "f230e138d9eeed8fe8e6fa24bfa0cb5d812f193c710b9044efc69481467e4907",
+          "requirements_in": "pyyaml==6.0.1\n"
+        },
+        "ty_compatible": false,
+        "ty_install_error": false,
+        "bcb_status": "",
+        "task_has_vuln": false,
+        "vuln_findings": [
+          {
+            "pypi_name": "pyyaml",
+            "version": "6.0.1",
+            "is_vulnerable": false,
+            "osv_ids": [],
+            "cve_ids": [],
+            "max_severity": null,
+            "cvss_score": null
+          }
+        ]
+      },
+      "first_no_ty_install_error_vulnerable": {
+        "l1_distance": 4,
+        "changed_lib_count": 1,
+        "offset_vector": [
+          -4
+        ],
+        "per_lib_moves": [
+          {
+            "pypi_name": "pyyaml",
+            "base_version": "5.4.1",
+            "candidate_version": "5.3.1",
+            "offset": -4,
+            "base_index": 24,
+            "candidate_index": 20
+          }
+        ],
+        "pkg_specs": [
+          "pyyaml==5.3.1"
+        ],
+        "candidate_resolution": {
+          "status": "resolved",
+          "config_hash": "6efb4696e609b7fcee643e5966c38d11849b89b9be273ba1d9d2ca3c5e0facf5",
+          "lock_sha256": "63b12d216fce1debebc901d4f2a15f8d60b31281d585ce26b5ae7e54f8abeed5",
+          "requirements_in": "pyyaml==5.3.1\n"
+        },
+        "ty_compatible": false,
+        "ty_install_error": false,
+        "bcb_status": "",
+        "task_has_vuln": true,
+        "vuln_findings": [
+          {
+            "pypi_name": "pyyaml",
+            "version": "5.3.1",
+            "is_vulnerable": true,
+            "osv_ids": [
+              "CVE-2020-14343"
+            ],
+            "cve_ids": [
+              "CVE-2020-14343"
+            ],
+            "max_severity": null,
+            "cvss_score": null
+          }
+        ]
+      },
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 15
+    },
+    {
+      "task_id": "stackexchange-71065263",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "pymongo"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-70110519",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "pywt"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-68898181",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "azure-storage"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-68152818",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-79228918",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "azure-storage"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-71667965",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-71032276",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "torch"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-72526031",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "tensorflow"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-76805604",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "protobuf"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-79140378",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "strawberry"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-78471617",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "win32cred"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-79286711",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "azure-storage"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-78712085",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "smbclient"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-75810796",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "imagecodecs"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-79341200",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "azure-storage"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-78482316",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "win32crypt"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-75872125",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "speechmatics"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    },
+    {
+      "task_id": "stackexchange-74134195",
+      "baseline_type": "safe_ty_install_error",
+      "failed_tpl_from_ty_install_error": [
+        "opencv-python"
+      ],
+      "candidate_generation_meta": {
+        "reason": "no_searchable_libs",
+        "searchable_lib_count": 0,
+        "searchable_libs": []
+      },
+      "tested_candidate_count": 0,
+      "first_no_ty_install_error": null,
+      "first_no_ty_install_error_vulnerable": null,
+      "first_ty_compatible": null,
+      "first_ty_compatible_vulnerable": null,
+      "first_bcb_pass": null,
+      "first_bcb_pass_vulnerable": null,
+      "candidates_tested": [],
+      "generated_candidates": 0
+    }
+  ],
+  "args": {
+    "dataset": "d2",
+    "outputs_d1": "outputs/d1",
+    "outputs_d2": "outputs/tosem_revision_20260811_1f1644e/main_py312/d2",
+    "canonical_root": "outputs/evaluation",
+    "analysis_output_root": "outputs/analysis/neighbor/models",
+    "origin": "model_exact",
+    "modes": null,
+    "python_version": "3.12",
+    "target_mode": "inline",
+    "target_run_name": null,
+    "select_by": "safe_ty_incompat",
+    "baseline": "safe_ty_install_error",
+    "neighbor_n": 3,
+    "max_candidates_k": 40,
+    "max_searchable_libs": 12,
+    "stop_policy": "first_pass",
+    "focused_neighbor_n": 10,
+    "max_tasks": 0,
+    "reference_date": "2026-02-01T00:00:00+00:00",
+    "python_platform": "x86_64-unknown-linux-gnu",
+    "uv_bin": "uv",
+    "resolver_timeout": 600,
+    "bcb_timeout": 180,
+    "uv_install_timeout": 600,
+    "parallel": 6,
+    "parallel_models": 2,
+    "output_json": null,
+    "progress_dir": null,
+    "notify_experiment_name": null,
+    "specified_only": true,
+    "focus_install_failed_tpl": true,
+    "notify": false,
+    "store_candidates": false,
+    "all_models": true,
+    "resume": true
+  }
+}

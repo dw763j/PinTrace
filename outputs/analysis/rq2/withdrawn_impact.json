@@ -1,0 +1,1490 @@
+{
+  "scope": "withdrawal-only sensitivity; original version-join untouched; not a fully corrected release",
+  "snapshot": {
+    "records": 18315,
+    "withdrawn": 397,
+    "withdrawn_min": "2019-07-03T16:48:55Z",
+    "withdrawn_max": "2026-02-18T22:38:48Z"
+  },
+  "funnel": {
+    "inline:exact": {
+      "N": 8490,
+      "P": 6389,
+      "V_before": 3567,
+      "V_after": 3353,
+      "lost_observations": 214,
+      "population_before_pct": 42.014134275618375,
+      "population_after_pct": 39.49352179034158,
+      "conditional_before_pct": 55.830333385506336,
+      "conditional_after_pct": 52.48082642041008
+    },
+    "inline:range": {
+      "N": 8490,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0,
+      "population_before_pct": 0.0,
+      "population_after_pct": 0.0,
+      "conditional_before_pct": null,
+      "conditional_after_pct": null
+    },
+    "requirements.txt:exact": {
+      "N": 8490,
+      "P": 1207,
+      "V_before": 846,
+      "V_after": 803,
+      "lost_observations": 43,
+      "population_before_pct": 9.964664310954063,
+      "population_after_pct": 9.458186101295642,
+      "conditional_before_pct": 70.09113504556753,
+      "conditional_after_pct": 66.52858326429163
+    },
+    "requirements.txt:range": {
+      "N": 8490,
+      "P": 2187,
+      "V_before": 724,
+      "V_after": 643,
+      "lost_observations": 81,
+      "population_before_pct": 8.527679623085984,
+      "population_after_pct": 7.5736160188457005,
+      "conditional_before_pct": 33.10470964791953,
+      "conditional_after_pct": 29.40100594421582
+    }
+  },
+  "per_model": [
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "DeepSeek-V3.2",
+      "N": 849,
+      "P": 697,
+      "V_before": 379,
+      "V_after": 356,
+      "lost_observations": 23
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "MiniMax-M2.5",
+      "N": 849,
+      "P": 682,
+      "V_before": 401,
+      "V_after": 386,
+      "lost_observations": 15
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "N": 849,
+      "P": 624,
+      "V_before": 348,
+      "V_after": 325,
+      "lost_observations": 23
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "N": 849,
+      "P": 326,
+      "V_before": 162,
+      "V_after": 154,
+      "lost_observations": 8
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "Qwen3.5-397B-A17B",
+      "N": 849,
+      "P": 710,
+      "V_before": 415,
+      "V_after": 385,
+      "lost_observations": 30
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "claude-sonnet-4-6",
+      "N": 849,
+      "P": 719,
+      "V_before": 400,
+      "V_after": 373,
+      "lost_observations": 27
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "gemini-3.1-pro-preview",
+      "N": 849,
+      "P": 718,
+      "V_before": 414,
+      "V_after": 393,
+      "lost_observations": 21
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "gpt-5.4",
+      "N": 849,
+      "P": 667,
+      "V_before": 342,
+      "V_after": 316,
+      "lost_observations": 26
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "kimi-k2.5",
+      "N": 849,
+      "P": 683,
+      "V_before": 376,
+      "V_after": 345,
+      "lost_observations": 31
+    },
+    {
+      "mode": "inline",
+      "kind": "exact",
+      "model": "meta-llama/llama-4-scout",
+      "N": 849,
+      "P": 563,
+      "V_before": 330,
+      "V_after": 320,
+      "lost_observations": 10
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "DeepSeek-V3.2",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "MiniMax-M2.5",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "Qwen3.5-397B-A17B",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "claude-sonnet-4-6",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "gemini-3.1-pro-preview",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "gpt-5.4",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "kimi-k2.5",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "inline",
+      "kind": "range",
+      "model": "meta-llama/llama-4-scout",
+      "N": 849,
+      "P": 0,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "DeepSeek-V3.2",
+      "N": 849,
+      "P": 282,
+      "V_before": 183,
+      "V_after": 168,
+      "lost_observations": 15
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "MiniMax-M2.5",
+      "N": 849,
+      "P": 18,
+      "V_before": 11,
+      "V_after": 11,
+      "lost_observations": 0
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "N": 849,
+      "P": 189,
+      "V_before": 136,
+      "V_after": 124,
+      "lost_observations": 12
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "N": 849,
+      "P": 374,
+      "V_before": 269,
+      "V_after": 258,
+      "lost_observations": 11
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "Qwen3.5-397B-A17B",
+      "N": 849,
+      "P": 116,
+      "V_before": 88,
+      "V_after": 86,
+      "lost_observations": 2
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "claude-sonnet-4-6",
+      "N": 849,
+      "P": 74,
+      "V_before": 49,
+      "V_after": 48,
+      "lost_observations": 1
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "gemini-3.1-pro-preview",
+      "N": 849,
+      "P": 20,
+      "V_before": 14,
+      "V_after": 14,
+      "lost_observations": 0
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "gpt-5.4",
+      "N": 849,
+      "P": 2,
+      "V_before": 1,
+      "V_after": 1,
+      "lost_observations": 0
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "kimi-k2.5",
+      "N": 849,
+      "P": 73,
+      "V_before": 53,
+      "V_after": 52,
+      "lost_observations": 1
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "exact",
+      "model": "meta-llama/llama-4-scout",
+      "N": 849,
+      "P": 59,
+      "V_before": 42,
+      "V_after": 41,
+      "lost_observations": 1
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "DeepSeek-V3.2",
+      "N": 849,
+      "P": 342,
+      "V_before": 99,
+      "V_after": 89,
+      "lost_observations": 10
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "MiniMax-M2.5",
+      "N": 849,
+      "P": 189,
+      "V_before": 82,
+      "V_after": 74,
+      "lost_observations": 8
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "N": 849,
+      "P": 344,
+      "V_before": 94,
+      "V_after": 87,
+      "lost_observations": 7
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "N": 849,
+      "P": 244,
+      "V_before": 44,
+      "V_after": 38,
+      "lost_observations": 6
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "Qwen3.5-397B-A17B",
+      "N": 849,
+      "P": 297,
+      "V_before": 113,
+      "V_after": 96,
+      "lost_observations": 17
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "claude-sonnet-4-6",
+      "N": 849,
+      "P": 76,
+      "V_before": 44,
+      "V_after": 42,
+      "lost_observations": 2
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "gemini-3.1-pro-preview",
+      "N": 849,
+      "P": 52,
+      "V_before": 31,
+      "V_after": 30,
+      "lost_observations": 1
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "gpt-5.4",
+      "N": 849,
+      "P": 48,
+      "V_before": 29,
+      "V_after": 29,
+      "lost_observations": 0
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "kimi-k2.5",
+      "N": 849,
+      "P": 594,
+      "V_before": 188,
+      "V_after": 158,
+      "lost_observations": 30
+    },
+    {
+      "mode": "requirements.txt",
+      "kind": "range",
+      "model": "meta-llama/llama-4-scout",
+      "N": 849,
+      "P": 1,
+      "V_before": 0,
+      "V_after": 0,
+      "lost_observations": 0
+    }
+  ],
+  "direct_occurrences": {
+    "inline:exact": {
+      "before": 5985,
+      "after": 5301,
+      "changed_cve_set": 14
+    },
+    "requirements.txt:exact": {
+      "before": 1169,
+      "after": 1091,
+      "changed_cve_set": 1
+    },
+    "requirements.txt:range": {
+      "before": 809,
+      "after": 683,
+      "changed_cve_set": 2
+    }
+  },
+  "removed_raw_findings_by_package": {
+    "inline:exact:selenium": 123,
+    "inline:exact:flask-caching": 20,
+    "inline:exact:dask": 67,
+    "inline:exact:django-cms": 10,
+    "inline:exact:wandb": 12,
+    "inline:exact:redis": 17,
+    "inline:exact:capstone": 9,
+    "inline:exact:zope2": 1,
+    "inline:exact:langchain": 3,
+    "inline:exact:blosc2": 1,
+    "requirements.txt:range:selenium": 46,
+    "requirements.txt:exact:selenium": 43,
+    "requirements.txt:range:aiohttp": 13,
+    "requirements.txt:exact:dask": 4,
+    "requirements.txt:range:flask-caching": 9,
+    "requirements.txt:range:zope2": 2,
+    "requirements.txt:exact:redis": 13,
+    "requirements.txt:range:redis": 20,
+    "requirements.txt:range:django-cms": 16,
+    "requirements.txt:range:future": 1,
+    "requirements.txt:exact:flask-caching": 13,
+    "requirements.txt:range:jupyterhub": 5,
+    "requirements.txt:range:langchain": 7,
+    "requirements.txt:range:zope": 3,
+    "requirements.txt:range:ansible": 2,
+    "requirements.txt:exact:django-cms": 4,
+    "requirements.txt:exact:capstone": 1,
+    "requirements.txt:range:blosc2": 1,
+    "requirements.txt:range:capstone": 1
+  },
+  "removed_stored_advisory_ids": {
+    "PYSEC-2023-101": 590,
+    "PYSEC-2021-13": 42,
+    "GHSA-xqgj-r6xv-9cw4": 90,
+    "PYSEC-2024-124": 48,
+    "CVE-2024-4642": 12,
+    "PYSEC-2022-43162": 50,
+    "PYSEC-2023-312": 31,
+    "PYSEC-2023-73": 50,
+    "PYSEC-2019-242": 11,
+    "PYSEC-2006-7": 4,
+    "PYSEC-2006-8": 4,
+    "PYSEC-2024-111": 15,
+    "PYSEC-2024-114": 7,
+    "PYSEC-2020-343": 2,
+    "PYSEC-2022-43059": 13,
+    "CVE-2025-50817": 1,
+    "PYSEC-2018-151": 5,
+    "PYSEC-2017-148": 3,
+    "PYSEC-2020-221": 2,
+    "PYSEC-2021-125": 2
+  },
+  "va_severity_before": {
+    "MEDIUM": 1767,
+    "HIGH": 2192,
+    "LOW": 245,
+    "UNKNOWN": 878,
+    "CRITICAL": 895,
+    "NONE": 8
+  },
+  "va_severity_after": {
+    "MEDIUM": 1767,
+    "HIGH": 2193,
+    "LOW": 245,
+    "UNKNOWN": 194,
+    "CRITICAL": 894,
+    "NONE": 8
+  },
+  "va_severity_after_by_model": {
+    "DeepSeek-V3.2": {
+      "MEDIUM": 175,
+      "HIGH": 232,
+      "LOW": 21,
+      "UNKNOWN": 15,
+      "CRITICAL": 74,
+      "NONE": 1
+    },
+    "MiniMax-M2.5": {
+      "HIGH": 297,
+      "MEDIUM": 205,
+      "CRITICAL": 167,
+      "LOW": 27,
+      "UNKNOWN": 23
+    },
+    "Qwen3-235B-A22B-Instruct-2507": {
+      "MEDIUM": 163,
+      "HIGH": 156,
+      "CRITICAL": 70,
+      "LOW": 17,
+      "UNKNOWN": 17,
+      "NONE": 1
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "MEDIUM": 49,
+      "HIGH": 93,
+      "UNKNOWN": 12,
+      "CRITICAL": 32,
+      "LOW": 1,
+      "NONE": 1
+    },
+    "Qwen3.5-397B-A17B": {
+      "HIGH": 247,
+      "MEDIUM": 205,
+      "LOW": 32,
+      "CRITICAL": 58,
+      "NONE": 1,
+      "UNKNOWN": 27
+    },
+    "claude-sonnet-4-6": {
+      "HIGH": 242,
+      "MEDIUM": 201,
+      "LOW": 46,
+      "CRITICAL": 81,
+      "UNKNOWN": 16
+    },
+    "gemini-3.1-pro-preview": {
+      "MEDIUM": 200,
+      "LOW": 42,
+      "HIGH": 269,
+      "CRITICAL": 69,
+      "UNKNOWN": 16,
+      "NONE": 1
+    },
+    "gpt-5.4": {
+      "MEDIUM": 161,
+      "HIGH": 176,
+      "LOW": 31,
+      "CRITICAL": 162,
+      "UNKNOWN": 12
+    },
+    "kimi-k2.5": {
+      "MEDIUM": 234,
+      "HIGH": 265,
+      "LOW": 28,
+      "CRITICAL": 104,
+      "NONE": 3,
+      "UNKNOWN": 16
+    },
+    "meta-llama/llama-4-scout": {
+      "HIGH": 216,
+      "MEDIUM": 174,
+      "CRITICAL": 77,
+      "UNKNOWN": 40
+    }
+  },
+  "va_leading_pairs_before": [
+    {
+      "package": "requests",
+      "version": "2.31.0",
+      "n": 409
+    },
+    {
+      "package": "djangorestframework",
+      "version": "3.14.0",
+      "n": 213
+    },
+    {
+      "package": "selenium",
+      "version": "4.15.2",
+      "n": 170
+    },
+    {
+      "package": "selenium",
+      "version": "4.15.0",
+      "n": 138
+    },
+    {
+      "package": "django",
+      "version": "5.0.6",
+      "n": 106
+    }
+  ],
+  "va_leading_pairs_after": [
+    {
+      "package": "requests",
+      "version": "2.31.0",
+      "n": 409
+    },
+    {
+      "package": "djangorestframework",
+      "version": "3.14.0",
+      "n": 213
+    },
+    {
+      "package": "django",
+      "version": "5.0.6",
+      "n": 106
+    },
+    {
+      "package": "pillow",
+      "version": "10.0.0",
+      "n": 94
+    },
+    {
+      "package": "requests",
+      "version": "2.28.1",
+      "n": 92
+    }
+  ],
+  "va_stored_osv_ids_per_model": {
+    "DeepSeek-V3.2": {
+      "before": 496,
+      "after": 462,
+      "removed": [
+        "CVE-2024-4642",
+        "CVE-2024-57000",
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-4vmg-rw8f-92f9",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-93gm-qmq6-w238",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-gjxm-x497-4h6h",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2006-7",
+        "PYSEC-2006-8",
+        "PYSEC-2017-148",
+        "PYSEC-2018-151",
+        "PYSEC-2019-242",
+        "PYSEC-2021-13",
+        "PYSEC-2021-367",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    },
+    "MiniMax-M2.5": {
+      "before": 565,
+      "after": 535,
+      "removed": [
+        "CVE-2024-39236",
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3qj8-93xh-pwh2",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-4vmg-rw8f-92f9",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-93gm-qmq6-w238",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-gjxm-x497-4h6h",
+        "GHSA-h4pw-wxh7-4vjj",
+        "GHSA-qj8w-rv5x-2v9h",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2019-242",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114"
+      ]
+    },
+    "Qwen3-235B-A22B-Instruct-2507": {
+      "before": 500,
+      "after": 471,
+      "removed": [
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-9jx5-6pgf-crrp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-gjxm-x497-4h6h",
+        "GHSA-h4pw-wxh7-4vjj",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2018-151",
+        "PYSEC-2019-242",
+        "PYSEC-2019-70",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "before": 337,
+      "after": 317,
+      "removed": [
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-9jx5-6pgf-crrp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    },
+    "Qwen3.5-397B-A17B": {
+      "before": 415,
+      "after": 386,
+      "removed": [
+        "CVE-2024-4642",
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-4vmg-rw8f-92f9",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-93gm-qmq6-w238",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-9jx5-6pgf-crrp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-h4pw-wxh7-4vjj",
+        "GHSA-jrfm-2h82-xg28",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2018-151",
+        "PYSEC-2019-242",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    },
+    "claude-sonnet-4-6": {
+      "before": 405,
+      "after": 378,
+      "removed": [
+        "CVE-2024-4642",
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-4vmg-rw8f-92f9",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-h4pw-wxh7-4vjj",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2019-242",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    },
+    "gemini-3.1-pro-preview": {
+      "before": 479,
+      "after": 452,
+      "removed": [
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-93gm-qmq6-w238",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-9jx5-6pgf-crrp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-h4pw-wxh7-4vjj",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2019-242",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    },
+    "gpt-5.4": {
+      "before": 286,
+      "after": 270,
+      "removed": [
+        "CVE-2024-4642",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-4vmg-rw8f-92f9",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-h4pw-wxh7-4vjj",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2017-148",
+        "PYSEC-2019-242",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114"
+      ]
+    },
+    "kimi-k2.5": {
+      "before": 462,
+      "after": 433,
+      "removed": [
+        "CVE-2024-4642",
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-93gm-qmq6-w238",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-h4pw-wxh7-4vjj",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2018-151",
+        "PYSEC-2019-242",
+        "PYSEC-2020-343",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    },
+    "meta-llama/llama-4-scout": {
+      "before": 442,
+      "after": 411,
+      "removed": [
+        "CVE-2024-4642",
+        "GHSA-28jp-44vh-q42h",
+        "GHSA-3pwp-2fqj-6g2p",
+        "GHSA-3x9g-xfj5-fq84",
+        "GHSA-4q82-j5c2-g2c5",
+        "GHSA-5478-v2w6-c6q7",
+        "GHSA-56pw-mpj4-fxww",
+        "GHSA-62qf-jcq8-8gxw",
+        "GHSA-7c9g-vj9m-8pm6",
+        "GHSA-93gm-qmq6-w238",
+        "GHSA-9g7v-8wxv-mwxp",
+        "GHSA-9jx5-6pgf-crrp",
+        "GHSA-cg34-w3fm-82h3",
+        "GHSA-cr6f-gf5w-vhrc",
+        "GHSA-gjxm-x497-4h6h",
+        "GHSA-jrfm-2h82-xg28",
+        "GHSA-rmqv-7v3j-mr7p",
+        "GHSA-rwqr-c348-m5wr",
+        "GHSA-xcgp-r7r8-2hc9",
+        "GHSA-xqgj-r6xv-9cw4",
+        "PYSEC-2018-151",
+        "PYSEC-2019-242",
+        "PYSEC-2021-13",
+        "PYSEC-2022-43059",
+        "PYSEC-2022-43162",
+        "PYSEC-2023-101",
+        "PYSEC-2023-312",
+        "PYSEC-2023-73",
+        "PYSEC-2024-111",
+        "PYSEC-2024-114",
+        "PYSEC-2024-124"
+      ]
+    }
+  },
+  "va_unique_advisories_per_model": {
+    "DeepSeek-V3.2": {
+      "before": 623,
+      "after": 589
+    },
+    "MiniMax-M2.5": {
+      "before": 755,
+      "after": 725
+    },
+    "Qwen3-235B-A22B-Instruct-2507": {
+      "before": 641,
+      "after": 612
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "before": 399,
+      "after": 379
+    },
+    "Qwen3.5-397B-A17B": {
+      "before": 490,
+      "after": 461
+    },
+    "claude-sonnet-4-6": {
+      "before": 500,
+      "after": 473
+    },
+    "gemini-3.1-pro-preview": {
+      "before": 617,
+      "after": 590
+    },
+    "gpt-5.4": {
+      "before": 360,
+      "after": 344
+    },
+    "kimi-k2.5": {
+      "before": 577,
+      "after": 548
+    },
+    "meta-llama/llama-4-scout": {
+      "before": 538,
+      "after": 507
+    }
+  },
+  "disclosure_after_offset0": {
+    "DeepSeek-V3.2": {
+      "unique": 589,
+      "pre_cutoff": 412,
+      "rate": 0.6994906621392191
+    },
+    "MiniMax-M2.5": {
+      "unique": 725,
+      "pre_cutoff": 365,
+      "rate": 0.503448275862069
+    },
+    "Qwen3-235B-A22B-Instruct-2507": {
+      "unique": 612,
+      "pre_cutoff": 395,
+      "rate": 0.6454248366013072
+    },
+    "Qwen3-30B-A3B-Instruct-2507": {
+      "unique": 379,
+      "pre_cutoff": 200,
+      "rate": 0.5277044854881267
+    },
+    "Qwen3.5-397B-A17B": {
+      "unique": 461,
+      "pre_cutoff": 399,
+      "rate": 0.8655097613882863
+    },
+    "claude-sonnet-4-6": {
+      "unique": 473,
+      "pre_cutoff": 327,
+      "rate": 0.6913319238900634
+    },
+    "gemini-3.1-pro-preview": {
+      "unique": 590,
+      "pre_cutoff": 380,
+      "rate": 0.6440677966101694
+    },
+    "gpt-5.4": {
+      "unique": 344,
+      "pre_cutoff": 226,
+      "rate": 0.6569767441860465
+    },
+    "kimi-k2.5": {
+      "unique": 548,
+      "pre_cutoff": 144,
+      "rate": 0.26277372262773724
+    },
+    "meta-llama/llama-4-scout": {
+      "unique": 507,
+      "pre_cutoff": 327,
+      "rate": 0.6449704142011834
+    }
+  },
+  "disclosure_after_rows": [
+    {
+      "model": "DeepSeek-V3.2",
+      "offset_months": -6,
+      "pre_cutoff": 320,
+      "pre_cutoff_rate": 0.5432937181663837,
+      "source": "self_reported",
+      "unique_advisories": 589
+    },
+    {
+      "model": "DeepSeek-V3.2",
+      "offset_months": -3,
+      "pre_cutoff": 350,
+      "pre_cutoff_rate": 0.5942275042444821,
+      "source": "self_reported",
+      "unique_advisories": 589
+    },
+    {
+      "model": "DeepSeek-V3.2",
+      "offset_months": 0,
+      "pre_cutoff": 412,
+      "pre_cutoff_rate": 0.6994906621392191,
+      "source": "self_reported",
+      "unique_advisories": 589
+    },
+    {
+      "model": "DeepSeek-V3.2",
+      "offset_months": 3,
+      "pre_cutoff": 448,
+      "pre_cutoff_rate": 0.7606112054329371,
+      "source": "self_reported",
+      "unique_advisories": 589
+    },
+    {
+      "model": "DeepSeek-V3.2",
+      "offset_months": 6,
+      "pre_cutoff": 491,
+      "pre_cutoff_rate": 0.833616298811545,
+      "source": "self_reported",
+      "unique_advisories": 589
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "offset_months": -6,
+      "pre_cutoff": 234,
+      "pre_cutoff_rate": 0.32275862068965516,
+      "source": "self_reported",
+      "unique_advisories": 725
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "offset_months": -3,
+      "pre_cutoff": 314,
+      "pre_cutoff_rate": 0.43310344827586206,
+      "source": "self_reported",
+      "unique_advisories": 725
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "offset_months": 0,
+      "pre_cutoff": 365,
+      "pre_cutoff_rate": 0.503448275862069,
+      "source": "self_reported",
+      "unique_advisories": 725
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "offset_months": 3,
+      "pre_cutoff": 450,
+      "pre_cutoff_rate": 0.6206896551724138,
+      "source": "self_reported",
+      "unique_advisories": 725
+    },
+    {
+      "model": "MiniMax-M2.5",
+      "offset_months": 6,
+      "pre_cutoff": 499,
+      "pre_cutoff_rate": 0.6882758620689655,
+      "source": "self_reported",
+      "unique_advisories": 725
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "offset_months": -6,
+      "pre_cutoff": 265,
+      "pre_cutoff_rate": 0.43300653594771243,
+      "source": "self_reported",
+      "unique_advisories": 612
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "offset_months": -3,
+      "pre_cutoff": 348,
+      "pre_cutoff_rate": 0.5686274509803921,
+      "source": "self_reported",
+      "unique_advisories": 612
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "offset_months": 0,
+      "pre_cutoff": 395,
+      "pre_cutoff_rate": 0.6454248366013072,
+      "source": "self_reported",
+      "unique_advisories": 612
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "offset_months": 3,
+      "pre_cutoff": 410,
+      "pre_cutoff_rate": 0.6699346405228758,
+      "source": "self_reported",
+      "unique_advisories": 612
+    },
+    {
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "offset_months": 6,
+      "pre_cutoff": 464,
+      "pre_cutoff_rate": 0.7581699346405228,
+      "source": "self_reported",
+      "unique_advisories": 612
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "offset_months": -6,
+      "pre_cutoff": 102,
+      "pre_cutoff_rate": 0.2691292875989446,
+      "source": "self_reported",
+      "unique_advisories": 379
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "offset_months": -3,
+      "pre_cutoff": 170,
+      "pre_cutoff_rate": 0.44854881266490765,
+      "source": "self_reported",
+      "unique_advisories": 379
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "offset_months": 0,
+      "pre_cutoff": 200,
+      "pre_cutoff_rate": 0.5277044854881267,
+      "source": "self_reported",
+      "unique_advisories": 379
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "offset_months": 3,
+      "pre_cutoff": 211,
+      "pre_cutoff_rate": 0.5567282321899736,
+      "source": "self_reported",
+      "unique_advisories": 379
+    },
+    {
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "offset_months": 6,
+      "pre_cutoff": 254,
+      "pre_cutoff_rate": 0.6701846965699209,
+      "source": "self_reported",
+      "unique_advisories": 379
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "offset_months": -6,
+      "pre_cutoff": 338,
+      "pre_cutoff_rate": 0.7331887201735358,
+      "source": "self_reported",
+      "unique_advisories": 461
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "offset_months": -3,
+      "pre_cutoff": 362,
+      "pre_cutoff_rate": 0.7852494577006508,
+      "source": "self_reported",
+      "unique_advisories": 461
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "offset_months": 0,
+      "pre_cutoff": 399,
+      "pre_cutoff_rate": 0.8655097613882863,
+      "source": "self_reported",
+      "unique_advisories": 461
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "offset_months": 3,
+      "pre_cutoff": 461,
+      "pre_cutoff_rate": 1.0,
+      "source": "self_reported",
+      "unique_advisories": 461
+    },
+    {
+      "model": "Qwen3.5-397B-A17B",
+      "offset_months": 6,
+      "pre_cutoff": 461,
+      "pre_cutoff_rate": 1.0,
+      "source": "self_reported",
+      "unique_advisories": 461
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "offset_months": 0,
+      "pre_cutoff": 327,
+      "pre_cutoff_rate": 0.6913319238900634,
+      "source": "official",
+      "unique_advisories": 473
+    },
+    {
+      "model": "gemini-3.1-pro-preview",
+      "offset_months": 0,
+      "pre_cutoff": 380,
+      "pre_cutoff_rate": 0.6440677966101694,
+      "source": "official",
+      "unique_advisories": 590
+    },
+    {
+      "model": "gpt-5.4",
+      "offset_months": 0,
+      "pre_cutoff": 226,
+      "pre_cutoff_rate": 0.6569767441860465,
+      "source": "official",
+      "unique_advisories": 344
+    },
+    {
+      "model": "kimi-k2.5",
+      "offset_months": -6,
+      "pre_cutoff": 33,
+      "pre_cutoff_rate": 0.060218978102189784,
+      "source": "self_reported",
+      "unique_advisories": 548
+    },
+    {
+      "model": "kimi-k2.5",
+      "offset_months": -3,
+      "pre_cutoff": 97,
+      "pre_cutoff_rate": 0.177007299270073,
+      "source": "self_reported",
+      "unique_advisories": 548
+    },
+    {
+      "model": "kimi-k2.5",
+      "offset_months": 0,
+      "pre_cutoff": 144,
+      "pre_cutoff_rate": 0.26277372262773724,
+      "source": "self_reported",
+      "unique_advisories": 548
+    },
+    {
+      "model": "kimi-k2.5",
+      "offset_months": 3,
+      "pre_cutoff": 240,
+      "pre_cutoff_rate": 0.43795620437956206,
+      "source": "self_reported",
+      "unique_advisories": 548
+    },
+    {
+      "model": "kimi-k2.5",
+      "offset_months": 6,
+      "pre_cutoff": 284,
+      "pre_cutoff_rate": 0.5182481751824818,
+      "source": "self_reported",
+      "unique_advisories": 548
+    },
+    {
+      "model": "meta-llama/llama-4-scout",
+      "offset_months": 0,
+      "pre_cutoff": 327,
+      "pre_cutoff_rate": 0.6449704142011834,
+      "source": "official",
+      "unique_advisories": 507
+    }
+  ],
+  "assertion_counts": {
+    "raw_findings_changed_cve_set": 17
+  },
+  "retained_changed_cve_examples": [
+    {
+      "category": [
+        "inline",
+        "exact"
+      ],
+      "model": "DeepSeek-V3.2",
+      "task_id": "stackexchange-59609108",
+      "pair": [
+        "ray",
+        "2.31.0"
+      ],
+      "stored_severity": "CRITICAL",
+      "removed_cves": [
+        "CVE-2024-57000"
+      ],
+      "retained_cves": [
+        "CVE-2023-48022",
+        "CVE-2025-1979",
+        "CVE-2025-34351",
+        "CVE-2025-62593",
+        "CVE-2026-27482"
+      ]
+    },
+    {
+      "category": [
+        "inline",
+        "exact"
+      ],
+      "model": "MiniMax-M2.5",
+      "task_id": "stackexchange-77376190",
+      "pair": [
+        "gradio",
+        "4.36.1"
+      ],
+      "stored_severity": "CRITICAL",
+      "removed_cves": [
+        "CVE-2024-39236"
+      ],
+      "retained_cves": [
+        "CVE-2024-10569",
+        "CVE-2024-10648",
+        "CVE-2024-12217",
+        "CVE-2024-47084",
+        "CVE-2024-47164",
+        "CVE-2024-47165",
+        "CVE-2024-47166",
+        "CVE-2024-47167",
+        "CVE-2024-47168",
+        "CVE-2024-47867",
+        "CVE-2024-47868",
+        "CVE-2024-47869",
+        "CVE-2024-47870",
+        "CVE-2024-47871",
+        "CVE-2024-47872",
+        "CVE-2024-48052",
+        "CVE-2024-4940",
+        "CVE-2024-8021",
+        "CVE-2024-8966",
+        "CVE-2025-23042",
+        "CVE-2025-48889"
+      ]
+    },
+    {
+      "category": [
+        "requirements.txt",
+        "range"
+      ],
+      "model": "Qwen3-235B-A22B-Instruct-2507",
+      "task_id": "stackexchange-60720572",
+      "pair": [
+        "mindsdb",
+        "25.14.1"
+      ],
+      "stored_severity": "HIGH",
+      "removed_cves": [
+        "CVE-2023-49796"
+      ],
+      "retained_cves": [
+        "CVE-2024-45852",
+        "CVE-2024-45853",
+        "CVE-2024-45854",
+        "CVE-2024-45855",
+        "CVE-2026-2531"
+      ]
+    },
+    {
+      "category": [
+        "requirements.txt",
+        "exact"
+      ],
+      "model": "Qwen3-30B-A3B-Instruct-2507",
+      "task_id": "stackexchange-59609108",
+      "pair": [
+        "ray",
+        "2.35.0"
+      ],
+      "stored_severity": "CRITICAL",
+      "removed_cves": [
+        "CVE-2024-57000"
+      ],
+      "retained_cves": [
+        "CVE-2023-48022",
+        "CVE-2025-1979",
+        "CVE-2025-34351",
+        "CVE-2025-62593",
+        "CVE-2026-27482"
+      ]
+    }
+  ],
+  "matched_unique_pairs": 1190
+}
