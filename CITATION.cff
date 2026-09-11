@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this artifact, please cite the manuscript.
+title: PinTrace
+type: software
+license: MIT
+repository-code: https://github.com/dw763j/PinTrace
+url: https://github.com/dw763j/PinTrace
+preferred-citation:
+  type: article
+  title: "Dependency-Version Advice in LLM-Generated Code: Incidence, Quality, and Consequences"
+  notes: "Manuscript under review. Artifacts: https://github.com/dw763j/PinTrace"
