@@ -1,0 +1,89 @@
+condition,model_raw,model_display,is_aggregate,failure_denominator,layer,numerator,percentage
+MR,gpt-5.4,GPT-5.4,false,318,Environment construction,70,22.01
+MR,gpt-5.4,GPT-5.4,false,318,API-mismatch candidate,151,47.48
+MR,gpt-5.4,GPT-5.4,false,318,Import/initialization,44,13.84
+MR,gpt-5.4,GPT-5.4,false,318,Code/syntax,53,16.67
+MR,claude-sonnet-4-6,Claude-Sonnet-4.6,false,429,Environment construction,151,35.20
+MR,claude-sonnet-4-6,Claude-Sonnet-4.6,false,429,API-mismatch candidate,170,39.63
+MR,claude-sonnet-4-6,Claude-Sonnet-4.6,false,429,Import/initialization,72,16.78
+MR,claude-sonnet-4-6,Claude-Sonnet-4.6,false,429,Code/syntax,36,8.39
+MR,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,314,Environment construction,84,26.75
+MR,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,314,API-mismatch candidate,154,49.04
+MR,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,314,Import/initialization,41,13.06
+MR,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,314,Code/syntax,35,11.15
+MR,DeepSeek-V3.2,DeepSeek-V3.2,false,453,Environment construction,196,43.27
+MR,DeepSeek-V3.2,DeepSeek-V3.2,false,453,API-mismatch candidate,164,36.20
+MR,DeepSeek-V3.2,DeepSeek-V3.2,false,453,Import/initialization,49,10.82
+MR,DeepSeek-V3.2,DeepSeek-V3.2,false,453,Code/syntax,44,9.71
+MR,kimi-k2.5,Kimi-K2.5,false,421,Environment construction,123,29.22
+MR,kimi-k2.5,Kimi-K2.5,false,421,API-mismatch candidate,168,39.90
+MR,kimi-k2.5,Kimi-K2.5,false,421,Import/initialization,54,12.83
+MR,kimi-k2.5,Kimi-K2.5,false,421,Code/syntax,76,18.05
+MR,Qwen3.5-397B-A17B,Qwen3.5-397B,false,335,Environment construction,108,32.24
+MR,Qwen3.5-397B-A17B,Qwen3.5-397B,false,335,API-mismatch candidate,134,40.00
+MR,Qwen3.5-397B-A17B,Qwen3.5-397B,false,335,Import/initialization,58,17.31
+MR,Qwen3.5-397B-A17B,Qwen3.5-397B,false,335,Code/syntax,35,10.45
+MR,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,440,Environment construction,162,36.82
+MR,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,440,API-mismatch candidate,161,36.59
+MR,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,440,Import/initialization,70,15.91
+MR,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,440,Code/syntax,47,10.68
+MR,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,519,Environment construction,297,57.23
+MR,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,519,API-mismatch candidate,114,21.97
+MR,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,519,Import/initialization,62,11.95
+MR,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,519,Code/syntax,46,8.86
+MR,MiniMax-M2.5,MiniMax-M2.5,false,420,Environment construction,89,21.19
+MR,MiniMax-M2.5,MiniMax-M2.5,false,420,API-mismatch candidate,147,35.00
+MR,MiniMax-M2.5,MiniMax-M2.5,false,420,Import/initialization,77,18.33
+MR,MiniMax-M2.5,MiniMax-M2.5,false,420,Code/syntax,107,25.48
+MR,meta-llama/llama-4-scout,Llama-4-Scout,false,542,Environment construction,176,32.47
+MR,meta-llama/llama-4-scout,Llama-4-Scout,false,542,API-mismatch candidate,195,35.98
+MR,meta-llama/llama-4-scout,Llama-4-Scout,false,542,Import/initialization,118,21.77
+MR,meta-llama/llama-4-scout,Llama-4-Scout,false,542,Code/syntax,53,9.78
+MR,ALL,All observations,true,4191,Environment construction,1456,34.74
+MR,ALL,All observations,true,4191,API-mismatch candidate,1558,37.17
+MR,ALL,All observations,true,4191,Import/initialization,645,15.39
+MR,ALL,All observations,true,4191,Code/syntax,532,12.69
+VA,gpt-5.4,GPT-5.4,false,357,Environment construction,153,42.86
+VA,gpt-5.4,GPT-5.4,false,357,API-mismatch candidate,150,42.02
+VA,gpt-5.4,GPT-5.4,false,357,Import/initialization,14,3.92
+VA,gpt-5.4,GPT-5.4,false,357,Code/syntax,40,11.20
+VA,claude-sonnet-4-6,Claude-Sonnet-4.6,false,418,Environment construction,223,53.35
+VA,claude-sonnet-4-6,Claude-Sonnet-4.6,false,418,API-mismatch candidate,113,27.03
+VA,claude-sonnet-4-6,Claude-Sonnet-4.6,false,418,Import/initialization,22,5.26
+VA,claude-sonnet-4-6,Claude-Sonnet-4.6,false,418,Code/syntax,60,14.35
+VA,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,487,Environment construction,359,73.72
+VA,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,487,API-mismatch candidate,94,19.30
+VA,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,487,Import/initialization,11,2.26
+VA,gemini-3.1-pro-preview,Gemini-3.1-Pro,false,487,Code/syntax,23,4.72
+VA,DeepSeek-V3.2,DeepSeek-V3.2,false,583,Environment construction,409,70.15
+VA,DeepSeek-V3.2,DeepSeek-V3.2,false,583,API-mismatch candidate,106,18.18
+VA,DeepSeek-V3.2,DeepSeek-V3.2,false,583,Import/initialization,31,5.32
+VA,DeepSeek-V3.2,DeepSeek-V3.2,false,583,Code/syntax,37,6.35
+VA,kimi-k2.5,Kimi-K2.5,false,527,Environment construction,331,62.81
+VA,kimi-k2.5,Kimi-K2.5,false,527,API-mismatch candidate,114,21.63
+VA,kimi-k2.5,Kimi-K2.5,false,527,Import/initialization,37,7.02
+VA,kimi-k2.5,Kimi-K2.5,false,527,Code/syntax,45,8.54
+VA,Qwen3.5-397B-A17B,Qwen3.5-397B,false,539,Environment construction,424,78.66
+VA,Qwen3.5-397B-A17B,Qwen3.5-397B,false,539,API-mismatch candidate,66,12.24
+VA,Qwen3.5-397B-A17B,Qwen3.5-397B,false,539,Import/initialization,31,5.75
+VA,Qwen3.5-397B-A17B,Qwen3.5-397B,false,539,Code/syntax,18,3.34
+VA,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,630,Environment construction,460,73.02
+VA,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,630,API-mismatch candidate,92,14.60
+VA,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,630,Import/initialization,45,7.14
+VA,Qwen3-235B-A22B-Instruct-2507,Qwen3-235B,false,630,Code/syntax,33,5.24
+VA,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,572,Environment construction,281,49.13
+VA,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,572,API-mismatch candidate,139,24.30
+VA,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,572,Import/initialization,97,16.96
+VA,Qwen3-30B-A3B-Instruct-2507,Qwen3-30B,false,572,Code/syntax,55,9.62
+VA,MiniMax-M2.5,MiniMax-M2.5,false,600,Environment construction,445,74.17
+VA,MiniMax-M2.5,MiniMax-M2.5,false,600,API-mismatch candidate,85,14.17
+VA,MiniMax-M2.5,MiniMax-M2.5,false,600,Import/initialization,39,6.50
+VA,MiniMax-M2.5,MiniMax-M2.5,false,600,Code/syntax,31,5.17
+VA,meta-llama/llama-4-scout,Llama-4-Scout,false,723,Environment construction,509,70.40
+VA,meta-llama/llama-4-scout,Llama-4-Scout,false,723,API-mismatch candidate,109,15.08
+VA,meta-llama/llama-4-scout,Llama-4-Scout,false,723,Import/initialization,58,8.02
+VA,meta-llama/llama-4-scout,Llama-4-Scout,false,723,Code/syntax,47,6.50
+VA,ALL,All observations,true,5436,Environment construction,3594,66.11
+VA,ALL,All observations,true,5436,API-mismatch candidate,1068,19.65
+VA,ALL,All observations,true,5436,Import/initialization,385,7.08
+VA,ALL,All observations,true,5436,Code/syntax,389,7.16

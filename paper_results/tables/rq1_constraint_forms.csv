@@ -1,0 +1,7 @@
+condition,kind,count,N
+MR,bare,9107,18995
+MR,exact,4177,18995
+MR,invalid,7,18995
+MR,range,5704,18995
+VA,bare,6119,25253
+VA,exact,19134,25253

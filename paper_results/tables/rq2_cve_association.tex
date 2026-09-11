@@ -1,0 +1,24 @@
+\begin{table}[t]
+\small
+\centering
+\caption{Task-level known-vulnerability association after excluding withdrawn advisories.}
+\label{tab:rq2_cve_association}
+\begin{tabular}{lrrr}
+\toprule
+Model & MR Exact, $V/P$ [$V/N$] (\%) & MR Range, $V/P$ [$V/N$] (\%) & VA Exact, $V/P$ [$V/N$] (\%) \\
+\midrule
+GPT-5.4 & 50.00 [0.12] & 60.42 [3.42] & 47.38 [37.22] \\
+Claude-Sonnet-4.6 & 64.86 [5.65] & 55.26 [4.95] & 51.88 [43.93] \\
+Gemini-3.1-Pro & 70.00 [1.65] & 57.69 [3.53] & 54.74 [46.29] \\
+DeepSeek-V3.2 & 59.57 [19.79] & 26.02 [10.48] & 51.08 [41.93] \\
+Kimi-K2.5 & 71.23 [6.12] & 26.60 [18.61] & 50.51 [40.64] \\
+Qwen3.5-397B & 74.14 [10.13] & 32.32 [11.31] & 54.23 [45.35] \\
+Qwen3-235B & 65.61 [14.61] & 25.29 [10.25] & 52.08 [38.28] \\
+Qwen3-30B & 68.98 [30.39] & 15.57 [4.48] & 47.24 [18.14] \\
+MiniMax-M2.5 & 61.11 [1.30] & 39.15 [8.72] & 56.60 [45.47] \\
+Llama-4-Scout & 69.49 [4.83] & 0.00 [0.00] & 56.84 [37.69] \\
+\midrule
+\textbf{All observations} & \textbf{66.53 [9.46]} & \textbf{29.40 [7.57]} & \textbf{52.48 [39.49]} \\
+\bottomrule
+\end{tabular}
+\end{table}

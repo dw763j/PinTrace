@@ -1,0 +1,24 @@
+\begin{table}[t]
+\small
+\centering
+\caption{Per-model task-level constraint behavior on PinTrace.}
+\label{tab:rq1_model_variation}
+\begin{tabular}{lrrrr}
+\toprule
+Model & MR Exact (\%) & MR Range (\%) & MR Bare-only (\%) & VA Exact (\%) \\
+\midrule
+GPT-5.4 & 2.70 & 7.10 & 74.10 & 80.80 \\
+Claude-Sonnet-4.6 & 14.10 & 10.40 & 66.70 & 86.30 \\
+Gemini-3.1-Pro & 4.80 & 7.90 & 81.60 & 89.50 \\
+DeepSeek-V3.2 & 36.00 & 40.30 & 10.70 & 88.50 \\
+Kimi-K2.5 & 12.40 & 69.20 & 9.70 & 83.80 \\
+Qwen3.5-397B & 17.80 & 34.90 & 40.20 & 90.10 \\
+Qwen3-235B & 26.20 & 40.40 & 25.30 & 83.00 \\
+Qwen3-30B & 50.40 & 26.70 & 1.40 & 45.60 \\
+MiniMax-M2.5 & 4.20 & 24.40 & 61.00 & 87.00 \\
+Llama-4-Scout & 8.90 & 0.20 & 60.50 & 77.30 \\
+\midrule
+\textbf{All observations} & \textbf{17.75} & \textbf{26.15} & \textbf{43.12} & \textbf{81.19} \\
+\bottomrule
+\end{tabular}
+\end{table}
