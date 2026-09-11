@@ -1,0 +1,52 @@
+{
+  "gpt-5.4": {
+    "date": "2025-08-31T00:00:00Z",
+    "source": "official",
+    "note": "Provider-published cutoff used in the submitted model table."
+  },
+  "claude-sonnet-4-6": {
+    "date": "2025-05-01T00:00:00Z",
+    "source": "official",
+    "note": "Provider-published month; represented by the first day of the month."
+  },
+  "gemini-3.1-pro-preview": {
+    "date": "2025-01-01T00:00:00Z",
+    "source": "official",
+    "note": "Provider-published month; represented by the first day of the month."
+  },
+  "deepseek-v3.2": {
+    "date": "2025-05-01T00:00:00Z",
+    "source": "self_reported",
+    "note": "Inferred by querying the model; uncertain-date sensitivity required."
+  },
+  "kimi-k2.5": {
+    "date": "2024-04-01T00:00:00Z",
+    "source": "self_reported",
+    "note": "Inferred by querying the model; corrects the inconsistent 2025 date in the old example JSON."
+  },
+  "qwen3.5-397b-a17b": {
+    "date": "2026-01-01T00:00:00Z",
+    "source": "self_reported",
+    "note": "Inferred by querying the model; uncertain-date sensitivity required."
+  },
+  "qwen3-235b-a22b-instruct-2507": {
+    "date": "2024-12-01T00:00:00Z",
+    "source": "self_reported",
+    "note": "Inferred by querying the model; uncertain-date sensitivity required."
+  },
+  "qwen3-30b-a3b-instruct-2507": {
+    "date": "2024-12-01T00:00:00Z",
+    "source": "self_reported",
+    "note": "Inferred by querying the model; uncertain-date sensitivity required."
+  },
+  "minimax-m2.5": {
+    "date": "2024-06-01T00:00:00Z",
+    "source": "self_reported",
+    "note": "Inferred by querying the model; uncertain-date sensitivity required."
+  },
+  "meta-llama/llama-4-scout": {
+    "date": "2024-08-01T00:00:00Z",
+    "source": "official",
+    "note": "Provider-published month; represented by the first day of the month."
+  }
+}
