@@ -1,7 +1,7 @@
 {
   "python": "3.12.11",
   "artifact_integrity_tests": {
-    "passed": 6
+    "passed": 7
   },
   "engine_unit_tests": {
     "passed": 37,
@@ -27,5 +27,6 @@
     "authored_code_comments_and_messages": "English",
     "research_inputs": "Original source text preserved"
   },
-  "manuscript_modified": false
+  "manuscript_modified": false,
+  "cross_platform_archive_order_regression": "passed"
 }

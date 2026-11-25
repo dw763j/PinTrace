@@ -8,6 +8,10 @@ from packaging.version import Version,InvalidVersion
 from reanalyze import S,X,OUT,AdvisoryIndex,rows,csvout,dump,model,dt
 import reanalyze as analysis_module
 
+def ordered_model_archives(directory):
+    """Preserve one archive order on case-sensitive and case-insensitive systems."""
+    return sorted(directory.glob('*.json'), key=lambda path: path.name.casefold())
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--qualification',type=Path)
@@ -59,7 +63,7 @@ def main():
     new_search=json.loads(args.new_search.read_text()) if args.new_search else []
     new_keys={(model(r['model']),r['task_id']) for r in new_search}
     assert len(new_keys)==len(new_search)
-    for path in sorted((S/'outputs/analysis/neighbor/models').glob('*.json')):
+    for path in ordered_model_archives(S/'outputs/analysis/neighbor/models'):
         data=json.loads(path.read_text());cfg=data['experiment_config']
         m=data['run_selection']['selected_run']['model_name'];m=m.removeprefix('d2_').removesuffix('_blind').lower().replace('meta-llama_llama','meta-llama/llama')
         for t in data['task_results']:

@@ -1,5 +1,5 @@
 """Integrity and schema checks independent of external APIs and generated execution."""
-import gzip,json,re,sys,unittest
+import gzip,json,re,sys,tempfile,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 import reproduce
@@ -46,5 +46,15 @@ class ArtifactTests(unittest.TestCase):
     def test_engine_support_modules_are_present(self):
         for name in ['scripts/__init__.py','scripts/notifier_utils.py','scripts/run_neighbor_version_experiment.py']:
             self.assertTrue((ROOT/'engine'/name).is_file(),name)
+
+    def test_neighbor_archives_have_platform_independent_order(self):
+        sys.path.insert(0,str(ROOT/'analysis_code'))
+        from analyze_neighbor import ordered_model_archives
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            for name in ['model_GPT.json','model_DeepSeek.json','model_claude.json']:
+                (root/name).write_text('{}',encoding='utf-8')
+            self.assertEqual([p.name for p in ordered_model_archives(root)],
+                ['model_claude.json','model_DeepSeek.json','model_GPT.json'])
 
 if __name__=='__main__':unittest.main()
