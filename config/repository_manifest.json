@@ -7,8 +7,8 @@
     },
     {
       "path": ".github/workflows/reproduce.yml",
-      "bytes": 828,
-      "sha256": "c3af5d9a24f1dac63bbe256317e8b3258d0550b4d7cf05c9d281ab3aef1c4aa0"
+      "bytes": 840,
+      "sha256": "f79de8d420c931322849e8f00698c6242d2917a221c330a73b6b1acb50fb870f"
     },
     {
       "path": ".gitignore",
@@ -17,13 +17,13 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 444,
-      "sha256": "6d94c097a2e4eca4b9d3dc56ca76667c62793a066d63ca8cef40c8b7c90642f6"
+      "bytes": 433,
+      "sha256": "699ecfdec03d804eff0f6db5661716fdbc05e533be9e0c3f63e3f996c8eddf0b"
     },
     {
       "path": "LICENSE",
-      "bytes": 1094,
-      "sha256": "68f65061ecffcf23c4d2ae068740c3dcfa23b59ed5ea060107fd64af3ff9be27"
+      "bytes": 1073,
+      "sha256": "1b931cb628c9fea4485a27a173d7f8c70cce13a66f6604be065065efded74c85"
     },
     {
       "path": "README.md",
@@ -577,8 +577,8 @@
     },
     {
       "path": "docs/MAINTENANCE.md",
-      "bytes": 1883,
-      "sha256": "af2af864274f06263ef8ae2817fdac9ff68c7f539f0432c74afe2ffa4ee41264"
+      "bytes": 2271,
+      "sha256": "b7c663769ed69bd86a4fbe89de406154987acb45491fdedbec68a52d302f380d"
     },
     {
       "path": "docs/PROVENANCE.md",
@@ -1387,11 +1387,11 @@
     },
     {
       "path": "verify_repository.py",
-      "bytes": 596,
-      "sha256": "77a8f678956b65471deadce9a16cb54c2d363bb34adb61c2529341b4912cb7b3"
+      "bytes": 2328,
+      "sha256": "7688829b924806ab85ddf81b99f614c1cfb800f1b75bfdfc13eb4c4573da1fa2"
     }
   ],
-  "total_bytes": 521819235,
+  "total_bytes": 521821335,
   "file_count": 278,
   "manuscript_sha256": "ba5b1a215aa6fdfbcd2aec146f2ea6efd515ba4a551c48685ddc3badab371a05"
 }

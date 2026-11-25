@@ -21,4 +21,13 @@ python verify_repository.py
 python -m unittest discover -s tests -v
 ```
 
+Before committing a release, stage its files and check the indexed bytes as well:
+
+```sh
+git add --all
+python verify_repository.py --git-index
+```
+
+This detects differences between working-tree bytes and the actual Git objects, including inherited line-ending conversions. A source archive without Git metadata can use `python verify_repository.py` for file verification alone.
+
 The inventory preserves exact file hashes across platforms through `.gitattributes`. Reproduction outputs stay in the ignored build directory. Packaged research inputs remain separately checksummed in `config/data_manifest.json`.
