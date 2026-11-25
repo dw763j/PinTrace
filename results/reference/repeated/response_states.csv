@@ -1,0 +1,11 @@
+﻿model,mode,N,normal,length,missing,other_finish,empty_answer
+qwen/qwen3-30b-a3b-instruct-2507,requirements.txt,240,239,1,0,0,0
+qwen/qwen3-30b-a3b-instruct-2507,inline,240,237,3,0,0,0
+minimax/minimax-m2.5,requirements.txt,240,229,11,0,0,11
+minimax/minimax-m2.5,inline,240,219,21,0,0,19
+openai/gpt-5.4,requirements.txt,240,240,0,0,0,0
+openai/gpt-5.4,inline,240,240,0,0,0,0
+anthropic/claude-sonnet-4.6,requirements.txt,240,240,0,0,0,0
+anthropic/claude-sonnet-4.6,inline,240,239,1,0,0,0
+google/gemini-3.1-pro-preview,requirements.txt,240,240,0,0,0,0
+google/gemini-3.1-pro-preview,inline,240,240,0,0,0,0

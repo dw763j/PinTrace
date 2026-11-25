@@ -1,0 +1,111 @@
+{
+  "title": "Dependency-Version Advice in LLM-Generated Code: Incidence, Quality, and Consequences",
+  "sha256": "1c48f658a18e4c1abec3d7677f93cf72e8d8ceba1f95c6c572b2a87c3e905f81",
+  "figures": [
+    "fig1_evaluation_framework.pdf",
+    "fig2_version_concentration.pdf",
+    "fig3_release_age.pdf",
+    "fig4_temporal_associations.pdf",
+    "fig5_failure_stages.pdf",
+    "fig6_dynamic_paired_intervals.pdf",
+    "fig7_neighbor_budget.pdf",
+    "fig8_repeat_contrasts.pdf"
+  ],
+  "tables": [
+    {
+      "label": "tab:pintrace_selection",
+      "path": "results/reference/tables/tab_pintrace_selection.tex",
+      "source_line": 516
+    },
+    {
+      "label": "tab:task_populations",
+      "path": "results/reference/tables/tab_task_populations.tex",
+      "source_line": 552
+    },
+    {
+      "label": "tab:models",
+      "path": "results/reference/tables/tab_models.tex",
+      "source_line": 580
+    },
+    {
+      "label": "tab:rq1_constraint_forms",
+      "path": "results/reference/tables/tab_rq1_constraint_forms.tex",
+      "source_line": 751
+    },
+    {
+      "label": "tab:rq1_model_variation",
+      "path": "results/reference/tables/tab_rq1_model_variation.tex",
+      "source_line": 797
+    },
+    {
+      "label": "tab:rq2_validity",
+      "path": "results/reference/tables/tab_rq2_validity.tex",
+      "source_line": 878
+    },
+    {
+      "label": "tab:release_states",
+      "path": "results/reference/tables/tab_release_states.tex",
+      "source_line": 925
+    },
+    {
+      "label": "tab:rq2_security",
+      "path": "results/reference/tables/tab_rq2_security.tex",
+      "source_line": 1018
+    },
+    {
+      "label": "tab:rq3_outcomes",
+      "path": "results/reference/tables/tab_rq3_outcomes.tex",
+      "source_line": 1087
+    },
+    {
+      "label": "tab:rq3_installed_diagnostics",
+      "path": "results/reference/tables/tab_rq3_installed_diagnostics.tex",
+      "source_line": 1126
+    },
+    {
+      "label": "tab:neighbor_recovery",
+      "path": "results/reference/tables/tab_neighbor_recovery.tex",
+      "source_line": 1280
+    },
+    {
+      "label": "tab:fixed_code_comparison",
+      "path": "results/reference/tables/tab_fixed_code_comparison.tex",
+      "source_line": 1369
+    },
+    {
+      "label": "tab:runtime_sensitivity",
+      "path": "results/reference/tables/tab_runtime_sensitivity.tex",
+      "source_line": 1433
+    },
+    {
+      "label": "tab:related_comparison",
+      "path": "results/reference/tables/tab_related_comparison.tex",
+      "source_line": 1672
+    },
+    {
+      "label": "tab:dynamic_by_model",
+      "path": "results/reference/tables/tab_dynamic_by_model.tex",
+      "source_line": 1989
+    },
+    {
+      "label": "tab:five_repeat_static",
+      "path": "results/reference/tables/tab_five_repeat_static.tex",
+      "source_line": 2029
+    },
+    {
+      "label": "tab:five_repeat_tests",
+      "path": "results/reference/tables/tab_five_repeat_tests.tex",
+      "source_line": 2058
+    },
+    {
+      "label": "tab:five_repeat_exact",
+      "path": "results/reference/tables/tab_five_repeat_exact.tex",
+      "source_line": 2086
+    },
+    {
+      "label": "tab:assessment_rules",
+      "path": "results/reference/tables/tab_assessment_rules.tex",
+      "source_line": 1876
+    }
+  ]
+}

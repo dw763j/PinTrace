@@ -1,0 +1,21 @@
+\begin{tableorg}[!htbp]
+\centering\footnotesize
+\caption{Task-test passes across three generation rounds on twenty BigCodeBench tasks per model and request mode.
+R1, R2, and R3 give the pass counts for the corresponding generation rounds.
+Agreement counts tasks with the same pass or nonpass status across all rounds, divided by 20.}
+\label{tab:five_repeat_tests}
+\setlength{\tabcolsep}{1.8pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.20\linewidth}*{6}{>{\centering\arraybackslash}X}*{5}{r}@{}}
+\toprule
+Model & \multicolumn{3}{c}{MR passes} & \multicolumn{3}{c}{VA passes} & \multicolumn{2}{c}{Agreement} & \shortstack{VA--MR\\(pp)} & \multicolumn{2}{c}{95\% CI (pp)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-9}\cmidrule(lr){11-12}
+& R1 & R2 & R3 & R1 & R2 & R3 & MR & VA & & Lower & Upper \\
+\midrule
+Qwen3 30B & 5 & 5 & 6 & 6 & 7 & 5 & 17/20 & 15/20 & 3.33 & -10.00 & 18.33 \\
+MiniMax M2.5 & 7 & 6 & 5 & 3 & 2 & 2 & 18/20 & 19/20 & -18.33 & -35.00 & -5.00 \\
+GPT-5.4 & 5 & 7 & 5 & 6 & 8 & 6 & 18/20 & 18/20 & 5.00 & 0.00 & 13.33 \\
+Claude Sonnet 4.6 & 7 & 7 & 7 & 7 & 6 & 8 & 20/20 & 18/20 & 0.00 & -16.67 & 16.67 \\
+Gemini 3.1 Pro & 8 & 10 & 8 & 6 & 7 & 6 & 15/20 & 17/20 & -11.67 & -23.33 & -3.33 \\
+\bottomrule
+\end{tabularx}
+\end{tableorg}

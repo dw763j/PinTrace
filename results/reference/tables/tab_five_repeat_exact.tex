@@ -1,0 +1,21 @@
+\begin{tableorg}[!htbp]
+\centering\footnotesize
+\caption{Exact-advice incidence across three generation rounds on sixty \myso tasks per model and request mode.
+R1, R2, and R3 count responses with at least one model-written exact constraint in the corresponding generation rounds.
+Agreement counts tasks with unchanged presence or absence of exact advice across all rounds, divided by 60.}
+\label{tab:five_repeat_exact}
+\setlength{\tabcolsep}{1.8pt}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.20\linewidth}*{6}{>{\centering\arraybackslash}X}*{5}{r}@{}}
+\toprule
+Model & \multicolumn{3}{c}{MR exact} & \multicolumn{3}{c}{VA exact} & \multicolumn{2}{c}{Agreement} & \shortstack{VA--MR\\(pp)} & \multicolumn{2}{c}{95\% CI (pp)} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-9}\cmidrule(lr){11-12}
+& R1 & R2 & R3 & R1 & R2 & R3 & MR & VA & & Lower & Upper \\
+\midrule
+Qwen3 30B & 20 & 21 & 19 & 23 & 22 & 22 & 34/60 & 52/60 & 3.89 & -11.67 & 19.44 \\
+MiniMax M2.5 & 1 & 1 & 0 & 42 & 41 & 42 & 58/60 & 46/60 & 68.33 & 58.33 & 77.78 \\
+GPT-5.4 & 0 & 0 & 0 & 42 & 40 & 40 & 60/60 & 57/60 & 67.78 & 56.11 & 78.89 \\
+Claude Sonnet 4.6 & 11 & 14 & 12 & 46 & 44 & 47 & 49/60 & 54/60 & 55.56 & 43.33 & 67.22 \\
+Gemini 3.1 Pro & 9 & 4 & 7 & 43 & 43 & 41 & 45/60 & 54/60 & 59.44 & 48.33 & 70.56 \\
+\bottomrule
+\end{tabularx}
+\end{tableorg}

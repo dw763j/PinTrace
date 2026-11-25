@@ -1,0 +1,67 @@
+﻿model,mode,kind,declarations,eligible,assessed,valid,invalid,indeterminate,marker_inactive,identity_unknown,validity_pct
+All observations,requirements.txt,exact,3511,3511,3511,3229,282,0,0,0,91.96810025633722
+All observations,requirements.txt,range,5478,5471,5471,5403,68,0,7,0,98.75708280021934
+All observations,requirements.txt,invalid,7,7,7,0,7,0,0,0,0.0
+All observations,inline,exact,17713,17710,17710,15758,1952,0,0,3,88.97797854319593
+All observations,inline,range,6,6,6,6,0,0,0,0,100.0
+All observations,inline,invalid,0,0,0,0,0,0,0,0,
+claude-sonnet-4-6,requirements.txt,exact,183,183,183,163,20,0,0,0,89.07103825136612
+claude-sonnet-4-6,requirements.txt,range,192,192,192,189,3,0,0,0,98.4375
+claude-sonnet-4-6,requirements.txt,invalid,4,4,4,0,4,0,0,0,0.0
+claude-sonnet-4-6,inline,exact,2133,2133,2133,1956,177,0,0,0,91.70182841068917
+claude-sonnet-4-6,inline,range,0,0,0,0,0,0,0,0,
+claude-sonnet-4-6,inline,invalid,0,0,0,0,0,0,0,0,
+deepseek-v3.2,requirements.txt,exact,756,756,756,729,27,0,0,0,96.42857142857143
+deepseek-v3.2,requirements.txt,range,981,980,980,968,12,0,1,0,98.77551020408163
+deepseek-v3.2,requirements.txt,invalid,0,0,0,0,0,0,0,0,
+deepseek-v3.2,inline,exact,1868,1866,1866,1668,198,0,0,2,89.38906752411576
+deepseek-v3.2,inline,range,0,0,0,0,0,0,0,0,
+deepseek-v3.2,inline,invalid,0,0,0,0,0,0,0,0,
+gemini-3.1-pro-preview,requirements.txt,exact,49,49,49,49,0,0,0,0,100.0
+gemini-3.1-pro-preview,requirements.txt,range,105,105,105,103,2,0,0,0,98.0952380952381
+gemini-3.1-pro-preview,requirements.txt,invalid,1,1,1,0,1,0,0,0,0.0
+gemini-3.1-pro-preview,inline,exact,1884,1884,1884,1724,160,0,0,0,91.50743099787685
+gemini-3.1-pro-preview,inline,range,0,0,0,0,0,0,0,0,
+gemini-3.1-pro-preview,inline,invalid,0,0,0,0,0,0,0,0,
+gpt-5.4,requirements.txt,exact,6,6,6,6,0,0,0,0,100.0
+gpt-5.4,requirements.txt,range,109,109,109,108,1,0,0,0,99.08256880733946
+gpt-5.4,requirements.txt,invalid,0,0,0,0,0,0,0,0,
+gpt-5.4,inline,exact,1907,1907,1907,1784,123,0,0,0,93.55007865757734
+gpt-5.4,inline,range,0,0,0,0,0,0,0,0,
+gpt-5.4,inline,invalid,0,0,0,0,0,0,0,0,
+kimi-k2.5,requirements.txt,exact,303,303,303,292,11,0,0,0,96.36963696369637
+kimi-k2.5,requirements.txt,range,1829,1823,1823,1808,15,0,6,0,99.17718047174986
+kimi-k2.5,requirements.txt,invalid,0,0,0,0,0,0,0,0,
+kimi-k2.5,inline,exact,2187,2187,2187,1991,196,0,0,0,91.03795153177869
+kimi-k2.5,inline,range,6,6,6,6,0,0,0,0,100.0
+kimi-k2.5,inline,invalid,0,0,0,0,0,0,0,0,
+meta-llama/llama-4-scout,requirements.txt,exact,218,218,218,200,18,0,0,0,91.74311926605505
+meta-llama/llama-4-scout,requirements.txt,range,1,1,1,1,0,0,0,0,100.0
+meta-llama/llama-4-scout,requirements.txt,invalid,0,0,0,0,0,0,0,0,
+meta-llama/llama-4-scout,inline,exact,1511,1510,1510,1206,304,0,0,1,79.86754966887418
+meta-llama/llama-4-scout,inline,range,0,0,0,0,0,0,0,0,
+meta-llama/llama-4-scout,inline,invalid,0,0,0,0,0,0,0,0,
+minimax-m2.5,requirements.txt,exact,60,60,60,57,3,0,0,0,95.0
+minimax-m2.5,requirements.txt,range,413,413,413,403,10,0,0,0,97.57869249394673
+minimax-m2.5,requirements.txt,invalid,0,0,0,0,0,0,0,0,
+minimax-m2.5,inline,exact,2022,2022,2022,1794,228,0,0,0,88.72403560830861
+minimax-m2.5,inline,range,0,0,0,0,0,0,0,0,
+minimax-m2.5,inline,invalid,0,0,0,0,0,0,0,0,
+qwen3-235b-a22b-instruct-2507,requirements.txt,exact,515,515,515,480,35,0,0,0,93.20388349514563
+qwen3-235b-a22b-instruct-2507,requirements.txt,range,699,699,699,692,7,0,0,0,98.99856938483548
+qwen3-235b-a22b-instruct-2507,requirements.txt,invalid,1,1,1,0,1,0,0,0,0.0
+qwen3-235b-a22b-instruct-2507,inline,exact,1502,1502,1502,1279,223,0,0,0,85.15312916111851
+qwen3-235b-a22b-instruct-2507,inline,range,0,0,0,0,0,0,0,0,
+qwen3-235b-a22b-instruct-2507,inline,invalid,0,0,0,0,0,0,0,0,
+qwen3-30b-a3b-instruct-2507,requirements.txt,exact,1061,1061,1061,902,159,0,0,0,85.01413760603205
+qwen3-30b-a3b-instruct-2507,requirements.txt,range,435,435,435,421,14,0,0,0,96.7816091954023
+qwen3-30b-a3b-instruct-2507,requirements.txt,invalid,0,0,0,0,0,0,0,0,
+qwen3-30b-a3b-instruct-2507,inline,exact,669,669,669,535,134,0,0,0,79.97010463378176
+qwen3-30b-a3b-instruct-2507,inline,range,0,0,0,0,0,0,0,0,
+qwen3-30b-a3b-instruct-2507,inline,invalid,0,0,0,0,0,0,0,0,
+qwen3.5-397b-a17b,requirements.txt,exact,360,360,360,351,9,0,0,0,97.5
+qwen3.5-397b-a17b,requirements.txt,range,714,714,714,710,4,0,0,0,99.43977591036415
+qwen3.5-397b-a17b,requirements.txt,invalid,1,1,1,0,1,0,0,0,0.0
+qwen3.5-397b-a17b,inline,exact,2030,2030,2030,1821,209,0,0,0,89.70443349753694
+qwen3.5-397b-a17b,inline,range,0,0,0,0,0,0,0,0,
+qwen3.5-397b-a17b,inline,invalid,0,0,0,0,0,0,0,0,

@@ -1,0 +1,29 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Overall BigCodeBench test-pass rates and paired request-condition differences.
+The denominator is 813 responses per condition for each model and 8,130 for All observations.
+All observations sums counts across models before calculating each rate.}
+\label{tab:dynamic_by_model}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\textbf{MR (\%)}} & \multirow{2}{*}{\textbf{VA (\%)}} & \multirow{2}{*}{\makecell{\textbf{VA--MR}\\\textbf{(pp)}}} & \multicolumn{2}{c}{\textbf{95\% CI (pp)}} \\
+\cmidrule(lr){5-6}
+& & & & \textbf{Lower} & \textbf{Upper} \\
+\midrule
+GPT-5.4 & 49.57 & 49.94 & 0.37 & -1.60 & 2.34 \\
+Claude Sonnet 4.6 & 49.82 & 9.59 & -40.22 & -43.79 & -36.78 \\
+Gemini 3.1 Pro & 52.15 & 21.03 & -31.12 & -34.69 & -27.68 \\
+DeepSeek V3.2 & 29.89 & 16.48 & -13.41 & -16.73 & -10.09 \\
+Kimi K2.5 & 43.54 & 14.15 & -29.40 & -32.84 & -25.95 \\
+Qwen3.5 397B & 50.68 & 10.70 & -39.98 & -43.54 & -36.53 \\
+Qwen3 235B & 38.62 & 8.00 & -30.63 & -33.95 & -27.31 \\
+Qwen3 30B & 31.73 & 17.84 & -13.90 & -17.10 & -10.82 \\
+MiniMax M2.5 & 44.65 & 8.00 & -36.65 & -40.10 & -33.21 \\
+Llama 4 Scout & 32.23 & 8.98 & -23.25 & -26.69 & -20.05 \\
+All observations & 42.29 & 16.47 & -25.82 & -27.84 & -23.85 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

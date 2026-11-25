@@ -1,0 +1,15 @@
+﻿condition,layer,count,N
+VA,Static pass,3626,10000
+VA,Resolution failure,1690,10000
+VA,Other code / syntax diagnostic,390,10000
+VA,Installation failure,1660,10000
+VA,API diagnostic candidate,1124,10000
+VA,Did not enter joint resolution,1119,10000
+VA,Import diagnostic candidate,391,10000
+MR,API diagnostic candidate,1616,10000
+MR,Static pass,5183,10000
+MR,Installation failure,482,10000
+MR,Import diagnostic candidate,668,10000
+MR,Other code / syntax diagnostic,474,10000
+MR,Did not enter joint resolution,724,10000
+MR,Resolution failure,853,10000

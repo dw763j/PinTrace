@@ -1,0 +1,31 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Advisory associations in exact advice by model on clean \myso, using advisories published by the release cutoff.
+Each model has 927 responses per condition.
+$P_{q,e}$ counts responses with individually satisfiable exact advice, $V_{q,e}$ counts those with an advisory match, and $\nu^\star_{q,e}=V_{q,e}/P_{q,e}$.
+All observations sums counts across the ten models before computing rates.}
+\label{tab:rq2_security}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multicolumn{3}{c}{\textbf{MR}} & \multicolumn{3}{c}{\textbf{VA}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+& $P_{q,e}$ & $V_{q,e}$ & $\nu^\star_{q,e}$ (\%) & $P_{q,e}$ & $V_{q,e}$ & $\nu^\star_{q,e}$ (\%) \\
+\midrule
+GPT-5.4 & 5 & 2 & 40.00 & 734 & 294 & 40.05 \\
+Claude Sonnet 4.6 & 89 & 47 & 52.81 & 792 & 367 & 46.34 \\
+Gemini 3.1 Pro & 24 & 15 & 62.50 & 793 & 409 & 51.58 \\
+DeepSeek V3.2 & 328 & 181 & 55.18 & 781 & 389 & 49.81 \\
+Kimi K2.5 & 96 & 59 & 61.46 & 760 & 371 & 48.82 \\
+Qwen3.5 397B & 143 & 94 & 65.73 & 788 & 410 & 52.03 \\
+Qwen3 235B & 216 & 121 & 56.02 & 691 & 354 & 51.23 \\
+Qwen3 30B & 422 & 273 & 64.69 & 359 & 170 & 47.35 \\
+MiniMax M2.5 & 26 & 15 & 57.69 & 757 & 421 & 55.61 \\
+Llama 4 Scout & 90 & 68 & 75.56 & 616 & 354 & 57.47 \\
+\midrule
+\textbf{All observations} & 1,439 & 875 & 60.81 & 7,071 & 3,539 & 50.05 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

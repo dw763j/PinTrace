@@ -1,0 +1,97 @@
+{
+  "source": "supplement\\fixed_code\\outcomes.csv",
+  "source_sha256": "bb5cc62f96253709f616e87bc12fe92247fa2913d67b5cd6c2f7ecc20ff57c20",
+  "output": "tables\\fixed_code_policies.tex",
+  "output_sha256": "caae63b92385f4afee68150662032caf9880acda70e32d8b4332ec6c89374d11",
+  "unit": "Saved response",
+  "rows": [
+    {
+      "track": "d2",
+      "population": "PinTrace / static",
+      "strategy": "original",
+      "N": "80",
+      "resolved": "80",
+      "installed": "54",
+      "oracle_pass": "40",
+      "oracle_pass_without_association": "20",
+      "recovered": "0",
+      "regressed": "0",
+      "new_joint_successes": "0",
+      "candidate_evaluations": "80"
+    },
+    {
+      "track": "d2",
+      "population": "PinTrace / static",
+      "strategy": "unpin",
+      "N": "80",
+      "resolved": "80",
+      "installed": "79",
+      "oracle_pass": "54",
+      "oracle_pass_without_association": "46",
+      "recovered": "17",
+      "regressed": "3",
+      "new_joint_successes": "26",
+      "candidate_evaluations": "80"
+    },
+    {
+      "track": "d2",
+      "population": "PinTrace / static",
+      "strategy": "neighbor",
+      "N": "80",
+      "resolved": "80",
+      "installed": "56",
+      "oracle_pass": "43",
+      "oracle_pass_without_association": "25",
+      "recovered": "3",
+      "regressed": "0",
+      "new_joint_successes": "5",
+      "candidate_evaluations": "562"
+    },
+    {
+      "track": "d1",
+      "population": "BigCodeBench / tests",
+      "strategy": "original",
+      "N": "40",
+      "resolved": "40",
+      "installed": "24",
+      "oracle_pass": "20",
+      "oracle_pass_without_association": "6",
+      "recovered": "0",
+      "regressed": "0",
+      "new_joint_successes": "0",
+      "candidate_evaluations": "40"
+    },
+    {
+      "track": "d1",
+      "population": "BigCodeBench / tests",
+      "strategy": "unpin",
+      "N": "40",
+      "resolved": "40",
+      "installed": "40",
+      "oracle_pass": "29",
+      "oracle_pass_without_association": "10",
+      "recovered": "9",
+      "regressed": "0",
+      "new_joint_successes": "4",
+      "candidate_evaluations": "40"
+    },
+    {
+      "track": "d1",
+      "population": "BigCodeBench / tests",
+      "strategy": "neighbor",
+      "N": "40",
+      "resolved": "40",
+      "installed": "24",
+      "oracle_pass": "20",
+      "oracle_pass_without_association": "7",
+      "recovered": "0",
+      "regressed": "0",
+      "new_joint_successes": "1",
+      "candidate_evaluations": "322"
+    }
+  ],
+  "block_denominators": {
+    "PinTrace": 80,
+    "BigCodeBench": 40
+  }
+}

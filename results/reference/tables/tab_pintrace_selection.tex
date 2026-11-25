@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering\footnotesize
+\caption{\myso selection from Stack Overflow.
+Counts refer to candidate records after screening, with the final row reporting selected tasks.}
+\label{tab:pintrace_selection}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}l >{\raggedright\arraybackslash}X r@{}}
+\toprule
+\textbf{Stage} & \textbf{Selection criterion} & \textbf{Count} \\
+\midrule
+Package matching & Accepted-answer records matched to target packages through tags or code imports & 405,707 \\
+Import screening & Accepted-answer code imports a target package & 132,048 \\
+Date filtering & Accepted answer created from 2020 onward & 55,797 \\
+Parseability & An answer code block or merged blocks parse as Python & 55,711 \\
+Coverage sampling & Per-package quotas, seeded shuffling, and filling to the preset task budget & 1,000 tasks \\
+\bottomrule
+\end{tabularx}
+\end{table}

@@ -1,0 +1,187 @@
+{
+  "tables": [
+    {
+      "label": "tab:pintrace_selection",
+      "purpose": "Stack Overflow selection",
+      "inputs": "inputs/collection/*.stats.json",
+      "computation": "export_tables.py",
+      "output": "tables/tab_pintrace_selection.csv"
+    },
+    {
+      "label": "tab:task_populations",
+      "purpose": "Task populations",
+      "inputs": "inputs/assessments/partition; inputs/tasks; inputs/main/task_outcomes.jsonl",
+      "computation": "export_tables.py",
+      "output": "tables/tab_task_populations.csv"
+    },
+    {
+      "label": "tab:models",
+      "purpose": "Model roster",
+      "inputs": "results/reference/tables/tab_models.tex; results/reference/*.bib",
+      "computation": "curated model descriptions",
+      "output": "tables/tab_models.csv"
+    },
+    {
+      "label": "tab:rq1_constraint_forms",
+      "purpose": "Declaration forms",
+      "inputs": "inputs/main/source_carrier_declarations.jsonl",
+      "computation": "prepare_displays.py",
+      "output": "tables/tab_rq1_constraint_forms.csv"
+    },
+    {
+      "label": "tab:rq1_model_variation",
+      "purpose": "Complete manifest profiles",
+      "inputs": "inputs/main/source_carrier_declarations.jsonl; inputs/main/task_outcomes.jsonl",
+      "computation": "summarize_mr_constraint_profiles.py",
+      "output": "tables/tab_rq1_model_variation.csv"
+    },
+    {
+      "label": "tab:rq2_validity",
+      "purpose": "Individual and complete advice validity",
+      "inputs": "inputs/main/direct_dependencies.jsonl; inputs/main/task_outcomes.jsonl",
+      "computation": "reanalyze.py; prepare_rq2_displays.py",
+      "output": "tables/tab_rq2_validity.csv"
+    },
+    {
+      "label": "tab:release_states",
+      "purpose": "Release existence",
+      "inputs": "inputs/main/direct_dependencies.jsonl; inputs/registries/pypi*.json",
+      "computation": "reanalyze.py",
+      "output": "tables/tab_release_states.csv"
+    },
+    {
+      "label": "tab:rq2_security",
+      "purpose": "Per-model exact-advice associations",
+      "inputs": "inputs/main/direct_dependencies.jsonl; inputs/registries/osv; clean-task partition",
+      "computation": "reanalyze.py; prepare_advisory_model_table.py",
+      "output": "tables/tab_rq2_security.csv"
+    },
+    {
+      "label": "tab:rq3_outcomes",
+      "purpose": "Environment stages",
+      "inputs": "inputs/main/task_outcomes.jsonl",
+      "computation": "reanalyze.py; analyze_rq3_results.py",
+      "output": "tables/tab_rq3_outcomes.csv"
+    },
+    {
+      "label": "tab:rq3_installed_diagnostics",
+      "purpose": "Installed-environment diagnostics",
+      "inputs": "inputs/main/task_outcomes.jsonl",
+      "computation": "summarize_rq3_compatibility.py",
+      "output": "tables/tab_rq3_installed_diagnostics.csv"
+    },
+    {
+      "label": "tab:neighbor_recovery",
+      "purpose": "Neighbor recovery",
+      "inputs": "inputs/assessments/neighbor; inputs/search_archive/outputs/analysis/neighbor/models",
+      "computation": "analyze_neighbor.py",
+      "output": "tables/tab_neighbor_recovery.csv"
+    },
+    {
+      "label": "tab:fixed_code_comparison",
+      "purpose": "Fixed-code policies",
+      "inputs": "experiments/fixed_code/comparisons.json",
+      "computation": "analyze_fixed_code.py",
+      "output": "tables/tab_fixed_code_comparison.csv"
+    },
+    {
+      "label": "tab:runtime_sensitivity",
+      "purpose": "Four-runtime comparison",
+      "inputs": "experiments/runtime/observations.jsonl",
+      "computation": "analyze_runtime.py",
+      "output": "tables/tab_runtime_sensitivity.csv"
+    },
+    {
+      "label": "tab:related_comparison",
+      "purpose": "Related-work classification",
+      "inputs": "results/reference/tables/tab_related_comparison.tex; results/reference/*.bib",
+      "computation": "curated literature classification",
+      "output": "tables/tab_related_comparison.csv"
+    },
+    {
+      "label": "tab:assessment_rules",
+      "purpose": "Assessment rules",
+      "inputs": "results/reference/tables/tab_assessment_rules.tex; engine/tools/build_canonical_dependencies.py",
+      "computation": "curated protocol rules",
+      "output": "tables/tab_assessment_rules.csv"
+    },
+    {
+      "label": "tab:dynamic_by_model",
+      "purpose": "Per-model task tests",
+      "inputs": "inputs/main/task_outcomes.jsonl",
+      "computation": "reanalyze.py",
+      "output": "tables/tab_dynamic_by_model.csv"
+    },
+    {
+      "label": "tab:five_repeat_static",
+      "purpose": "Repeated static outcomes",
+      "inputs": "experiments/repeated/evaluations.jsonl",
+      "computation": "analyze_repeated.py",
+      "output": "tables/tab_five_repeat_static.csv"
+    },
+    {
+      "label": "tab:five_repeat_tests",
+      "purpose": "Repeated task tests",
+      "inputs": "experiments/repeated/evaluations.jsonl",
+      "computation": "analyze_repeated.py",
+      "output": "tables/tab_five_repeat_tests.csv"
+    },
+    {
+      "label": "tab:five_repeat_exact",
+      "purpose": "Repeated exact advice",
+      "inputs": "experiments/repeated/evaluations.jsonl",
+      "computation": "analyze_repeated.py",
+      "output": "tables/tab_five_repeat_exact.csv"
+    }
+  ],
+  "figures": [
+    {
+      "file": "fig1_evaluation_framework.pdf",
+      "purpose": "Study framework",
+      "inputs": "inputs/artwork/pipeline.pdf",
+      "computation": "restore_overview_figure.py"
+    },
+    {
+      "file": "fig2_version_concentration.pdf",
+      "purpose": "Version distributions",
+      "inputs": "analysis/rq1_concentration_checked.csv",
+      "computation": "plot_rq1_version_choices.py"
+    },
+    {
+      "file": "fig3_release_age.pdf",
+      "purpose": "Release age",
+      "inputs": "analysis/version_age_summary.csv",
+      "computation": "plot_release_age.py"
+    },
+    {
+      "file": "fig4_temporal_associations.pdf",
+      "purpose": "Advisory publication scopes",
+      "inputs": "analysis/security_funnels.csv",
+      "computation": "plot_advisory_scopes.py"
+    },
+    {
+      "file": "fig5_failure_stages.pdf",
+      "purpose": "Construction and static stages",
+      "inputs": "analysis/rq3_stage_outcomes.csv",
+      "computation": "plot_rq3_results.py"
+    },
+    {
+      "file": "fig6_dynamic_paired_intervals.pdf",
+      "purpose": "Task execution",
+      "inputs": "analysis/rq3_execution_outcomes.csv",
+      "computation": "plot_rq3_results.py"
+    },
+    {
+      "file": "fig7_neighbor_budget.pdf",
+      "purpose": "Neighbor search budget",
+      "inputs": "analysis/neighbor_budget_prefix.csv",
+      "computation": "plot_neighbor_budget.py"
+    },
+    {
+      "file": "fig8_repeat_contrasts.pdf",
+      "purpose": "Repeated generation",
+      "inputs": "experiments/repeated/analysis_summary.json",
+      "computation": "plot_five_model_generation.py"
+    }
+  ]
+}

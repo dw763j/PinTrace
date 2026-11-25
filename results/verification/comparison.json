@@ -1,0 +1,276 @@
+{
+  "csv_passed": [
+    {
+      "file": "analysis/all_constraint_validity.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/constraint_assessment_counts.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/exact_release_states.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/extraction_sensitivity.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/neighbor_budget_prefix.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/neighbor_corrected_by_model.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/neighbor_task_audit.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/package_standardization.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/package_version_counts.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/paired_cluster_bootstrap.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/release_existence_temporal.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/response_flags.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq1_concentration_checked.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq1_constraint_forms.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq1_model_variation.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq1_mr_manifest_profiles.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq1_mr_task_form_diversity.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq1_top_three_concentration.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq3_execution_outcomes.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq3_installed_compatibility.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/rq3_stage_outcomes.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/security_funnels.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/stage_failure_partition.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/target_package_rates.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/unique_package_versions.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/version_age_rechecked.csv",
+      "problem": null
+    },
+    {
+      "file": "analysis/version_age_summary.csv",
+      "problem": null
+    },
+    {
+      "file": "fixed_code/budget_prefixes.csv",
+      "problem": null
+    },
+    {
+      "file": "fixed_code/outcomes.csv",
+      "problem": null
+    },
+    {
+      "file": "fixed_code/timings.csv",
+      "problem": null
+    },
+    {
+      "file": "repeated/agreement.csv",
+      "problem": null
+    },
+    {
+      "file": "repeated/by_repeat.csv",
+      "problem": null
+    },
+    {
+      "file": "repeated/completion_sensitivity.csv",
+      "problem": null
+    },
+    {
+      "file": "repeated/evaluation_stages.csv",
+      "problem": null
+    },
+    {
+      "file": "repeated/paired_intervals.csv",
+      "problem": null
+    },
+    {
+      "file": "repeated/repeat_directions.csv",
+      "problem": null
+    },
+    {
+      "file": "repeated/response_states.csv",
+      "problem": null
+    },
+    {
+      "file": "runtime/python_robustness_all_observations.csv",
+      "problem": null
+    },
+    {
+      "file": "runtime/python_robustness_by_model.csv",
+      "problem": null
+    }
+  ],
+  "csv_failures": [],
+  "reference_only_files": [],
+  "figures": [
+    {
+      "file": "fig1_evaluation_framework.pdf",
+      "reference_sha256": "ca5726226d4b818806cf502e8b53670ac9cd51a441e8876dd63f9f11a40d4578",
+      "generated_sha256": "ca5726226d4b818806cf502e8b53670ac9cd51a441e8876dd63f9f11a40d4578",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        869.2346,
+        440.15997
+      ],
+      "generated_size_pt": [
+        869.2346,
+        440.15997
+      ]
+    },
+    {
+      "file": "fig2_version_concentration.pdf",
+      "reference_sha256": "bb5547f2cef038b79ca2099f1bae84ff87f26c85e8483b6bea1a52bc239254b5",
+      "generated_sha256": "9f33402e4fc173cc5fb3fdc0f40efb4aa7d47f9061d229a84b8da417653d6245",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        521.61375,
+        339.3082
+      ],
+      "generated_size_pt": [
+        521.035625,
+        339.64335625
+      ]
+    },
+    {
+      "file": "fig3_release_age.pdf",
+      "reference_sha256": "52e605e0d261aae4334ccf1f5cb06cca613636fb4c9305820455df436f310ceb",
+      "generated_sha256": "52dfe8c5402f8347e62102365a10959d082f934bc82a0ebc2611e1a01d00d0e1",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        436.3056,
+        308.118
+      ],
+      "generated_size_pt": [
+        436.3056,
+        308.118
+      ]
+    },
+    {
+      "file": "fig4_temporal_associations.pdf",
+      "reference_sha256": "5b493267fb5118046f3c527b2c3080e88a3e6c5f35cd95533f1a2c653f1f4f2e",
+      "generated_sha256": "e8ba6fda22f06429bd3d995d4c7afce2296cbfe9ccdae7f7e17eea16bbf6a211",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        440.58328,
+        185.7135
+      ],
+      "generated_size_pt": [
+        440.58328,
+        185.781859375
+      ]
+    },
+    {
+      "file": "fig5_failure_stages.pdf",
+      "reference_sha256": "dafeaae75e3b6b3a9accd5e482eaa4a741918ce23ca9f8c2d710e6c0d0a82c52",
+      "generated_sha256": "38cef34bee6fba8d67f71ce296bd832e279cdd548099398bf8df524f8dadf8f9",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        544.176,
+        233.671125
+      ],
+      "generated_size_pt": [
+        544.176,
+        233.327375
+      ]
+    },
+    {
+      "file": "fig6_dynamic_paired_intervals.pdf",
+      "reference_sha256": "a92a4540642697c98ecf51a52319f3520f47af2b0035c80816a4ef44c778e30d",
+      "generated_sha256": "3e18ed9f05a793871f3cb4d3d9098eb00f6ff1d2c55a22438104982f65bf6935",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        558.39075,
+        312.08546875
+      ],
+      "generated_size_pt": [
+        558.39075,
+        312.08546875
+      ]
+    },
+    {
+      "file": "fig7_neighbor_budget.pdf",
+      "reference_sha256": "a13411ea5ea43800dbc6eb3e93abd802230a579c3d501bf1d47e2fc193e6335d",
+      "generated_sha256": "45a482dcb00c5c11e8834ee8a84aa593b0f9c9fc74b2f429d835c2517f468bcb",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        487.332,
+        243.330625
+      ],
+      "generated_size_pt": [
+        487.332,
+        243.94
+      ]
+    },
+    {
+      "file": "fig8_repeat_contrasts.pdf",
+      "reference_sha256": "f84a5ac24ff58e584e0a2e34c96ac1adbc76a919442731e9201a1c0c61dcae3d",
+      "generated_sha256": "f607ed669ac52a323879d0b4cfcb9df39aa147189d0331d850e246da65be306e",
+      "labels_and_values_match": true,
+      "reference_size_pt": [
+        488.844,
+        236.385625
+      ],
+      "generated_size_pt": [
+        488.844,
+        236.63953125
+      ]
+    }
+  ]
+}

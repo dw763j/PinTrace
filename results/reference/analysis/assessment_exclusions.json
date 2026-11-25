@@ -1,0 +1,290 @@
+[
+  {
+    "track": "d1",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "BigCodeBench/1076",
+    "declaration_id": "da7430fefab5d6ca92386ec90596b6b194fd9e74ac676141db9151866aae479d",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "pytz>=2020.1; python_version<\"3.9\"",
+    "import_line": "requirements.txt: pytz>=2020.1; python_version<\"3.9\"",
+    "pypi_name": "pytz",
+    "clean_pintrace": false,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "inline",
+    "model": "deepseek-v3.2",
+    "task_id": "stackexchange-60868719",
+    "declaration_id": "c7bcb855adc9f27b9e5e72adadb52784c9cf6357de7f3dc9d2fbb393a14d5d7c",
+    "constraint_kind": "exact",
+    "declaration_source": "inline_annotation",
+    "raw_requirement": "google==1.12.1",
+    "import_line": "import google.cloud.build_v1  # VERSION=1.12.1",
+    "pypi_name": null,
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "identity_unresolved"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "inline",
+    "model": "deepseek-v3.2",
+    "task_id": "stackexchange-60868719",
+    "declaration_id": "59a523d62f2885b7863d5339f5170e2f7b80fb635e3667a98a139595cef05595",
+    "constraint_kind": "exact",
+    "declaration_source": "inline_annotation",
+    "raw_requirement": "google==1.12.1",
+    "import_line": "import google.cloud.source_repositories_v1  # VERSION=1.12.1",
+    "pypi_name": null,
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "identity_unresolved"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "inline",
+    "model": "meta-llama/llama-4-scout",
+    "task_id": "stackexchange-63252930",
+    "declaration_id": "dcd89a1a0e2b0446760a8690929d20d9b070a325cc8b472aed1fa0c1f2cf2c8e",
+    "constraint_kind": "exact",
+    "declaration_source": "inline_annotation",
+    "raw_requirement": "google==0.1.0",
+    "import_line": "from google.cloud import appengineflex  # VERSION=0.1.0",
+    "pypi_name": null,
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "identity_unresolved"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "deepseek-v3.2",
+    "task_id": "stackexchange-73824659",
+    "declaration_id": "370e00f275e7dc6343d63ed0331423d15ea72b59fb4487551cb8065d357ed9a1",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "pyobjc-framework-Cocoa>=9.0 ; sys_platform == 'darwin'",
+    "import_line": "requirements.txt: pyobjc-framework-Cocoa>=9.0 ; sys_platform == 'darwin'",
+    "pypi_name": "pyobjc-framework-cocoa",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "minimax-m2.5",
+    "task_id": "stackexchange-75843783",
+    "declaration_id": "c32e98fd721c678cd81336146d43d38e30bf7948c037db550196f7d7e81acb6b",
+    "constraint_kind": "bare",
+    "declaration_source": "manifest",
+    "raw_requirement": "pywin32 ; sys_platform == \"win32\"",
+    "import_line": "requirements.txt: pywin32 ; sys_platform == \"win32\"",
+    "pypi_name": "pywin32",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "qwen3-235b-a22b-instruct-2507",
+    "task_id": "stackexchange-73824659",
+    "declaration_id": "0054f361b782594b18ebf23e2d77e034a5efcb534d34b5be01cb3dcb8aaa2c76",
+    "constraint_kind": "bare",
+    "declaration_source": "manifest",
+    "raw_requirement": "pywin32; sys_platform == 'win32'",
+    "import_line": "requirements.txt: pywin32; sys_platform == 'win32'",
+    "pypi_name": "pywin32",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "claude-sonnet-4-6",
+    "task_id": "stackexchange-62478080",
+    "declaration_id": "0874578814e41d128b3407f39c47b887e86b8cc8f7fbab252ba57b70962e88dc",
+    "constraint_kind": "bare",
+    "declaration_source": "manifest",
+    "raw_requirement": "importlib_resources; python_version < \"3.9\"",
+    "import_line": "requirements.txt: importlib_resources; python_version < \"3.9\"",
+    "pypi_name": "importlib-resources",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "gpt-5.4",
+    "task_id": "stackexchange-54970364",
+    "declaration_id": "71bf35781459739d7fe204a4f541fcad9b4bd67b68b93a4fd785d2a414739dde",
+    "constraint_kind": "bare",
+    "declaration_source": "manifest",
+    "raw_requirement": "pywin32; platform_system == \"Windows\"",
+    "import_line": "requirements.txt: pywin32; platform_system == \"Windows\"",
+    "pypi_name": "pywin32",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-62023593",
+    "declaration_id": "7f60273d3eb1957d753a6921d10646ed295c88ff7e00f655f554cae5573630e9",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "pywin32>=306; platform_system==\"Windows\"",
+    "import_line": "requirements.txt: pywin32>=306; platform_system==\"Windows\"",
+    "pypi_name": "pywin32",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-60750973",
+    "declaration_id": "e5dcba3a2ca22493b3d21290f17c8ab29bdb2365d8618c11d0b6979c97d1e8fd",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "WMI>=1.5.1; platform_system==\"Windows\"",
+    "import_line": "requirements.txt: WMI>=1.5.1; platform_system==\"Windows\"",
+    "pypi_name": "wmi",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-60750973",
+    "declaration_id": "6d75e1c7612ce7a3cc3a1015aedd7e0ac612964a31dc2d52c861e47fcf405997",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "pywin32>=227; platform_system==\"Windows\"",
+    "import_line": "requirements.txt: pywin32>=227; platform_system==\"Windows\"",
+    "pypi_name": "pywin32",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-52260828",
+    "declaration_id": "48712d42abedd7912f9ab26a8dbb8abd3c027a09cee47833ea314d165b7a96de",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "WMI>=1.5.1; sys_platform == 'win32'",
+    "import_line": "requirements.txt: WMI>=1.5.1; sys_platform == 'win32'",
+    "pypi_name": "wmi",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-52260828",
+    "declaration_id": "50a3a5ed0cdddbd8f1c781b3fecb878413998a28392137ce6f2b291eee4155e5",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "pywin32>=227; sys_platform == 'win32'",
+    "import_line": "requirements.txt: pywin32>=227; sys_platform == 'win32'",
+    "pypi_name": "pywin32",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-59573686",
+    "declaration_id": "ec5aa995b5bec5ca823fffa728ecabbe1000fe76ddd4f9c723f06cbe023723d3",
+    "constraint_kind": "range",
+    "declaration_source": "manifest",
+    "raw_requirement": "tensorflow>=1.15.0,<2.0.0; python_version < '3.8'",
+    "import_line": "requirements.txt: tensorflow>=1.15.0,<2.0.0; python_version < '3.8'",
+    "pypi_name": "tensorflow",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-65170775",
+    "declaration_id": "b7daf193868a2d13741112619a802c11595e7037a29705621b8194a9fdb7e920",
+    "constraint_kind": "bare",
+    "declaration_source": "manifest",
+    "raw_requirement": "ptvsd; python_version < '3.9'",
+    "import_line": "requirements.txt: ptvsd; python_version < '3.9'",
+    "pypi_name": "ptvsd",
+    "clean_pintrace": true,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-61622357",
+    "declaration_id": "b3d9fe058d3624bd5d8e180e128ca53a1b3757a07411feca47a9704cc6bf8525",
+    "constraint_kind": "exact",
+    "declaration_source": "manifest",
+    "raw_requirement": "psycopg2==2.8.6; python_version < \"3.0\"",
+    "import_line": "requirements.txt: psycopg2==2.8.6; python_version < \"3.0\"",
+    "pypi_name": "psycopg2",
+    "clean_pintrace": false,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  },
+  {
+    "track": "d2",
+    "mode": "requirements.txt",
+    "model": "kimi-k2.5",
+    "task_id": "stackexchange-61622357",
+    "declaration_id": "833c091c05f7136ce6163bfab621c7f4dd3456d4d91b67acac72bd92f2e8cdf7",
+    "constraint_kind": "exact",
+    "declaration_source": "manifest",
+    "raw_requirement": "psycopg2-binary==2.8.6; python_version < \"3.0\"",
+    "import_line": "requirements.txt: psycopg2-binary==2.8.6; python_version < \"3.0\"",
+    "pypi_name": "psycopg2-binary",
+    "clean_pintrace": false,
+    "exclusion_reasons": [
+      "marker_inactive"
+    ]
+  }
+]

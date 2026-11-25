@@ -1,0 +1,27 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Fixed-code policy outcomes on the controlled samples.
+Cells give response counts.
+Recovered and Regressed count transitions from nonpass to pass and from pass to nonpass, respectively.
+Pass + no match counts passes whose complete dependency graphs have no advisory match under the OSV snapshot $\mathcal B$.
+Dashes identify the baseline reference.}
+\label{tab:fixed_code_comparison}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Policy} & \textbf{Installed} & \textbf{Pass} & \textbf{Recovered} & \textbf{Regressed} & \textbf{Pass + no match} \\
+\midrule
+\multicolumn{6}{@{}l}{\myso: static validation, $N=80$ (40 baseline passes, 40 nonpasses)} \\
+Original constraints & 54 & 40 & -- & -- & 20 \\
+Remove exact constraints & 79 & 54 & 17 & 3 & 46 \\
+Verified neighbor & 56 & 43 & 3 & 0 & 25 \\
+\midrule
+\multicolumn{6}{@{}l}{BigCodeBench: task tests, $N=40$ (20 baseline passes, 20 nonpasses)} \\
+Original constraints & 24 & 20 & -- & -- & 6 \\
+Remove exact constraints & 40 & 29 & 9 & 0 & 10 \\
+Verified neighbor & 24 & 20 & 0 & 0 & 7 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

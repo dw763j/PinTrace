@@ -1,0 +1,14 @@
+{
+  "source_changed_responses": 2050,
+  "excluded_pairs": 1602,
+  "changed_responses_by_track": {
+    "d1": 576,
+    "d2": 1474
+  },
+  "source_sha256": "98aa72ed3bc7d4a07d3b6cc76087e93ffc95160bdbee384739b28e41af6bfa03",
+  "flags_sha256": "b1fd308408cfa94f4620970dc667a82fa15f4266b13e8773fe850f69641c7daf",
+  "seed": 20261109,
+  "replicates": 10000,
+  "population_rule": "Exclude both conditions of each task-model pair when either saved response has a corrected code selection, manifest, package constraint input, or author-adjudicated terminal state.",
+  "interval_method": "Paired task-cluster percentile bootstrap retaining each task's observed model count in the numerator and denominator."
+}

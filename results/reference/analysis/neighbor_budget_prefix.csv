@@ -1,0 +1,11 @@
+﻿cohort,prefix_budget,N,installation_recovered,static_recovered
+recorded,5,1297,224,182
+recorded,10,1297,371,312
+recorded,20,1297,507,430
+recorded,30,1297,509,432
+recorded,40,1297,509,432
+rematched_eligible,5,815,223,181
+rematched_eligible,10,815,370,311
+rematched_eligible,20,815,506,429
+rematched_eligible,30,815,508,431
+rematched_eligible,40,815,508,431

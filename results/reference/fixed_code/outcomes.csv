@@ -1,0 +1,7 @@
+﻿track,population,strategy,N,resolved,installed,oracle_pass,oracle_pass_without_association,recovered,regressed,new_joint_successes,candidate_evaluations
+d2,PinTrace / static,original,80,80,54,40,20,0,0,0,80
+d2,PinTrace / static,unpin,80,80,79,54,46,17,3,26,80
+d2,PinTrace / static,neighbor,80,80,56,43,25,3,0,5,562
+d1,BigCodeBench / tests,original,40,40,24,20,6,0,0,0,40
+d1,BigCodeBench / tests,unpin,40,40,40,29,10,9,0,4,40
+d1,BigCodeBench / tests,neighbor,40,40,24,20,7,0,0,1,322

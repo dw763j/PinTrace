@@ -1,0 +1,53 @@
+{
+  "title": "Dependency-Version Advice in LLM-Generated Code: Incidence, Quality, and Consequences",
+  "main": {
+    "pintrace_tasks": 1000,
+    "pintrace_clean_tasks": 927,
+    "bigcodebench_tasks": 813,
+    "models": 10,
+    "conditions": [
+      "MR",
+      "VA"
+    ],
+    "responses": 36260,
+    "merged_declarations": 83241,
+    "source_carrier_declarations": 80092,
+    "harness_dependencies": 2036
+  },
+  "evaluation": {
+    "python": "3.12",
+    "uv": "0.10.7",
+    "ty": "0.0.23",
+    "platform": "x86_64-unknown-linux-gnu",
+    "release_cutoff": "2026-02-01T00:00:00Z",
+    "advisory_snapshot": "2026-03-01",
+    "prerelease": "if-necessary-or-explicit"
+  },
+  "bootstrap": {
+    "main_seed": 20261109,
+    "repeated_seed": 20261110,
+    "resamples": 10000,
+    "unit": "task",
+    "method": "percentile",
+    "lower_quantile": 0.025,
+    "upper_quantile": 0.975
+  },
+  "followups": {
+    "neighbor_responses": 815,
+    "neighbor_max_candidates": 40,
+    "fixed_code_pintrace": 80,
+    "fixed_code_bigcodebench": 40,
+    "runtimes": [
+      "3.8",
+      "3.10",
+      "3.12",
+      "3.14"
+    ],
+    "runtime_observations": 145040,
+    "repeated_models": 5,
+    "repeated_pintrace_tasks": 60,
+    "repeated_bigcodebench_tasks": 20,
+    "repeats": 3,
+    "repeated_responses": 2400
+  }
+}

@@ -1,10 +1,8 @@
+build/
+build-*/
 .venv/
-.cache/
-.pytest_cache/
-.ruff_cache/
 __pycache__/
-*.py[cod]
+*.pyc
+.pytest_cache/
 .env
-logs/
-.DS_Store
-paper_results/tables/rq2_constraint_validity_legacy.tex
+.cache/

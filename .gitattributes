@@ -1,0 +1,5 @@
+# Preserve input hashes and reference artifacts across operating systems.
+* -text
+*.gz binary
+*.pdf binary
+*.part* binary

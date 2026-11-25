@@ -1,0 +1,11 @@
+﻿mode,state,frozen_valid,dependency_occurrences
+inline,absent_release,False,1095
+inline,after_cutoff,False,1
+inline,metadata_unavailable,False,248
+inline,published_by_cutoff,False,607
+inline,published_by_cutoff,True,15758
+inline,release_without_dated_artifact,False,1
+requirements.txt,absent_release,False,147
+requirements.txt,metadata_unavailable,False,26
+requirements.txt,published_by_cutoff,False,109
+requirements.txt,published_by_cutoff,True,3229

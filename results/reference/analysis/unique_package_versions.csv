@@ -1,0 +1,4 @@
+﻿mode,kind,valid_occurrences,associated_occurrences,unique_pairs,associated_pairs,unique_packages
+requirements.txt,exact,3229,1404,1054,422,413
+requirements.txt,range,5403,803,707,52,636
+inline,exact,15758,6396,2468,1048,518

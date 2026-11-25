@@ -1,0 +1,1497 @@
+% ============================================================
+%  llm_tpl.bib
+%  All references for "When Version Pinning Goes Wrong"
+%  Last updated: 2026-03-31
+% ============================================================
+
+% ── Infrastructure & datasets ────────────────────────────────
+
+@misc{tiktoken,
+  author       = {OpenAI},
+  title        = {Tiktoken},
+  year         = {2022},
+  howpublished = {\url{https://github.com/openai/tiktoken}},
+  note         = {Accessed: February 2026},
+}
+
+@misc{pip-audit,
+  author       = {pypa},
+  title        = {pip-audit},
+  year         = {2021},
+  howpublished = {\url{https://github.com/pypa/pip-audit}},
+  note         = {Accessed: February 2026},
+}
+
+@misc{pypi,
+  author       = {Python},
+  title        = {The Python Package Index (PyPI)},
+  year         = {2002},
+  howpublished = {\url{https://pypi.org/}},
+  note         = {Accessed: February 2026},
+}
+
+@misc{pipreqs,
+  author       = {Bndr and contributors},
+  title        = {pipreqs: Package-to-Import Name Mapping},
+  year         = {2024},
+  howpublished = {\url{https://github.com/bndr/pipreqs/blob/master/pipreqs/mapping}},
+  note         = {Accessed: February 2026},
+}
+
+@misc{hugovk_top_pypi_202512,
+  author       = {van Kemenade, Hugo},
+  title        = {{Top PyPI Packages} (release 2025.12)},
+  year         = {2025},
+  month        = dec,
+  howpublished = {\url{https://github.com/hugovk/top-pypi-packages/releases/tag/2025.12}},
+  note         = {Released 1 December 2025. Accessed 23 November 2026},
+}
+
+@misc{py312,
+  author       = {Python},
+  title        = {Python Release Python 3.12},
+  year         = {2023},
+  howpublished = {\url{https://www.python.org/downloads/release/python-3120/}},
+  note         = {Accessed: February 2026},
+}
+
+@misc{python312_changes_revision,
+  author       = {{Python Software Foundation}},
+  title        = {What's New in {Python} 3.12},
+  year         = {2023},
+  howpublished = {\url{https://docs.python.org/3.12/whatsnew/3.12.html}},
+  note         = {Accessed: November 2026},
+}
+
+@misc{so_dump,
+  author       = {{Stack Exchange, Inc.}},
+  title        = {{Stack Exchange Data Dump}},
+  year         = {2026},
+  howpublished = {\url{https://stackoverflow.com/help/data-dumps}},
+  note         = {Snapshot: Jan 6, 2026},
+}
+
+@misc{so_query,
+  author       = {{Stack Exchange, Inc.}},
+  title        = {{Stack Exchange Data Query}},
+  year         = {2026},
+  howpublished = {\url{https://data.stackexchange.com/stackoverflow/query/edit/1903717\#resultSets}},
+  note         = {Snapshot: April 15, 2026},
+}
+
+@misc{osv,
+  author       = {{Google}},
+  title        = {{OSV: Open Source Vulnerabilities}},
+  year         = {2021},
+  howpublished = {\url{https://osv.dev}},
+}
+
+@inproceedings{bigcodebench,
+title={BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions},
+author={Terry Yue Zhuo and Vu Minh Chien and Jenny Chim and Han Hu and Wenhao Yu and Ratnadira Widyasari and Imam Nur Bani Yusuf and Haolan Zhan and Junda He and Indraneil Paul and Simon Brunner and Chen Gong and James Hoang and Armel Randy Zebaze and Xiaoheng Hong and Wen-Ding Li and Jean Kaddour and Ming Xu and Zhihan Zhang and Prateek Yadav and Naman Jain and Alex Gu and Zhoujun Cheng and Jiawei Liu and Qian Liu and Zijian Wang and David Lo and Binyuan Hui and Niklas Muennighoff and Daniel Fried and Xiaoning Du and Harm de Vries and Leandro von Werra},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+publisher={OpenReview.net},
+address={Singapore},
+numpages={28},
+url={https://openreview.net/forum?id=YrycTjllL0}
+}
+
+@misc{uv,
+  author       = {{Astral}},
+  title        = {{uv}: An Extremely Fast {Python} Package Installer and Resolver},
+  year         = {2024},
+  howpublished = {\url{https://docs.astral.sh/uv/}},
+}
+
+@misc{ty,
+  author       = {{Astral}},
+  title        = {{ty}: A Fast Type Checker and Language Server for {Python}},
+  year         = {2025},
+  howpublished = {\url{https://docs.astral.sh/ty/}},
+}
+
+@misc{griffe,
+  author       = {Thiéblemont, Timothée},
+  title        = {{Griffe}: Signatures for Entire {Python} Programs},
+  year         = {2021},
+  howpublished = {\url{https://mkdocstrings.github.io/griffe/}},
+}
+
+@misc{github_octoverse_2025,
+  author       = {{GitHub}},
+  title        = {{Octoverse 2025}: A New Developer Joins {GitHub} Every Second as {AI} Leads {TypeScript} to \#1},
+  year         = {2025},
+  howpublished = {\url{https://github.blog/news-insights/octoverse/}},
+}
+
+@misc{github_copilot_stats,
+  author       = {{GitHub}},
+  title        = {{GitHub Copilot}: {AI} Code Generation Statistics},
+  year         = {2025},
+  howpublished = {\url{https://github.blog/news-insights/research/}},
+}
+
+% ── LLM code security ────────────────────────────────────────
+
+@article{fu2025security,
+  author  = {Fu, Yujia and Liang, Peng and Tahir, Amjed and others},
+  title   = {Security Weaknesses of {Copilot}-Generated Code in {GitHub} Projects: An Empirical Study},
+  journal = {ACM Transactions on Software Engineering and Methodology},
+  volume  = {34},
+  number  = {8},
+  pages   = {1--34},
+  year    = {2025},
+  doi     = {10.1145/3716848},
+}
+
+@inproceedings{dai2025comprehensive,
+  author    = {Dai, Shih-Chieh and Xu, Jun and Tao, Guanhong},
+  title     = {Rethinking the Evaluation of Secure Code Generation},
+  booktitle = {Proceedings of the 48th IEEE/ACM International Conference on Software Engineering},
+  year      = {2026},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Rio de Janeiro, Brazil},
+  series    = {ICSE '26},
+  numpages  = {13},
+  isbn      = {979-8-4007-2025-3},
+  doi       = {10.1145/3744916.3773217},
+  url       = {https://doi.org/10.1145/3744916.3773217},
+}
+
+@article{sajadi2025security,
+  author  = {Sajadi, Amirali and Le, Binh and Nguyen, Anh and Damevski, Kostadin and Chatterjee, Preetha},
+  title   = {Do {LLMs} Consider Security? An Empirical Study on Responses to Programming Questions},
+  journal = {Empirical Software Engineering},
+  volume  = {30},
+  number  = {4},
+  pages   = {101},
+  year    = {2025},
+  doi     = {10.1007/s10664-025-10658-6},
+}
+
+@article{zhao2025cwe,
+  author  = {Zhao, Jianguo and Sun, Yuqiang and Huang, Cheng and Liu, Chengwei and Guan, YaoHui and Zeng, Yutong and Liu, Yang},
+  title   = {Towards Secure Code Generation with {LLMs}: A Study on Common Weakness Enumeration},
+  journal = {IEEE Transactions on Software Engineering},
+  volume  = {51},
+  number  = {12},
+  pages   = {3507--3523},
+  year    = {2025},
+  doi     = {10.1109/TSE.2025.3619281},
+}
+
+@misc{gao2025survey,
+  author = {Gao, Ruofan and Tahir, Amjed and Liang, Peng and Susnjak, Teo and Khomh, Foutse},
+  title  = {A Survey of Bugs in {AI}-Generated Code},
+  year   = {2025},
+  eprint = {2512.05239},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2512.05239},
+}
+
+@misc{wang2025aicode,
+  author = {Wang, Bin and Yu, Wenjie and Zhong, Yilu and others},
+  title  = {{AI} Code in the Wild: Measuring Security Risks and Ecosystem Shifts of {AI}-Generated Code in Modern Software},
+  year   = {2025},
+  eprint = {2512.18567},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2512.18567},
+}
+
+@misc{hajipour2024hexacoder,
+  author = {Hajipour, Hossein and Sch{\"o}nherr, Lea and Holz, Thorsten and Fritz, Mario},
+  title  = {{HexaCoder}: Secure Code Generation via Oracle-Guided Synthetic Training Data},
+  year   = {2024},
+  eprint = {2409.06446},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2409.06446},
+}
+
+@misc{fu2024constrained,
+  author = {Fu, Yanjun and Baker, Ethan and Ding, Yu and Chen, Yizheng},
+  title  = {Constrained Decoding for Secure Code Generation},
+  year   = {2024},
+  eprint = {2405.00218},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2405.00218},
+}
+
+@inproceedings{he2024instruction,
+  title     = {Instruction Tuning for Secure Code Generation},
+  author    = {He, Jingxuan and Vero, Mark and Krasnopolska, Gabriela and Vechev, Martin},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+  pages     = {18043--18062},
+  year      = {2024},
+  volume    = {235},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  address   = {Vienna, Austria},
+  url       = {https://proceedings.mlr.press/v235/he24k.html},
+}
+
+@inproceedings{li2024cosec,
+  author    = {Li, Dong and Yan, Meng and Zhang, Yaosheng and Liu, Zhongxin and Liu, Chao and Zhang, Xiaohong and Chen, Ting and Lo, David},
+  title     = {{CoSec}: On-the-Fly Security Hardening of Code {LLMs} via Supervised Co-Decoding},
+  booktitle = {Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  pages     = {1428--1439},
+  year      = {2024},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Vienna, Austria},
+  doi       = {10.1145/3650212.3680371},
+  url       = {https://doi.org/10.1145/3650212.3680371},
+}
+
+@article{li2025codistill,
+  author  = {Li, Dong and Shu, Shanfu and Yan, Meng and others},
+  title   = {Improving Co-Decoding Based Security Hardening of Code {LLMs} Leveraging Knowledge Distillation},
+  journal = {IEEE Transactions on Software Engineering},
+  volume  = {51},
+  number  = {9},
+  pages   = {2634--2650},
+  year    = {2025},
+  doi     = {10.1109/TSE.2025.3591791},
+}
+
+@inproceedings{zhang2024seccoder,
+  author    = {Zhang, Boyu and Du, Tianyu and Tong, Junkai and Zhang, Xuhong and Chow, Kingsum and Cheng, Sheng and Wang, Xun and Yin, Jianwei},
+  title     = {{SecCoder}: Towards Generalizable and Robust Secure Code Generation},
+  booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+  pages     = {14557--14571},
+  year      = {2024},
+  month     = nov,
+  publisher = {Association for Computational Linguistics},
+  address   = {Miami, Florida, USA},
+  doi       = {10.18653/v1/2024.emnlp-main.806},
+  url       = {https://aclanthology.org/2024.emnlp-main.806/},
+}
+
+@inproceedings{melo2025securing,
+  author    = {Melo, Rui},
+  title     = {Securing Language Models Against Vulnerability Encoding},
+  booktitle = {Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering},
+  pages     = {1277--1278},
+  year      = {2025},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Trondheim, Norway},
+  doi       = {10.1145/3696630.3731466},
+  url       = {https://doi.org/10.1145/3696630.3731466},
+}
+
+@misc{yan2025guiding,
+  author = {Yan, Hao and Vaidya, Swapneel Suhas and Zhang, Xiaokuan and Yao, Ziyu},
+  title  = {Guiding {AI} to Fix Its Own Flaws: An Empirical Study on {LLM}-Driven Secure Code Generation},
+  year   = {2025},
+  eprint = {2506.23034},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2506.23034},
+}
+
+@inproceedings{hasan2025teaching,
+  title     = {Teaching an Old {LLM} Secure Coding: Localized Preference Optimization on Distilled Preferences},
+  author    = {Hasan, Mohammad Saqib and Chakraborty, Saikat and Karmaker, Santu and Balasubramanian, Niranjan},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages     = {26039--26057},
+  year      = {2025},
+  month     = jul,
+  publisher = {Association for Computational Linguistics},
+  address   = {Vienna, Austria},
+  isbn      = {979-8-89176-251-0},
+  doi       = {10.18653/v1/2025.acl-long.1263},
+  url       = {https://aclanthology.org/2025.acl-long.1263/},
+}
+
+@inproceedings{vero2025baxbench,
+  title     = {{BaxBench}: Can {LLMs} Generate Correct and Secure Backends?},
+  author    = {Vero, Mark and M{\"u}ndler, Niels and Chibotaru, Victor and Raychev, Veselin and Baader, Maximilian and Jovanovi{\'c}, Nikola and He, Jingxuan and Vechev, Martin},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+  pages     = {61344--61390},
+  year      = {2025},
+  volume    = {267},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  address   = {Vancouver, Canada},
+  url       = {https://proceedings.mlr.press/v267/vero25a.html},
+}
+
+@inproceedings{lin2025rag,
+author = {Lin, Bo and Wang, Shangwen and Qin, Yihao and Chen, Liqian and Mao, Xiaoguang},
+title = {Give LLMs a Security Course: Securing Retrieval-Augmented Code Generation via Knowledge Injection},
+year = {2025},
+isbn = {9798400715259},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3719027.3765049},
+doi = {10.1145/3719027.3765049},
+abstract = {Retrieval-Augmented Code Generation (RACG) leverages external knowledge to enhance Large Language Models (LLMs) in code synthesis, improving the functional correctness of the generated code. However, existing RACG systems largely overlook security, leading to substantial risks. Especially, the poisoning of malicious code into knowledge bases can mislead LLMs, resulting in the generation of insecure outputs, which poses a critical threat in modern software development. To address this, we propose a security-hardening framework for RACG systems, CodeGuarder, that shifts the paradigm from retrieving only functional code examples to incorporating both functional code and security knowledge. Our framework constructs a security knowledge base by analyzing real-world vulnerabilities from the ReposVul dataset. For each code generation query, a retriever decomposes the query into fine-grained sub-tasks and fetches relevant security knowledge. To prioritize critical security guidance, we introduce a re-ranking and filtering mechanism by leveraging the LLMs' susceptibility to different vulnerability types. This filtered security knowledge is seamlessly integrated into the generation prompt. Our evaluation shows CodeGuarder significantly improves code security rates across various LLMs, achieving average improvements of 20.12\% in standard RACG, and 31.53\% and 21.91\% under two distinct poisoning scenarios without compromising functional correctness. Furthermore, CodeGuarder demonstrates strong generalization, enhancing security even when the targeted language's security knowledge is lacking. This work presents CodeGuarder as a pivotal advancement towards building secure and trustworthy RACG systems.},
+booktitle = {Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {3356–3370},
+numpages = {15},
+keywords = {retrieval-augmented code generation, software security},
+location = {Taipei, Taiwan},
+series = {CCS '25}
+}
+
+% ── Package hallucination ─────────────────────────────────────
+
+@inproceedings{spracklen2025package,
+author = {Spracklen, Joseph and Wijewickrama, Raveen and Sakib, AHM Nazmus and Maiti, Anindya and Viswanath, Bimal and Jadliwala, Murtuza},
+title = {We have a package for you! a comprehensive analysis of package hallucinations by code generating LLMs},
+year = {2025},
+isbn = {978-1-939133-52-6},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {The reliance of popular programming languages such as Python and JavaScript on centralized package repositories and open-source software, combined with the emergence of code-generating Large Language Models (LLMs), has created a new type of threat to the software supply chain: package hallucinations. These hallucinations, which arise from fact-conflicting errors when generating code using LLMs, represent a novel form of package confusion attack that poses a critical threat to the integrity of the software supply chain. This paper conducts a rigorous and comprehensive evaluation of package hallucinations across different programming languages, settings, and parameters, exploring how a diverse set of models and configurations affect the likelihood of generating erroneous package recommendations and identifying the root causes of this phenomenon. Using 16 popular LLMs for code generation and two unique prompt datasets, we generate 576,000 code samples in two programming languages that we analyze for package hallucinations. Our findings reveal that that the average percentage of hallucinated packages is at least 5.2\% for commercial models and 21.7\% for open-source models, including a staggering 205,474 unique examples of hallucinated package names, further underscoring the severity and pervasiveness of this threat. To overcome this problem, we implement several hallucination mitigation strategies and show that they are able to significantly reduce the number of package hallucinations while maintaining code quality. Our experiments and findings highlight package hallucinations as a persistent and systemic phenomenon while using state-of-the-art LLMs for code generation, and a significant challenge which deserves the research community's urgent attention.},
+booktitle = {Proceedings of the 34th USENIX Conference on Security Symposium},
+articleno = {190},
+numpages = {20},
+location = {Seattle, WA, USA},
+series = {SEC '25}
+}
+
+@misc{latendresse2024chatgpt,
+  author = {Latendresse, Jasmine and Khatoonabadi, SayedHassan and Abdellatif, Ahmad and Shihab, Emad},
+  title  = {Is {ChatGPT} a Good Software Librarian? An Exploratory Study on the Use of {ChatGPT} for Software Library Recommendations},
+  year   = {2024},
+  eprint = {2408.05128},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2408.05128},
+}
+
+@inproceedings{latendresse2025librarian,
+  author    = {Latendresse, Jasmine and Day, Naoures and Khatoonabadi, SayedHassan and Shihab, Emad},
+  title     = {The Software Librarian: {Python} Package Insights for {Copilot}},
+  booktitle = {Proceedings of the 47th IEEE/ACM International Conference on Software Engineering: Companion Proceedings},
+  pages     = {17--20},
+  year      = {2025},
+  publisher = {IEEE},
+  address   = {Piscataway, NJ, USA},
+  location  = {Ottawa, Ontario, Canada},
+  doi       = {10.1109/ICSE-Companion66252.2025.00014},
+  url       = {https://doi.org/10.1109/ICSE-Companion66252.2025.00014},
+}
+
+@misc{latendresse2025robust,
+  author = {Latendresse, Jasmine and Khatoonabadi, SayedHassan and Shihab, Emad},
+  title  = {How Robust Are {LLM}-Generated Library Imports? An Empirical Study Using {Stack Overflow}},
+  year   = {2025},
+  eprint = {2507.10818},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2507.10818},
+}
+
+@misc{guo2026malicious,
+  author = {Guo, Wenbo and Song, Shiwen and Guo, Jiaxun and others},
+  title  = {Bridging Expert Reasoning and {LLM} Detection: A Knowledge-Driven Framework for Malicious Packages},
+  year   = {2026},
+  doi    = {10.1145/3774904.3792083},
+}
+
+% ── Version-level compatibility & API evolution ───────────────
+
+@inproceedings{wang2025library,
+  author    = {Wang, Chong and Huang, Kaifeng and Zhang, Jian and Feng, Yebo and Zhang, Lyuye and Liu, Yang and Peng, Xin},
+  title     = {{LLMs} Meet Library Evolution: Evaluating Deprecated {API} Usage in {LLM}-Based Code Completion},
+  booktitle = {Proceedings of the 47th IEEE/ACM International Conference on Software Engineering},
+  pages     = {885--897},
+  year      = {2025},
+  publisher = {IEEE},
+  address   = {Piscataway, NJ, USA},
+  location  = {Ottawa, Ontario, Canada},
+  doi       = {10.1109/ICSE55347.2025.00245},
+  url       = {https://doi.org/10.1109/ICSE55347.2025.00245},
+}
+
+@misc{wu2024versicode,
+  author = {Wu, Tongtong and Wu, Weigang and Wang, Xingyu and others},
+  title  = {{VersiCode}: Towards Version-Controllable Code Generation},
+  year   = {2024},
+  eprint = {2406.07411},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2406.07411},
+}
+
+@misc{misra2025gitchameleon,
+  author        = {Misra, Diganta and Islah, Nizar and May, Victor and Rauby, Brice and Wang, Zihan and Gehring, Justine and Orvieto, Antonio and Chaudhary, Muawiz and Muller, Eilif B. and Rish, Irina and Ebrahimi Kahou, Samira and Caccia, Massimo},
+  title         = {{GitChameleon} 2.0: Evaluating {AI} Code Generation Against {Python} Library Version Incompatibilities},
+  year          = {2025},
+  eprint        = {2507.12367},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  note          = {Accepted to ACL 2026},
+  url           = {https://arxiv.org/abs/2507.12367}
+}
+
+@misc{islah2024gitchameleon,
+      title={GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models},
+      author={Nizar Islah and Justine Gehring and Diganta Misra and Eilif Muller and Irina Rish and Terry Yue Zhuo and Massimo Caccia},
+      year={2024},
+      eprint={2411.05830},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2411.05830},
+}
+
+@inproceedings{kuhar2025libevolution,
+    title = "{L}ib{E}volution{E}val: A Benchmark and Study for Version-Specific Code Generation",
+    author = "Kuhar, Sachit  and
+      Ahmad, Wasi Uddin  and
+      Wang, Zijian  and
+      Jain, Nihal  and
+      Qian, Haifeng  and
+      Ray, Baishakhi  and
+      Ramanathan, Murali Krishna  and
+      Ma, Xiaofei  and
+      Deoras, Anoop",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.348/",
+    doi = "10.18653/v1/2025.naacl-long.348",
+    pages = "6826--6840",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Recent advancements in code completion models have primarily focused on local file contexts. However, these studies do not fully capture the complexity of real-world software development, which often requires the use of rapidly-evolving public libraries. To address this gap, we introduce LibEvolutionEval, a comprehensive study that emphasizes the need to understand library evolution to perform accurate in-line code completions. LibEvolutionEvaloffers a version-specific code-completion task across eight libraries as they evolve over the years, along with an in-depth analysis of the evolution of two widely used and well-maintained public libraries: PyTorch and Matplotlib. We evaluate several popular models and find that public library evolution significantly affects their performance. To mitigate this, we explored how retrieving version-specific library documentation and prompt-based techniques can enhance model capability in dealing with these fast-evolving packages. This suggests a promising path forward for better handling fast-evolving libraries. Our tasks will be made publicly available upon acceptance."
+}
+
+
+@misc{liu2025codeupdatearena,
+  author = {Liu, Zeyu Leo and Pandit, Shrey and Ye, Xi and Choi, Eunsol and Durrett, Greg},
+  title  = {{CodeUpdateArena}: Benchmarking Knowledge Editing on {API} Updates},
+  year   = {2025},
+  eprint = {2407.06249},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2407.06249},
+}
+
+@misc{lin2025lightweight,
+  author = {Lin, Guancheng and Yu, Xiao and Keung, Jacky and Hu, Xing and Xia, Xin and Liu, Alex X.},
+  title  = {Lightweight Model Editing for {LLMs} to Correct Deprecated {API} Recommendations},
+  year   = {2025},
+  eprint = {2511.21022},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2511.21022},
+}
+@inproceedings{wu2026environment,
+  author    = {Wu, Tongtong and Chen, Rongyi and Du, Wenjie and Ma, Suyu and Qi, Guilin and Xing, Zhenchang and Khadivi, Shahram and Periyathambi, Ramesh and Haffari, Gholamreza},
+  title     = {Environment-Aware Code Generation: How Far Are We?},
+  booktitle = {Proceedings of the 48th IEEE/ACM International Conference on Software Engineering},
+  year      = {2026},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Rio de Janeiro, Brazil},
+  series    = {ICSE '26},
+  numpages  = {12},
+  doi       = {10.1145/3744916.3787784},
+  url       = {https://doi.org/10.1145/3744916.3787784},
+}
+
+% ── Software supply chain security ───────────────────────────
+
+@article{ponta2020detection,
+  author  = {Ponta, Serena Elisa and Plate, Henrik and Sabetta, Antonino},
+  title   = {Detection, Assessment and Mitigation of Vulnerabilities in Open Source Dependencies},
+  journal = {Empirical Software Engineering},
+  volume  = {25},
+  number  = {5},
+  pages   = {3175--3215},
+  year    = {2020},
+  doi     = {10.1007/s10664-020-09830-x},
+}
+
+@article{alfadel2023empirical,
+  author  = {Alfadel, Mahmoud and Costa, Diego Elias and Shihab, Emad},
+  title   = {Empirical Analysis of Security Vulnerabilities in {Python} Packages},
+  journal = {Empirical Software Engineering},
+  volume  = {28},
+  number  = {3},
+  pages   = {59},
+  year    = {2023},
+  doi     = {10.1007/s10664-022-10278-4},
+}
+
+@article{shen2025supply,
+  author  = {Shen, Yijun and Gao, Xiang and Sun, Hailong and Guo, Yu},
+  title   = {Understanding Vulnerabilities in Software Supply Chains},
+  journal = {Empirical Software Engineering},
+  volume  = {30},
+  number  = {1},
+  pages   = {20},
+  year    = {2025},
+  doi     = {10.1007/s10664-024-10581-2},
+}
+
+@inproceedings{dong2025silent,
+  author    = {Dong, Jialiang and Chen, Xinzhang and Susilo, Willy and Sun, Nan and Shaghaghi, Arash and Ma, Siqi},
+  title     = {What Lies Beneath: An Empirical Study of Silent Vulnerability Fixes in Open-Source Software},
+  booktitle = {Proceedings of the 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks},
+  pages     = {345--357},
+  year      = {2025},
+  publisher = {IEEE},
+  address   = {Piscataway, NJ, USA},
+  location  = {Naples, Italy},
+  doi       = {10.1109/DSN64029.2025.00043},
+  url       = {https://doi.org/10.1109/DSN64029.2025.00043},
+}
+
+@inproceedings{koscinski2025conflicting,
+  author    = {Koscinski, Viktoria and Nelson, Mark and Okutan, Ahmet and Falso, Robert and Mirakhorli, Mehdi},
+  title     = {Conflicting Scores, Confusing Signals: An Empirical Study of Vulnerability Scoring Systems},
+  booktitle = {Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security},
+  pages     = {1904--1918},
+  year      = {2025},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Taipei, Taiwan},
+  doi       = {10.1145/3719027.3765210},
+  url       = {https://doi.org/10.1145/3719027.3765210},
+}
+
+@inproceedings{zhang2025golden,
+  author    = {Zhang, Lyuye and Liu, Chengwei and Wu, Jiahui and Zhang, Shiyang and Liu, Chengyue and Xu, Zhengzi and Chen, Sen and Liu, Yang},
+  title     = {Drop the Golden Apples: Identifying Third-Party Reuse by {DB}-Less Software Composition Analysis},
+  booktitle = {Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering},
+  pages     = {691--695},
+  year      = {2025},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Trondheim, Norway},
+  doi       = {10.1145/3696630.3728525},
+  url       = {https://doi.org/10.1145/3696630.3728525},
+}
+
+@inproceedings{ren2025bom,
+  title={Demystifying the Evolution of Neural Networks with BOM Analysis: Insights from a Large-Scale Study of 55,997 GitHub Repositories},
+  author={Ren, Xiaoning and Ye, Yuhang and Wu, Xiongfei and Wu, Yueming and Xue, Yinxing},
+  booktitle={2025 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  pages={2046--2057},
+  year={2025},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  location={Seoul, South Korea},
+  doi={10.1109/ASE63991.2025.00170},
+  url={https://doi.org/10.1109/ASE63991.2025.00170}
+}
+
+% ── Code generation benchmarks ───────────────────────────────
+
+@inproceedings{ding2023crosscodeeval,
+author = {Ding, Yangruibo and Wang, Zijian and Ahmad, Wasi Uddin and Ding, Hantian and Tan, Ming and Jain, Nihal and Ramanathan, Murali Krishna and Nallapati, Ramesh and Bhatia, Parminder and Roth, Dan and Xiang, Bing},
+title = {CROSSCODEEVAL: a diverse and multilingual benchmark for cross-file code completion},
+year = {2023},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {Code completion models have made significant progress in recent years, yet current popular evaluation datasets, such as HumanEval and MBPP, predominantly focus on code completion tasks within a single file. This over-simplified setting falls short of representing the real-world software development scenario where repositories span multiple files with numerous cross-file dependencies, and accessing and understanding cross-file context is often required to complete the code correctly. To fill in this gap, we propose CROSSCODEEVAL, a diverse and multilingual code completion benchmark that necessitates an in-depth cross-file contextual understanding to complete the code accurately. CROSSCODEEVAL is built on a diverse set of real-world, open-sourced, permissively-licensed repositories in four popular programming languages: Python, Java, TypeScript, and C#. To create examples that strictly require cross-file context for accurate completion, we propose a straightforward yet efficient static-analysis-based approach to pinpoint the use of cross-file context within the current file.Extensive experiments on state-of-the-art code language models like CodeGen and StarCoder demonstrate that CROSSCODEEVAL is extremely challenging when the relevant cross-file context is absent, and we see clear improvements when adding these context into the prompt. However, despite such improvements, the pinnacle of performance remains notably unattained even with the highest-performing model, indicating that CROSSCODEEVAL is also capable of assessing model's capability in leveraging extensive context to make better code completion. Finally, we benchmarked various methods in retrieving cross-file context, and show that CROSSCODEEVAL can also be used to measure the capability of code retrievers.},
+booktitle = {Proceedings of the 37th International Conference on Neural Information Processing Systems},
+articleno = {2023},
+numpages = {23},
+location = {New Orleans, LA, USA},
+series = {NIPS '23}
+}
+
+
+@inproceedings{feng2024complexcodeeval,
+  author    = {Feng, Jia and Liu, Jiachen and Gao, Cuiyun and Chong, Chun Yong and Wang, Chaozheng and Gao, Shan and Xia, Xin},
+  title     = {{ComplexCodeEval}: A Benchmark for Evaluating Large Code Models on More Complex Code},
+  booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering},
+  pages     = {1895--1906},
+  year      = {2024},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Sacramento, CA, USA},
+  doi       = {10.1145/3691620.3695552},
+  url       = {https://doi.org/10.1145/3691620.3695552},
+}
+
+@misc{yu2025realisticcodebench,
+  author = {Yu, Xiao and Chen, Haoxuan and Liu, Lei and Hu, Xing and Keung, Jacky Wai and Xia, Xin},
+  title  = {{RealisticCodeBench}: Towards More Realistic Evaluation of Large Language Models for Code Generation},
+  booktitle = {Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering},
+  pages  = {3021--3033},
+  year   = {2025},
+  doi    = {10.1109/ASE63991.2025.00248},
+}
+
+@misc{bytedance2025fullstack,
+  author = {{Bytedance-Seed-Foundation-Code-Team} and Cheng, Yao and Chen, Jianfeng and others},
+  title  = {{FullStack Bench}: Evaluating {LLMs} as Full Stack Coders},
+  year   = {2025},
+  eprint = {2412.00535},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2412.00535},
+}
+
+% ── TPL recommendation ────────────────────────────────────────
+
+@article{chen2025tpl,
+  author  = {Chen, Lianrong and Tang, Mingdong and Mei, Naidan and Xie, Fenfang and Zhong, Guo and He, Qiang},
+  title   = {Implicit Supervision-Assisted Graph Collaborative Filtering for Third-Party Library Recommendation},
+  journal = {IEEE Transactions on Services Computing},
+  volume  = {18},
+  number  = {3},
+  pages   = {1459--1471},
+  year    = {2025},
+  doi     = {10.1109/TSC.2025.3562349},
+}
+
+@INPROCEEDINGS {sipio2025popularity,
+author = { Sipio, Claudio Di and Rocco, Juri Di and Ruscio, Davide Di and Bulhakov, Vladyslav },
+booktitle = { 2025 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C) },
+title = {{ Addressing Popularity Bias in Third-Party Library Recommendations Using LLMs }},
+year = {2025},
+volume = {},
+ISSN = {},
+pages = {33-40},
+abstract = { Recommender systems for software engineering (RSSE) play a crucial role in automating development tasks by providing relevant suggestions according to the developer’s context. However, they suffer from the so-called popularity bias, i.e., the phenomenon of recommending popular items that might be irrelevant to the current task. In particular, the long-tail effect can hamper the system’s performance in terms of accuracy, thus leading to false positives in the provided recommendations. Foundation models are the most advanced generative AI-based models that achieve relevant results in several SE tasks.This paper aims to investigate the capability of large language models (LLMs) to address the popularity bias in recommender systems of third-party libraries (TPLs). We conduct an ablation study experimenting with state-of-the-art techniques to mitigate the popularity bias, including fine-tuning and popularity penalty mechanisms. Our findings reveal that the considered LLMs cannot address the popularity bias in TPL recommenders, even though fine-tuning and post-processing penalty mechanism contributes to increasing the overall diversity of the provided recommendations. In addition, we discuss the limitations of LLMs in this context and suggest potential improvements to address the popularity bias in TPL recommenders, thus paving the way for additional experiments in this direction. },
+keywords = {Java;Heavily-tailed distribution;Prevention and mitigation;Retrieval augmented generation;Libraries;Software;Prompt engineering;Recommender systems;Software engineering;Python},
+doi = {10.1109/SANER-C66551.2025.00012},
+url = {https://doi.ieeecomputersociety.org/10.1109/SANER-C66551.2025.00012},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month =mar}
+
+
+% ── LLM code generation & productivity ───────────────────────
+
+@article{alomari2026llm,
+  author  = {Alomari, Nawaf and Redah, Moussa and Ashraf, Ahmad and Alshayeb, Mohammad},
+  title   = {Using {LLMs} to Enhance Code Quality: A Systematic Literature Review},
+  journal = {Information and Software Technology},
+  volume  = {190},
+  pages   = {107960},
+  year    = {2026},
+  doi     = {10.1016/j.infsof.2025.107960},
+}
+
+@misc{he2025speed,
+  author = {He, Hao and Miller, Courtney and Agarwal, Shyam and K{\"a}stner, Christian and Vasilescu, Bogdan},
+  title  = {Speed at the Cost of Quality? The Impact of {LLM} Agent Assistance on Software Development},
+  year   = {2025},
+  eprint = {2511.04427},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2511.04427},
+}
+
+@article{liang2025prompts,
+  author  = {Liang, Jenny T. and Lin, Melissa and Rao, Nikitha and Myers, Brad A.},
+  title   = {Prompts Are Programs Too! Understanding How Developers Build Software Containing Prompts},
+  journal = {Proceedings of the ACM on Software Engineering},
+  volume  = {2},
+  number  = {FSE},
+  pages   = {1591--1614},
+  year    = {2025},
+  doi     = {10.1145/3729342},
+}
+
+% ── Code repair & bug localization ───────────────────────────
+
+@inproceedings{ouyang2025repair,
+  author    = {Ouyang, Shuyin and Zhang, Jie M. and Sun, Zeyu and Penuela, Albert Merono},
+  title     = {Knowledge-Enhanced Program Repair for Data Science Code},
+  booktitle = {Proceedings of the 47th IEEE/ACM International Conference on Software Engineering},
+  pages     = {898--910},
+  year      = {2025},
+  publisher = {IEEE},
+  address   = {Piscataway, NJ, USA},
+  location  = {Ottawa, ON, Canada},
+  doi       = {10.1109/ICSE55347.2025.00246},
+  url       = {https://doi.org/10.1109/ICSE55347.2025.00246},
+}
+
+@misc{wu2025bug,
+  author = {Wu, Qiushi and Xiao, Yue and Kirat, Dhilung and Eykholt, Kevin and Jang, Jiyong and Schales, Douglas Lee},
+  title  = {One Bug, Hundreds Behind: {LLMs} for Large-Scale Bug Discovery},
+  year   = {2025},
+  eprint = {2510.14036},
+  archivePrefix = {arXiv},
+  doi    = {10.48550/arXiv.2510.14036},
+}
+
+@inproceedings{przymus2025wolves,
+  author    = {Przymus, Piotr and Durieux, Thomas},
+  title     = {Wolves in the Repository: A Software Engineering Analysis of the {XZ} Utils Supply Chain Attack},
+  booktitle = {Proceedings of the 22nd IEEE/ACM International Conference on Mining Software Repositories (MSR)},
+  pages     = {91--102},
+  year      = {2025},
+  doi       = {10.1109/MSR66628.2025.00026},
+  publisher = {IEEE},
+  address   = {Ottawa, ON, Canada},
+}
+
+% ── Software supply chain: taxonomy, SCA, dependency studies ─
+
+@inproceedings{ladisa2023sok,
+  author    = {Ladisa, Piergiorgio and Plate, Henrik and Martinez, Matias and Barais, Olivier},
+  title     = {{SoK}: Taxonomy of Attacks on Open-Source Software Supply Chains},
+  booktitle = {2023 IEEE Symposium on Security and Privacy (SP)},
+  pages     = {1509--1526},
+  year      = {2023},
+  doi       = {10.1109/SP46215.2023.10179304},
+  publisher = {IEEE},
+  address   = {San Francisco, CA, USA},
+}
+
+@inproceedings{imtiaz2021comparative,
+  author    = {Imtiaz, Nasif and Thorn, Seaver and Williams, Laurie},
+  title     = {A Comparative Study of Vulnerability Reporting by Software Composition Analysis Tools},
+  booktitle = {Proceedings of the 15th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)},
+  year      = {2021},
+  articleno = {5},
+  numpages  = {11},
+  doi       = {10.1145/3475716.3475769},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Bari, Italy},
+}
+
+@inproceedings{liu2022demystifying,
+  author    = {Liu, Chengwei and Chen, Sen and Fan, Lingling and Chen, Bihuan and Liu, Yang and Peng, Xin},
+  title     = {Demystifying the Vulnerability Propagation and Its Evolution via Dependency Trees in the npm Ecosystem},
+  booktitle = {Proceedings of the 44th International Conference on Software Engineering},
+  pages     = {672--684},
+  year      = {2022},
+  doi       = {10.1145/3510003.3510142},
+  publisher = {IEEE},
+  address   = {Pittsburgh, PA, USA},
+}
+
+@misc{log4j,
+  author       = {{NVD}},
+  title        = {{CVE-2021-44228} Detail: {Apache Log4j2} Remote Code Execution Vulnerability},
+  year         = {2021},
+  howpublished = {\url{https://nvd.nist.gov/vuln/detail/CVE-2021-44228}},
+  organization = {National Vulnerability Database},
+}
+
+@inproceedings{latendresse2022not,
+  author    = {Latendresse, Jasmine and Mujahid, Suhaib and Costa, Diego Elias and Shihab, Emad},
+  title     = {Not All Dependencies Are Equal: An Empirical Study on Production Dependencies in {NPM}},
+  booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+  year      = {2022},
+  articleno = {73},
+  numpages  = {12},
+  doi       = {10.1145/3551349.3556896},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Rochester, MI, USA},
+  series    = {ASE '22},
+}
+
+@inproceedings{wu2024vision,
+  author    = {Wu, Susheng and Wang, Ruisi and Huang, Kaifeng and others},
+  title     = {Vision: Identifying Affected Library Versions for Open Source Software Vulnerabilities},
+  booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering},
+  pages     = {1447--1459},
+  year      = {2024},
+  doi       = {10.1145/3691620.3695516},
+  publisher = {ACM},
+  address   = {Sacramento, CA, USA},
+  series    = {ASE '24},
+}
+
+% ── Repository-level code generation ─────────────────────────
+
+@article{liao2024a3codgen,
+  author  = {Liao, Dianshu and Pan, Shidong and Sun, Xiaoyu and others},
+  title   = {{A$^3$-CodGen}: A Repository-Level Code Generation Framework for Code Reuse with Local-Aware, Global-Aware, and Third-Party-Library-Aware},
+  journal = {IEEE Transactions on Software Engineering},
+  volume  = {50},
+  number  = {12},
+  pages   = {3369--3384},
+  year    = {2024},
+  doi     = {10.1109/TSE.2024.3486195},
+}
+
+@article{pan2025catcoder,
+  author  = {Pan, Zhiyuan and Hu, Xing and Xia, Xin and Yang, Xiaohu},
+  title   = {{CATCODER}: Repository-Level Code Generation with Relevant Code and Type Context},
+  journal = {ACM Transactions on Software Engineering and Methodology},
+  year    = {2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  articleno = {3779217},
+  numpages = {26},
+  note    = {Just Accepted},
+  doi     = {10.1145/3779217},
+  url     = {https://doi.org/10.1145/3779217},
+}
+
+%% mine %%
+@inproceedings{10.1145/3372297.3417232,
+author = {Pashchenko, Ivan and Vu, Duc-Ly and Massacci, Fabio},
+title = {A Qualitative Study of Dependency Management and Its Security Implications},
+year = {2020},
+isbn = {9781450370899},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3372297.3417232},
+doi = {10.1145/3372297.3417232},
+abstract = {Several large scale studies on the Maven, NPM, and Android ecosystems point out that many developers do not often update their vulnerable software libraries thus exposing the user of their code to security risks. The purpose of this study is to qualitatively investigate the choices and the interplay of functional and security concerns on the developers' overall decision-making strategies for selecting, managing, and updating software dependencies.We run 25 semi-structured interviews with developers of both large and small-medium enterprises located in nine countries. All interviews were transcribed, coded, and analyzed according to applied thematic analysis. They highlight the trade-offs that developers are facing and that security researchers must understand to provide effective support to mitigate vulnerabilities (for example bundling security fixes with functional changes might hinder adoption due to lack of resources to fix functional breaking changes).We further distill our observations to actionable implications on what algorithms and automated tools should achieve to effectively support (semi-)automatic dependency management.},
+booktitle = {Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1513–1531},
+numpages = {19},
+keywords = {dependency management, interviews, qualitative study, security, vulnerable dependencies},
+location = {Virtual Event, USA},
+series = {CCS '20}
+}
+
+
+@ARTICLE{10266387,
+author={Imtiaz, Nasif and Williams, Laurie},
+journal={ IEEE Transactions on Software Engineering },
+title={{ Are Your Dependencies Code Reviewed?: Measuring Code Review Coverage in Dependency Updates }},
+year={2023},
+volume={49},
+number={11},
+ISSN={1939-3520},
+pages={4932-4945},
+abstract={ As modern software extensively uses free open source packages as dependencies, developers have to regularly pull in new third-party code through frequent updates. However, without a proper review of every incoming change, vulnerable and malicious code can sneak into the codebase through these dependencies. The goal of this study is to aid developers in securely accepting dependency updates by measuring if the code changes in an update have passed through a code review process. We implement Depdive, an update audit tool for packages in Crates.io, npm, PyPI, and RubyGems registry. Depdive first (i) identifies the files and the code changes in an update that cannot be traced back to the package's source repository, i.e., phantom artifacts; and then (ii) measures what portion of changes in the update, excluding the phantom artifacts, has passed through a code review process, i.e., code review coverage. Using Depdive, we present an empirical study across the latest ten updates of the most downloaded 1000 packages in each of the four registries. We further evaluated our results through a maintainer agreement survey. We find that phantom artifacts are not uncommon in the updates (20.1% of the analyzed updates had at least one phantom file). The phantoms can appear either due to legitimate reasons, such as in the case of programmatically generated files, or from accidental inclusion, such as in the case of files that are ignored in the repository. Regarding code review coverage (CRC), we find the updates are typically only partially code-reviewed (52.5% of the time). Further, only 9.0% of the packages had all their updates in our data set fully code-reviewed, indicating that even the most used packages can introduce non-reviewed code in the software supply chain. We also observe that updates either tend to have high CRC or low CRC, suggesting that packages at the opposite end of the spectrum may require a separate set of treatments. },
+keywords={Codes;Phantoms;Software;Software development management;Source coding;Security;Supply chains},
+doi={10.1109/TSE.2023.3319509},
+url = {https://doi.ieeecomputersociety.org/10.1109/TSE.2023.3319509},
+publisher={IEEE Computer Society},
+address={Los Alamitos, CA, USA},
+month=nov}
+
+@article{10.1109/TSE.2023.3278129,
+author = {He, Runzhi and He, Hao and Zhang, Yuxia and Zhou, Minghui},
+title = {Automating Dependency Updates in Practice: An Exploratory Study on GitHub Dependabot},
+year = {2023},
+issue_date = {Aug. 2023},
+publisher = {IEEE Press},
+volume = {49},
+number = {8},
+issn = {0098-5589},
+url = {https://doi.org/10.1109/TSE.2023.3278129},
+doi = {10.1109/TSE.2023.3278129},
+abstract = {Dependency management bots automatically open pull requests to update software dependencies on behalf of developers. Early research shows that developers are suspicious of updates performed by dependency management bots and feel tired of overwhelming notifications from these bots. Despite this, dependency management bots are becoming increasingly popular. Such contrast motivates us to investigate Dependabot, currently the most visible bot on GitHub, to reveal the effectiveness and limitations of state-of-art dependency management bots. We use exploratory data analysis and a developer survey to evaluate the effectiveness of Dependabot in keeping dependencies up-to-date, interacting with developers, reducing update suspicion, and reducing notification fatigue. We obtain mixed findings. On the positive side, projects do reduce technical lag after Dependabot adoption and developers are highly receptive to its pull requests. On the negative side, its compatibility scores are too scarce to be effective in reducing update suspicion; developers tend to configure Dependabot toward reducing the number of notifications; and 11.3% of projects have deprecated Dependabot in favor of other alternatives. The survey confirms our findings and provides insights into the key missing features of Dependabot. Based on our findings, we derive and summarize the key characteristics of an ideal dependency management bot which can be grouped into four dimensions: configurability, autonomy, transparency, and self-adaptability.},
+journal = {IEEE Trans. Softw. Eng.},
+month = aug,
+pages = {4004–4022},
+numpages = {19}
+}
+
+@inproceedings{10.1145/3691620.3695595,
+author = {Jaime, Damien and Poizat, Pascal and El Haddad, Joyce and Degueule, Thomas},
+title = {Balancing the Quality and Cost of Updating Dependencies},
+year = {2024},
+isbn = {9798400712487},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3691620.3695595},
+doi = {10.1145/3691620.3695595},
+abstract = {Keeping dependencies up to date is a crucial software maintenance task that requires significant effort. Developers must choose which dependencies to update, select appropriate target versions, and minimize the impact of updates in terms of breaking changes and incompatibilities. Several factors influence the choice of a new dependency version, including its freshness, popularity, absence of vulnerabilities, and compatibility.In this paper, we formulate the dependency update problem as a multi-objective optimization problem. This approach allows for updating dependencies with a global perspective, considering all direct and indirect dependencies. It also enables developers to specify their preferences regarding the quality factors to maximize and the costs to minimize when updating. The update problem is encoded as a linear program whose solution provides an optimal update strategy that aligns with developer priorities and minimizes incompatibilities.We evaluate our approach using a dataset of 107 well-tested open-source Java projects using various configurations that reflect real-world update scenarios and consider three quality metrics: dependency freshness, a time-window popularity measure, and a vulnerability score related to CVEs. Our findings indicate that our approach generates updates that compile and pass tests as well as the naive approaches typically implemented in dependency bots. Furthermore, our approach can be up to two orders of magnitude better in terms of freshness. By considering a more comprehensive concept of quality debt, which accounts for freshness, popularity, and vulnerabilities, our approach is able to reduce quality debt while maintaining reasonable memory and time consumption.},
+booktitle = {Proceedings of the 39th IEEE/ACM International Conference on Automated Software Engineering},
+pages = {1834–1845},
+numpages = {12},
+keywords = {software maintenance, dependency graph, dependency update},
+location = {Sacramento, CA, USA},
+series = {ASE '24}
+}
+
+@misc{so_survey_2025,
+  author = {{Stack Overflow}},
+  title  = {2025 Stack Overflow Developer Survey},
+  year   = {2025},
+  howpublished = {\url{https://survey.stackoverflow.co/2025/}},
+}
+
+@misc{sonatype2026,
+  author = {{Sonatype}},
+  title  = {2026 Software Supply Chain Report},
+  year   = {2026},
+  howpublished = {\url{https://www.sonatype.com/state-of-the-software-supply-chain/}},
+}
+
+@misc{vangala2026reproducible,
+  author        = {Vangala, Bhanu Prakash and Adibifar, Ali and Gehani, Ashish and Malik, Tanu},
+  title         = {{AI}-Generated Code Is Not Reproducible (Yet): An Empirical Study of Dependency Gaps in {LLM}-Based Coding Agents},
+  year          = {2025},
+  eprint        = {2512.22387},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  doi           = {10.48550/arXiv.2512.22387},
+  url           = {https://arxiv.org/abs/2512.22387},
+}
+
+@misc{pypi_ultralytics_2024,
+  author = {{Python Software Foundation}},
+  title  = {Supply-Chain Attack Analysis: Ultralytics},
+  year   = {2024},
+  howpublished = {\url{https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/}},
+}
+
+@article{10.1145/3715728,
+author = {He, Hao and Vasilescu, Bogdan and K\"{a}stner, Christian},
+title = {Pinning Is Futile: You Need More Than Local Dependency Versioning to Defend against Supply Chain Attacks},
+year = {2025},
+issue_date = {July 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {FSE},
+url = {https://doi.org/10.1145/3715728},
+doi = {10.1145/3715728},
+abstract = {Recent high-profile incidents in open-source software have greatly raised practitioner attention on software supply chain attacks. To guard against potential malicious package updates, security practitioners advocate pinning dependency to specific versions rather than floating in version ranges. However, it remains controversial whether pinning carries a meaningful security benefit that outweighs the cost of maintaining outdated and possibly vulnerable dependencies. In this paper, we quantify, through counterfactual analysis and simulations, the security and maintenance impact of version constraints in the npm ecosystem. By simulating dependency resolutions over historical time points, we find that pinning direct dependencies not only (as expected) increases the cost of maintaining vulnerable and outdated dependencies, but also (surprisingly) even increases the risk of exposure to malicious package updates in larger dependency graphs due to the specifics of npm’s dependency resolution mechanism. Finally, we explore collective pinning strategies to secure the ecosystem against supply chain attacks, suggesting specific changes to npm to enable such interventions. Our study provides guidance for practitioners and tool designers to manage their supply chains more securely.},
+journal = {Proc. ACM Softw. Eng.},
+month = jun,
+articleno = {FSE013},
+numpages = {24},
+keywords = {Dependency management, Software supply chain security}
+}
+
+% ----llm selected -----
+
+@article{10.1145/3695988,
+author = {Hou, Xinyi and Zhao, Yanjie and Liu, Yue and Yang, Zhou and Wang, Kailong and Li, Li and Luo, Xiapu and Lo, David and Grundy, John and Wang, Haoyu},
+title = {Large Language Models for Software Engineering: A Systematic Literature Review},
+year = {2024},
+issue_date = {November 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {33},
+number = {8},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3695988},
+doi = {10.1145/3695988},
+abstract = {Large Language Models (LLMs) have significantly impacted numerous domains, including Software Engineering (SE). Many recent publications have explored LLMs applied to various SE tasks. Nevertheless, a comprehensive understanding of the application, effects, and possible limitations of LLMs on SE is still in its early stages. To bridge this gap, we conducted a Systematic Literature Review (SLR) on LLM4SE, with a particular focus on understanding how LLMs can be exploited to optimize processes and outcomes. We selected and analyzed 395 research articles from January 2017 to January 2024 to answer four key Research Questions (RQs). In RQ1, we categorize different LLMs that have been employed in SE tasks, characterizing their distinctive features and uses. In RQ2, we analyze the methods used in data collection, pre-processing, and application, highlighting the role of well-curated datasets for successful LLM for SE implementation. RQ3 investigates the strategies employed to optimize and evaluate the performance of LLMs in SE. Finally, RQ4 examines the specific SE tasks where LLMs have shown success to date, illustrating their practical contributions to the field. From the answers to these RQs, we discuss the current state-of-the-art and trends, identifying gaps in existing research, and highlighting promising areas for future study. Our artifacts are publicly available at .},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = dec,
+articleno = {220},
+numpages = {79},
+keywords = {Software Engineering, Large Language Model, Survey}
+}
+
+@article{10.1145/3708531,
+author = {Wang, Shenao and Zhao, Yanjie and Hou, Xinyi and Wang, Haoyu},
+title = {Large Language Model Supply Chain: A Research Agenda},
+year = {2025},
+issue_date = {June 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {34},
+number = {5},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3708531},
+doi = {10.1145/3708531},
+abstract = {The rapid advancement of large language models (LLMs) has revolutionized artificial intelligence, introducing unprecedented capabilities in natural language processing and multimodal content generation. However, the increasing complexity and scale of these models have given rise to a multifaceted supply chain that presents unique challenges across infrastructure, foundation models, and downstream applications. This article provides the first comprehensive research agenda of the LLM supply chain, offering a structured approach to identify critical challenges and opportunities through the dual lenses of software engineering (SE) and security and privacy (S&P). We begin by establishing a clear definition of the LLM supply chain, encompassing its components and dependencies. We then analyze each layer of the supply chain, presenting a vision for robust and secure LLM development, reviewing the current state of practices and technologies, and identifying key challenges and research opportunities. This work aims to bridge the existing research gap in systematically understanding the multifaceted issues within the LLM supply chain, offering valuable insights to guide future efforts in this rapidly evolving domain.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = may,
+articleno = {147},
+numpages = {46},
+keywords = {LLM Supply Chain, Large Language Models}
+}
+
+@article{10.1007/s10664-017-9521-5,
+author = {Kula, Raula Gaikovina and German, Daniel M. and Ouni, Ali and Ishio, Takashi and Inoue, Katsuro},
+title = {Do developers update their library dependencies?},
+year = {2018},
+issue_date = {February 2018},
+publisher = {Kluwer Academic Publishers},
+address = {USA},
+volume = {23},
+number = {1},
+issn = {1382-3256},
+url = {https://doi.org/10.1007/s10664-017-9521-5},
+doi = {10.1007/s10664-017-9521-5},
+abstract = {Third-party library reuse has become common practice in contemporary software development, as it includes several benefits for developers. Library dependencies are constantly evolving, with newly added features and patches that fix bugs in older versions. To take full advantage of third-party reuse, developers should always keep up to date with the latest versions of their library dependencies. In this paper, we investigate the extent of which developers update their library dependencies. Specifically, we conducted an empirical study on library migration that covers over 4,600 GitHub software projects and 2,700 library dependencies. Results show that although many of these systems rely heavily on dependencies, 81.5\% of the studied systems still keep their outdated dependencies. In the case of updating a vulnerable dependency, the study reveals that affected developers are not likely to respond to a security advisory. Surveying these developers, we find that 69\% of the interviewees claimed to be unaware of their vulnerable dependencies. Moreover, developers are not likely to prioritize a library update, as it is perceived to be extra workload and responsibility. This study concludes that even though third-party reuse is common practice, updating a dependency is not as common for many developers.},
+journal = {Empirical Softw. Engg.},
+month = feb,
+pages = {384–417},
+numpages = {34},
+keywords = {Security vulnerabilities, Software maintenance, Software reuse}
+}
+
+@inproceedings{10.5555/3620237.3620430,
+author = {Neupane, Shradha and Holmes, Grant and Wyss, Elizabeth and Davidson, Drew and De Carli, Lorenzo},
+title = {Beyond typosquatting: an in-depth look at package confusion},
+year = {2023},
+isbn = {978-1-939133-37-3},
+publisher = {USENIX Association},
+address = {USA},
+abstract = {Package confusion incidents--where a developer is misled into importing a package other than the intended one--are one of the most severe issues in supply chain security with significant security implications, especially when the wrong package has malicious functionality. While the prevalence of the issue is generally well-documented, little work has studied the range of mechanisms by which confusion in a package name could arise or be employed by an adversary. In our work, we present the first comprehensive categorization of the mechanisms used to induce confusion, and we show how this understanding can be used for detection.First, we use qualitative analysis to identify and rigorously define 13 categories of confusion mechanisms based on a dataset of 1200+ documented attacks. Results show that, while package confusion is thought to mostly exploit typing errors, in practice attackers use a variety of mechanisms, many of which work at semantic, rather than syntactic, level. Equipped with our categorization, we then define detectors for the discovered attack categories, and we evaluate them on the entire npm package set.Evaluation of a sample, performed through an online survey, identifies a subset of highly effective detection rules which (i) return high-quality matches (77\% matches marked as potentially or highly confusing, and 18\% highly confusing) and (ii) generate low warning overhead (1 warning per 100M+ package pairs). Comparison with state-of-the-art reveals that the large majority of such pairs are not flagged by existing tools. Thus, our work has the potential to concretely improve the identification of confusable package names in the wild.},
+booktitle = {Proceedings of the 32nd USENIX Conference on Security Symposium},
+articleno = {193},
+numpages = {18},
+location = {Anaheim, CA, USA},
+series = {SEC '23}
+}
+
+@article{10.1145/3640336,
+author = {Gao, Kai and He, Runzhi and Xie, Bing and Zhou, Minghui},
+title = {Characterizing Deep Learning Package Supply Chains in PyPI: Domains, Clusters, and Disengagement},
+year = {2024},
+issue_date = {May 2024},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {33},
+number = {4},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3640336},
+doi = {10.1145/3640336},
+abstract = {Deep learning (DL) frameworks have become the cornerstone of the rapidly developing DL field. Through installation dependencies specified in the distribution metadata, numerous packages directly or transitively depend on DL frameworks, layer after layer, forming DL package supply chains (SCs), which are critical for DL frameworks to remain competitive. However, vital knowledge on how to nurture and sustain DL package SCs is still lacking. Achieving this knowledge may help DL frameworks formulate effective measures to strengthen their SCs to remain competitive and shed light on dependency issues and practices in the DL SC for researchers and practitioners. In this paper, we explore the domains, clusters, and disengagement of packages in two representative PyPI DL package SCs to bridge this knowledge gap. We analyze the metadata of nearly six million PyPI package distributions and construct version-sensitive SCs for two popular DL frameworks: TensorFlow and PyTorch. We find that popular packages (measured by the number of monthly downloads) in the two SCs cover 34 domains belonging to eight categories. Applications, Infrastructure, and Sciences categories account for over 85\% of popular packages in either SC and TensorFlow and PyTorch SC have developed specializations on Infrastructure and Applications packages, respectively. We employ the Leiden community detection algorithm and detect 131 and 100 clusters in the two SCs. The clusters mainly exhibit four shapes: Arrow, Star, Tree, and Forest with increasing dependency complexity. Most clusters are Arrow or Star, while Tree and Forest clusters account for most packages (Tensorflow SC: 70.7\%, PyTorch SC: 92.9\%). We identify three groups of reasons why packages disengage from the SC (i.e., remove the DL framework and its dependents from their installation dependencies): dependency issues, functional improvements, and ease of installation. The most common reason in TensorFlow SC is dependency incompatibility and in PyTorch SC is to simplify functionalities and reduce installation size. Our study provides rich implications for DL framework vendors, researchers, and practitioners on the maintenance and dependency management practices of PyPI DL SCs.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = apr,
+articleno = {97},
+numpages = {27},
+keywords = {Software supply chain, PyPI ecosystem, deep learning, software structure and evolution}
+}
+
+@inproceedings{10.1109/ICSE48619.2023.00095,
+author = {Wu, Yulun and Yu, Zeliang and Wen, Ming and Li, Qiang and Zou, Deqing and Jin, Hai},
+title = {Understanding the Threats of Upstream Vulnerabilities to Downstream Projects in the Maven Ecosystem},
+year = {2023},
+isbn = {9781665457019},
+publisher = {IEEE Press},
+address = {Piscataway, NJ, USA},
+url = {https://doi.org/10.1109/ICSE48619.2023.00095},
+doi = {10.1109/ICSE48619.2023.00095},
+abstract = {Modern software systems are increasingly relying on dependencies from the ecosystem. A recent estimation shows that around 35\% of an open-source project's code come from its depended libraries. Unfortunately, open-source libraries are often threatened by various vulnerability issues, and the number of disclosed vulnerabilities is increasing steadily over the years. Such vulnerabilities can pose significant security threats to the whole ecosystem, not only to the vulnerable libraries themselves, but also to the corresponding downstream projects. Many Software Composition Analysis (SCA) tools have been proposed, aiming to detect vulnerable libraries or components referring to existing vulnerability databases. However, recent studies report that such tools often generate a large number of false alerts. Particularly, up to 73.3\% of the projects depending on vulnerable libraries are actually safe. Aiming to devise more precise tools, understanding the threats of vulnerabilities holistically in the ecosystem is significant, as already performed by a number of existing studies. However, previous researches either analyze at a very coarse granularity (e.g., without analyzing the source code) or are limited by the study scales.This study aims to bridge such gaps. In particular, we collect 44,450 instances of 〈CVE, upstream, downstream〉 relations and analyze around 50 million invocations made from downstream to upstream projects to understand the potential threats of upstream vulnerabilities to downstream projects in the Maven ecosystem. Our investigation makes interesting yet significant findings with respect to multiple aspects, including the reachability of vulnerabilities, the complexities of the reachable paths as well as how downstream projects and developers perceive upstream vulnerabilities. We believe such findings can not only provide a holistic understanding towards the threats of upstream vulnerabilities in the Maven ecosystem, but also can guide future researches in this field.},
+booktitle = {Proceedings of the 45th International Conference on Software Engineering},
+pages = {1046–1058},
+numpages = {13},
+keywords = {vulnerability, ecosystem security, maven},
+location = {Melbourne, Victoria, Australia},
+series = {ICSE '23}
+}
+
+@inproceedings{10.1109/ICSE48619.2023.00031,
+author = {Dann, Andreas and Hermann, Ben and Bodden, Eric},
+title = {UpCy: Safely Updating Outdated Dependencies},
+year = {2023},
+isbn = {9781665457019},
+publisher = {IEEE Press},
+address = {Piscataway, NJ, USA},
+url = {https://doi.org/10.1109/ICSE48619.2023.00031},
+doi = {10.1109/ICSE48619.2023.00031},
+abstract = {Recent research has shown that developers hesitate to update dependencies and mistrust automated approaches such as Dependabot, since they are afraid of introducing incompatibilities that break their project. In fact, such approaches only suggest na\"{\i}ve updates for a single outdated library but do not ensure compatibility with other dependent libraries in the project. To alleviate this situation and support developers in finding updates with minimal incompatibilities, we present UpCy. UpCy applies the min-(s,t)-cut algorithm and leverages a graph database of Maven Central to identify a list of valid update steps to update a dependency to a target version while minimizing incompatibilities with other libraries. By executing 29,698 updates in 380 projects, we compare the effectiveness of UpCy with the na\"{\i}ve updates applied by state-of-the-art tools. We find that in 41.1\% of the cases where the na\"{\i}ve approach fails UpCy generates updates with fewer incompatibilities, and even 70.1\% of the generated updates have zero incompatibilities.},
+booktitle = {Proceedings of the 45th International Conference on Software Engineering},
+pages = {233–244},
+numpages = {12},
+keywords = {software maintenance, dependency management, package management, library updates, semantic versioning},
+location = {Melbourne, Victoria, Australia},
+series = {ICSE '23}
+}
+
+@article{10.1145/3728894,
+author = {Zhang, Ziyao and Wang, Chong and Wang, Yanlin and Shi, Ensheng and Ma, Yuchi and Zhong, Wanjun and Chen, Jiachi and Mao, Mingzhi and Zheng, Zibin},
+title = {LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation},
+year = {2025},
+issue_date = {July 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {ISSTA},
+url = {https://doi.org/10.1145/3728894},
+doi = {10.1145/3728894},
+abstract = {Code generation aims to automatically generate code from input requirements, significantly enhancing development efficiency. Recent large language models (LLMs) based approaches have shown promising results and revolutionized code generation task. Despite the promising performance, LLMs often generate contents with hallucinations, especially for the code generation scenario requiring the handling of complex contextual dependencies in practical development process. Although previous study has analyzed hallucinations in LLM-powered code generation, the study is limited to standalone function generation. In this paper, we conduct an empirical study to study the phenomena, mechanism, and mitigation of LLM hallucinations within more practical and complex development contexts in repository-level generation scenario. First, we manually examine the code generation results from six mainstream LLMs to establish a hallucination taxonomy of LLM-generated code. Next, we elaborate on the phenomenon of hallucinations, analyze their distribution across different models. We then analyze causes of hallucinations and identify four potential factors contributing to hallucinations. Finally, we propose an RAG-based mitigation method, which demonstrates consistent effectiveness in all studied LLMs.},
+journal = {Proc. ACM Softw. Eng.},
+month = jun,
+articleno = {ISSTA022},
+numpages = {23},
+keywords = {Hallucination, Large Language Models, Repository-Level Code Generation}
+}
+
+@article{10.1145/3712003,
+author = {He, Junda and Treude, Christoph and Lo, David},
+title = {LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision, and the Road Ahead},
+year = {2025},
+issue_date = {June 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {34},
+number = {5},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3712003},
+doi = {10.1145/3712003},
+abstract = {Integrating Large Language Models (LLMs) into autonomous agents marks a significant shift in the research landscape by offering cognitive abilities that are competitive with human planning and reasoning. This article explores the transformative potential of integrating Large Language Models into Multi-Agent (LMA) systems for addressing complex challenges in software engineering (SE). By leveraging the collaborative and specialized abilities of multiple agents, LMA systems enable autonomous problem-solving, improve robustness, and provide scalable solutions for managing the complexity of real-world software projects. In this article, we conduct a systematic review of recent primary studies to map the current landscape of LMA applications across various stages of the software development lifecycle (SDLC). To illustrate current capabilities and limitations, we perform two case studies to demonstrate the effectiveness of state-of-the-art LMA frameworks. Additionally, we identify critical research gaps and propose a comprehensive research agenda focused on enhancing individual agent capabilities and optimizing agent synergy. Our work outlines a forward-looking vision for developing fully autonomous, scalable, and trustworthy LMA systems, laying the foundation for the evolution of Software Engineering 2.0.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = may,
+articleno = {124},
+numpages = {30},
+keywords = {Large Language Models, Autonomous Agents, Multi-Agent Systems, Software Engineering}
+}
+
+@article{10.1145/3715754,
+author = {Xia, Chunqiu Steven and Deng, Yinlin and Dunn, Soren and Zhang, Lingming},
+title = {Demystifying LLM-Based Software Engineering Agents},
+year = {2025},
+issue_date = {July 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {FSE},
+url = {https://doi.org/10.1145/3715754},
+doi = {10.1145/3715754},
+abstract = {Recent advancements in large language models (LLMs) have significantly advanced the automation of software development tasks, including code synthesis, program repair, and test generation. More recently, researchers and industry practitioners have developed various autonomous LLM agents to perform end-to-end software development tasks. These agents are equipped with the ability to use tools, run commands, observe feedback from the environment, and plan for future actions. However, the complexity of these agent-based approaches, together with the limited abilities of current LLMs, raises the following question: Do we really have to employ complex autonomous software agents? To attempt to answer this question, we build Agentless – an agentless approach to automatically resolve software development issues. Compared to the verbose and complex setup of agent-based approaches, Agentless employs a simplistic three-phase process of localization, repair, and patch validation, without letting the LLM decide future actions or operate with complex tools. Our results on the popular SWE-bench Lite benchmark show that surprisingly the simplistic Agentless is able to achieve both the highest performance (32.00\%, 96 correct fixes) and low cost ($0.70) compared with all existing open-source software agents at the time of paper submission! Agentless also achieves more than 50\% solve rate when using Claude 3.5 Sonnet on the new SWE-bench Verified benchmark. In fact, Agentless has already been adopted by OpenAI as the go-to approach to showcase the real-world coding performance of both GPT-4o and the new o1 models; more recently, Agentless has also been used by DeepSeek to evaluate their newest DeepSeek V3 and R1 models. Furthermore, we manually classified the problems in SWE-bench Lite and found problems with exact ground truth patches or insufficient/misleading issue descriptions. As such, we construct SWE-bench Lite-�� by excluding such problematic issues to perform more rigorous evaluation and comparison. Our work highlights the currently overlooked potential of a simplistic, cost-effective technique in autonomous software development. We hope Agentless will help reset the baseline, starting point, and horizon for autonomous software agents, and inspire future work along this crucial direction. We have open-sourced Agentless at: https://github.com/OpenAutoCoder/Agentless},
+journal = {Proc. ACM Softw. Eng.},
+month = jun,
+articleno = {FSE037},
+numpages = {24},
+keywords = {AI Software Engineer, Automated Program Repair, Autonomous Programming, Large Language Model}
+}
+
+@article{zhang2026survey,
+  title={A survey on large language models for software engineering},
+  author={Zhang, Quanjun and Fang, Chunrong and Xie, Yang and Zhang, Yaxin and Yu, Shengcheng and Sun, Weisong and Yang, Yun and Chen, Zhenyu},
+  journal={Science China Information Sciences},
+  volume={69},
+  number={4},
+  pages={141102},
+  year={2026},
+  publisher={Springer}
+}
+
+@inproceedings{li-etal-2025-fea,
+    title = "{FEA}-Bench: A Benchmark for Evaluating Repository-Level Code Generation for Feature Implementation",
+    author = "Li, Wei  and
+      Zhang, Xin  and
+      Guo, Zhongxin  and
+      Mao, Shaoguang  and
+      Luo, Wen  and
+      Peng, Guangyue  and
+      Huang, Yangyu  and
+      Wang, Houfeng  and
+      Li, Scarlett",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.839/",
+    doi = "10.18653/v1/2025.acl-long.839",
+    pages = "17160--17176",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Implementing new features in repository-level codebases is a crucial application of code generation models. However, current benchmarks lack a dedicated evaluation framework for this capability. To fill this gap, we introduce FEA-Bench, a benchmark designed to assess the ability of large language models (LLMs) to perform incremental development within code repositories. We collect pull requests from 83 GitHub repositories and use rule-based and intent-based filtering to construct task instances focused on new feature development. Each task instance containing code changes is paired with relevant unit test files to ensure that the solution can be verified. The feature implementation requires LLMs to simultaneously possess code completion capabilities for new components and code editing abilities for other relevant parts in the code repository, providing a more comprehensive evaluation method of LLMs' automated software engineering capabilities.Experimental results show that LLMs perform significantly worse in the FEA-Bench, highlighting considerable challenges in such repository-level incremental code development."
+}
+
+@article{10.1145/3747588,
+author = {Jiang, Juyong and Wang, Fan and Shen, Jiasi and Kim, Sungju and Kim, Sunghun},
+title = {A Survey on Large Language Models for Code Generation},
+year = {2026},
+issue_date = {February 2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {35},
+number = {2},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3747588},
+doi = {10.1145/3747588},
+abstract = {Large Language Models (LLMs) have garnered remarkable advancements across diverse code-related tasks, known as Code LLMs, particularly in code generation that generates source code with LLM from natural language descriptions. This burgeoning field has captured significant interest from both academic researchers and industry professionals due to its practical significance in software development, e.g., GitHub Copilot. Despite the active exploration of LLMs for a variety of code tasks, either from the perspective of Natural Language Processing (NLP) or Software Engineering (SE) or both, there is a noticeable absence of a comprehensive and up-to-date literature review dedicated to LLM for code generation. In this survey, we aim to bridge this gap by providing a systematic literature review that serves as a valuable reference for researchers investigating the cutting-edge progress in LLMs for code generation. We introduce a taxonomy to categorize and discuss the recent developments in LLMs for code generation, covering aspects such as data curation, latest advances, performance evaluation, ethical implications, environmental impact, and real-world applications. In addition, we present a historical overview of the evolution of LLMs for code generation and provide a quantitative and qualitative comparative analysis of experimental results of code LLMs, sourced from their original papers to ensure a fair comparison on the HumanEval, MBPP, and BigCodeBench benchmarks, across various levels of difficulty and types of programming tasks, to highlight the progressive enhancements in LLM capabilities for code generation. We identify critical challenges and promising opportunities regarding the gap between academia and practical development. Furthermore, we have established a dedicated resource GitHub page () to continuously document and disseminate the most recent advances in the field.},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = jan,
+articleno = {58},
+numpages = {72},
+keywords = {Large Language Models, Code Large Language Models, Code Generation}
+}
+
+@misc{synkshift,
+  author       = {snyk},
+
+  title        = {SolarWinds Orion Security Breach: A Shift In The Software Supply Chain Paradigm},
+  url          = {https://snyk.io/blog/solarwinds-orion-security-breach-a-shift-in-the-software-supply-chain-paradigm/},
+year         = {2021},
+  month        = {march},
+}
+
+@misc{ntiaframing,
+  author       = {NTIA},
+  title        = {Framing Software Component Transparency: Establishing a Common Software Bill of Material (SBOM)},
+  url          = {https://ntia.gov/files/ntia/publications/framingsbom\_20191112.pdf},
+  organization = {NTIA},
+  year         = {2019},
+  month = {Nov}
+}
+
+
+
+
+@inproceedings{alkhadra2021solar,
+  title={Solar winds hack: In-depth analysis and countermeasures},
+  author={Alkhadra, Rahaf and Abuzaid, Joud and AlShammari, Mariam and Mohammad, Nazeeruddin},
+  booktitle={2021 12th International Conference on Computing Communication and Networking Technologies (ICCCNT)},
+  pages={1--7},
+  year={2021},
+  organization={IEEE},
+  publisher={IEEE},
+  address={Kharagpur, India},
+  doi={10.1109/ICCCNT51525.2021.9579611}
+}
+
+@article{10.1145/3788692,
+author = {Wang, Chengjie and Wu, Jingzheng and Lyu, Hao and Ling, Xiang and Luo, Tianyue and Wu, Yanjun and Zhao, Chen},
+title = {A Large Scale Empirical Analysis on the Adherence Gap between Standards and Tools in SBOM},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3788692},
+doi = {10.1145/3788692},
+abstract = {A Software Bill of Materials (SBOM) is a machine-readable artifact that systematically organizes software information, enhancing supply chain transparency and security. To facilitate the exchange and utilization of SBOMs, organizations such as the Linux Foundation and OWASP have proposed SBOM standards. Following standards, organizations have developed tools for generating and utilizing SBOMs. However, limited research has examined the adherence of these SBOM tools to standard specifications, a gap that could lead to compliance failures and disruptions in SBOM utilization. This paper presents the first large-scale, two-stage empirical analysis of the adherence gap, using our automated evaluation framework, SAP. The evaluation, comprising a baseline evaluation and a one-year longitudinal follow-up, covers 55,444 SBOMs generated by six SBOM tools from 3,287 real-world repositories. Our analysis reveals persistent, fundamental limitations in current SBOM tools: (1) inadequate compliance support with policy requirements; (2) poor tool consistencies, including inter-tool consistency rates as low as 7.84\% to 12.77\% for package detection across languages, and significant longitudinal inconsistency, where tools show low consistency with their own prior versions; and (3) mediocre to poor accuracy for detailed software information, e.g., accuracy of package licenses below 20\%. We analyze the root causes of these gaps and provide practical solutions. All the code, replication docker image, evaluation results are open sourced at GitHub and Zenodo1 for further researches.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = jan,
+articleno = {3788692},
+numpages = {35},
+keywords = {Software bill of materials, SBOM standards, SBOM tools, Gap analysis}
+}
+
+@Article{20252604,
+title = {Research on Key Technologies of SBOM in Software Supply Chain},
+author = {Sun, Zeyu and Wu, Jingzheng and Ling, Xiang and Wei, Yilin and Luo, Tianyue and Wu, Yanjun},
+ journal = {Journal of Software},
+ volume = {36},
+ number = {6},
+ pages = {2604},
+ numpages = {39.0000},
+ year = {2025},
+ month = {June},
+ doi = {10.13328/j.cnki.jos.007308},
+ publisher = {Science Press}
+}
+
+@INPROCEEDINGS{hu2024empirical,
+  author={Hu, Jinchang and Zhang, Lyuye and Liu, Chengwei and Yang, Sen and Huang, Song and Liu, Yang},
+  booktitle={2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE)},
+  title={Empirical Analysis of Vulnerabilities Life Cycle in Golang Ecosystem},
+  year={2024},
+  volume={},
+  number={},
+  publisher={IEEE},
+  address={Lisbon, Portugal},
+  pages={2618-2630},
+  keywords={Computer languages;Ecosystems;Delays;Security;Stakeholders;Open source software;Indexing;Vulnerability life cycle;Golang;Open-source software},
+  doi={10.1145/3597503.3639230}}
+
+@ARTICLE{10121651,
+  author={Mahmud, Tarek and Che, Meiru and Yang, Guowei},
+  journal={IEEE Transactions on Software Engineering},
+  title={Detecting Android API Compatibility Issues With API Differences},
+  year={2023},
+  volume={49},
+  number={7},
+  pages={3857-3871},
+  keywords={Operating systems;Internet;Static analysis;Codes;Source coding;Software;Feature extraction;API differences;API evolution;android;compatibility issues;program analysis;test selection},
+  doi={10.1109/TSE.2023.3274153}}
+
+@ARTICLE{11329192,
+  author={Zhuo, Terry Yue and He, Junda and Sun, Jiamou and Xing, Zhenchang and Lo, David and Grundy, John and Du, Xiaoning},
+  journal={IEEE Transactions on Software Engineering},
+  title={Identifying and Mitigating API Misuse in Large Language Models},
+  year={2026},
+  volume={52},
+  number={3},
+  pages={855-873},
+  keywords={Codes;Taxonomy;Libraries;Maintenance engineering;Java;Software development management;Python;Large language models;Programming;Manuals;Code generation;large language model;API misuse;automatic program repair;empirical software engineering},
+  doi={10.1109/TSE.2026.3651566}}
+
+@article{10.1145/3728875,
+author = {Xia, Yifan and Xie, Zichen and Liu, Peiyu and Lu, Kangjie and Liu, Yan and Wang, Wenhai and Ji, Shouling},
+title = {Beyond Static Pattern Matching? Rethinking Automatic Cryptographic API Misuse Detection in the Era of LLMs},
+year = {2025},
+issue_date = {July 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {2},
+number = {ISSTA},
+url = {https://doi.org/10.1145/3728875},
+doi = {10.1145/3728875},
+abstract = {While the automated detection of cryptographic API misuses has progressed significantly, its precision diminishes for intricate targets due to the reliance on manually defined patterns. Large Language Models (LLMs) offer a promising context-aware understanding to address this shortcoming, yet the stochastic nature and the hallucination issue pose challenges to their applications in precise security analysis. This paper presents the first systematic study to explore LLMs’ application in cryptographic API misuse detection. Our findings are noteworthy: The instability of directly applying LLMs results in over half of the initial reports being false positives. Despite this, the reliability of LLM-based detection could be significantly enhanced by aligning detection scopes with realistic scenarios and employing a novel code \& analysis validation technique, achieving a nearly 90\% detection recall. This improvement substantially surpasses traditional methods and leads to the discovery of previously unknown vulnerabilities in established benchmarks. Nevertheless, we identify recurring failure patterns that illustrate current LLMs’ blind spots, including cryptographic knowledge deficiencies and code semantics misinterpretations. Leveraging these findings, we deploy an LLM-based detection system and uncover 63 new vulnerabilities (47 confirmed, 7 already fixed) in open-source Java and Python repositories, including prominent projects like Apache.},
+journal = {Proc. ACM Softw. Eng.},
+month = jun,
+articleno = {ISSTA006},
+numpages = {24},
+keywords = {API Misuse Detection, Large Language Models for Software Security}
+}
+
+
+
+@ARTICLE{11224651,
+  author={Mahmud, Tarek and Duan, Bin and Che, Meiru and Yasmin, Awatif and Ngu, Anne H. H. and Yang, Guowei},
+  journal={IEEE Transactions on Software Engineering},
+  title={Automated Update of Android Deprecated API Usages With Large Language Models},
+  year={2026},
+  volume={52},
+  number={1},
+  pages={70-85},
+  keywords={Application programming interfaces;Operating systems;Codes;Large language models;Iterative methods;Benchmark testing;Reliability;Reinforcement learning;Oral communication;Data models;Android;API evolution;deprecated API;API usage update;large language model;GPT-4},
+  doi={10.1109/TSE.2025.3627897}}
+
+@INPROCEEDINGS{11121691,
+  author={Jain, Nihal and Kwiatkowski, Robert and Ray, Baishakhi and Ramanathan, Murali Krishna and Kumar, Varun},
+  booktitle={2025 IEEE/ACM 47th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
+  title={On Mitigating Code LLM Hallucinations with API Documentation},
+  year={2025},
+  volume={},
+  number={},
+  publisher={IEEE},
+  address={Piscataway, NJ, USA},
+  location={Ottawa, ON, Canada},
+  pages={237-248},
+  keywords={Codes;Annotations;Frequency-domain analysis;Retrieval augmented generation;Documentation;Benchmark testing;Software reliability;High frequency;Indexes;Software engineering;code generation;hallucinations;retrieval augmented generation;API invocations},
+  url={https://doi.org/10.1109/ICSE-SEIP66354.2025.00027},
+  doi={10.1109/ICSE-SEIP66354.2025.00027}}
+
+@article{10.1145/3808230,
+author = {Zhu, Tingwei and Wen, Zhongzhen and Liu, Shangqing and Li, Yi and Zhang, Tian and Xia, Xin},
+title = {Assessing the Capability of LLMs for Deprecated API Usage Updating from Natural Language Descriptions},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1049-331X},
+url = {https://doi.org/10.1145/3808230},
+doi = {10.1145/3808230},
+abstract = {As third-party libraries evolve, some API usages become deprecated, requiring corresponding updates in client code. Although library maintainers often provide natural language (NL) descriptions through changelogs or warnings to assist migration, updating deprecated API usage remains labor-intensive and error-prone. In this paper, we present the first empirical study that investigates whether LLMs can effectively update deprecated API usages based on NL descriptions. To this end, we construct a comprehensive benchmark of real-world API deprecation updates. Specifically, we convert NL descriptions into static rules, and identify matching updates from candidate code modifications retrieved via keyword search. The benchmark covers diverse deprecation granularities and varying levels of updating difficulty. Based on this benchmark, we evaluate 12 representative LLMs from four model families with different types and sizes. Our findings reveal that models from different families exhibit varying effectiveness in updating deprecated API usages, and both model size and code-specific tuning influence performance. By examining results across different levels of difficulty, we find that LLMs perform well on simple cases that only require element replacement, whereas complex cases involving additional code adaptation remain challenging. According to our manual analysis, non-trivial parameter changes and required data transformations account for the majority of cases that all LLMs fail to handle effectively. We further assess whether providing additional information such as surrounding code context and API documentation can help improve the effectiveness. Overall, our study highlights that automatically updating deprecated API usages from NL descriptions remains a challenging problem, and provides practical implications for future improvements in LLM-based updating. Additionally, our automatic data collection process has the additional benefit of detecting inconsistencies between deprecation documentation and code. In this process, we identified six documentation bugs, all of which have been confirmed and fixed.},
+note = {Just Accepted},
+journal = {ACM Trans. Softw. Eng. Methodol.},
+month = apr,
+articleno = {3808230},
+keywords = {deprecated API usage, API evolution, large language models, empirical study, code updating}
+}
+
+@misc{pintrace,
+  author       = {Anonymous},
+  title        = {{PinTrace}: Dataset and Evaluation Pipeline for Dependency-Version Advice in {LLM}-Generated Code},
+  year         = {2026},
+  howpublished = {\url{https://github.com/dw763j/PinTrace}},
+  note         = {Accessed 8 September 2026},
+}
+
+
+@misc{pep440_revision,
+  author = {Coghlan, Alyssa and Stufft, Donald},
+  title = {Version Identification and Dependency Specification ({PEP 440})},
+  year = {2013},
+  month = mar,
+  howpublished = {\url{https://peps.python.org/pep-0440/}},
+  note = {Created 18 March 2013. Accessed 23 November 2026}
+}
+
+@misc{osv_schema_revision,
+  author = {{Open Source Security Foundation}},
+  title = {Open Source Vulnerability Format},
+  howpublished = {\url{https://ossf.github.io/osv-schema/}},
+  note = {Accessed 9 November 2026; used for schema semantics, not to replace the frozen advisory snapshot}
+}
+
+@misc{openai_support2026,
+  author = {{OpenAI Support}},
+  title = {Reply to ``ChatGPT suggests library versions that are 12--24 months old and often have {CVEs}''},
+  year = {2026},
+  month = apr,
+  howpublished = {\url{https://community.openai.com/t/1378999/3}},
+  note = {Public staff-account response, 15 April 2026; accessed 10 November 2026}
+}
+
+
+@misc{openai_gpt54_2026,
+  author = {{OpenAI}},
+  title = {Introducing {GPT-5.4}},
+  year = {2026},
+  month = mar,
+  howpublished = {\url{https://openai.com/index/introducing-gpt-5-4/}},
+  note = {Provider announcement; accessed 16 November 2026}
+}
+
+@misc{anthropic_sonnet46_2026,
+  author = {{Anthropic}},
+  title = {Introducing {Claude Sonnet 4.6}},
+  year = {2026},
+  month = feb,
+  howpublished = {\url{https://www.anthropic.com/news/claude-sonnet-4-6}},
+  note = {Provider announcement; accessed 16 November 2026}
+}
+
+@misc{google_gemini31_2026,
+  author = {{Google Gemini Team}},
+  title = {{Gemini 3.1 Pro}: A smarter model for your most complex tasks},
+  year = {2026},
+  month = feb,
+  howpublished = {\url{https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/}},
+  note = {Provider announcement; accessed 16 November 2026}
+}
+
+@misc{deepseek_v32_2025,
+  author = {{DeepSeek-AI}},
+  title = {{DeepSeek-V3.2}: Efficient Reasoning \& Agentic {AI}},
+  year = {2025},
+  month = dec,
+  howpublished = {\url{https://huggingface.co/deepseek-ai/DeepSeek-V3.2}},
+  note = {Provider model card; accessed 16 November 2026}
+}
+
+@misc{moonshot_kimi25_2026,
+  author = {{Moonshot AI}},
+  title = {{Kimi-K2.5}},
+  year = {2026},
+  month = jan,
+  howpublished = {\url{https://huggingface.co/moonshotai/Kimi-K2.5}},
+  note = {Provider model card; accessed 16 November 2026}
+}
+
+@misc{qwen35_397b_2026,
+  author = {{Qwen Team}},
+  title = {{Qwen3.5-397B-A17B}},
+  year = {2026},
+  month = feb,
+  howpublished = {\url{https://huggingface.co/Qwen/Qwen3.5-397B-A17B}},
+  note = {Provider model card; accessed 16 November 2026}
+}
+
+@misc{qwen3_235b_2025,
+  author = {{Qwen Team}},
+  title = {{Qwen3-235B-A22B-Instruct-2507}},
+  year = {2025},
+  month = jul,
+  howpublished = {\url{https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507}},
+  note = {Provider model card; accessed 16 November 2026}
+}
+
+@misc{qwen3_30b_2025,
+  author = {{Qwen Team}},
+  title = {{Qwen3-30B-A3B-Instruct-2507}},
+  year = {2025},
+  month = jul,
+  howpublished = {\url{https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507}},
+  note = {Provider model card; accessed 16 November 2026}
+}
+
+@misc{minimax_m25_2026,
+  author = {{MiniMax}},
+  title = {{MiniMax-M2.5}},
+  year = {2026},
+  month = feb,
+  howpublished = {\url{https://huggingface.co/MiniMaxAI/MiniMax-M2.5}},
+  note = {Provider model card; accessed 16 November 2026}
+}
+
+@misc{meta_llama4_scout_2025,
+  author = {{Meta}},
+  title = {{Llama-4-Scout-17B-16E-Instruct}},
+  year = {2025},
+  month = apr,
+  howpublished = {\url{https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct}},
+  note = {Provider model card; accessed 16 November 2026}
+}
+
+@techreport{nist_ssdf_2022,
+  author = {Souppaya, Murugiah and Scarfone, Karen and Dodson, Donna},
+  title = {Secure Software Development Framework ({SSDF}) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities},
+  institution = {National Institute of Standards and Technology},
+  type = {NIST Special Publication},
+  number = {800-218},
+  year = {2022},
+  month = feb,
+  doi = {10.6028/NIST.SP.800-218}
+}

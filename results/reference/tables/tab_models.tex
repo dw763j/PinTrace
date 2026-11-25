@@ -1,0 +1,27 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Evaluated models and their names in the text.
+Parameter counts are in billions, shown as active/total for mixture-of-experts models.
+A dash denotes an undisclosed count.
+References identify provider announcements or model cards.}
+\label{tab:models}
+\setlength{\tabcolsep}{2.8pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.35\linewidth}lcrr@{}}
+\toprule
+\textbf{Evaluated model} & \textbf{Name in text} & \textbf{Weights} & \textbf{Parameters} & \textbf{Released} \\
+\midrule
+\mbox{GPT-5.4} \mbox{\citep{openai_gpt54_2026}} & GPT-5.4 & Proprietary & -- & 2026-03 \\
+\mbox{Claude Sonnet 4.6} \mbox{\citep{anthropic_sonnet46_2026}} & Claude Sonnet 4.6 & Proprietary & -- & 2026-02 \\
+\mbox{Gemini 3.1 Pro Preview} \mbox{\citep{google_gemini31_2026}} & Gemini 3.1 Pro & Proprietary & -- & 2026-02 \\
+\mbox{DeepSeek V3.2} \mbox{\citep{deepseek_v32_2025}} & DeepSeek V3.2 & Open & 37/671 & 2025-12 \\
+\mbox{Kimi K2.5} \mbox{\citep{moonshot_kimi25_2026}} & Kimi K2.5 & Open & 32/1,000 & 2026-01 \\
+\mbox{Qwen3.5 397B-A17B} \mbox{\citep{qwen35_397b_2026}} & Qwen3.5 397B & Open & 17/397 & 2026-02 \\
+Qwen3 \mbox{235B-A22B} \mbox{Instruct-2507} \mbox{\citep{qwen3_235b_2025}} & Qwen3 235B & Open & 22/235 & 2025-07 \\
+Qwen3 \mbox{30B-A3B} \mbox{Instruct-2507} \mbox{\citep{qwen3_30b_2025}} & Qwen3 30B & Open & 3.3/30.5 & 2025-07 \\
+\mbox{MiniMax M2.5} \mbox{\citep{minimax_m25_2026}} & MiniMax M2.5 & Open & 10/229 & 2026-02 \\
+\mbox{Llama 4 Scout} \mbox{\citep{meta_llama4_scout_2025}} & Llama 4 Scout & Open & 17/109 & 2025-04 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

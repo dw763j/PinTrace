@@ -1,0 +1,13 @@
+{
+  "main_response_hashes_verified": 36260,
+  "code_hashes_verified": 36260,
+  "bigcodebench_tasks": 1140,
+  "bigcodebench_subset": 813,
+  "populations": {
+    "d1/inline": 8130,
+    "d1/requirements.txt": 8130,
+    "d2/inline": 10000,
+    "d2/requirements.txt": 10000
+  },
+  "replay_inputs": "prepared/main.jsonl"
+}

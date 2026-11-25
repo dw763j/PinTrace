@@ -1,0 +1,147 @@
+{
+  "files": 261,
+  "release_bytes": 519062802,
+  "scanned_text_payloads": 41171,
+  "scanned_expanded_bytes": 2575230277,
+  "credential_pattern_hits": [
+    {
+      "path": "data/osv.tar.gz::inputs/registries/osv/GHSA-3c45-4pj5-ch7m.json",
+      "kind": "aws_access_key",
+      "count": 3
+    },
+    {
+      "path": "data/osv.tar.gz::inputs/registries/osv/GHSA-4vvm-4w3v-6mr8.json",
+      "kind": "aws_access_key",
+      "count": 1
+    },
+    {
+      "path": "data/osv.tar.gz::inputs/registries/osv/GHSA-ffqj-6fqr-9h24.json",
+      "kind": "private_key",
+      "count": 1
+    },
+    {
+      "path": "data/osv.tar.gz::inputs/registries/osv/GHSA-j8r2-6x86-q33q.json",
+      "kind": "credential_url",
+      "count": 1
+    },
+    {
+      "path": "data/osv.tar.gz::inputs/registries/osv/GHSA-xxh2-68g9-8jqr.json",
+      "kind": "github_token",
+      "count": 5
+    },
+    {
+      "path": "data/inputs/generation/main.jsonl.gz",
+      "kind": "aws_access_key",
+      "count": 64
+    },
+    {
+      "path": "data/inputs/generation/main.jsonl.gz",
+      "kind": "private_key",
+      "count": 262
+    },
+    {
+      "path": "data/inputs/generation/main.jsonl.gz",
+      "kind": "credential_url",
+      "count": 6
+    },
+    {
+      "path": "data/inputs/search_archive/outputs/dataset_builder/so_e2e_balanced/records_import_postdate_ge20200101_parsable_balanced1000_fair.jsonl.gz",
+      "kind": "aws_access_key",
+      "count": 13
+    },
+    {
+      "path": "data/inputs/search_archive/outputs/dataset_builder/so_e2e_balanced/records_import_postdate_ge20200101_parsable_balanced1000_fair.jsonl.gz",
+      "kind": "private_key",
+      "count": 17
+    },
+    {
+      "path": "data/inputs/assessments/partition/exact_prompts.jsonl.gz",
+      "kind": "aws_access_key",
+      "count": 6
+    },
+    {
+      "path": "data/inputs/assessments/partition/exact_prompts.jsonl.gz",
+      "kind": "private_key",
+      "count": 12
+    },
+    {
+      "path": "data/inputs/assessments/partition/input_partition.jsonl.gz",
+      "kind": "aws_access_key",
+      "count": 3
+    },
+    {
+      "path": "data/inputs/assessments/partition/input_partition.jsonl.gz",
+      "kind": "private_key",
+      "count": 6
+    },
+    {
+      "path": "data/experiments/repeated/evaluations.jsonl.gz",
+      "kind": "private_key",
+      "count": 30
+    },
+    {
+      "path": "data/experiments/repeated/responses.jsonl.gz",
+      "kind": "private_key",
+      "count": 2
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.8/0aae43a5496d492d798eae47/source/solution.py",
+      "kind": "aws_access_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.8/ce55a14c6cf8b0f762a2e421/source/solution.py",
+      "kind": "private_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.8/1f468bfe0bba6fe1e36f2f75/source/solution.py",
+      "kind": "aws_access_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.14/0aae43a5496d492d798eae47/source/solution.py",
+      "kind": "aws_access_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.14/ce55a14c6cf8b0f762a2e421/source/solution.py",
+      "kind": "private_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.14/1f468bfe0bba6fe1e36f2f75/source/solution.py",
+      "kind": "aws_access_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.10/0aae43a5496d492d798eae47/source/solution.py",
+      "kind": "aws_access_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.10/ce55a14c6cf8b0f762a2e421/source/solution.py",
+      "kind": "private_key",
+      "count": 1
+    },
+    {
+      "path": "data/evidence/runtime.tar.gz::./cases/3.10/1f468bfe0bba6fe1e36f2f75/source/solution.py",
+      "kind": "aws_access_key",
+      "count": 1
+    }
+  ],
+  "files_over_100_MiB": [],
+  "patterns": [
+    "openrouter_key",
+    "openai_key",
+    "aws_access_key",
+    "private_key",
+    "github_token",
+    "credential_url"
+  ],
+  "review": {
+    "disposition": "Preserve public research examples in their original form.",
+    "scope": "Matches are in source tasks, generated research examples, and published advisory content.",
+    "author_confirmed": true
+  }
+}

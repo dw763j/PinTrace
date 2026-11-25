@@ -1,0 +1,23 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Publication states of active, identified exact declarations ($k=e$) in clean \myso.
+Counts are declaration occurrences, including repeated advice for the same release.
+Indented rows partition releases published by the cutoff according to individual satisfiability under $\kappa$.}
+\label{tab:release_states}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Publication state} & \textbf{MR exact} & \textbf{VA exact} \\
+\midrule
+Release absent from PyPI history & 147 & 1,095 \\
+Package metadata unavailable & 26 & 248 \\
+Published by cutoff & 3,338 & 16,365 \\
+\quad Individually satisfiable & 3,229 & 15,758 \\
+\quad Individually unsatisfiable & 109 & 607 \\
+Earliest recorded upload after cutoff & 0 & 1 \\
+Release without dated artifact & 0 & 1 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

@@ -1,0 +1,11 @@
+﻿model,N,installation_recovered,static_recovered
+claude-sonnet-4-6,28,20,15
+deepseek-v3.2,105,67,59
+gemini-3.1-pro-preview,100,68,60
+gpt-5.4,8,3,1
+kimi-k2.5,80,51,43
+meta-llama/llama-4-scout,101,24,20
+minimax-m2.5,101,71,57
+qwen3-235b-a22b-instruct-2507,111,74,63
+qwen3-30b-a3b-instruct-2507,62,52,44
+qwen3.5-397b-a17b,119,78,69

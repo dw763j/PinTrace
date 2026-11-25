@@ -1,0 +1,113 @@
+{
+  "stage_population": "Complete PinTrace, response-level recorded stopping stage or static pass",
+  "execution_population": "813-task third-party-library BigCodeBench subset",
+  "unit": "Model response; counts summed before aggregation percentages",
+  "not_entered_details": {
+    "MR": {
+      "empty_dependency_input": 723,
+      "unusable_response": 1
+    },
+    "VA": {
+      "empty_dependency_input": 1117,
+      "identity_incomplete": 2
+    }
+  },
+  "static_passing_test_nonpass_statuses": {
+    "MR": {
+      "fail": 3441,
+      "test_failure": 41,
+      "execution_error": 8,
+      "error": 55,
+      "timeout": 2,
+      "runner_error": 10
+    },
+    "VA": {
+      "fail": 1346,
+      "error": 396,
+      "test_failure": 12,
+      "timeout": 1,
+      "runner_error": 1
+    }
+  },
+  "minimum_observed_static_passing_nonpass_group": {
+    "model": "gpt-5.4",
+    "condition": "VA",
+    "N": 813,
+    "installed": 799,
+    "static_pass": 639,
+    "static_test_pass": 344,
+    "static_test_nonpass": 295,
+    "static_test_nonpass_pct": 46.165884194053206,
+    "test_pass": 406,
+    "test_pass_pct": 49.93849938499385,
+    "test_only_pass": 62,
+    "test_pass_ci_low": 46.61746617466175,
+    "test_pass_ci_high": 53.38253382533825,
+    "all_test_nonpass": 407,
+    "no_installed_environment": 14,
+    "installed_test_nonpass": 393,
+    "no_environment_among_nonpasses_pct": 3.43980343980344,
+    "installed_test_pass_pct": 50.81351689612015
+  },
+  "models_above_half_among_static_passes": {
+    "MR": [
+      "deepseek-v3.2",
+      "kimi-k2.5",
+      "qwen3-235b-a22b-instruct-2507",
+      "qwen3-30b-a3b-instruct-2507",
+      "minimax-m2.5",
+      "meta-llama/llama-4-scout"
+    ],
+    "VA": [
+      "claude-sonnet-4-6",
+      "gemini-3.1-pro-preview",
+      "deepseek-v3.2",
+      "kimi-k2.5",
+      "qwen3.5-397b-a17b",
+      "qwen3-235b-a22b-instruct-2507",
+      "qwen3-30b-a3b-instruct-2507",
+      "minimax-m2.5",
+      "meta-llama/llama-4-scout"
+    ]
+  },
+  "models_with_majority_preinstallation_nonpasses": {
+    "MR": [],
+    "VA": [
+      "claude-sonnet-4-6",
+      "gemini-3.1-pro-preview",
+      "deepseek-v3.2",
+      "kimi-k2.5",
+      "qwen3.5-397b-a17b",
+      "qwen3-235b-a22b-instruct-2507",
+      "qwen3-30b-a3b-instruct-2507",
+      "minimax-m2.5",
+      "meta-llama/llama-4-scout"
+    ]
+  },
+  "environment_and_execution_counts": {
+    "MR": {
+      "N": 8130,
+      "installed": 7455,
+      "test_pass": 3438,
+      "all_test_nonpass": 4692,
+      "no_installed_environment": 675,
+      "installed_test_nonpass": 4017,
+      "no_environment_among_nonpasses_pct": 14.38618925831202,
+      "installed_test_pass_pct": 46.116700201207244
+    },
+    "VA": {
+      "N": 8130,
+      "installed": 3354,
+      "test_pass": 1339,
+      "all_test_nonpass": 6791,
+      "no_installed_environment": 4776,
+      "installed_test_nonpass": 2015,
+      "no_environment_among_nonpasses_pct": 70.32837579148874,
+      "installed_test_pass_pct": 39.92248062015504
+    }
+  },
+  "sources_sha256": {
+    "sources\\corrected_20261112\\task_outcomes.jsonl": "d6a5db043a053a38f1b1bfa9d34555acb51ee94cda07bba3dfe92882e380a49a",
+    "analysis\\paired_cluster_bootstrap.csv": "341ced611b6c997907223d4e18c99b61fca9bdbf98e5db562dc5b7ed62b6d51f"
+  }
+}

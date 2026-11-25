@@ -1,0 +1,130 @@
+[
+  {
+    "claim": "MR exact-advice incidence",
+    "numerator": 1858,
+    "denominator": 10000,
+    "percentage": 18.58,
+    "source": "rq1_model_variation.csv",
+    "unit": "PinTrace response"
+  },
+  {
+    "claim": "VA exact-advice incidence",
+    "numerator": 8120,
+    "denominator": 10000,
+    "percentage": 81.2,
+    "source": "rq1_model_variation.csv",
+    "unit": "PinTrace response"
+  },
+  {
+    "claim": "MR top-three share across the ten most frequent packages",
+    "numerator": 926,
+    "denominator": 1244,
+    "percentage": 74.44,
+    "source": "rq1_top_three_concentration.csv",
+    "unit": "source-carrier exact-declaration occurrence"
+  },
+  {
+    "claim": "VA top-three share across the ten most frequent packages",
+    "numerator": 4691,
+    "denominator": 6956,
+    "percentage": 67.44,
+    "source": "rq1_top_three_concentration.csv",
+    "unit": "source-carrier exact-declaration occurrence"
+  },
+  {
+    "claim": "Release absent from PyPI history among unsatisfiable VA exact declarations",
+    "numerator": 1095,
+    "denominator": 1952,
+    "percentage": 56.1,
+    "source": "exact_release_states.csv",
+    "unit": "merged exact declaration on clean PinTrace"
+  },
+  {
+    "claim": "Published by cutoff among unsatisfiable VA exact declarations",
+    "numerator": 607,
+    "denominator": 1952,
+    "percentage": 31.1,
+    "source": "exact_release_states.csv",
+    "unit": "merged exact declaration on clean PinTrace"
+  },
+  {
+    "claim": "MR population advisory association",
+    "numerator": 875,
+    "denominator": 9270,
+    "percentage": 9.44,
+    "source": "security_funnels.csv",
+    "unit": "response in the 927-task clean population"
+  },
+  {
+    "claim": "MR conditional advisory association",
+    "numerator": 875,
+    "denominator": 1439,
+    "percentage": 60.81,
+    "source": "security_funnels.csv",
+    "unit": "response with individually satisfiable exact advice"
+  },
+  {
+    "claim": "VA population advisory association",
+    "numerator": 3539,
+    "denominator": 9270,
+    "percentage": 38.18,
+    "source": "security_funnels.csv",
+    "unit": "response in the 927-task clean population"
+  },
+  {
+    "claim": "VA conditional advisory association",
+    "numerator": 3539,
+    "denominator": 7071,
+    "percentage": 50.05,
+    "source": "security_funnels.csv",
+    "unit": "response with individually satisfiable exact advice"
+  },
+  {
+    "claim": "PinTrace complete MR static",
+    "numerator": 5183,
+    "denominator": 10000,
+    "percentage": 51.83,
+    "source": "paired_cluster_bootstrap.csv",
+    "unit": "task-model response"
+  },
+  {
+    "claim": "PinTrace complete VA static",
+    "numerator": 3626,
+    "denominator": 10000,
+    "percentage": 36.26,
+    "source": "paired_cluster_bootstrap.csv",
+    "unit": "task-model response"
+  },
+  {
+    "claim": "BigCodeBench MR dynamic",
+    "numerator": 3438,
+    "denominator": 8130,
+    "percentage": 42.29,
+    "source": "paired_cluster_bootstrap.csv",
+    "unit": "task-model response"
+  },
+  {
+    "claim": "BigCodeBench VA dynamic",
+    "numerator": 1339,
+    "denominator": 8130,
+    "percentage": 16.47,
+    "source": "paired_cluster_bootstrap.csv",
+    "unit": "task-model response"
+  },
+  {
+    "claim": "Neighbor installation recovery",
+    "numerator": 508,
+    "denominator": 815,
+    "percentage": 62.33,
+    "source": "neighbor_corrected_by_model.csv",
+    "unit": "selected installation-failing response"
+  },
+  {
+    "claim": "Neighbor static recovery",
+    "numerator": 431,
+    "denominator": 815,
+    "percentage": 52.88,
+    "source": "neighbor_corrected_by_model.csv",
+    "unit": "selected installation-failing response"
+  }
+]

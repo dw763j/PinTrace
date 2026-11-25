@@ -1,0 +1,18 @@
+\begin{table}[!htbp]
+\centering\footnotesize
+\caption{Task populations, response counts, and analytical roles.
+Each task has one response from each of ten models per request condition.
+Clean \myso is a subset of full \myso.}
+\label{tab:task_populations}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{@{}l r r >{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Population} & \textbf{Tasks} & \makecell{\textbf{Responses}\\\textbf{per condition}} & \textbf{Analytical role} \\
+\midrule
+Full \myso & 1,000 & 10,000 & RQ1 advice incidence and patterns, primary RQ3 environment compatibility \\
+Clean \myso & 927 & 9,270 & RQ2 advice quality and advisory-association sensitivity \\
+BigCodeBench subset & 813 & 8,130 & RQ3 environment compatibility and task correctness \\
+\bottomrule
+\end{tabularx}
+\end{table}

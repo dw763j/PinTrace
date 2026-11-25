@@ -1,0 +1,29 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Runtime sensitivity of environment construction and end-to-end outcomes.
+All values are percentages of the full response population: 10,000 per condition and runtime for \myso and 8,130 for BigCodeBench.
+Generated code and resolver inputs remain fixed.}
+\label{tab:runtime_sensitivity}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}lcrrrr@{}}
+\toprule
+\multirow{2}{*}{\textbf{Outcome}} & \multirow{2}{*}{\textbf{Condition}} & \multicolumn{4}{c}{\textbf{Python version}} \\
+\cmidrule(lr){3-6}
+& & \textbf{3.8} & \textbf{3.10} & \textbf{3.12} & \textbf{3.14} \\
+\midrule
+\multicolumn{6}{@{}l}{\myso} \\
+Installation & MR & 80.43 & 83.50 & 79.41 & 74.70 \\
+Installation & VA & 62.14 & 73.61 & 55.31 & 44.09 \\
+Static pass & MR & 54.82 & 53.25 & 51.83 & 49.05 \\
+Static pass & VA & 42.44 & 49.92 & 36.26 & 28.43 \\
+\midrule
+\multicolumn{6}{@{}l}{BigCodeBench} \\
+Installation & MR & 96.86 & 98.72 & 91.70 & 89.62 \\
+Installation & VA & 72.69 & 97.24 & 41.25 & 23.14 \\
+Test pass & MR & 45.87 & 45.40 & 42.29 & 41.38 \\
+Test pass & VA & 34.12 & 32.25 & 16.47 & 9.04 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

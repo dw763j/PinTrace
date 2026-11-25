@@ -1,0 +1,23 @@
+﻿model,mode,N,S_any,S_assessable,A,inactive_constraints,responses_with_inactive_constraints,responses_with_unknown_identity_or_applicability,responses_with_indeterminate_validity,responses_with_unverified_mapping_validity,all_valid_pct
+All observations,requirements.txt,9270,3924,3924,3612,7,5,0,0,0,92.04892966360856
+All observations,inline,9270,7567,7565,6221,0,0,2,0,0,82.23397224058162
+claude-sonnet-4-6,requirements.txt,927,193,193,169,0,0,0,0,0,87.56476683937824
+claude-sonnet-4-6,inline,927,806,806,705,0,0,0,0,0,87.46898263027295
+deepseek-v3.2,requirements.txt,927,723,723,686,1,1,0,0,0,94.88243430152144
+deepseek-v3.2,inline,927,824,823,678,0,0,1,0,0,82.38153098420413
+gemini-3.1-pro-preview,requirements.txt,927,85,85,82,0,0,0,0,0,96.47058823529412
+gemini-3.1-pro-preview,inline,927,826,826,713,0,0,0,0,0,86.31961259079903
+gpt-5.4,requirements.txt,927,62,62,61,0,0,0,0,0,98.38709677419355
+gpt-5.4,inline,927,755,755,669,0,0,0,0,0,88.6092715231788
+kimi-k2.5,requirements.txt,927,759,759,735,6,4,0,0,0,96.83794466403162
+kimi-k2.5,inline,927,789,789,683,0,0,0,0,0,86.56527249683143
+meta-llama/llama-4-scout,requirements.txt,927,92,92,76,0,0,0,0,0,82.6086956521739
+meta-llama/llama-4-scout,inline,927,720,719,507,0,0,1,0,0,70.51460361613351
+minimax-m2.5,requirements.txt,927,247,247,236,0,0,0,0,0,95.54655870445345
+minimax-m2.5,inline,927,810,810,641,0,0,0,0,0,79.1358024691358
+qwen3-235b-a22b-instruct-2507,requirements.txt,927,584,584,546,0,0,0,0,0,93.4931506849315
+qwen3-235b-a22b-instruct-2507,inline,927,773,773,605,0,0,0,0,0,78.26649417852522
+qwen3-30b-a3b-instruct-2507,requirements.txt,927,715,715,571,0,0,0,0,0,79.86013986013987
+qwen3-30b-a3b-instruct-2507,inline,927,428,428,321,0,0,0,0,0,75.0
+qwen3.5-397b-a17b,requirements.txt,927,464,464,450,0,0,0,0,0,96.98275862068965
+qwen3.5-397b-a17b,inline,927,836,836,699,0,0,0,0,0,83.61244019138756

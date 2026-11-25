@@ -1,0 +1,66 @@
+{
+  "seed": 20261109,
+  "bootstrap_replicates": 10000,
+  "cluster": "task; fixed panel of ten evaluated models; MR and VA remain paired",
+  "cutoff": "2026-02-01T00:00:00+00:00",
+  "security_snapshot": "2026-03-01",
+  "advisory_counts": {
+    "records": 18315,
+    "withdrawn": 397
+  },
+  "source_counts": {
+    "responses": 36260,
+    "dependencies": 83241,
+    "source_carrier_declarations": 80092,
+    "clean_tasks": 927
+  },
+  "corrected_canonical": true,
+  "legacy_mapping_overrides_applied": 0,
+  "source_files": {
+    "direct_dependencies": {
+      "path": "inputs/main/direct_dependencies.jsonl",
+      "sha256": "dfc6631640547567e724be7748aa21360d0f6d3006420a0ac47779ec1551bad2"
+    },
+    "task_outcomes": {
+      "path": "inputs/main/task_outcomes.jsonl",
+      "sha256": "d6a5db043a053a38f1b1bfa9d34555acb51ee94cda07bba3dfe92882e380a49a"
+    },
+    "source_carrier_declarations": {
+      "path": "inputs/main/source_carrier_declarations.jsonl",
+      "sha256": "7b6ad437307eeb2ceaffa8467cdac56f64f86c50bcd06138c7d4384776db8f5e"
+    },
+    "corrected_pypi_additional": {
+      "path": "inputs/main/pypi_additional.json",
+      "sha256": "89d77a3b20c044d11ec9130dace504146fd4c65720c1b21f5951a70dd44392ce"
+    },
+    "clean_task_ids": {
+      "path": "inputs/assessments/partition/clean_task_ids.jsonl",
+      "sha256": "25e393e523b534e748be9786008875247af0170eb6626a860722b83a2ef0f091"
+    },
+    "pypi_releases": {
+      "path": "inputs/registries/pypi_releases.json",
+      "sha256": "2e4c2de490e8c5f7ceed34961b379d4e9e79f80e3c9c6b12aa35887538dcec9b"
+    },
+    "pypi_additional": {
+      "path": "inputs/registries/pypi_additional.json",
+      "sha256": "7b1e542cd4f979bbc86002f892c8eb07c8f0996f56d55b1ca9366a58af49d00a"
+    },
+    "candidate_population": {
+      "path": "inputs/registries/candidate_population.json",
+      "sha256": "44a327638f8e17b59f2377407438339684adf28f182700a15c95309958705002"
+    }
+  },
+  "osv_files_sha256": "4bd5cb5d6782420c588945a325f64886ae24392d98bf01e4028863e4d9fd4e99",
+  "script_sha256": "d38788321c77c32b43471e9b28e8382f366fe72c7da4fb93ba5c0f4cd5de3b03",
+  "metric_sources": {
+    "exact_and_range_response_flags": "condition-specific source carriers",
+    "security_funnels": "merged model direct dependencies; S requires at least one identity-assessable active constraint, with N retaining the complete response population",
+    "all_constraint_validity": "active model constraints and invalid declarations; S_assessable excludes responses with unresolved identity, applicability, or validity",
+    "environment_outcomes": "explicit canonical boolean fields"
+  },
+  "validity_OR_task_disagreements": 0,
+  "release_validity_anomalies": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "pandas": "3.0.1"
+}

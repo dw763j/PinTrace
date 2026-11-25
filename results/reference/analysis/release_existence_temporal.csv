@@ -1,0 +1,9 @@
+﻿mode,state,occurrences,responses,invalid_occurrences
+requirements.txt,absent_release,147,131,147
+requirements.txt,metadata_unavailable,26,26,26
+requirements.txt,published_by_cutoff,3338,1455,109
+inline,absent_release,1095,852,1095
+inline,after_cutoff,1,1,1
+inline,metadata_unavailable,248,175,248
+inline,published_by_cutoff,16365,7210,607
+inline,release_without_dated_artifact,1,1,1

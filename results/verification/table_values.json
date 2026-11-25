@@ -1,0 +1,98 @@
+[
+  {
+    "label": "tab:pintrace_selection",
+    "rows": 5,
+    "numeric_values": 5,
+    "status": "matched"
+  },
+  {
+    "label": "tab:task_populations",
+    "rows": 3,
+    "numeric_values": 6,
+    "status": "matched"
+  },
+  {
+    "label": "tab:rq1_constraint_forms",
+    "rows": 2,
+    "numeric_values": 14,
+    "status": "matched"
+  },
+  {
+    "label": "tab:rq1_model_variation",
+    "rows": 11,
+    "numeric_values": 66,
+    "status": "matched"
+  },
+  {
+    "label": "tab:rq2_validity",
+    "rows": 5,
+    "numeric_values": 15,
+    "status": "matched"
+  },
+  {
+    "label": "tab:release_states",
+    "rows": 7,
+    "numeric_values": 14,
+    "status": "matched"
+  },
+  {
+    "label": "tab:rq2_security",
+    "rows": 11,
+    "numeric_values": 66,
+    "status": "matched"
+  },
+  {
+    "label": "tab:rq3_outcomes",
+    "rows": 4,
+    "numeric_values": 28,
+    "status": "matched"
+  },
+  {
+    "label": "tab:rq3_installed_diagnostics",
+    "rows": 11,
+    "numeric_values": 110,
+    "status": "matched"
+  },
+  {
+    "label": "tab:neighbor_recovery",
+    "rows": 11,
+    "numeric_values": 55,
+    "status": "matched"
+  },
+  {
+    "label": "tab:fixed_code_comparison",
+    "rows": 6,
+    "numeric_values": 26,
+    "status": "matched"
+  },
+  {
+    "label": "tab:runtime_sensitivity",
+    "rows": 8,
+    "numeric_values": 32,
+    "status": "matched"
+  },
+  {
+    "label": "tab:dynamic_by_model",
+    "rows": 11,
+    "numeric_values": 55,
+    "status": "matched"
+  },
+  {
+    "label": "tab:five_repeat_static",
+    "rows": 5,
+    "numeric_values": 65,
+    "status": "matched"
+  },
+  {
+    "label": "tab:five_repeat_tests",
+    "rows": 5,
+    "numeric_values": 65,
+    "status": "matched"
+  },
+  {
+    "label": "tab:five_repeat_exact",
+    "rows": 5,
+    "numeric_values": 65,
+    "status": "matched"
+  }
+]

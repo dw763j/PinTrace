@@ -1,0 +1,27 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Response-level validity in clean \myso, with $N_q=9,270$ per condition.
+The first block reports $S_{q,k}$, $P_{q,k}$, and $\sigma_{q,k}=P_{q,k}/S_{q,k}$ for form $k$.
+The second uses nonempty sets of active non-bare or unparseable model declarations with determinate assessments.
+Unparseable declarations count as failures.
+Two VA responses with unresolved distribution identities are excluded only from the second block.
+Exact and ranged rows can overlap.}
+\label{tab:rq2_validity}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+\textbf{Condition} & \textbf{Form} & \textbf{Assessed} & \textbf{Passing} & \textbf{Rate (\%)} \\
+\midrule
+\multicolumn{5}{@{}l}{At least one individually satisfiable constraint} \\
+MR & Exact & 1,507 & 1,439 & 95.49 \\
+MR & Ranged & 2,455 & 2,439 & 99.35 \\
+VA & Exact & 7,566 & 7,071 & 93.46 \\
+\midrule
+\multicolumn{5}{@{}l}{Every active non-bare declaration individually satisfiable} \\
+MR & All non-bare & 3,924 & 3,612 & 92.05 \\
+VA & All non-bare & 7,565 & 6,221 & 82.23 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

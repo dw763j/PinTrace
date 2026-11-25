@@ -1,0 +1,16 @@
+﻿track,model,metric,repeat1_delta_pp,repeat2_delta_pp,repeat3_delta_pp,direction_changes
+d2,qwen/qwen3-30b-a3b-instruct-2507,exact,5.0,1.6666666666666667,5.0,False
+d2,qwen/qwen3-30b-a3b-instruct-2507,static_pass,-5.0,-3.3333333333333335,-1.6666666666666667,False
+d2,minimax/minimax-m2.5,exact,68.33333333333333,66.66666666666666,70.0,False
+d2,minimax/minimax-m2.5,static_pass,-18.333333333333332,-20.0,-20.0,False
+d2,openai/gpt-5.4,exact,70.0,66.66666666666666,66.66666666666666,False
+d2,openai/gpt-5.4,static_pass,0.0,-13.333333333333334,-6.666666666666667,False
+d2,anthropic/claude-sonnet-4.6,exact,58.333333333333336,50.0,58.333333333333336,False
+d2,anthropic/claude-sonnet-4.6,static_pass,-23.333333333333332,-18.333333333333332,-28.333333333333332,False
+d2,google/gemini-3.1-pro-preview,exact,56.666666666666664,65.0,56.666666666666664,False
+d2,google/gemini-3.1-pro-preview,static_pass,-23.333333333333332,-16.666666666666664,-28.333333333333332,False
+d1,qwen/qwen3-30b-a3b-instruct-2507,dynamic_pass,5.0,10.0,-5.0,True
+d1,minimax/minimax-m2.5,dynamic_pass,-20.0,-20.0,-15.0,False
+d1,openai/gpt-5.4,dynamic_pass,5.0,5.0,5.0,False
+d1,anthropic/claude-sonnet-4.6,dynamic_pass,0.0,-5.0,5.0,True
+d1,google/gemini-3.1-pro-preview,dynamic_pass,-10.0,-15.0,-10.0,False

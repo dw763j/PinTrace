@@ -1,0 +1,32 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Static diagnostics in installed \myso environments.
+Installed counts responses with successful installation.
+Any counts responses with a static diagnostic, while Library gives the subset classified as import-diagnostic or API-diagnostic candidates.
+Both diagnostic columns report $n$ (\%) using Installed as the denominator.
+All observations sums counts across models before division.}
+\label{tab:rq3_installed_diagnostics}
+\setlength{\tabcolsep}{1pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}lrrr@{\hspace{4pt}}rrr@{}}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multicolumn{3}{c}{\textbf{MR}} & \multicolumn{3}{c}{\textbf{VA}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+& \textbf{Installed} & \textbf{Any} & \textbf{Library} & \textbf{Installed} & \textbf{Any} & \textbf{Library} \\
+\midrule
+GPT-5.4 & 812 & 232\,(28.57) & 201\,(24.75) & 690 & 219\,(31.74) & 178\,(25.80) \\
+Claude Sonnet 4.6 & 797 & 285\,(35.76) & 250\,(31.37) & 682 & 205\,(30.06) & 142\,(20.82) \\
+Gemini 3.1 Pro & 876 & 238\,(27.17) & 202\,(23.06) & 561 & 136\,(24.24) & 113\,(20.14) \\
+DeepSeek V3.2 & 757 & 254\,(33.55) & 217\,(28.67) & 540 & 178\,(32.96) & 142\,(26.30) \\
+Kimi K2.5 & 841 & 299\,(35.55) & 241\,(28.66) & 571 & 201\,(35.20) & 161\,(28.20) \\
+Qwen3.5 397B & 840 & 240\,(28.57) & 207\,(24.64) & 504 & 124\,(24.60) & 105\,(20.83) \\
+Qwen3 235B & 778 & 285\,(36.63) & 239\,(30.72) & 453 & 172\,(37.97) & 139\,(30.68) \\
+Qwen3 30B & 618 & 226\,(36.57) & 180\,(29.13) & 621 & 294\,(47.34) & 236\,(38.00) \\
+MiniMax M2.5 & 848 & 335\,(39.50) & 234\,(27.59) & 466 & 158\,(33.91) & 128\,(27.47) \\
+Llama 4 Scout & 774 & 364\,(47.03) & 313\,(40.44) & 443 & 218\,(49.21) & 171\,(38.60) \\
+\midrule
+All observations & 7,941 & 2,758\,(34.73) & 2,284\,(28.76) & 5,531 & 1,905\,(34.44) & 1,515\,(27.39) \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

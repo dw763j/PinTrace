@@ -1,0 +1,12 @@
+model,N,bare_only,ranged_only,exact_only,mixed,contains_unparseable,no_manifest_entries
+gpt-5.4,1000,757,68,21,15,0,139
+claude-sonnet-4-6,1000,676,72,120,56,2,74
+gemini-3.1-pro-preview,1000,816,56,41,27,1,59
+deepseek-v3.2,1000,111,410,371,9,0,99
+kimi-k2.5,1000,99,689,110,30,0,72
+qwen3.5-397b-a17b,1000,402,332,170,23,1,72
+qwen3-235b-a22b-instruct-2507,1000,253,363,241,46,1,96
+qwen3-30b-a3b-instruct-2507,1000,14,265,506,6,0,209
+minimax-m2.5,1000,629,234,39,22,0,76
+meta-llama/llama-4-scout,1000,804,1,127,4,0,64
+All observations,10000,4561,2490,1746,238,5,960

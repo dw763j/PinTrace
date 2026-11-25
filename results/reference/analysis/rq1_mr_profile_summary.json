@@ -1,0 +1,13 @@
+{
+  "population": "Full PinTrace, MR",
+  "tasks": 1000,
+  "models": 10,
+  "responses": 10000,
+  "tasks_all_three_single_forms": 613,
+  "models_majority_bare_only": 5,
+  "source_sha256": {
+    "task_outcomes.jsonl": "d6a5db043a053a38f1b1bfa9d34555acb51ee94cda07bba3dfe92882e380a49a",
+    "source_carrier_declarations.jsonl": "7b6ad437307eeb2ceaffa8467cdac56f64f86c50bcd06138c7d4384776db8f5e"
+  },
+  "tasks_all_three_single_forms_pct": 61.3
+}

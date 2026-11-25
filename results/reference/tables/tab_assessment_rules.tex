@@ -1,0 +1,19 @@
+\noindent\begin{minipage}{\linewidth}
+\centering\footnotesize
+\captionof{table}{Rules for declaration and advisory assessment.}
+\label{tab:assessment_rules}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.28\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Case} & \textbf{Assessment rule} \\
+\midrule
+Inactive environment marker & Preserve the source declaration and exclude it from active-constraint assessment. \\
+Unresolved distribution identity & Leave satisfiability unassessed and record incomplete dependency input. \\
+Requirement parsing failure & Record a negative assessment with a parsing-failure status. \\
+Metadata-build failure & Record the negative operational result separately from release existence. \\
+Equivalent release strings & Use parsed release equality, so \texttt{6.0} and \texttt{6.0.0} identify the same release. \\
+Multiple affected intervals & Take their union when matching an advisory and exclude withdrawn records. \\
+\bottomrule
+\end{tabularx}
+\end{minipage}

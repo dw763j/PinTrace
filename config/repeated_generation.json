@@ -1,0 +1,44 @@
+{
+  "qwen/qwen3-30b-a3b-instruct-2507": {
+    "provider_route": "nebius/fp8",
+    "max_tokens": 4096,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "provider_fallbacks": false
+  },
+  "minimax/minimax-m2.5": {
+    "provider_route": "streamlake",
+    "max_tokens": 8192,
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "provider_fallbacks": false
+  },
+  "openai/gpt-5.4": {
+    "provider_route": "openai",
+    "parameters": {
+      "max_tokens": 6144,
+      "reasoning": {
+        "effort": "none"
+      }
+    }
+  },
+  "anthropic/claude-sonnet-4.6": {
+    "provider_route": "anthropic",
+    "parameters": {
+      "max_tokens": 6144,
+      "reasoning": {
+        "enabled": false
+      }
+    }
+  },
+  "google/gemini-3.1-pro-preview": {
+    "provider_route": "google-ai-studio",
+    "parameters": {
+      "max_tokens": 8192,
+      "temperature": 1.0,
+      "reasoning": {
+        "effort": "low"
+      }
+    }
+  }
+}

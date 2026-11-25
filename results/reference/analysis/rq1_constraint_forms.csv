@@ -1,0 +1,9 @@
+﻿condition,mode,kind,count,N,percentage
+MR,requirements.txt,exact,4425,20073,22.044537438350023
+MR,requirements.txt,range,5930,20073,29.542171075574153
+MR,requirements.txt,bare,9711,20073,48.378418771484085
+MR,requirements.txt,invalid,7,20073,0.03487271459174015
+VA,inline,exact,19150,25226,75.91373979227781
+VA,inline,range,0,25226,0.0
+VA,inline,bare,6076,25226,24.08626020772219
+VA,inline,invalid,0,25226,0.0

@@ -1,0 +1,31 @@
+{
+  "python": "3.12.11",
+  "artifact_integrity_tests": {
+    "passed": 6
+  },
+  "engine_unit_tests": {
+    "passed": 37,
+    "files": [
+      "test_alias_mapping_converter.py",
+      "test_osv_version_matrix.py",
+      "test_prompt_version_annotations.py",
+      "test_revision_failure_classifier.py",
+      "test_revision_metrics.py",
+      "test_test_utilized_tpl_detection.py",
+      "test_version_resolver_requirements.py",
+      "test_vuln_check.py"
+    ]
+  },
+  "engine_imports": [
+    "evaluate.pipeline",
+    "scripts.run_neighbor_version_experiment",
+    "dataset_builder.build_stackoverflow_dataset"
+  ],
+  "repository_language": {
+    "filenames": "English",
+    "documentation": "English",
+    "authored_code_comments_and_messages": "English",
+    "research_inputs": "Original source text preserved"
+  },
+  "manuscript_modified": false
+}

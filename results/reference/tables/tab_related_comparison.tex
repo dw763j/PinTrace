@@ -1,0 +1,25 @@
+\begin{tableorg}[!htbp]
+\small
+\centering
+\caption{Representative research by evaluated object, release or API specification, and validation scope. A dash indicates that release or API specifications are not the primary focus.}
+\label{tab:related_comparison}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.16}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.19\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+\textbf{Research line} & \textbf{Evaluated object} & \textbf{Release or API specification} & \textbf{Validation scope} \\
+\midrule
+Generated-code security~\citep{fu2025security,dai2025comprehensive,zhao2025cwe,sajadi2025security} & Code and response content & --- & Security weaknesses and guidance \\
+\addlinespace
+Package recommendation~\citep{spracklen2025package,latendresse2024chatgpt,latendresse2025robust,sipio2025popularity} & Package names and imports & --- & Existence, suitability, and import robustness \\
+\midrule
+Version- and environment-conditioned generation~\citep{wu2024versicode,misra2025gitchameleon,kuhar2025libevolution,wu2026environment} & Generated code & Benchmark-specified releases or environments & Version-specific API use, completion, and execution \\
+\addlinespace
+API evolution and adaptation~\citep{liu2025codeupdatearena,lin2025lightweight,11224651,10.1145/3808230} & Models and API-using code & Specified API updates & Updated API use and code migration \\
+\midrule
+Dependency reproducibility~\citep{vangala2026reproducible} & Generated projects and manifests & Agent-supplied dependency specifications & Clean-environment execution and dependency completeness \\
+\midrule
+\textbf{This work} & \textbf{Dependency declarations and generated programs} & \textbf{Model-written constraints and resolver-selected releases} & \textbf{Advice patterns, release quality, advisory association, environment outcomes, and fixed-code adjustment} \\
+\bottomrule
+\end{tabularx}
+\end{tableorg}
