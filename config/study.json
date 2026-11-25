@@ -49,5 +49,11 @@
     "repeated_bigcodebench_tasks": 20,
     "repeats": 3,
     "repeated_responses": 2400
+  },
+  "runtime_failure_composition": {
+    "population": "BigCodeBench third-party-library subset",
+    "numerator": "Responses without an installed environment",
+    "denominator": "Responses without a task-test pass",
+    "primary_python_version": "3.12"
   }
 }

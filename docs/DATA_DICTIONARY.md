@@ -8,7 +8,7 @@ The main response key is `(track, mode, model, task_id)`. `track=d2` means PinTr
 
 | Population | Tasks | Responses per condition | Role |
 | --- | ---: | ---: | --- |
-| Full PinTrace | 1,000 | 10,000 | Advice incidence and environment compatibility |
+| Complete PinTrace | 1,000 | 10,000 | Advice incidence and environment compatibility |
 | Clean PinTrace | 927 | 9,270 | Advice quality and advisory associations |
 | PinTrace with target-library versions | 73 | 730 | Complement of the clean partition |
 | BigCodeBench subset | 813 | 8,130 | Environment compatibility and executable task tests |
@@ -67,8 +67,9 @@ Execution status fields distinguish pass, failure, error, timeout, and stages th
 | `inputs/search_archive/outputs/analysis/neighbor/models/` | Original recorded search outcomes used after matching against the final qualification |
 | `experiments/fixed_code/comparisons.json` | 120 paired policy cases, comprising 80 PinTrace and 40 BigCodeBench responses, with original, unpinned, and neighboring environments |
 | `experiments/fixed_code/selected.json` | Selected programs, requirements, baseline states, and sampling groups |
+| `experiments/runtime/runtime_failure_composition.csv` | Runtime-specific environment-availability shares among BigCodeBench responses without a task-test pass |
 | `experiments/runtime/observations.jsonl` | 145,040 response/runtime observations across Python 3.8, 3.10, 3.12, and 3.14 |
-| `experiments/repeated/evaluations.jsonl` | 2,400 final observations across five models, two request modes, three rounds, 60 PinTrace tasks, and 20 BigCodeBench tasks |
+| `experiments/repeated/evaluations.jsonl` | 2,400 final observations across five models, two request conditions, three rounds, 60 PinTrace tasks, and 20 BigCodeBench tasks |
 | `experiments/repeated/requests.jsonl` | Planned repeated-generation requests with exact prompts and round identifiers |
 | `experiments/repeated/responses.jsonl` | Final response per planned repeated request, excluding account/billing fields |
 | `experiments/repeated/prepared.jsonl` | Source files and environment inputs used by the repeated-generation evaluation |

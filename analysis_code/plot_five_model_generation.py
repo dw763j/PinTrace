@@ -1,4 +1,3 @@
-import os
 """Render three separate outcome panels from the verified five-model summary."""
 import argparse,json
 from pathlib import Path
@@ -36,7 +35,7 @@ def main():
         for name in ['top','right','left']:ax.spines[name].set_visible(False)
         ax.spines['bottom'].set_color('#B0BDCA')
     fig.subplots_adjust(left=.235,right=.985,top=.80,bottom=.30,wspace=.35)
-    fig.text(.03,.07,'Three calls per task and condition. Bars: 95% task-bootstrap intervals.',fontsize=8,color='#42566A')
+    fig.text(.03,.07,'Three calls per task and condition. Bars: 95% paired task-cluster bootstrap intervals.',fontsize=8,color='#42566A')
     fig.text(.03,.025,'Positive values indicate higher VA rates.',fontsize=8,color='#42566A')
     a.out.parent.mkdir(parents=True,exist_ok=True)
     fig.savefig(a.out.with_suffix('.pdf'),bbox_inches='tight');fig.savefig(a.out.with_suffix('.png'),dpi=200,bbox_inches='tight');plt.close(fig)

@@ -1,7 +1,7 @@
 {
   "python": "3.12.11",
   "artifact_integrity_tests": {
-    "passed": 7
+    "passed": 9
   },
   "engine_unit_tests": {
     "passed": 37,
@@ -28,5 +28,9 @@
     "research_inputs": "Original source text preserved"
   },
   "manuscript_modified": false,
-  "cross_platform_archive_order_regression": "passed"
+  "cross_platform_archive_order_regression": "passed",
+  "runtime_nonpass_denominator_regression": "passed",
+  "caption_table_scope_regression": "passed",
+  "paper_snapshot_hash_checks": "passed",
+  "manuscript_sha256": "ba5b1a215aa6fdfbcd2aec146f2ea6efd515ba4a551c48685ddc3badab371a05"
 }

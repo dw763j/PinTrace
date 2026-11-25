@@ -1,122 +1,126 @@
-[
-  {
-    "figure": "fig1_evaluation_framework.pdf",
-    "reference_pixels": [
-      274,
-      1185,
-      3
-    ],
-    "generated_pixels": [
-      274,
-      1185,
-      3
-    ],
-    "mean_absolute_pixel_difference": 0.0,
-    "identical_pixels": true
-  },
-  {
-    "figure": "fig2_version_concentration.pdf",
-    "reference_pixels": [
-      509,
-      783,
-      3
-    ],
-    "generated_pixels": [
-      510,
-      782,
-      3
-    ],
-    "mean_absolute_pixel_difference": null,
-    "identical_pixels": false
-  },
-  {
-    "figure": "fig3_release_age.pdf",
-    "reference_pixels": [
-      463,
-      655,
-      3
-    ],
-    "generated_pixels": [
-      463,
-      655,
-      3
-    ],
-    "mean_absolute_pixel_difference": 2.7785819882501004,
-    "identical_pixels": false
-  },
-  {
-    "figure": "fig4_temporal_associations.pdf",
-    "reference_pixels": [
-      279,
-      661,
-      3
-    ],
-    "generated_pixels": [
-      279,
-      661,
-      3
-    ],
-    "mean_absolute_pixel_difference": 3.5839148894636668,
-    "identical_pixels": false
-  },
-  {
-    "figure": "fig5_failure_stages.pdf",
-    "reference_pixels": [
-      351,
-      817,
-      3
-    ],
-    "generated_pixels": [
-      350,
-      817,
-      3
-    ],
-    "mean_absolute_pixel_difference": null,
-    "identical_pixels": false
-  },
-  {
-    "figure": "fig6_dynamic_paired_intervals.pdf",
-    "reference_pixels": [
-      469,
-      838,
-      3
-    ],
-    "generated_pixels": [
-      469,
-      838,
-      3
-    ],
-    "mean_absolute_pixel_difference": 0.0,
-    "identical_pixels": true
-  },
-  {
-    "figure": "fig7_neighbor_budget.pdf",
-    "reference_pixels": [
-      365,
-      731,
-      3
-    ],
-    "generated_pixels": [
-      366,
-      731,
-      3
-    ],
-    "mean_absolute_pixel_difference": null,
-    "identical_pixels": false
-  },
-  {
-    "figure": "fig8_repeat_contrasts.pdf",
-    "reference_pixels": [
-      355,
-      734,
-      3
-    ],
-    "generated_pixels": [
-      355,
-      734,
-      3
-    ],
-    "mean_absolute_pixel_difference": 1.9693940208005527,
-    "identical_pixels": false
-  }
-]
+{
+  "manuscript_sha256": "ba5b1a215aa6fdfbcd2aec146f2ea6efd515ba4a551c48685ddc3badab371a05",
+  "render_scale": 1.5,
+  "figures": [
+    {
+      "figure": "fig1_evaluation_framework.pdf",
+      "reference_pixels": [
+        274,
+        1185,
+        3
+      ],
+      "generated_pixels": [
+        274,
+        1185,
+        3
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "identical_pixels": true
+    },
+    {
+      "figure": "fig2_version_concentration.pdf",
+      "reference_pixels": [
+        509,
+        783,
+        3
+      ],
+      "generated_pixels": [
+        510,
+        782,
+        3
+      ],
+      "mean_absolute_pixel_difference": null,
+      "identical_pixels": false
+    },
+    {
+      "figure": "fig3_release_age.pdf",
+      "reference_pixels": [
+        463,
+        655,
+        3
+      ],
+      "generated_pixels": [
+        463,
+        655,
+        3
+      ],
+      "mean_absolute_pixel_difference": 2.7785819882501004,
+      "identical_pixels": false
+    },
+    {
+      "figure": "fig4_temporal_associations.pdf",
+      "reference_pixels": [
+        279,
+        661,
+        3
+      ],
+      "generated_pixels": [
+        279,
+        661,
+        3
+      ],
+      "mean_absolute_pixel_difference": 3.5839148894636668,
+      "identical_pixels": false
+    },
+    {
+      "figure": "fig5_failure_stages.pdf",
+      "reference_pixels": [
+        351,
+        817,
+        3
+      ],
+      "generated_pixels": [
+        350,
+        817,
+        3
+      ],
+      "mean_absolute_pixel_difference": null,
+      "identical_pixels": false
+    },
+    {
+      "figure": "fig6_dynamic_paired_intervals.pdf",
+      "reference_pixels": [
+        469,
+        838,
+        3
+      ],
+      "generated_pixels": [
+        469,
+        838,
+        3
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "identical_pixels": true
+    },
+    {
+      "figure": "fig7_neighbor_budget.pdf",
+      "reference_pixels": [
+        365,
+        731,
+        3
+      ],
+      "generated_pixels": [
+        366,
+        731,
+        3
+      ],
+      "mean_absolute_pixel_difference": null,
+      "identical_pixels": false
+    },
+    {
+      "figure": "fig8_repeat_contrasts.pdf",
+      "reference_pixels": [
+        355,
+        734,
+        3
+      ],
+      "generated_pixels": [
+        355,
+        734,
+        3
+      ],
+      "mean_absolute_pixel_difference": 0.0,
+      "identical_pixels": true
+    }
+  ]
+}

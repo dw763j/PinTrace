@@ -183,5 +183,46 @@
       "inputs": "experiments/repeated/analysis_summary.json",
       "computation": "plot_five_model_generation.py"
     }
+  ],
+  "findings": [
+    {
+      "purpose": "Version shares within requests exact advice",
+      "inputs": "inputs/main/source_carrier_declarations.jsonl",
+      "result": "analysis/rq1_concentration_checked.csv",
+      "verification": "verify_claims.py",
+      "denominator": "Exact advice for requests under the specified condition"
+    },
+    {
+      "purpose": "Recurring numpy==1.24.3 advice and package-version ranking",
+      "inputs": "inputs/main/source_carrier_declarations.jsonl",
+      "result": "claims.json",
+      "verification": "verify_claims.py",
+      "unit": "Original exact-declaration occurrence on complete PinTrace"
+    },
+    {
+      "purpose": "Environment availability among task-test nonpasses across runtimes",
+      "inputs": "experiments/runtime/observations.jsonl",
+      "result": "experiments/runtime/runtime_failure_composition.csv",
+      "computation": "analyze_runtime.py",
+      "verification": "verify_claims.py",
+      "denominator": "Responses without a task-test pass, separately for each condition and Python runtime"
+    },
+    {
+      "purpose": "Sensitivity to source-selection decisions",
+      "inputs": "inputs/main/source_correction_flags.jsonl; analysis/response_flags.csv",
+      "result": "analysis/extraction_sensitivity.csv",
+      "computation": "extraction_sensitivity.py",
+      "verification": "verify_claims.py",
+      "unit": "Task-model response pair; both request conditions are excluded together"
+    },
+    {
+      "purpose": "Recovery in selected installation failures",
+      "inputs": "inputs/assessments/neighbor/qualification.jsonl; neighbor task records",
+      "result": "analysis/neighbor_corrected_by_model.csv",
+      "verification": "verify_claims.py",
+      "condition": "VA",
+      "python_version": "3.12",
+      "population_rule": "Complete lock, installation failure, direct model-written exact constraint, and no baseline advisory match"
+    }
   ]
 }

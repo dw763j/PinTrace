@@ -19,7 +19,7 @@ python -m pip install -r requirements.lock.txt
 python reproduce.py
 ```
 
-The command checks packaged input hashes, recomputes the analyses with 10,000 task-bootstrap samples, exports table data, generates all eight paper figures, and compares results with the paper's reference outputs. It also verifies the response-to-code lineage and exports the complete inputs for reevaluating each program. This workflow runs offline after dependency installation. It does not call model APIs or execute generated programs.
+The command checks packaged input hashes, recomputes the analyses with 10,000 paired task-cluster bootstrap samples, exports table data, generates all eight paper figures, and compares results with the paper's reference outputs. It also verifies the response-to-code lineage and exports the complete inputs for reevaluating each program. This workflow runs offline after dependency installation. It does not call model APIs or execute generated programs.
 
 Outputs appear in `build/`:
 
@@ -32,7 +32,7 @@ Outputs appear in `build/`:
 | `prepared/main.jsonl` | Selected source files and complete dependency inputs for 36,260 responses |
 | `comparison.json` | Comparisons with reference result CSVs |
 | `source_verification.json` | Response hashes, selected-code hashes, and BigCodeBench subset verification |
-| `claims.json` | Headline rates with their units, numerators, and denominators |
+| `claims.json` | Headline findings with explicit populations, denominators, runtimes, counts, and paired differences |
 | `logs/` | Output from every analysis step |
 
 `python reproduce.py --verify-only` checks all packaged data without unpacking it. `python reproduce.py --evidence` additionally unpacks the full execution evidence, including commands, diagnostic output, and available lock artifacts. See [the reproduction guide](docs/REPRODUCTION.md) for individual steps and environment reevaluation.
@@ -50,6 +50,8 @@ Outputs appear in `build/`:
 | `licenses/` | Third-party notices and attribution |
 
 [The evidence map](docs/EVIDENCE_MAP.md) links every numbered table and figure to its inputs and computation. [The data dictionary](docs/DATA_DICTIONARY.md) explains record keys, populations, and measurement states. [The provenance guide](docs/PROVENANCE.md) identifies source snapshots and the relationship to the [PinTrace repository](https://github.com/dw763j/PinTrace).
+
+The [maintenance guide](docs/MAINTENANCE.md) explains how to synchronize a paper version, its figure generators, and the verification inventory.
 
 ## Licenses and citation
 

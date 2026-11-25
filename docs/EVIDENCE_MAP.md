@@ -39,6 +39,12 @@ The manuscript fingerprint and display labels are in `config/manuscript.json`. P
 | 7 | Neighbor search budget | `analysis/neighbor_budget_prefix.csv` | `plot_neighbor_budget.py` |
 | 8 | Repeated generation | `experiments/repeated/analysis_summary.json` | `plot_five_model_generation.py` |
 
-## Headline findings
+## Scoped findings
 
-`claims.json` gives a machine-readable link from headline rates to their unit, population, numerator, denominator, and result CSV. It covers advice incidence, concentration, release existence, advisory association, compatibility, task tests, and neighboring-version recovery. The underlying response/declaration records support the more detailed model- and package-level analyses.
+`claims.json` checks the findings against their actual units and populations. Package-level version shares retain their package denominator. The recurring-version checks distinguish a within-package mode from the most frequent package-version pair across packages.
+
+`experiments/runtime/runtime_failure_composition.csv` reports the share without an installed environment among responses without a task-test pass. Each row identifies the Python runtime and request condition. The 70.33% result belongs to VA under Python 3.12. The corresponding VA shares are 41.45% under Python 3.8, 4.07% under Python 3.10, and 84.50% under Python 3.14.
+
+`analysis/extraction_sensitivity.csv` contains the paired source-exclusion comparisons reported in the measurement-validation section. The checks cover the retained pair counts, difference estimates, and interval directions for static pass, task-test pass, and cutoff-scoped advisory association.
+
+The 52.88% neighboring-version static recovery uses 815 selected VA installation failures under Python 3.12. Its qualification requires a complete baseline lock, a recorded installation failure, a direct model-written exact constraint, and no baseline advisory match.

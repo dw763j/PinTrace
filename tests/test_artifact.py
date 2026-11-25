@@ -33,7 +33,11 @@ class ArtifactTests(unittest.TestCase):
         m=json.loads((ROOT/'config/manuscript.json').read_text())
         self.assertEqual(len(m['tables']),19);self.assertEqual(len(m['figures']),8)
         for t in m['tables']:self.assertTrue((ROOT/t['path']).is_file())
-        for name in m['figures']:self.assertTrue((ROOT/'results/reference/figures'/name).is_file())
+        for name in m['figures']:
+            path=ROOT/'results/reference/figures'/name
+            self.assertTrue(path.is_file())
+            self.assertEqual(reproduce.digest(path),m['figure_sha256'][name])
+        for t in m['tables']:self.assertEqual(reproduce.digest(ROOT/t['path']),t['sha256'])
 
     def test_repository_documentation_and_code_are_english(self):
         for p in ROOT.rglob('*'):
@@ -56,5 +60,21 @@ class ArtifactTests(unittest.TestCase):
                 (root/name).write_text('{}',encoding='utf-8')
             self.assertEqual([p.name for p in ordered_model_archives(root)],
                 ['model_claude.json','model_DeepSeek.json','model_GPT.json'])
+
+    def test_failure_composition_uses_nonpass_denominator(self):
+        sys.path.insert(0,str(ROOT/'analysis_code'))
+        from analyze_runtime import no_environment_share
+        self.assertEqual(no_environment_share(100,80,60),50.0)
+        self.assertIsNone(no_environment_share(100,100,100))
+        with self.assertRaises(ValueError):no_environment_share(100,60,80)
+
+    def test_caption_table_excludes_an_earlier_minipage(self):
+        from tools.sync_paper import extract_tables
+        text=(r'\noindent\begin{minipage}{\linewidth}Unrelated text\end{minipage}'
+              r'\noindent\begin{minipage}{\linewidth}\captionof{table}{Rules}'
+              r'\label{tab:rules}Rule content\end{minipage}')
+        tables=extract_tables(text)
+        self.assertEqual(set(tables),{'tab:rules'})
+        self.assertNotIn('Unrelated text',tables['tab:rules'][1])
 
 if __name__=='__main__':unittest.main()

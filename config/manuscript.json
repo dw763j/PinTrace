@@ -1,6 +1,6 @@
 {
   "title": "Dependency-Version Advice in LLM-Generated Code: Incidence, Quality, and Consequences",
-  "sha256": "1c48f658a18e4c1abec3d7677f93cf72e8d8ceba1f95c6c572b2a87c3e905f81",
+  "sha256": "ba5b1a215aa6fdfbcd2aec146f2ea6efd515ba4a551c48685ddc3badab371a05",
   "figures": [
     "fig1_evaluation_framework.pdf",
     "fig2_version_concentration.pdf",
@@ -15,97 +15,130 @@
     {
       "label": "tab:pintrace_selection",
       "path": "results/reference/tables/tab_pintrace_selection.tex",
-      "source_line": 516
+      "source_line": 521,
+      "sha256": "ec25c2f1fbc417bf351c58a2ad146b92265c89be82034fded04498d60c609f51"
     },
     {
       "label": "tab:task_populations",
       "path": "results/reference/tables/tab_task_populations.tex",
-      "source_line": 552
+      "source_line": 558,
+      "sha256": "db1fa4a078a534a0b4a31d4a39ceb4b5eb31e533b3eb73190eeff87bca1c5a4d"
     },
     {
       "label": "tab:models",
       "path": "results/reference/tables/tab_models.tex",
-      "source_line": 580
+      "source_line": 586,
+      "sha256": "dba41def205508544ed65b15b62d2bc1219a3910985f1eb17cf6f8cd6cfcc179"
     },
     {
       "label": "tab:rq1_constraint_forms",
       "path": "results/reference/tables/tab_rq1_constraint_forms.tex",
-      "source_line": 751
+      "source_line": 757,
+      "sha256": "f3737307b124d01f29178140cef6b4d2d04a4a187f31ff2303ec9c5a52c7946c"
     },
     {
       "label": "tab:rq1_model_variation",
       "path": "results/reference/tables/tab_rq1_model_variation.tex",
-      "source_line": 797
+      "source_line": 803,
+      "sha256": "6bb2f8eeb5c1caf5e4ece0e43cb5346778fd5ac2ff3e34c2dc8be13c7c538654"
     },
     {
       "label": "tab:rq2_validity",
       "path": "results/reference/tables/tab_rq2_validity.tex",
-      "source_line": 878
+      "source_line": 885,
+      "sha256": "0c46b90c0cadc7cd5f373710f4f6ba8b273b388c1efec11a5d36263c7863cdad"
     },
     {
       "label": "tab:release_states",
       "path": "results/reference/tables/tab_release_states.tex",
-      "source_line": 925
+      "source_line": 932,
+      "sha256": "23049e44933d6e085174d64d8ef5f4b07399e002943937fb05dfca28b8211cc2"
     },
     {
       "label": "tab:rq2_security",
       "path": "results/reference/tables/tab_rq2_security.tex",
-      "source_line": 1018
+      "source_line": 1025,
+      "sha256": "dc0341a2dc9262036517741cc1eb4bb114dc5996364926a33e951818f7c11b22"
     },
     {
       "label": "tab:rq3_outcomes",
       "path": "results/reference/tables/tab_rq3_outcomes.tex",
-      "source_line": 1087
+      "source_line": 1094,
+      "sha256": "a5fa30cc4d203363a5ed38da5bf8a52f1db7038348aa482ccd50ac914d9c1082"
     },
     {
       "label": "tab:rq3_installed_diagnostics",
       "path": "results/reference/tables/tab_rq3_installed_diagnostics.tex",
-      "source_line": 1126
+      "source_line": 1133,
+      "sha256": "269861a0aa295ebe617ee81d9efe0e34edc1d00f71232c5c3249ca639f948806"
     },
     {
       "label": "tab:neighbor_recovery",
       "path": "results/reference/tables/tab_neighbor_recovery.tex",
-      "source_line": 1280
+      "source_line": 1287,
+      "sha256": "b9201dd32865dadfd8d2e378956f61c24f228c8af4bbf1646e7b3cf327f06235"
     },
     {
       "label": "tab:fixed_code_comparison",
       "path": "results/reference/tables/tab_fixed_code_comparison.tex",
-      "source_line": 1369
+      "source_line": 1377,
+      "sha256": "df8dc34c3b1c13166405c276a26e10f2879c9d3ea767d20abf5ce036f7d96cb7"
     },
     {
       "label": "tab:runtime_sensitivity",
       "path": "results/reference/tables/tab_runtime_sensitivity.tex",
-      "source_line": 1433
+      "source_line": 1440,
+      "sha256": "3e9a81f08d68669a99994e852649f673d2e3a924918836cde32059be5f730993"
     },
     {
       "label": "tab:related_comparison",
       "path": "results/reference/tables/tab_related_comparison.tex",
-      "source_line": 1672
-    },
-    {
-      "label": "tab:dynamic_by_model",
-      "path": "results/reference/tables/tab_dynamic_by_model.tex",
-      "source_line": 1989
-    },
-    {
-      "label": "tab:five_repeat_static",
-      "path": "results/reference/tables/tab_five_repeat_static.tex",
-      "source_line": 2029
-    },
-    {
-      "label": "tab:five_repeat_tests",
-      "path": "results/reference/tables/tab_five_repeat_tests.tex",
-      "source_line": 2058
-    },
-    {
-      "label": "tab:five_repeat_exact",
-      "path": "results/reference/tables/tab_five_repeat_exact.tex",
-      "source_line": 2086
+      "source_line": 1697,
+      "sha256": "50bfe78b5886e8d195056dcb2ab10540cc72a22ee39ebd5cbc1b000468ff060b"
     },
     {
       "label": "tab:assessment_rules",
       "path": "results/reference/tables/tab_assessment_rules.tex",
-      "source_line": 1876
+      "source_line": 1894,
+      "sha256": "da841c7a5246d8c588037fda6a92618790b5d3e866adc1b4ba8dd21087af6a2d"
+    },
+    {
+      "label": "tab:dynamic_by_model",
+      "path": "results/reference/tables/tab_dynamic_by_model.tex",
+      "source_line": 2008,
+      "sha256": "7cd5e3b4b3b5a667acf55680de2c28d92d36a0225a57e9d1c87ef62e8b54d765"
+    },
+    {
+      "label": "tab:five_repeat_static",
+      "path": "results/reference/tables/tab_five_repeat_static.tex",
+      "source_line": 2048,
+      "sha256": "0076cccf8eaf0a3e04f6c6d68c6159a422369de8eecb5e0eb0d4cce29e42b29e"
+    },
+    {
+      "label": "tab:five_repeat_tests",
+      "path": "results/reference/tables/tab_five_repeat_tests.tex",
+      "source_line": 2077,
+      "sha256": "daf8fb42835d6287ff7d576ec63ba6abeffd4fb3dfe5a42a979e33d61d8ed755"
+    },
+    {
+      "label": "tab:five_repeat_exact",
+      "path": "results/reference/tables/tab_five_repeat_exact.tex",
+      "source_line": 2105,
+      "sha256": "2883f240de7d2f4cd07431fc278a168f7940241d738cdd0af82265f8ae897599"
     }
-  ]
+  ],
+  "main_file": "sn-article.tex",
+  "figure_sha256": {
+    "fig1_evaluation_framework.pdf": "62d5273093bcfa5b8487868e6453da0963ff9f566b7fa30a54694934ad4a8a68",
+    "fig2_version_concentration.pdf": "bb5547f2cef038b79ca2099f1bae84ff87f26c85e8483b6bea1a52bc239254b5",
+    "fig3_release_age.pdf": "52e605e0d261aae4334ccf1f5cb06cca613636fb4c9305820455df436f310ceb",
+    "fig4_temporal_associations.pdf": "5b493267fb5118046f3c527b2c3080e88a3e6c5f35cd95533f1a2c653f1f4f2e",
+    "fig5_failure_stages.pdf": "dafeaae75e3b6b3a9accd5e482eaa4a741918ce23ca9f8c2d710e6c0d0a82c52",
+    "fig6_dynamic_paired_intervals.pdf": "a92a4540642697c98ecf51a52319f3520f47af2b0035c80816a4ef44c778e30d",
+    "fig7_neighbor_budget.pdf": "a13411ea5ea43800dbc6eb3e93abd802230a579c3d501bf1d47e2fc193e6335d",
+    "fig8_repeat_contrasts.pdf": "efe91ae970deee721147d78a5d931e943bede34a2acce53d1351487e0c8342ca"
+  },
+  "bibliography_sha256": {
+    "llm_tpl.bib": "cf83b9309524caedb9b81efa207412abf5bf77362d99e21da67002c16ef9b135"
+  }
 }

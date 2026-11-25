@@ -53,7 +53,8 @@
     "denominator": 9270,
     "percentage": 9.44,
     "source": "security_funnels.csv",
-    "unit": "response in the 927-task clean population"
+    "unit": "response in the 927-task clean population",
+    "advisory_scope": "published_by_release_cutoff"
   },
   {
     "claim": "MR conditional advisory association",
@@ -61,7 +62,8 @@
     "denominator": 1439,
     "percentage": 60.81,
     "source": "security_funnels.csv",
-    "unit": "response with individually satisfiable exact advice"
+    "unit": "response with individually satisfiable exact advice",
+    "advisory_scope": "published_by_release_cutoff"
   },
   {
     "claim": "VA population advisory association",
@@ -69,7 +71,8 @@
     "denominator": 9270,
     "percentage": 38.18,
     "source": "security_funnels.csv",
-    "unit": "response in the 927-task clean population"
+    "unit": "response in the 927-task clean population",
+    "advisory_scope": "published_by_release_cutoff"
   },
   {
     "claim": "VA conditional advisory association",
@@ -77,7 +80,8 @@
     "denominator": 7071,
     "percentage": 50.05,
     "source": "security_funnels.csv",
-    "unit": "response with individually satisfiable exact advice"
+    "unit": "response with individually satisfiable exact advice",
+    "advisory_scope": "published_by_release_cutoff"
   },
   {
     "claim": "PinTrace complete MR static",
@@ -117,7 +121,10 @@
     "denominator": 815,
     "percentage": 62.33,
     "source": "neighbor_corrected_by_model.csv",
-    "unit": "selected installation-failing response"
+    "unit": "selected installation-failing response",
+    "condition": "VA",
+    "python_version": "3.12",
+    "population_rule": "Complete baseline lock, installation failure, direct model-written exact constraint, and no baseline advisory match."
   },
   {
     "claim": "Neighbor static recovery",
@@ -125,6 +132,138 @@
     "denominator": 815,
     "percentage": 52.88,
     "source": "neighbor_corrected_by_model.csv",
-    "unit": "selected installation-failing response"
+    "unit": "selected installation-failing response",
+    "condition": "VA",
+    "python_version": "3.12",
+    "population_rule": "Complete baseline lock, installation failure, direct model-written exact constraint, and no baseline advisory match."
+  },
+  {
+    "claim": "MR requests==2.31.0 share within requests exact advice",
+    "numerator": 154,
+    "denominator": 179,
+    "percentage": 86.03,
+    "source": "rq1_concentration_checked.csv",
+    "unit": "source-carrier exact-declaration occurrence",
+    "condition": "MR",
+    "package": "requests",
+    "version": "2.31.0",
+    "denominator_scope": "Exact advice for requests only"
+  },
+  {
+    "claim": "VA requests==2.31.0 share within requests exact advice",
+    "numerator": 457,
+    "denominator": 610,
+    "percentage": 74.92,
+    "source": "rq1_concentration_checked.csv",
+    "unit": "source-carrier exact-declaration occurrence",
+    "condition": "VA",
+    "package": "requests",
+    "version": "2.31.0",
+    "denominator_scope": "Exact advice for requests only"
+  },
+  {
+    "claim": "MR recurring numpy==1.24.3 advice",
+    "type": "count",
+    "count": 137,
+    "condition": "MR",
+    "most_frequent_pair": [
+      "flask",
+      "2.3.3"
+    ],
+    "most_frequent_pair_count": 203,
+    "source": "inputs/main/source_carrier_declarations.jsonl",
+    "unit": "source-carrier exact-declaration occurrence on complete PinTrace"
+  },
+  {
+    "claim": "VA recurring numpy==1.24.3 advice",
+    "type": "count",
+    "count": 628,
+    "condition": "VA",
+    "most_frequent_pair": [
+      "numpy",
+      "1.24.3"
+    ],
+    "most_frequent_pair_count": 628,
+    "source": "inputs/main/source_carrier_declarations.jsonl",
+    "unit": "source-carrier exact-declaration occurrence on complete PinTrace"
+  },
+  {
+    "claim": "VA responses without an installed environment among nonpasses on Python 3.8",
+    "numerator": 2220,
+    "denominator": 5356,
+    "percentage": 41.45,
+    "source": "experiments/runtime/runtime_failure_composition.csv",
+    "unit": "BigCodeBench response without a task-test pass",
+    "condition": "VA",
+    "python_version": "3.8"
+  },
+  {
+    "claim": "VA responses without an installed environment among nonpasses on Python 3.10",
+    "numerator": 224,
+    "denominator": 5508,
+    "percentage": 4.07,
+    "source": "experiments/runtime/runtime_failure_composition.csv",
+    "unit": "BigCodeBench response without a task-test pass",
+    "condition": "VA",
+    "python_version": "3.10"
+  },
+  {
+    "claim": "VA responses without an installed environment among nonpasses on Python 3.12",
+    "numerator": 4776,
+    "denominator": 6791,
+    "percentage": 70.33,
+    "source": "experiments/runtime/runtime_failure_composition.csv",
+    "unit": "BigCodeBench response without a task-test pass",
+    "condition": "VA",
+    "python_version": "3.12"
+  },
+  {
+    "claim": "VA responses without an installed environment among nonpasses on Python 3.14",
+    "numerator": 6249,
+    "denominator": 7395,
+    "percentage": 84.5,
+    "source": "experiments/runtime/runtime_failure_composition.csv",
+    "unit": "BigCodeBench response without a task-test pass",
+    "condition": "VA",
+    "python_version": "3.14"
+  },
+  {
+    "claim": "Source-exclusion sensitivity: PinTrace complete static",
+    "type": "paired_difference",
+    "population": "PinTrace complete",
+    "metric": "static",
+    "retained_pairs": 8934,
+    "estimate_pp": -15.704051936422655,
+    "ci_low": -17.470429582977992,
+    "ci_high": -13.96876624543913,
+    "interval_method": "paired task-cluster percentile bootstrap",
+    "source": "extraction_sensitivity.csv",
+    "unit": "task-model response pair"
+  },
+  {
+    "claim": "Source-exclusion sensitivity: BigCodeBench dynamic",
+    "type": "paired_difference",
+    "population": "BigCodeBench",
+    "metric": "dynamic",
+    "retained_pairs": 7594,
+    "estimate_pp": -25.99420595206742,
+    "ci_low": -28.01738168145207,
+    "ci_high": -23.99682901184979,
+    "interval_method": "paired task-cluster percentile bootstrap",
+    "source": "extraction_sensitivity.csv",
+    "unit": "task-model response pair"
+  },
+  {
+    "claim": "Source-exclusion sensitivity: PinTrace clean exact_published_by_cutoff",
+    "type": "paired_difference",
+    "population": "PinTrace clean",
+    "metric": "exact_published_by_cutoff",
+    "retained_pairs": 8280,
+    "estimate_pp": 28.707729468599034,
+    "ci_low": 26.580823164901414,
+    "ci_high": 30.918112471821615,
+    "interval_method": "paired task-cluster percentile bootstrap",
+    "source": "extraction_sensitivity.csv",
+    "unit": "task-model response pair"
   }
 ]

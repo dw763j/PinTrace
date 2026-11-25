@@ -81,6 +81,9 @@ def build_overview(output, poppler_bin=None):
         '(2) Advice Extraction (RQ1)': ('(2) Extraction (RQ1 - all PinTrace)', 161, 281.125),
         'Quality Evaluation (RQ2)': ('', 199, None),
         'Environment Validation (RQ3)': ('', 199, None),
+        'Frozen': ('Fixed', 180, None),
+        'Lock Sync': ('Install locked', 180, None),
+        '& Install': ('releases', 180, None),
     }
     updated = []
     stream = ContentStream(form, writer)
@@ -106,7 +109,9 @@ def build_overview(output, poppler_bin=None):
         if text.strip() == 'Constraint' and float(matrix[4]) > 600:
             spec = ('Release existence', 161, 699.72)
         if text.strip() == '(3)' and abs(float(matrix[5]) - 279.6) < 0.01:
-            spec = ('(3) Frozen Dependency Resolution', 199, 492.30)
+            spec = ('(3) Dependency Resolution', 199, 492.30)
+        if text.strip() == 'Resolution' and abs(float(matrix[5]) - 251.25) < 0.01:
+            spec = ('settings', 180, None)
         if text.strip() == 'Time-aligned Dependency':
             spec = ('', 199, None)
         if text.strip() == 'Resolution' and abs(float(matrix[5]) - 279.6) < 0.01:
@@ -138,7 +143,7 @@ def build_overview(output, poppler_bin=None):
             operations.extend(prefix)
             updated.append({'old': text, 'new': new_text, 'font_size_pt': size * 0.05})
         block = None
-    assert block is None and len(updated) == 19, updated
+    assert block is None and len(updated) == 23, updated
     graphical_after = []
     in_text = False
     for args, operator in operations:
@@ -162,8 +167,7 @@ def build_overview(output, poppler_bin=None):
     import pypdfium2 as pdfium
     with pdfium.PdfDocument(str(pdf)) as document:
         page = document[0]
-        bitmap = page.render(scale=2200 / page.get_width())
-        bitmap.to_pil().save(output / (STEM + '.png'))
+        page.render(scale=2200 / page.get_width()).to_pil().save(output / (STEM + '.png'))
     obsolete_svg = output / (STEM + '.svg')
     if obsolete_svg.is_file():
         obsolete_svg.unlink()

@@ -21,10 +21,10 @@ The entry point runs the following stages in dependency order:
 1. `reanalyze.py` assesses the canonical declarations against the frozen PyPI and OSV inputs. It computes response-level quality metrics, release ages, advisory associations, package reweighting, and paired bootstrap comparisons.
 2. `extraction_sensitivity.py` computes comparisons after excluding source-selection-sensitive task/model pairs.
 3. `analyze_neighbor.py` checks the candidate ordering and the selected 815-response search population against the recorded search results. It produces recovery rates and budget-prefix results.
-4. `analyze_fixed_code.py`, `analyze_runtime.py`, and `analyze_repeated.py` aggregate their respective response-level inputs.
+4. `analyze_fixed_code.py`, `analyze_runtime.py`, and `analyze_repeated.py` aggregate their respective response-level inputs. The runtime analysis also exports `experiments/runtime/runtime_failure_composition.csv`, using responses without a task-test pass as the denominator for environment-availability shares.
 5. `prepare_displays.py`, `summarize_version_concentration.py`, and `export_tables.py` construct table/plot data and check the numbers shown in the manuscript.
 6. `verify_source_inputs.py` verifies raw-response and selected-code hashes, reconstructs the final source files, exports environment inputs, and verifies the BigCodeBench subset from its library metadata.
-7. `verify_claims.py` checks headline rates with explicit numerators and denominators.
+7. `verify_claims.py` checks headline rates, package-specific version shares, recurring-version counts, runtime-specific failure composition, source-exclusion sensitivity, and the selected neighboring-version population.
 8. Plot scripts regenerate all eight paper figures. Figure 1 uses the supplied vector artwork and label-update code. The other figures are computed from result CSVs.
 
 Numerical CSV comparisons allow floating-point roundoff below 1e-9. Table checks compare the rounded values displayed in the manuscript. Figure checks compare all extracted labels and numerical text with the exact manuscript assets. The reference PDFs preserve those assets. PDF font embedding and tight bounding boxes can vary slightly when plots are rendered again.

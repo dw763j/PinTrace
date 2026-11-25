@@ -155,6 +155,10 @@
     {
       "file": "runtime/python_robustness_by_model.csv",
       "problem": null
+    },
+    {
+      "file": "runtime/runtime_failure_composition.csv",
+      "problem": null
     }
   ],
   "csv_failures": [],
@@ -162,8 +166,8 @@
   "figures": [
     {
       "file": "fig1_evaluation_framework.pdf",
-      "reference_sha256": "ca5726226d4b818806cf502e8b53670ac9cd51a441e8876dd63f9f11a40d4578",
-      "generated_sha256": "ca5726226d4b818806cf502e8b53670ac9cd51a441e8876dd63f9f11a40d4578",
+      "reference_sha256": "62d5273093bcfa5b8487868e6453da0963ff9f566b7fa30a54694934ad4a8a68",
+      "generated_sha256": "62d5273093bcfa5b8487868e6453da0963ff9f566b7fa30a54694934ad4a8a68",
       "labels_and_values_match": true,
       "reference_size_pt": [
         869.2346,
@@ -177,7 +181,7 @@
     {
       "file": "fig2_version_concentration.pdf",
       "reference_sha256": "bb5547f2cef038b79ca2099f1bae84ff87f26c85e8483b6bea1a52bc239254b5",
-      "generated_sha256": "9f33402e4fc173cc5fb3fdc0f40efb4aa7d47f9061d229a84b8da417653d6245",
+      "generated_sha256": "c9f4a741b8f0e712e94775724ca6d658c18acbc56d40bade0d3a9fd2769da0d6",
       "labels_and_values_match": true,
       "reference_size_pt": [
         521.61375,
@@ -191,7 +195,7 @@
     {
       "file": "fig3_release_age.pdf",
       "reference_sha256": "52e605e0d261aae4334ccf1f5cb06cca613636fb4c9305820455df436f310ceb",
-      "generated_sha256": "52dfe8c5402f8347e62102365a10959d082f934bc82a0ebc2611e1a01d00d0e1",
+      "generated_sha256": "f18dce607e53ea11b848774b19c14fb374c9ccccb987d62b02f28402d3e9d3e3",
       "labels_and_values_match": true,
       "reference_size_pt": [
         436.3056,
@@ -205,7 +209,7 @@
     {
       "file": "fig4_temporal_associations.pdf",
       "reference_sha256": "5b493267fb5118046f3c527b2c3080e88a3e6c5f35cd95533f1a2c653f1f4f2e",
-      "generated_sha256": "e8ba6fda22f06429bd3d995d4c7afce2296cbfe9ccdae7f7e17eea16bbf6a211",
+      "generated_sha256": "afa4228053c09ed4847b51206df337639984fadb679b08db117ca258c88291d7",
       "labels_and_values_match": true,
       "reference_size_pt": [
         440.58328,
@@ -219,7 +223,7 @@
     {
       "file": "fig5_failure_stages.pdf",
       "reference_sha256": "dafeaae75e3b6b3a9accd5e482eaa4a741918ce23ca9f8c2d710e6c0d0a82c52",
-      "generated_sha256": "38cef34bee6fba8d67f71ce296bd832e279cdd548099398bf8df524f8dadf8f9",
+      "generated_sha256": "cfd30e89c1278245c22c537c879600c4853957eccb5750b313b5f35b4ebdedf2",
       "labels_and_values_match": true,
       "reference_size_pt": [
         544.176,
@@ -233,7 +237,7 @@
     {
       "file": "fig6_dynamic_paired_intervals.pdf",
       "reference_sha256": "a92a4540642697c98ecf51a52319f3520f47af2b0035c80816a4ef44c778e30d",
-      "generated_sha256": "3e18ed9f05a793871f3cb4d3d9098eb00f6ff1d2c55a22438104982f65bf6935",
+      "generated_sha256": "b40fe9333eeca9bbbc86c5a8484611e24669f96815a8937f899dacb57ff2999c",
       "labels_and_values_match": true,
       "reference_size_pt": [
         558.39075,
@@ -247,7 +251,7 @@
     {
       "file": "fig7_neighbor_budget.pdf",
       "reference_sha256": "a13411ea5ea43800dbc6eb3e93abd802230a579c3d501bf1d47e2fc193e6335d",
-      "generated_sha256": "45a482dcb00c5c11e8834ee8a84aa593b0f9c9fc74b2f429d835c2517f468bcb",
+      "generated_sha256": "ed0e345276552f406800b5cab25f7850063520d22f2edf21ece66c9e3be55a1c",
       "labels_and_values_match": true,
       "reference_size_pt": [
         487.332,
@@ -260,12 +264,12 @@
     },
     {
       "file": "fig8_repeat_contrasts.pdf",
-      "reference_sha256": "f84a5ac24ff58e584e0a2e34c96ac1adbc76a919442731e9201a1c0c61dcae3d",
-      "generated_sha256": "f607ed669ac52a323879d0b4cfcb9df39aa147189d0331d850e246da65be306e",
+      "reference_sha256": "efe91ae970deee721147d78a5d931e943bede34a2acce53d1351487e0c8342ca",
+      "generated_sha256": "d35be3a411496df06e2811f5da47c487a16e1d9cdacde4518d5ba9f8e274f746",
       "labels_and_values_match": true,
       "reference_size_pt": [
         488.844,
-        236.385625
+        236.63953125
       ],
       "generated_size_pt": [
         488.844,

@@ -1,8 +1,13 @@
 """Aggregate all 145,040 final task-model-condition-runtime observations."""
 import collections,csv,json,os
 from pathlib import Path
-R=Path(os.environ['PINTRACE_WORKSPACE']);OUT=R/'experiments/runtime'
+R=Path(os.environ.get('PINTRACE_WORKSPACE',Path(__file__).resolve().parents[1]/'build'));OUT=R/'experiments/runtime'
 METRICS=['resolver_input','complete_lock','installation_completed','static_pass','dynamic_pass']
+
+def no_environment_share(n,installed,passed):
+    """Use responses without a test pass as the denominator."""
+    if not 0<=passed<=installed<=n:raise ValueError('Invalid environment or test counts')
+    return 100*(n-installed)/(n-passed) if n>passed else None
 def main():
     groups=collections.defaultdict(collections.Counter);seen=set()
     with (OUT/'observations.jsonl').open(encoding='utf-8') as source:
@@ -26,5 +31,14 @@ def main():
     for name,rows in [('python_robustness_by_model.csv',by),('python_robustness_all_observations.csv',allrows)]:
         with (OUT/name).open('w',newline='',encoding='utf-8') as f:
             w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+    composition=[]
+    for r in allrows:
+        if r['track']!='d1':continue
+        n,installed,passed=(r[k] for k in ['n','installation_completed','dynamic_pass'])
+        composition.append(dict(condition='VA' if r['mode']=='inline' else 'MR',python_version=r['python_version'],
+            responses=n,installed=installed,test_pass=passed,no_installed_environment=n-installed,
+            no_test_pass=n-passed,no_environment_pct_among_nonpasses=no_environment_share(n,installed,passed)))
+    with (OUT/'runtime_failure_composition.csv').open('w',newline='',encoding='utf-8') as f:
+        w=csv.DictWriter(f,fieldnames=list(composition[0]));w.writeheader();w.writerows(composition)
     print('Runtime observations:',len(seen))
 if __name__=='__main__':main()

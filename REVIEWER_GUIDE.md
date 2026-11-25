@@ -28,7 +28,7 @@ The command verifies the packaged input hashes, recomputes the analyses, exports
 | What supports each headline rate? | `build/claims.json` |
 | Where are the selected programs and complete dependency inputs? | `build/prepared/main.jsonl` |
 
-The main study contains 1,000 PinTrace tasks, an 813-task BigCodeBench subset, ten models, and two request modes. Quality analyses use the 927 PinTrace tasks without target-library version information. Neighboring-version search, fixed-code comparisons, runtime comparisons, and repeated generation have separate input and result records.
+The main study contains 1,000 PinTrace tasks, an 813-task BigCodeBench subset, ten models, and two request conditions. Quality analyses use the 927 PinTrace tasks without target-library version information. Neighboring-version search, fixed-code comparisons, runtime comparisons, and repeated generation have separate input and result records.
 
 Run `python reproduce.py --verify-only` to check packaged data integrity. Add `--evidence` to the full reproduction command to unpack recorded commands, diagnostic output, and available lock artifacts. See `docs/REPRODUCTION.md` for individual analysis stages and reevaluation on a disposable Linux worker.
 
