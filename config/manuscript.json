@@ -1,6 +1,6 @@
 {
   "title": "Dependency-Version Advice in LLM-Generated Code: Incidence, Quality, and Consequences",
-  "sha256": "ba5b1a215aa6fdfbcd2aec146f2ea6efd515ba4a551c48685ddc3badab371a05",
+  "sha256": "b7099da31beb87c2615cbc6ce6ee5c9c850f2229668cb925904b818cf1317499",
   "figures": [
     "fig1_evaluation_framework.pdf",
     "fig2_version_concentration.pdf",
@@ -91,39 +91,51 @@
       "sha256": "3e9a81f08d68669a99994e852649f673d2e3a924918836cde32059be5f730993"
     },
     {
+      "label": "tab:measurement_manual_checks",
+      "path": "results/reference/tables/tab_measurement_manual_checks.tex",
+      "source_line": 1500,
+      "sha256": "e99bb0e2d09069d9746ef94ee6341e0976c9a6912ecd2ed450f2a457b5c54625"
+    },
+    {
+      "label": "tab:extraction_sensitivity",
+      "path": "results/reference/tables/tab_extraction_sensitivity.tex",
+      "source_line": 1524,
+      "sha256": "ba34a02d78586b2bb218a7b15f79c5ee8aad416f14e02925692086fe9611d8e0"
+    },
+    {
       "label": "tab:related_comparison",
       "path": "results/reference/tables/tab_related_comparison.tex",
-      "source_line": 1697,
+      "source_line": 1724,
       "sha256": "50bfe78b5886e8d195056dcb2ab10540cc72a22ee39ebd5cbc1b000468ff060b"
     },
     {
       "label": "tab:assessment_rules",
       "path": "results/reference/tables/tab_assessment_rules.tex",
-      "source_line": 1894,
+      "source_line": 1921,
       "sha256": "da841c7a5246d8c588037fda6a92618790b5d3e866adc1b4ba8dd21087af6a2d"
     },
     {
       "label": "tab:dynamic_by_model",
       "path": "results/reference/tables/tab_dynamic_by_model.tex",
-      "source_line": 2008,
+      "source_line": 2035,
       "sha256": "7cd5e3b4b3b5a667acf55680de2c28d92d36a0225a57e9d1c87ef62e8b54d765"
     },
     {
       "label": "tab:five_repeat_static",
       "path": "results/reference/tables/tab_five_repeat_static.tex",
-      "source_line": 2048,
+      "source_line": 2075,
       "sha256": "0076cccf8eaf0a3e04f6c6d68c6159a422369de8eecb5e0eb0d4cce29e42b29e"
     },
     {
       "label": "tab:five_repeat_tests",
       "path": "results/reference/tables/tab_five_repeat_tests.tex",
-      "source_line": 2077,
+      "source_line": 2104,
       "sha256": "daf8fb42835d6287ff7d576ec63ba6abeffd4fb3dfe5a42a979e33d61d8ed755"
     },
     {
       "label": "tab:five_repeat_exact",
       "path": "results/reference/tables/tab_five_repeat_exact.tex",
-      "source_line": 2105,
+      "source_line": 2132,
       "sha256": "2883f240de7d2f4cd07431fc278a168f7940241d738cdd0af82265f8ae897599"
     }
   ],

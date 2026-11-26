@@ -1,0 +1,18 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Manual checks of response extraction and input-version labels.
+Response checks use the same 120 answers.}
+\label{tab:measurement_manual_checks}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.18\linewidth}>{\raggedright\arraybackslash}p{0.22\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Check & Sample & Findings and follow-up \\
+\midrule
+Manifest extraction & 60 MR and 60 VA responses & Extraction misses ten bare declarations in five MR responses (8.33\%). The declarations occur in unlabelled code blocks or Python strings. Refined extraction recovers all ten on rechecking. \\
+Code and package mapping & Same 120 responses & Auxiliary scripts are sometimes selected instead of complete implementations. Import-to-distribution mappings also contain errors. These findings guide selection and mapping rules across the corpus. \\
+Input-version labels & 40 \myso tasks, comprising 30 labelled clean and 10 flagged & Five flagged tasks are false positives. Their version strings refer to interpreters, services, non-target libraries, or an HTML link absent from the prompt. All five labels are corrected. \\
+\bottomrule
+\end{tabularx}
+\end{tableorg}

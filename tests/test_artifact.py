@@ -31,7 +31,7 @@ class ArtifactTests(unittest.TestCase):
 
     def test_all_manuscript_displays_have_sources(self):
         m=json.loads((ROOT/'config/manuscript.json').read_text())
-        self.assertEqual(len(m['tables']),19);self.assertEqual(len(m['figures']),8)
+        self.assertEqual(len(m['tables']),21);self.assertEqual(len(m['figures']),8)
         for t in m['tables']:self.assertTrue((ROOT/t['path']).is_file())
         for name in m['figures']:
             path=ROOT/'results/reference/figures'/name

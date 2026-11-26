@@ -1,0 +1,23 @@
+\begin{tableorg}[!htbp]
+\centering\small
+\renewcommand{\tablecaptionfont}{\fontsize{9}{11}\selectfont}
+\caption{Main comparisons after excluding pairs affected by source verification.
+Pairs are task--model observations.
+MR and VA columns give response percentages.
+Differences and 95\% confidence limits use percentage points and the paired task-cluster bootstrap.
+Advisory association counts responses with satisfiable exact advice matched to an advisory published by the release cutoff.}
+\label{tab:extraction_sensitivity}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Population & Measure & Pairs & MR & VA & $\widehat{\Delta}_{\theta}$ & \multicolumn{2}{c}{95\% CI} \\
+\cmidrule(lr){7-8}
+ & & & & & & Lower & Upper \\
+\midrule
+Complete \myso & Static pass & 8,934 & 52.56 & 36.86 & -15.70 & -17.47 & -13.97 \\
+Clean \myso & Advisory association & 8,280 & 9.19 & 37.90 & 28.71 & 26.58 & 30.92 \\
+BigCodeBench & Task-test pass & 7,594 & 42.85 & 16.86 & -25.99 & -28.02 & -24.00 \\
+\bottomrule
+\end{tabular}
+\end{tableorg}

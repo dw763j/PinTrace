@@ -92,6 +92,20 @@
       "output": "tables/tab_runtime_sensitivity.csv"
     },
     {
+      "label": "tab:measurement_manual_checks",
+      "purpose": "Manual extraction and input-label checks",
+      "inputs": "inputs/manual/summary.json; data/inputs/manual/judgments.json.gz; inputs/assessments/partition/input_partition.jsonl",
+      "computation": "export_tables.py",
+      "output": "tables/tab_measurement_manual_checks.csv"
+    },
+    {
+      "label": "tab:extraction_sensitivity",
+      "purpose": "Main comparisons after paired source exclusion",
+      "inputs": "inputs/main/task_outcomes.jsonl; inputs/assessments/partition",
+      "computation": "extraction_sensitivity.py; export_tables.py",
+      "output": "tables/tab_extraction_sensitivity.csv"
+    },
+    {
       "label": "tab:related_comparison",
       "purpose": "Related-work classification",
       "inputs": "results/reference/tables/tab_related_comparison.tex; results/reference/*.bib",

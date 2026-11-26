@@ -19,6 +19,8 @@ The manuscript fingerprint and display labels are in `config/manuscript.json`. P
 | `tab:neighbor_recovery` | Neighbor recovery | `inputs/assessments/neighbor; inputs/search_archive/outputs/analysis/neighbor/models` | `analyze_neighbor.py` | `tables/tab_neighbor_recovery.csv` |
 | `tab:fixed_code_comparison` | Fixed-code policies | `experiments/fixed_code/comparisons.json` | `analyze_fixed_code.py` | `tables/tab_fixed_code_comparison.csv` |
 | `tab:runtime_sensitivity` | Four-runtime comparison | `experiments/runtime/observations.jsonl` | `analyze_runtime.py` | `tables/tab_runtime_sensitivity.csv` |
+| `tab:measurement_manual_checks` | Manual extraction and input-label checks | `inputs/manual/summary.json; data/inputs/manual/judgments.json.gz; inputs/assessments/partition/input_partition.jsonl` | `export_tables.py` | `tables/tab_measurement_manual_checks.csv` |
+| `tab:extraction_sensitivity` | Main comparisons after paired source exclusion | `inputs/main/task_outcomes.jsonl; inputs/assessments/partition` | `extraction_sensitivity.py; export_tables.py` | `tables/tab_extraction_sensitivity.csv` |
 | `tab:related_comparison` | Related-work classification | `results/reference/tables/tab_related_comparison.tex; results/reference/*.bib` | `curated literature classification` | `tables/tab_related_comparison.csv` |
 | `tab:assessment_rules` | Assessment rules | `results/reference/tables/tab_assessment_rules.tex; engine/tools/build_canonical_dependencies.py` | `curated protocol rules` | `tables/tab_assessment_rules.csv` |
 | `tab:dynamic_by_model` | Per-model task tests | `inputs/main/task_outcomes.jsonl` | `reanalyze.py` | `tables/tab_dynamic_by_model.csv` |

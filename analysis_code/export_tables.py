@@ -1,5 +1,5 @@
 """Export each paper table's input records and verify its displayed numbers."""
-import collections,csv,json,os,re,shutil
+import collections,csv,gzip,json,os,re,shutil
 from pathlib import Path
 from summarize_mr_constraint_profiles import DISPLAY_NAMES
 
@@ -109,6 +109,27 @@ def main():
             for mode in ['requirements.txt','inline']:
                 matrix.append([pct(lookup(runtime,track=track,mode=mode,python_version=v)[metric+'_pct']) for v in ['3.8','3.10','3.12','3.14']])
     output('tab_runtime_sensitivity',runtime);contracts['tab:runtime_sensitivity']=matrix
+    manual=json.loads((R/'inputs/manual/summary.json').read_text(encoding='utf-8'))
+    with gzip.open(ROOT/'data/inputs/manual/judgments.json.gz','rt',encoding='utf-8') as stream:
+        judgments=json.load(stream)['records']
+    partition={r['task_id']:r for r in map(json.loads,(R/'inputs/assessments/partition/input_partition.jsonl').read_text(encoding='utf-8').splitlines())}
+    input_checks=[partition[r['task_id']] for r in judgments if r['kind']=='partition']
+    flagged=[r for r in input_checks if r['archived_partition']=='contaminated']
+    false_positives=sum(r['final_partition']=='clean' for r in flagged)
+    mr=sum(r['N'] for r in manual['counts_by_response_population'] if r['mode']=='requirements.txt')
+    va=sum(r['N'] for r in manual['counts_by_response_population'] if r['mode']=='inline')
+    missed=len(manual['missed_bare_manifest_cases'])
+    recovered=sum(map(len,manual['recovered_bare_declarations'].values()))
+    assert (mr,va,missed,recovered,len(input_checks),len(flagged),false_positives)==(60,60,5,10,40,10,5)
+    output('tab_measurement_manual_checks',[
+        dict(check='manifest_extraction',unit='responses',sample=mr+va,MR=mr,VA=va,affected=missed,affected_MR_pct=100*missed/mr,recovered_bare_declarations=recovered),
+        dict(check='code_and_package_mapping',unit='responses',sample=mr+va,MR=mr,VA=va,affected='',affected_MR_pct='',recovered_bare_declarations=''),
+        dict(check='input_version_labels',unit='tasks',sample=len(input_checks),MR='',VA='',affected=false_positives,affected_MR_pct='',recovered_bare_declarations='')])
+    contracts['tab:measurement_manual_checks']=[[mr,va,round(100*missed/mr,2)],[mr+va],[len(input_checks),len(input_checks)-len(flagged),len(flagged)]]
+    sensitivity=read(A/'extraction_sensitivity.csv')
+    selected=[lookup(sensitivity,population=p,metric=k) for p,k in [('PinTrace complete','static'),('PinTrace clean','exact_published_by_cutoff'),('BigCodeBench','dynamic')]]
+    output('tab_extraction_sensitivity',selected)
+    contracts['tab:extraction_sensitivity']=[[int(r['retained_pairs'])]+[pct(r[k]) for k in ['MR_pct','VA_pct','delta_pp','delta_ci_low','delta_ci_high']] for r in selected]
     dyn=[lookup(boot,population='BigCodeBench',model=m,metric='dynamic') for m in MODELS]
     output('tab_dynamic_by_model',dyn);contracts['tab:dynamic_by_model']=[[pct(r[k]) for k in ['MR_pct','VA_pct','delta_VA_minus_MR_pp','delta_ci_low','delta_ci_high']] for r in dyn]
     by=read(R/'experiments/repeated/by_repeat.csv');agree=read(R/'experiments/repeated/agreement.csv');paired=read(R/'experiments/repeated/paired_intervals.csv')
@@ -131,7 +152,7 @@ def main():
     for label,expected in contracts.items():
         rows=paper_rows(label)
         # Data rows in the form table have two textual leading columns.
-        start=2 if label in ['tab:rq1_constraint_forms','tab:rq2_validity','tab:runtime_sensitivity'] else 1
+        start=2 if label in ['tab:rq1_constraint_forms','tab:rq2_validity','tab:runtime_sensitivity','tab:extraction_sensitivity'] else 1
         actual=[numbers(row[start:]) for row in rows]
         if label=='tab:pintrace_selection':actual=[numbers(row[-1:]) for row in rows]
         if label=='tab:task_populations':actual=[numbers(row[1:3]) for row in rows]

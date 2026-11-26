@@ -72,6 +72,18 @@
     "status": "matched"
   },
   {
+    "label": "tab:measurement_manual_checks",
+    "rows": 3,
+    "numeric_values": 7,
+    "status": "matched"
+  },
+  {
+    "label": "tab:extraction_sensitivity",
+    "rows": 3,
+    "numeric_values": 18,
+    "status": "matched"
+  },
+  {
     "label": "tab:dynamic_by_model",
     "rows": 11,
     "numeric_values": 55,
